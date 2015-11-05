@@ -1,0 +1,30 @@
+development: &development
+  adapter: postgresql
+  database: iam_todo
+  username: Test
+  password: test
+  host: localhost
+  schema_search_path: "public"
+  port: 5432
+  encoding: UTF8
+  pool: 5
+  timeout: 5000
+  min_messages: WARNING
+
+test: &test
+  adapter: postgresql
+  database: iam_todo
+  username: Test
+  password: test
+  host: localhost
+  schema_search_path: "public"
+  port: 5432
+  encoding: UTF8
+  pool: 5
+  timeout: 5000
+  min_messages: WARNING
+
+production:
+  adapter: postgresql
+  encoding: unicode
+  pool: 5
