@@ -5,7 +5,8 @@ var TodoApp = React.createClass({
   render: function () {
     return (
       <div className="todo-container">
-      	<Todo todos={this.state.todos} />
+        <h2>Todo List</h2>
+      	<Todos todos={this.state.todos} />
       </div>
     );
   }
