@@ -20,14 +20,45 @@ h2 {
 
 ul {
 	list-style-type: none;
+	width: 87%;
 }
 
 li {
+	position: relative;
 	height: 35px;
-	color: #6E6E6E;
+  color: #6E6E6E;
+  border: 1px solid #E8E8E8;
+  border-radius: 5px;
+  margin: 8px 0px;
 	input[type="checkbox"] {
-		height: 14px;
-    margin-right: 15px;
+    margin: 0px 15px;
+    vertical-align: middle;
+    height: 35px;
+	}
+	input[type="text"] {
+		display: none;
+		padding: 0px 17px;
+    position: relative;
+    top: 1px;
+    font-size: 16px;
+    font-family: 'Open Sans', sans-serif;
+    background-color: #FAFAFA;
+    border: none;
+    width: 75%;
+	}
+	.delete {
+		position: absolute;
+    top: 5px;
+    right: 15px;
+    cursor: pointer;
+	}
+	span {
+		position: absolute;
+    top: 6px;
+    left: 59px;
+    &:hover {
+    	background-color: rgb(255, 253, 180);
+    }
 	}
 }
 
@@ -71,5 +102,6 @@ li {
     font-size: 15px;
     border: 1px solid #C7C4C4;
     color: #F8F8F8;
+    cursor: pointer;
 	}
 }

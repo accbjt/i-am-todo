@@ -14,6 +14,7 @@ gem 'uglifier', '>= 1.3.0'
 
 # Use jquery as the JavaScript library
 gem 'jquery-rails'
+gem 'jquery-ui-rails'
 gem 'jbuilder', '~> 1.2'
 
 gem 'react-rails', '~> 1.4.0'
