@@ -5208,3 +5208,1159 @@ Started GET "/assets/react_components/_todos.js?body=1" for ::1 at 2015-11-05 21
 
 
 Started GET "/assets/application.js?body=1" for ::1 at 2015-11-05 21:07:06 -0800
+
+
+Started GET "/" for ::1 at 2015-11-05 21:15:33 -0800
+Processing by TodosController#index as HTML
+  [1m[36mTodo Load (0.5ms)[0m  [1mSELECT "todos".* FROM "todos"[0m
+  Rendered todos/index.html.erb within layouts/application (1416.4ms)
+Completed 200 OK in 1538ms (Views: 1533.6ms | ActiveRecord: 1.3ms)
+
+
+Started GET "/assets/application.css?body=1" for ::1 at 2015-11-05 21:15:34 -0800
+
+
+Started GET "/assets/react_components/_new_todo.js?body=1" for ::1 at 2015-11-05 21:15:34 -0800
+
+
+Started GET "/assets/react_components/_todo.js?body=1" for ::1 at 2015-11-05 21:15:34 -0800
+
+
+Started GET "/assets/todos.css?body=1" for ::1 at 2015-11-05 21:15:34 -0800
+
+
+Started GET "/assets/development/react.js?body=1" for ::1 at 2015-11-05 21:15:34 -0800
+
+
+Started GET "/assets/jquery.js?body=1" for ::1 at 2015-11-05 21:15:34 -0800
+
+
+Started GET "/assets/react_ujs.js?body=1" for ::1 at 2015-11-05 21:15:34 -0800
+
+
+Started GET "/assets/react_components/_todo_container.js?body=1" for ::1 at 2015-11-05 21:15:34 -0800
+
+
+Started GET "/assets/react_components/_todos.js?body=1" for ::1 at 2015-11-05 21:15:34 -0800
+
+
+Started GET "/assets/application.js?body=1" for ::1 at 2015-11-05 21:15:34 -0800
+
+
+Started GET "/" for ::1 at 2015-11-05 21:19:44 -0800
+Processing by TodosController#index as HTML
+  [1m[35mTodo Load (0.4ms)[0m  SELECT "todos".* FROM "todos"
+  Rendered todos/index.html.erb within layouts/application (1582.4ms)
+Completed 500 Internal Server Error in 1591ms (ActiveRecord: 1.2ms)
+
+ExecJS::RuntimeError - SyntaxError: unknown: Adjacent JSX elements must be wrapped in an enclosing tag (10:6)
+   8 |       	<Todo todos={this.state.todos} />
+   9 |       </div>
+> 10 |       <div className="new-todo-container">
+     |       ^
+  11 |         <NewTodo />
+  12 |       </div>
+  13 |     );
+  (in /Users/Master/Desktop/william/i-am-todo/app/assets/javascripts/react_components/_todo_container.js.jsx):
+  execjs (2.6.0) lib/execjs/external_runtime.rb:84:in `extract_result'
+  execjs (2.6.0) lib/execjs/external_runtime.rb:39:in `exec'
+  execjs (2.6.0) lib/execjs/external_runtime.rb:21:in `eval'
+  execjs (2.6.0) lib/execjs/external_runtime.rb:46:in `call'
+  babel-transpiler (0.7.0) lib/babel/transpiler.rb:28:in `transform'
+  react-rails (1.4.1) lib/react/jsx/babel_transformer.rb:17:in `transform'
+  react-rails (1.4.1) lib/react/jsx.rb:20:in `transform'
+  react-rails (1.4.1) lib/react/jsx/template.rb:13:in `evaluate'
+  tilt (1.4.1) lib/tilt/template.rb:103:in `render'
+  sprockets (2.12.4) lib/sprockets/context.rb:197:in `block in evaluate'
+  sprockets (2.12.4) lib/sprockets/context.rb:194:in `evaluate'
+  sprockets (2.12.4) lib/sprockets/processed_asset.rb:12:in `initialize'
+  sprockets (2.12.4) lib/sprockets/base.rb:374:in `block in build_asset'
+  sprockets (2.12.4) lib/sprockets/base.rb:395:in `circular_call_protection'
+  sprockets (2.12.4) lib/sprockets/base.rb:373:in `build_asset'
+  sprockets (2.12.4) lib/sprockets/index.rb:94:in `block in build_asset'
+  sprockets (2.12.4) lib/sprockets/caching.rb:58:in `cache_asset'
+  sprockets (2.12.4) lib/sprockets/index.rb:93:in `build_asset'
+  sprockets (2.12.4) lib/sprockets/base.rb:287:in `find_asset'
+  sprockets (2.12.4) lib/sprockets/index.rb:61:in `find_asset'
+  sprockets (2.12.4) lib/sprockets/processed_asset.rb:44:in `block in init_with'
+  sprockets (2.12.4) lib/sprockets/processed_asset.rb:37:in `init_with'
+  sprockets (2.12.4) lib/sprockets/asset.rb:24:in `from_hash'
+  sprockets (2.12.4) lib/sprockets/caching.rb:54:in `cache_asset'
+  sprockets (2.12.4) lib/sprockets/index.rb:93:in `build_asset'
+  sprockets (2.12.4) lib/sprockets/base.rb:287:in `find_asset'
+  sprockets (2.12.4) lib/sprockets/index.rb:61:in `find_asset'
+  sprockets (2.12.4) lib/sprockets/bundled_asset.rb:37:in `init_with'
+  sprockets (2.12.4) lib/sprockets/asset.rb:24:in `from_hash'
+  sprockets (2.12.4) lib/sprockets/caching.rb:54:in `cache_asset'
+  sprockets (2.12.4) lib/sprockets/index.rb:93:in `build_asset'
+  sprockets (2.12.4) lib/sprockets/base.rb:287:in `find_asset'
+  sprockets (2.12.4) lib/sprockets/index.rb:61:in `find_asset'
+  sprockets (2.12.4) lib/sprockets/environment.rb:75:in `find_asset'
+  sprockets (2.12.4) lib/sprockets/base.rb:295:in `[]'
+  react-rails (1.4.1) lib/react/server_rendering/sprockets_renderer.rb:14:in `block in initialize'
+  react-rails (1.4.1) lib/react/server_rendering/sprockets_renderer.rb:13:in `initialize'
+  react-rails (1.4.1) lib/react/server_rendering.rb:22:in `create_renderer'
+  react-rails (1.4.1) lib/react/server_rendering.rb:12:in `block in reset_pool'
+  connection_pool (2.2.0) lib/connection_pool/timed_stack.rb:169:in `try_create'
+  connection_pool (2.2.0) lib/connection_pool/timed_stack.rb:81:in `block (2 levels) in pop'
+  connection_pool (2.2.0) lib/connection_pool/timed_stack.rb:77:in `block in pop'
+  connection_pool (2.2.0) lib/connection_pool/timed_stack.rb:76:in `pop'
+  connection_pool (2.2.0) lib/connection_pool.rb:89:in `checkout'
+  connection_pool (2.2.0) lib/connection_pool.rb:61:in `block in with'
+  connection_pool (2.2.0) lib/connection_pool.rb:60:in `with'
+  react-rails (1.4.1) lib/react/server_rendering.rb:16:in `render'
+  react-rails (1.4.1) lib/react/rails/component_mount.rb:29:in `block in react_component'
+  actionview (4.2.3) lib/action_view/helpers/capture_helper.rb:38:in `block in capture'
+  actionview (4.2.3) lib/action_view/helpers/capture_helper.rb:202:in `with_output_buffer'
+  actionview (4.2.3) lib/action_view/helpers/capture_helper.rb:38:in `capture'
+  actionview (4.2.3) lib/action_view/helpers/tag_helper.rb:106:in `content_tag'
+  react-rails (1.4.1) lib/react/rails/component_mount.rb:42:in `react_component'
+  react-rails (1.4.1) lib/react/rails/view_helper.rb:21:in `react_component'
+  app/views/todos/index.html.erb:1:in `_app_views_todos_index_html_erb__2228421391051942899_70255963025000'
+  actionview (4.2.3) lib/action_view/template.rb:145:in `block in render'
+  activesupport (4.2.3) lib/active_support/notifications.rb:166:in `instrument'
+  actionview (4.2.3) lib/action_view/template.rb:333:in `instrument'
+  actionview (4.2.3) lib/action_view/template.rb:143:in `render'
+  actionview (4.2.3) lib/action_view/renderer/template_renderer.rb:54:in `block (2 levels) in render_template'
+  actionview (4.2.3) lib/action_view/renderer/abstract_renderer.rb:39:in `block in instrument'
+  activesupport (4.2.3) lib/active_support/notifications.rb:164:in `block in instrument'
+  activesupport (4.2.3) lib/active_support/notifications/instrumenter.rb:20:in `instrument'
+  activesupport (4.2.3) lib/active_support/notifications.rb:164:in `instrument'
+  actionview (4.2.3) lib/action_view/renderer/abstract_renderer.rb:39:in `instrument'
+  actionview (4.2.3) lib/action_view/renderer/template_renderer.rb:53:in `block in render_template'
+  actionview (4.2.3) lib/action_view/renderer/template_renderer.rb:61:in `render_with_layout'
+  actionview (4.2.3) lib/action_view/renderer/template_renderer.rb:52:in `render_template'
+  actionview (4.2.3) lib/action_view/renderer/template_renderer.rb:14:in `render'
+  actionview (4.2.3) lib/action_view/renderer/renderer.rb:42:in `render_template'
+  actionview (4.2.3) lib/action_view/renderer/renderer.rb:23:in `render'
+  actionview (4.2.3) lib/action_view/rendering.rb:100:in `_render_template'
+  actionpack (4.2.3) lib/action_controller/metal/streaming.rb:217:in `_render_template'
+  actionview (4.2.3) lib/action_view/rendering.rb:83:in `render_to_body'
+  actionpack (4.2.3) lib/action_controller/metal/rendering.rb:32:in `render_to_body'
+  actionpack (4.2.3) lib/action_controller/metal/renderers.rb:37:in `render_to_body'
+  actionpack (4.2.3) lib/abstract_controller/rendering.rb:25:in `render'
+  actionpack (4.2.3) lib/action_controller/metal/rendering.rb:16:in `render'
+  actionpack (4.2.3) lib/action_controller/metal/instrumentation.rb:44:in `block (2 levels) in render'
+  activesupport (4.2.3) lib/active_support/core_ext/benchmark.rb:12:in `block in ms'
+  /Users/Master/.rvm/rubies/ruby-2.2.2/lib/ruby/2.2.0/benchmark.rb:303:in `realtime'
+  activesupport (4.2.3) lib/active_support/core_ext/benchmark.rb:12:in `ms'
+  actionpack (4.2.3) lib/action_controller/metal/instrumentation.rb:44:in `block in render'
+  actionpack (4.2.3) lib/action_controller/metal/instrumentation.rb:87:in `cleanup_view_runtime'
+  activerecord (4.2.3) lib/active_record/railties/controller_runtime.rb:25:in `cleanup_view_runtime'
+  actionpack (4.2.3) lib/action_controller/metal/instrumentation.rb:43:in `render'
+  actionpack (4.2.3) lib/action_controller/metal/implicit_render.rb:10:in `default_render'
+  actionpack (4.2.3) lib/action_controller/metal/implicit_render.rb:5:in `send_action'
+  actionpack (4.2.3) lib/abstract_controller/base.rb:198:in `process_action'
+  actionpack (4.2.3) lib/action_controller/metal/rendering.rb:10:in `process_action'
+  actionpack (4.2.3) lib/abstract_controller/callbacks.rb:20:in `block in process_action'
+  activesupport (4.2.3) lib/active_support/callbacks.rb:115:in `call'
+  activesupport (4.2.3) lib/active_support/callbacks.rb:553:in `block (2 levels) in compile'
+  activesupport (4.2.3) lib/active_support/callbacks.rb:503:in `call'
+  activesupport (4.2.3) lib/active_support/callbacks.rb:88:in `run_callbacks'
+  actionpack (4.2.3) lib/abstract_controller/callbacks.rb:19:in `process_action'
+  actionpack (4.2.3) lib/action_controller/metal/rescue.rb:29:in `process_action'
+  actionpack (4.2.3) lib/action_controller/metal/instrumentation.rb:32:in `block in process_action'
+  activesupport (4.2.3) lib/active_support/notifications.rb:164:in `block in instrument'
+  activesupport (4.2.3) lib/active_support/notifications/instrumenter.rb:20:in `instrument'
+  activesupport (4.2.3) lib/active_support/notifications.rb:164:in `instrument'
+  actionpack (4.2.3) lib/action_controller/metal/instrumentation.rb:30:in `process_action'
+  actionpack (4.2.3) lib/action_controller/metal/params_wrapper.rb:250:in `process_action'
+  activerecord (4.2.3) lib/active_record/railties/controller_runtime.rb:18:in `process_action'
+  actionpack (4.2.3) lib/abstract_controller/base.rb:137:in `process'
+  actionview (4.2.3) lib/action_view/rendering.rb:30:in `process'
+  actionpack (4.2.3) lib/action_controller/metal.rb:196:in `dispatch'
+  actionpack (4.2.3) lib/action_controller/metal/rack_delegation.rb:13:in `dispatch'
+  actionpack (4.2.3) lib/action_controller/metal.rb:237:in `block in action'
+  actionpack (4.2.3) lib/action_dispatch/routing/route_set.rb:76:in `dispatch'
+  actionpack (4.2.3) lib/action_dispatch/routing/route_set.rb:45:in `serve'
+  actionpack (4.2.3) lib/action_dispatch/journey/router.rb:43:in `block in serve'
+  actionpack (4.2.3) lib/action_dispatch/journey/router.rb:30:in `serve'
+  actionpack (4.2.3) lib/action_dispatch/routing/route_set.rb:821:in `call'
+  rack (1.6.4) lib/rack/etag.rb:24:in `call'
+  rack (1.6.4) lib/rack/conditionalget.rb:25:in `call'
+  rack (1.6.4) lib/rack/head.rb:13:in `call'
+  actionpack (4.2.3) lib/action_dispatch/middleware/params_parser.rb:27:in `call'
+  actionpack (4.2.3) lib/action_dispatch/middleware/flash.rb:260:in `call'
+  rack (1.6.4) lib/rack/session/abstract/id.rb:225:in `context'
+  rack (1.6.4) lib/rack/session/abstract/id.rb:220:in `call'
+  actionpack (4.2.3) lib/action_dispatch/middleware/cookies.rb:560:in `call'
+  activerecord (4.2.3) lib/active_record/query_cache.rb:36:in `call'
+  activerecord (4.2.3) lib/active_record/connection_adapters/abstract/connection_pool.rb:653:in `call'
+  activerecord (4.2.3) lib/active_record/migration.rb:377:in `call'
+  actionpack (4.2.3) lib/action_dispatch/middleware/callbacks.rb:29:in `block in call'
+  activesupport (4.2.3) lib/active_support/callbacks.rb:84:in `run_callbacks'
+  actionpack (4.2.3) lib/action_dispatch/middleware/callbacks.rb:27:in `call'
+  actionpack (4.2.3) lib/action_dispatch/middleware/reloader.rb:73:in `call'
+  actionpack (4.2.3) lib/action_dispatch/middleware/remote_ip.rb:78:in `call'
+  better_errors (2.1.1) lib/better_errors/middleware.rb:84:in `protected_app_call'
+  better_errors (2.1.1) lib/better_errors/middleware.rb:79:in `better_errors_call'
+  better_errors (2.1.1) lib/better_errors/middleware.rb:57:in `call'
+  actionpack (4.2.3) lib/action_dispatch/middleware/debug_exceptions.rb:17:in `call'
+  actionpack (4.2.3) lib/action_dispatch/middleware/show_exceptions.rb:30:in `call'
+  railties (4.2.3) lib/rails/rack/logger.rb:38:in `call_app'
+  railties (4.2.3) lib/rails/rack/logger.rb:20:in `block in call'
+  activesupport (4.2.3) lib/active_support/tagged_logging.rb:68:in `block in tagged'
+  activesupport (4.2.3) lib/active_support/tagged_logging.rb:26:in `tagged'
+  activesupport (4.2.3) lib/active_support/tagged_logging.rb:68:in `tagged'
+  railties (4.2.3) lib/rails/rack/logger.rb:20:in `call'
+  actionpack (4.2.3) lib/action_dispatch/middleware/request_id.rb:21:in `call'
+  rack (1.6.4) lib/rack/methodoverride.rb:22:in `call'
+  rack (1.6.4) lib/rack/runtime.rb:18:in `call'
+  activesupport (4.2.3) lib/active_support/cache/strategy/local_cache_middleware.rb:28:in `call'
+  rack (1.6.4) lib/rack/lock.rb:17:in `call'
+  actionpack (4.2.3) lib/action_dispatch/middleware/static.rb:116:in `call'
+  rack (1.6.4) lib/rack/sendfile.rb:113:in `call'
+  railties (4.2.3) lib/rails/engine.rb:518:in `call'
+  railties (4.2.3) lib/rails/application.rb:165:in `call'
+  rack (1.6.4) lib/rack/lock.rb:17:in `call'
+  rack (1.6.4) lib/rack/content_length.rb:15:in `call'
+  rack (1.6.4) lib/rack/handler/webrick.rb:88:in `service'
+  /Users/Master/.rvm/rubies/ruby-2.2.2/lib/ruby/2.2.0/webrick/httpserver.rb:138:in `service'
+  /Users/Master/.rvm/rubies/ruby-2.2.2/lib/ruby/2.2.0/webrick/httpserver.rb:94:in `run'
+  /Users/Master/.rvm/rubies/ruby-2.2.2/lib/ruby/2.2.0/webrick/server.rb:294:in `block in start_thread'
+
+
+
+Started POST "/__better_errors/ee1ed42f5b366fcd/variables" for ::1 at 2015-11-05 21:19:46 -0800
+
+
+Started GET "/" for ::1 at 2015-11-05 21:20:13 -0800
+Processing by TodosController#index as HTML
+  [1m[36mTodo Load (0.4ms)[0m  [1mSELECT "todos".* FROM "todos"[0m
+  Rendered todos/index.html.erb within layouts/application (1331.4ms)
+Completed 200 OK in 1418ms (Views: 1415.0ms | ActiveRecord: 1.0ms)
+
+
+Started GET "/assets/todos.css?body=1" for ::1 at 2015-11-05 21:20:14 -0800
+
+
+Started GET "/assets/development/react.js?body=1" for ::1 at 2015-11-05 21:20:14 -0800
+
+
+Started GET "/assets/jquery.js?body=1" for ::1 at 2015-11-05 21:20:14 -0800
+
+
+Started GET "/assets/react_components/_todo.js?body=1" for ::1 at 2015-11-05 21:20:14 -0800
+
+
+Started GET "/assets/react_ujs.js?body=1" for ::1 at 2015-11-05 21:20:14 -0800
+
+
+Started GET "/assets/react_components/_new_todo.js?body=1" for ::1 at 2015-11-05 21:20:14 -0800
+
+
+Started GET "/assets/react_components/_todo_container.js?body=1" for ::1 at 2015-11-05 21:20:14 -0800
+
+
+Started GET "/assets/application.css?body=1" for ::1 at 2015-11-05 21:20:14 -0800
+
+
+Started GET "/assets/react_components/_todos.js?body=1" for ::1 at 2015-11-05 21:20:14 -0800
+
+
+Started GET "/assets/application.js?body=1" for ::1 at 2015-11-05 21:20:14 -0800
+
+
+Started GET "/" for ::1 at 2015-11-05 21:20:35 -0800
+Processing by TodosController#index as HTML
+  [1m[35mTodo Load (0.4ms)[0m  SELECT "todos".* FROM "todos"
+  Rendered todos/index.html.erb within layouts/application (424.0ms)
+Completed 200 OK in 437ms (Views: 432.9ms | ActiveRecord: 1.0ms)
+
+
+Started GET "/assets/application.css?body=1" for ::1 at 2015-11-05 21:20:35 -0800
+
+
+Started GET "/assets/jquery.js?body=1" for ::1 at 2015-11-05 21:20:35 -0800
+
+
+Started GET "/assets/todos.css?body=1" for ::1 at 2015-11-05 21:20:35 -0800
+
+
+Started GET "/assets/react_ujs.js?body=1" for ::1 at 2015-11-05 21:20:35 -0800
+
+
+Started GET "/assets/react_components/_new_todo.js?body=1" for ::1 at 2015-11-05 21:20:35 -0800
+
+
+Started GET "/assets/development/react.js?body=1" for ::1 at 2015-11-05 21:20:35 -0800
+
+
+Started GET "/assets/react_components/_todo_container.js?body=1" for ::1 at 2015-11-05 21:20:35 -0800
+
+
+Started GET "/assets/react_components/_todos.js?body=1" for ::1 at 2015-11-05 21:20:35 -0800
+
+
+Started GET "/assets/application.js?body=1" for ::1 at 2015-11-05 21:20:35 -0800
+
+
+Started GET "/assets/react_components/_todo.js?body=1" for ::1 at 2015-11-05 21:20:35 -0800
+
+
+Started GET "/" for ::1 at 2015-11-05 21:21:23 -0800
+Processing by TodosController#index as HTML
+  [1m[36mTodo Load (0.5ms)[0m  [1mSELECT "todos".* FROM "todos"[0m
+  Rendered todos/index.html.erb within layouts/application (1300.0ms)
+Completed 200 OK in 1359ms (Views: 1355.1ms | ActiveRecord: 1.1ms)
+
+
+Started GET "/assets/todos.css?body=1" for ::1 at 2015-11-05 21:21:24 -0800
+
+
+Started GET "/assets/jquery.js?body=1" for ::1 at 2015-11-05 21:21:24 -0800
+
+
+Started GET "/assets/application.css?body=1" for ::1 at 2015-11-05 21:21:24 -0800
+
+
+Started GET "/assets/development/react.js?body=1" for ::1 at 2015-11-05 21:21:24 -0800
+
+
+Started GET "/assets/react_ujs.js?body=1" for ::1 at 2015-11-05 21:21:24 -0800
+
+
+Started GET "/assets/react_components/_new_todo.js?body=1" for ::1 at 2015-11-05 21:21:24 -0800
+
+
+Started GET "/assets/react_components/_todo.js?body=1" for ::1 at 2015-11-05 21:21:24 -0800
+
+
+Started GET "/assets/react_components/_todo_container.js?body=1" for ::1 at 2015-11-05 21:21:24 -0800
+
+
+Started GET "/assets/react_components/_todos.js?body=1" for ::1 at 2015-11-05 21:21:24 -0800
+
+
+Started GET "/assets/application.js?body=1" for ::1 at 2015-11-05 21:21:24 -0800
+
+
+Started GET "/" for ::1 at 2015-11-05 21:21:59 -0800
+Processing by TodosController#index as HTML
+  [1m[35mTodo Load (0.6ms)[0m  SELECT "todos".* FROM "todos"
+  Rendered todos/index.html.erb within layouts/application (1248.8ms)
+Completed 200 OK in 1355ms (Views: 1351.2ms | ActiveRecord: 1.2ms)
+
+
+Started GET "/assets/application.css?body=1" for ::1 at 2015-11-05 21:22:01 -0800
+
+
+Started GET "/assets/react_components/_todo.js?body=1" for ::1 at 2015-11-05 21:22:01 -0800
+
+
+Started GET "/assets/jquery.js?body=1" for ::1 at 2015-11-05 21:22:01 -0800
+
+
+Started GET "/assets/development/react.js?body=1" for ::1 at 2015-11-05 21:22:01 -0800
+
+
+Started GET "/assets/todos.css?body=1" for ::1 at 2015-11-05 21:22:01 -0800
+
+
+Started GET "/assets/react_components/_new_todo.js?body=1" for ::1 at 2015-11-05 21:22:01 -0800
+
+
+Started GET "/assets/react_ujs.js?body=1" for ::1 at 2015-11-05 21:22:01 -0800
+
+
+Started GET "/assets/react_components/_todo_container.js?body=1" for ::1 at 2015-11-05 21:22:01 -0800
+
+
+Started GET "/assets/application.js?body=1" for ::1 at 2015-11-05 21:22:01 -0800
+
+
+Started GET "/assets/react_components/_todos.js?body=1" for ::1 at 2015-11-05 21:22:01 -0800
+
+
+Started GET "/" for ::1 at 2015-11-05 21:26:31 -0800
+Processing by TodosController#index as HTML
+  [1m[36mTodo Load (0.4ms)[0m  [1mSELECT "todos".* FROM "todos"[0m
+  Rendered todos/index.html.erb within layouts/application (217.7ms)
+Completed 200 OK in 284ms (Views: 282.5ms | ActiveRecord: 0.4ms)
+
+
+Started GET "/assets/application.css?body=1" for ::1 at 2015-11-05 21:26:31 -0800
+
+
+Started GET "/assets/todos.css?body=1" for ::1 at 2015-11-05 21:26:31 -0800
+
+
+Started GET "/assets/jquery.js?body=1" for ::1 at 2015-11-05 21:26:31 -0800
+
+
+Started GET "/assets/react_components/_todo.js?body=1" for ::1 at 2015-11-05 21:26:31 -0800
+
+
+Started GET "/assets/development/react.js?body=1" for ::1 at 2015-11-05 21:26:31 -0800
+
+
+Started GET "/assets/react_ujs.js?body=1" for ::1 at 2015-11-05 21:26:31 -0800
+
+
+Started GET "/assets/react_components/_new_todo.js?body=1" for ::1 at 2015-11-05 21:26:31 -0800
+
+
+Started GET "/assets/react_components/_todo_container.js?body=1" for ::1 at 2015-11-05 21:26:31 -0800
+
+
+Started GET "/assets/react_components/_todos.js?body=1" for ::1 at 2015-11-05 21:26:31 -0800
+
+
+Started GET "/assets/application.js?body=1" for ::1 at 2015-11-05 21:26:31 -0800
+
+
+Started GET "/assets/wood-bg.jpg" for ::1 at 2015-11-05 21:26:31 -0800
+
+
+Started GET "/" for ::1 at 2015-11-05 21:29:16 -0800
+Processing by TodosController#index as HTML
+  [1m[35mTodo Load (0.5ms)[0m  SELECT "todos".* FROM "todos"
+  Rendered todos/index.html.erb within layouts/application (254.9ms)
+Completed 200 OK in 314ms (Views: 312.0ms | ActiveRecord: 0.5ms)
+
+
+Started GET "/assets/application.css?body=1" for ::1 at 2015-11-05 21:29:16 -0800
+
+
+Started GET "/assets/react_ujs.js?body=1" for ::1 at 2015-11-05 21:29:16 -0800
+
+
+Started GET "/assets/jquery.js?body=1" for ::1 at 2015-11-05 21:29:16 -0800
+
+
+Started GET "/assets/development/react.js?body=1" for ::1 at 2015-11-05 21:29:16 -0800
+
+
+Started GET "/assets/todos.css?body=1" for ::1 at 2015-11-05 21:29:16 -0800
+
+
+Started GET "/assets/react_components/_new_todo.js?body=1" for ::1 at 2015-11-05 21:29:16 -0800
+
+
+Started GET "/assets/react_components/_todo.js?body=1" for ::1 at 2015-11-05 21:29:16 -0800
+
+
+Started GET "/assets/react_components/_todo_container.js?body=1" for ::1 at 2015-11-05 21:29:16 -0800
+
+
+Started GET "/assets/react_components/_todos.js?body=1" for ::1 at 2015-11-05 21:29:16 -0800
+
+
+Started GET "/assets/application.js?body=1" for ::1 at 2015-11-05 21:29:16 -0800
+
+
+Started GET "/assets/wood-bg.jpg" for ::1 at 2015-11-05 21:29:17 -0800
+
+
+Started GET "/" for ::1 at 2015-11-05 21:30:32 -0800
+Processing by TodosController#index as HTML
+  [1m[36mTodo Load (0.4ms)[0m  [1mSELECT "todos".* FROM "todos"[0m
+  Rendered todos/index.html.erb within layouts/application (247.4ms)
+Completed 200 OK in 303ms (Views: 300.8ms | ActiveRecord: 0.4ms)
+
+
+Started GET "/assets/application.css?body=1" for ::1 at 2015-11-05 21:30:32 -0800
+
+
+Started GET "/assets/todos.css?body=1" for ::1 at 2015-11-05 21:30:32 -0800
+
+
+Started GET "/assets/development/react.js?body=1" for ::1 at 2015-11-05 21:30:32 -0800
+
+
+Started GET "/assets/jquery.js?body=1" for ::1 at 2015-11-05 21:30:32 -0800
+
+
+Started GET "/assets/react_ujs.js?body=1" for ::1 at 2015-11-05 21:30:32 -0800
+
+
+Started GET "/assets/react_components/_todo.js?body=1" for ::1 at 2015-11-05 21:30:32 -0800
+
+
+Started GET "/assets/react_components/_new_todo.js?body=1" for ::1 at 2015-11-05 21:30:32 -0800
+
+
+Started GET "/assets/react_components/_todo_container.js?body=1" for ::1 at 2015-11-05 21:30:32 -0800
+
+
+Started GET "/assets/react_components/_todos.js?body=1" for ::1 at 2015-11-05 21:30:32 -0800
+
+
+Started GET "/assets/application.js?body=1" for ::1 at 2015-11-05 21:30:32 -0800
+
+
+Started GET "/assets/wood-bg.jpg" for ::1 at 2015-11-05 21:30:33 -0800
+
+
+Started GET "/" for ::1 at 2015-11-05 21:30:46 -0800
+Processing by TodosController#index as HTML
+  [1m[35mTodo Load (0.5ms)[0m  SELECT "todos".* FROM "todos"
+  Rendered todos/index.html.erb within layouts/application (250.5ms)
+Completed 200 OK in 310ms (Views: 308.9ms | ActiveRecord: 0.5ms)
+
+
+Started GET "/assets/application.css?body=1" for ::1 at 2015-11-05 21:30:46 -0800
+
+
+Started GET "/assets/react_ujs.js?body=1" for ::1 at 2015-11-05 21:30:46 -0800
+
+
+Started GET "/assets/jquery.js?body=1" for ::1 at 2015-11-05 21:30:46 -0800
+
+
+Started GET "/assets/development/react.js?body=1" for ::1 at 2015-11-05 21:30:46 -0800
+
+
+Started GET "/assets/todos.css?body=1" for ::1 at 2015-11-05 21:30:46 -0800
+
+
+Started GET "/assets/react_components/_new_todo.js?body=1" for ::1 at 2015-11-05 21:30:46 -0800
+
+
+Started GET "/assets/react_components/_todo.js?body=1" for ::1 at 2015-11-05 21:30:46 -0800
+
+
+Started GET "/assets/react_components/_todo_container.js?body=1" for ::1 at 2015-11-05 21:30:46 -0800
+
+
+Started GET "/assets/react_components/_todos.js?body=1" for ::1 at 2015-11-05 21:30:46 -0800
+
+
+Started GET "/assets/application.js?body=1" for ::1 at 2015-11-05 21:30:46 -0800
+
+
+Started GET "/assets/wood-bg.jpg" for ::1 at 2015-11-05 21:30:46 -0800
+
+
+Started GET "/" for ::1 at 2015-11-05 21:35:33 -0800
+Processing by TodosController#index as HTML
+  [1m[36mTodo Load (0.6ms)[0m  [1mSELECT "todos".* FROM "todos"[0m
+  Rendered todos/index.html.erb within layouts/application (340.9ms)
+Completed 200 OK in 401ms (Views: 398.6ms | ActiveRecord: 0.6ms)
+
+
+Started GET "/assets/jquery.js?body=1" for ::1 at 2015-11-05 21:35:34 -0800
+
+
+Started GET "/assets/development/react.js?body=1" for ::1 at 2015-11-05 21:35:34 -0800
+
+
+Started GET "/assets/application.css?body=1" for ::1 at 2015-11-05 21:35:34 -0800
+
+
+Started GET "/assets/react_ujs.js?body=1" for ::1 at 2015-11-05 21:35:34 -0800
+
+
+Started GET "/assets/todos.css?body=1" for ::1 at 2015-11-05 21:35:34 -0800
+
+
+Started GET "/assets/react_components/_new_todo.js?body=1" for ::1 at 2015-11-05 21:35:34 -0800
+
+
+Started GET "/assets/react_components/_todo.js?body=1" for ::1 at 2015-11-05 21:35:34 -0800
+
+
+Started GET "/assets/react_components/_todo_container.js?body=1" for ::1 at 2015-11-05 21:35:34 -0800
+
+
+Started GET "/assets/application.js?body=1" for ::1 at 2015-11-05 21:35:34 -0800
+
+
+Started GET "/assets/react_components/_todos.js?body=1" for ::1 at 2015-11-05 21:35:34 -0800
+
+
+Started GET "/assets/wood-bg.jpg" for ::1 at 2015-11-05 21:35:35 -0800
+
+
+Started GET "/" for ::1 at 2015-11-05 21:36:44 -0800
+Processing by TodosController#index as HTML
+  [1m[35mTodo Load (0.4ms)[0m  SELECT "todos".* FROM "todos"
+  Rendered todos/index.html.erb within layouts/application (225.5ms)
+Completed 200 OK in 292ms (Views: 290.4ms | ActiveRecord: 0.4ms)
+
+
+Started GET "/assets/application.css?body=1" for ::1 at 2015-11-05 21:36:44 -0800
+
+
+Started GET "/assets/jquery.js?body=1" for ::1 at 2015-11-05 21:36:44 -0800
+
+
+Started GET "/assets/todos.css?body=1" for ::1 at 2015-11-05 21:36:44 -0800
+
+
+Started GET "/assets/development/react.js?body=1" for ::1 at 2015-11-05 21:36:44 -0800
+
+
+Started GET "/assets/react_ujs.js?body=1" for ::1 at 2015-11-05 21:36:44 -0800
+
+
+Started GET "/assets/react_components/_todo.js?body=1" for ::1 at 2015-11-05 21:36:44 -0800
+
+
+Started GET "/assets/react_components/_new_todo.js?body=1" for ::1 at 2015-11-05 21:36:44 -0800
+
+
+Started GET "/assets/react_components/_todo_container.js?body=1" for ::1 at 2015-11-05 21:36:44 -0800
+
+
+Started GET "/assets/application.js?body=1" for ::1 at 2015-11-05 21:36:44 -0800
+
+
+Started GET "/assets/react_components/_todos.js?body=1" for ::1 at 2015-11-05 21:36:44 -0800
+
+
+Started GET "/assets/wood-bg.jpg" for ::1 at 2015-11-05 21:36:44 -0800
+
+
+Started GET "/" for ::1 at 2015-11-05 21:38:06 -0800
+Processing by TodosController#index as HTML
+  [1m[36mTodo Load (0.4ms)[0m  [1mSELECT "todos".* FROM "todos"[0m
+  Rendered todos/index.html.erb within layouts/application (228.8ms)
+Completed 200 OK in 1081ms (Views: 1079.1ms | ActiveRecord: 0.4ms)
+
+
+Started GET "/assets/todos.css?body=1" for ::1 at 2015-11-05 21:38:08 -0800
+
+
+Started GET "/assets/application.css?body=1" for ::1 at 2015-11-05 21:38:08 -0800
+
+
+Started GET "/assets/react_ujs.js?body=1" for ::1 at 2015-11-05 21:38:08 -0800
+
+
+Started GET "/assets/react_components/_todo_container.js?body=1" for ::1 at 2015-11-05 21:38:08 -0800
+
+
+Started GET "/assets/react_components/_todos.js?body=1" for ::1 at 2015-11-05 21:38:08 -0800
+
+
+Started GET "/assets/react_components/_new_todo.js?body=1" for ::1 at 2015-11-05 21:38:08 -0800
+
+
+Started GET "/assets/development/react.js?body=1" for ::1 at 2015-11-05 21:38:08 -0800
+
+
+Started GET "/assets/jquery.js?body=1" for ::1 at 2015-11-05 21:38:08 -0800
+
+
+Started GET "/assets/react_components/_todo.js?body=1" for ::1 at 2015-11-05 21:38:08 -0800
+
+
+Started GET "/assets/application.js?body=1" for ::1 at 2015-11-05 21:38:08 -0800
+
+
+Started POST "/__better_errors/7c549f248fb4194f/variables" for ::1 at 2015-11-05 21:38:27 -0800
+
+
+Started GET "/" for ::1 at 2015-11-05 21:38:30 -0800
+Processing by TodosController#index as HTML
+  [1m[35mTodo Load (0.5ms)[0m  SELECT "todos".* FROM "todos"
+  Rendered todos/index.html.erb within layouts/application (266.8ms)
+Completed 200 OK in 1201ms (Views: 1199.6ms | ActiveRecord: 0.5ms)
+
+
+Started GET "/assets/jquery.js?body=1" for ::1 at 2015-11-05 21:38:31 -0800
+
+
+Started GET "/assets/todos.css?body=1" for ::1 at 2015-11-05 21:38:31 -0800
+
+
+Started GET "/assets/development/react.js?body=1" for ::1 at 2015-11-05 21:38:31 -0800
+
+
+Started GET "/assets/react_components/_new_todo.js?body=1" for ::1 at 2015-11-05 21:38:31 -0800
+
+
+Started GET "/assets/application.css?body=1" for ::1 at 2015-11-05 21:38:31 -0800
+
+
+Started GET "/assets/react_ujs.js?body=1" for ::1 at 2015-11-05 21:38:31 -0800
+
+
+Started GET "/assets/react_components/_todo.js?body=1" for ::1 at 2015-11-05 21:38:31 -0800
+
+
+Started GET "/assets/react_components/_todo_container.js?body=1" for ::1 at 2015-11-05 21:38:31 -0800
+
+
+Started GET "/assets/react_components/_todos.js?body=1" for ::1 at 2015-11-05 21:38:31 -0800
+
+
+Started GET "/assets/application.js?body=1" for ::1 at 2015-11-05 21:38:31 -0800
+
+
+Started GET "/" for ::1 at 2015-11-05 21:40:14 -0800
+Processing by TodosController#index as HTML
+  [1m[36mTodo Load (0.5ms)[0m  [1mSELECT "todos".* FROM "todos"[0m
+  Rendered todos/index.html.erb within layouts/application (257.8ms)
+Completed 200 OK in 305ms (Views: 303.4ms | ActiveRecord: 0.5ms)
+
+
+Started GET "/assets/development/react.js?body=1" for ::1 at 2015-11-05 21:40:15 -0800
+
+
+Started GET "/assets/react_ujs.js?body=1" for ::1 at 2015-11-05 21:40:15 -0800
+
+
+Started GET "/assets/application.css?body=1" for ::1 at 2015-11-05 21:40:15 -0800
+
+
+Started GET "/assets/todos.css?body=1" for ::1 at 2015-11-05 21:40:15 -0800
+
+
+Started GET "/assets/jquery.js?body=1" for ::1 at 2015-11-05 21:40:15 -0800
+
+
+Started GET "/assets/react_components/_new_todo.js?body=1" for ::1 at 2015-11-05 21:40:15 -0800
+
+
+Started GET "/assets/react_components/_todo.js?body=1" for ::1 at 2015-11-05 21:40:15 -0800
+
+
+Started GET "/assets/react_components/_todo_container.js?body=1" for ::1 at 2015-11-05 21:40:15 -0800
+
+
+Started GET "/assets/react_components/_todos.js?body=1" for ::1 at 2015-11-05 21:40:15 -0800
+
+
+Started GET "/assets/application.js?body=1" for ::1 at 2015-11-05 21:40:15 -0800
+
+
+Started GET "/assets/wood-bg.jpg" for ::1 at 2015-11-05 21:40:15 -0800
+
+
+Started GET "/" for ::1 at 2015-11-05 21:41:40 -0800
+Processing by TodosController#index as HTML
+  [1m[35mTodo Load (0.5ms)[0m  SELECT "todos".* FROM "todos"
+  Rendered todos/index.html.erb within layouts/application (252.3ms)
+Completed 200 OK in 309ms (Views: 307.6ms | ActiveRecord: 0.5ms)
+
+
+Started GET "/assets/todos.css?body=1" for ::1 at 2015-11-05 21:41:40 -0800
+
+
+Started GET "/assets/application.css?body=1" for ::1 at 2015-11-05 21:41:40 -0800
+
+
+Started GET "/assets/jquery.js?body=1" for ::1 at 2015-11-05 21:41:40 -0800
+
+
+Started GET "/assets/development/react.js?body=1" for ::1 at 2015-11-05 21:41:40 -0800
+
+
+Started GET "/assets/react_ujs.js?body=1" for ::1 at 2015-11-05 21:41:40 -0800
+
+
+Started GET "/assets/react_components/_new_todo.js?body=1" for ::1 at 2015-11-05 21:41:40 -0800
+
+
+Started GET "/assets/react_components/_todo.js?body=1" for ::1 at 2015-11-05 21:41:40 -0800
+
+
+Started GET "/assets/react_components/_todos.js?body=1" for ::1 at 2015-11-05 21:41:40 -0800
+
+
+Started GET "/assets/application.js?body=1" for ::1 at 2015-11-05 21:41:40 -0800
+
+
+Started GET "/assets/react_components/_todo_container.js?body=1" for ::1 at 2015-11-05 21:41:40 -0800
+
+
+Started GET "/assets/wood-bg.jpg" for ::1 at 2015-11-05 21:41:40 -0800
+
+
+Started GET "/" for ::1 at 2015-11-05 21:43:44 -0800
+Processing by TodosController#index as HTML
+  [1m[36mTodo Load (0.4ms)[0m  [1mSELECT "todos".* FROM "todos"[0m
+  Rendered todos/index.html.erb within layouts/application (226.2ms)
+Completed 200 OK in 280ms (Views: 278.3ms | ActiveRecord: 0.4ms)
+
+
+Started GET "/assets/application.css?body=1" for ::1 at 2015-11-05 21:43:44 -0800
+
+
+Started GET "/assets/development/react.js?body=1" for ::1 at 2015-11-05 21:43:44 -0800
+
+
+Started GET "/assets/jquery.js?body=1" for ::1 at 2015-11-05 21:43:44 -0800
+
+
+Started GET "/assets/react_ujs.js?body=1" for ::1 at 2015-11-05 21:43:44 -0800
+
+
+Started GET "/assets/todos.css?body=1" for ::1 at 2015-11-05 21:43:44 -0800
+
+
+Started GET "/assets/react_components/_new_todo.js?body=1" for ::1 at 2015-11-05 21:43:44 -0800
+
+
+Started GET "/assets/react_components/_todo.js?body=1" for ::1 at 2015-11-05 21:43:44 -0800
+
+
+Started GET "/assets/react_components/_todo_container.js?body=1" for ::1 at 2015-11-05 21:43:44 -0800
+
+
+Started GET "/assets/react_components/_todos.js?body=1" for ::1 at 2015-11-05 21:43:44 -0800
+
+
+Started GET "/assets/application.js?body=1" for ::1 at 2015-11-05 21:43:44 -0800
+
+
+Started GET "/assets/wood-bg.jpg" for ::1 at 2015-11-05 21:43:44 -0800
+
+
+Started GET "/" for ::1 at 2015-11-05 21:47:07 -0800
+Processing by TodosController#index as HTML
+  [1m[35mTodo Load (0.4ms)[0m  SELECT "todos".* FROM "todos"
+  Rendered todos/index.html.erb within layouts/application (362.8ms)
+Completed 200 OK in 431ms (Views: 429.3ms | ActiveRecord: 0.4ms)
+
+
+Started GET "/assets/application.css?body=1" for ::1 at 2015-11-05 21:47:08 -0800
+
+
+Started GET "/assets/todos.css?body=1" for ::1 at 2015-11-05 21:47:08 -0800
+
+
+Started GET "/assets/jquery.js?body=1" for ::1 at 2015-11-05 21:47:08 -0800
+
+
+Started GET "/assets/development/react.js?body=1" for ::1 at 2015-11-05 21:47:08 -0800
+
+
+Started GET "/assets/react_components/_new_todo.js?body=1" for ::1 at 2015-11-05 21:47:08 -0800
+
+
+Started GET "/assets/react_ujs.js?body=1" for ::1 at 2015-11-05 21:47:08 -0800
+
+
+Started GET "/assets/react_components/_todo.js?body=1" for ::1 at 2015-11-05 21:47:08 -0800
+
+
+Started GET "/assets/react_components/_todos.js?body=1" for ::1 at 2015-11-05 21:47:08 -0800
+
+
+Started GET "/assets/react_components/_todo_container.js?body=1" for ::1 at 2015-11-05 21:47:08 -0800
+
+
+Started GET "/assets/application.js?body=1" for ::1 at 2015-11-05 21:47:08 -0800
+
+
+Started GET "/assets/wood-bg.jpg" for ::1 at 2015-11-05 21:47:08 -0800
+
+
+Started GET "/" for ::1 at 2015-11-05 21:47:45 -0800
+Processing by TodosController#index as HTML
+  [1m[36mTodo Load (0.4ms)[0m  [1mSELECT "todos".* FROM "todos"[0m
+  Rendered todos/index.html.erb within layouts/application (215.7ms)
+Completed 200 OK in 269ms (Views: 267.1ms | ActiveRecord: 0.4ms)
+
+
+Started GET "/assets/todos.css?body=1" for ::1 at 2015-11-05 21:47:45 -0800
+
+
+Started GET "/assets/react_components/_new_todo.js?body=1" for ::1 at 2015-11-05 21:47:45 -0800
+
+
+Started GET "/assets/react_ujs.js?body=1" for ::1 at 2015-11-05 21:47:45 -0800
+
+
+Started GET "/assets/application.css?body=1" for ::1 at 2015-11-05 21:47:45 -0800
+
+
+Started GET "/assets/jquery.js?body=1" for ::1 at 2015-11-05 21:47:45 -0800
+
+
+Started GET "/assets/development/react.js?body=1" for ::1 at 2015-11-05 21:47:45 -0800
+
+
+Started GET "/assets/react_components/_todo.js?body=1" for ::1 at 2015-11-05 21:47:45 -0800
+
+
+Started GET "/assets/react_components/_todo_container.js?body=1" for ::1 at 2015-11-05 21:47:45 -0800
+
+
+Started GET "/assets/react_components/_todos.js?body=1" for ::1 at 2015-11-05 21:47:45 -0800
+
+
+Started GET "/assets/application.js?body=1" for ::1 at 2015-11-05 21:47:45 -0800
+
+
+Started GET "/assets/wood-bg.jpg" for ::1 at 2015-11-05 21:47:45 -0800
+
+
+Started GET "/" for ::1 at 2015-11-05 21:49:48 -0800
+Processing by TodosController#index as HTML
+  [1m[35mTodo Load (0.4ms)[0m  SELECT "todos".* FROM "todos"
+  Rendered todos/index.html.erb within layouts/application (334.3ms)
+Completed 200 OK in 381ms (Views: 379.7ms | ActiveRecord: 0.4ms)
+
+
+Started GET "/assets/todos.css?body=1" for ::1 at 2015-11-05 21:49:49 -0800
+
+
+Started GET "/assets/jquery.js?body=1" for ::1 at 2015-11-05 21:49:49 -0800
+
+
+Started GET "/assets/application.css?body=1" for ::1 at 2015-11-05 21:49:49 -0800
+
+
+Started GET "/assets/react_ujs.js?body=1" for ::1 at 2015-11-05 21:49:49 -0800
+
+
+Started GET "/assets/development/react.js?body=1" for ::1 at 2015-11-05 21:49:49 -0800
+
+
+Started GET "/assets/react_components/_new_todo.js?body=1" for ::1 at 2015-11-05 21:49:49 -0800
+
+
+Started GET "/assets/react_components/_todo.js?body=1" for ::1 at 2015-11-05 21:49:49 -0800
+
+
+Started GET "/assets/react_components/_todo_container.js?body=1" for ::1 at 2015-11-05 21:49:49 -0800
+
+
+Started GET "/assets/react_components/_todos.js?body=1" for ::1 at 2015-11-05 21:49:49 -0800
+
+
+Started GET "/assets/application.js?body=1" for ::1 at 2015-11-05 21:49:49 -0800
+
+
+Started GET "/assets/wood-bg.jpg" for ::1 at 2015-11-05 21:49:49 -0800
+
+
+Started GET "/" for ::1 at 2015-11-05 21:50:49 -0800
+Processing by TodosController#index as HTML
+  [1m[36mTodo Load (0.4ms)[0m  [1mSELECT "todos".* FROM "todos"[0m
+  Rendered todos/index.html.erb within layouts/application (236.7ms)
+Completed 200 OK in 293ms (Views: 291.0ms | ActiveRecord: 0.4ms)
+
+
+Started GET "/assets/development/react.js?body=1" for ::1 at 2015-11-05 21:50:50 -0800
+
+
+Started GET "/assets/application.css?body=1" for ::1 at 2015-11-05 21:50:50 -0800
+
+
+Started GET "/assets/jquery.js?body=1" for ::1 at 2015-11-05 21:50:50 -0800
+
+
+Started GET "/assets/react_components/_new_todo.js?body=1" for ::1 at 2015-11-05 21:50:50 -0800
+
+
+Started GET "/assets/react_ujs.js?body=1" for ::1 at 2015-11-05 21:50:50 -0800
+
+
+Started GET "/assets/react_components/_todo.js?body=1" for ::1 at 2015-11-05 21:50:50 -0800
+
+
+Started GET "/assets/todos.css?body=1" for ::1 at 2015-11-05 21:50:50 -0800
+
+
+Started GET "/assets/react_components/_todo_container.js?body=1" for ::1 at 2015-11-05 21:50:50 -0800
+
+
+Started GET "/assets/react_components/_todos.js?body=1" for ::1 at 2015-11-05 21:50:50 -0800
+
+
+Started GET "/assets/application.js?body=1" for ::1 at 2015-11-05 21:50:50 -0800
+
+
+Started GET "/assets/wood-bg.jpg" for ::1 at 2015-11-05 21:50:50 -0800
+
+
+Started GET "/" for ::1 at 2015-11-05 21:52:00 -0800
+Processing by TodosController#index as HTML
+  [1m[35mTodo Load (0.5ms)[0m  SELECT "todos".* FROM "todos"
+  Rendered todos/index.html.erb within layouts/application (237.0ms)
+Completed 200 OK in 250ms (Views: 247.8ms | ActiveRecord: 0.5ms)
+
+
+Started GET "/assets/application.css?body=1" for ::1 at 2015-11-05 21:52:01 -0800
+
+
+Started GET "/assets/jquery.js?body=1" for ::1 at 2015-11-05 21:52:01 -0800
+
+
+Started GET "/assets/react_components/_todo.js?body=1" for ::1 at 2015-11-05 21:52:01 -0800
+
+
+Started GET "/assets/react_ujs.js?body=1" for ::1 at 2015-11-05 21:52:01 -0800
+
+
+Started GET "/assets/react_components/_new_todo.js?body=1" for ::1 at 2015-11-05 21:52:01 -0800
+
+
+Started GET "/assets/todos.css?body=1" for ::1 at 2015-11-05 21:52:01 -0800
+
+
+Started GET "/assets/development/react.js?body=1" for ::1 at 2015-11-05 21:52:01 -0800
+
+
+Started GET "/assets/react_components/_todo_container.js?body=1" for ::1 at 2015-11-05 21:52:01 -0800
+
+
+Started GET "/assets/react_components/_todos.js?body=1" for ::1 at 2015-11-05 21:52:01 -0800
+
+
+Started GET "/assets/application.js?body=1" for ::1 at 2015-11-05 21:52:01 -0800
+
+
+Started GET "/" for ::1 at 2015-11-05 21:52:10 -0800
+Processing by TodosController#index as HTML
+  [1m[36mTodo Load (0.4ms)[0m  [1mSELECT "todos".* FROM "todos"[0m
+  Rendered todos/index.html.erb within layouts/application (241.7ms)
+Completed 200 OK in 297ms (Views: 295.2ms | ActiveRecord: 0.4ms)
+
+
+Started GET "/assets/todos.css?body=1" for ::1 at 2015-11-05 21:52:10 -0800
+
+
+Started GET "/assets/react_components/_new_todo.js?body=1" for ::1 at 2015-11-05 21:52:10 -0800
+
+
+Started GET "/assets/development/react.js?body=1" for ::1 at 2015-11-05 21:52:10 -0800
+
+
+Started GET "/assets/application.css?body=1" for ::1 at 2015-11-05 21:52:10 -0800
+
+
+Started GET "/assets/react_ujs.js?body=1" for ::1 at 2015-11-05 21:52:10 -0800
+
+
+Started GET "/assets/jquery.js?body=1" for ::1 at 2015-11-05 21:52:10 -0800
+
+
+Started GET "/assets/react_components/_todo.js?body=1" for ::1 at 2015-11-05 21:52:10 -0800
+
+
+Started GET "/assets/react_components/_todo_container.js?body=1" for ::1 at 2015-11-05 21:52:10 -0800
+
+
+Started GET "/assets/react_components/_todos.js?body=1" for ::1 at 2015-11-05 21:52:10 -0800
+
+
+Started GET "/assets/application.js?body=1" for ::1 at 2015-11-05 21:52:10 -0800
+
+
+Started GET "/assets/wood-bg.jpg" for ::1 at 2015-11-05 21:52:11 -0800
+
+
+Started GET "/" for ::1 at 2015-11-05 21:52:21 -0800
+Processing by TodosController#index as HTML
+  [1m[35mTodo Load (0.4ms)[0m  SELECT "todos".* FROM "todos"
+  Rendered todos/index.html.erb within layouts/application (222.4ms)
+Completed 200 OK in 283ms (Views: 281.5ms | ActiveRecord: 0.4ms)
+
+
+Started GET "/assets/application.css?body=1" for ::1 at 2015-11-05 21:52:22 -0800
+
+
+Started GET "/assets/react_ujs.js?body=1" for ::1 at 2015-11-05 21:52:22 -0800
+
+
+Started GET "/assets/development/react.js?body=1" for ::1 at 2015-11-05 21:52:22 -0800
+
+
+Started GET "/assets/jquery.js?body=1" for ::1 at 2015-11-05 21:52:22 -0800
+
+
+Started GET "/assets/react_components/_new_todo.js?body=1" for ::1 at 2015-11-05 21:52:22 -0800
+
+
+Started GET "/assets/todos.css?body=1" for ::1 at 2015-11-05 21:52:22 -0800
+
+
+Started GET "/assets/react_components/_todo.js?body=1" for ::1 at 2015-11-05 21:52:22 -0800
+
+
+Started GET "/assets/react_components/_todo_container.js?body=1" for ::1 at 2015-11-05 21:52:22 -0800
+
+
+Started GET "/assets/react_components/_todos.js?body=1" for ::1 at 2015-11-05 21:52:22 -0800
+
+
+Started GET "/assets/application.js?body=1" for ::1 at 2015-11-05 21:52:22 -0800
+
+
+Started GET "/assets/wood-bg.jpg" for ::1 at 2015-11-05 21:52:22 -0800
+
+
+Started GET "/" for ::1 at 2015-11-05 21:54:27 -0800
+Processing by TodosController#index as HTML
+  [1m[36mTodo Load (0.4ms)[0m  [1mSELECT "todos".* FROM "todos"[0m
+  Rendered todos/index.html.erb within layouts/application (236.6ms)
+Completed 200 OK in 299ms (Views: 297.7ms | ActiveRecord: 0.4ms)
+
+
+Started GET "/assets/application.css?body=1" for ::1 at 2015-11-05 21:54:28 -0800
+
+
+Started GET "/assets/jquery.js?body=1" for ::1 at 2015-11-05 21:54:28 -0800
+
+
+Started GET "/assets/todos.css?body=1" for ::1 at 2015-11-05 21:54:28 -0800
+
+
+Started GET "/assets/react_components/_new_todo.js?body=1" for ::1 at 2015-11-05 21:54:28 -0800
+
+
+Started GET "/assets/react_ujs.js?body=1" for ::1 at 2015-11-05 21:54:28 -0800
+
+
+Started GET "/assets/development/react.js?body=1" for ::1 at 2015-11-05 21:54:28 -0800
+
+
+Started GET "/assets/react_components/_todo.js?body=1" for ::1 at 2015-11-05 21:54:28 -0800
+
+
+Started GET "/assets/react_components/_todo_container.js?body=1" for ::1 at 2015-11-05 21:54:28 -0800
+
+
+Started GET "/assets/react_components/_todos.js?body=1" for ::1 at 2015-11-05 21:54:28 -0800
+
+
+Started GET "/assets/application.js?body=1" for ::1 at 2015-11-05 21:54:28 -0800
+
+
+Started GET "/assets/wood-bg.jpg" for ::1 at 2015-11-05 21:54:28 -0800
+
+
+Started GET "/" for ::1 at 2015-11-05 22:01:22 -0800
+Processing by TodosController#index as HTML
+  [1m[35mTodo Load (0.5ms)[0m  SELECT "todos".* FROM "todos"
+  Rendered todos/index.html.erb within layouts/application (346.2ms)
+Completed 200 OK in 411ms (Views: 409.9ms | ActiveRecord: 0.5ms)
+
+
+Started GET "/assets/application.css?body=1" for ::1 at 2015-11-05 22:01:23 -0800
+
+
+Started GET "/assets/development/react.js?body=1" for ::1 at 2015-11-05 22:01:23 -0800
+
+
+Started GET "/assets/todos.css?body=1" for ::1 at 2015-11-05 22:01:23 -0800
+
+
+Started GET "/assets/react_components/_new_todo.js?body=1" for ::1 at 2015-11-05 22:01:23 -0800
+
+
+Started GET "/assets/jquery.js?body=1" for ::1 at 2015-11-05 22:01:23 -0800
+
+
+Started GET "/assets/react_ujs.js?body=1" for ::1 at 2015-11-05 22:01:23 -0800
+
+
+Started GET "/assets/react_components/_todo.js?body=1" for ::1 at 2015-11-05 22:01:23 -0800
+
+
+Started GET "/assets/react_components/_todo_container.js?body=1" for ::1 at 2015-11-05 22:01:23 -0800
+
+
+Started GET "/assets/react_components/_todos.js?body=1" for ::1 at 2015-11-05 22:01:23 -0800
+
+
+Started GET "/assets/application.js?body=1" for ::1 at 2015-11-05 22:01:23 -0800
+
+
+Started GET "/assets/wood-bg.jpg" for ::1 at 2015-11-05 22:01:23 -0800
