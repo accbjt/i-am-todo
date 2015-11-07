@@ -19000,3 +19000,1531 @@ Started GET "/assets/jquery-ui/tooltip.js?body=1" for ::1 at 2015-11-06 08:33:03
 
 
 Started GET "/assets/development/react.js?body=1" for ::1 at 2015-11-06 08:33:03 -0800
+
+
+Started GET "/" for ::1 at 2015-11-06 08:42:05 -0800
+Processing by TodosController#index as HTML
+  [1m[35mTodo Load (0.4ms)[0m  SELECT "todos".* FROM "todos"
+  Rendered todos/index.html.erb within layouts/application (357.7ms)
+Completed 200 OK in 436ms (Views: 434.5ms | ActiveRecord: 0.4ms)
+
+
+Started GET "/assets/application.css?body=1" for ::1 at 2015-11-06 08:42:06 -0800
+
+
+Started GET "/assets/jquery.js?body=1" for ::1 at 2015-11-06 08:42:06 -0800
+
+
+Started GET "/assets/jquery-ui/accordion.js?body=1" for ::1 at 2015-11-06 08:42:06 -0800
+
+
+Started GET "/assets/todos.css?body=1" for ::1 at 2015-11-06 08:42:06 -0800
+
+
+Started GET "/assets/jquery-ui/core.js?body=1" for ::1 at 2015-11-06 08:42:06 -0800
+
+
+Started GET "/assets/jquery-ui/widget.js?body=1" for ::1 at 2015-11-06 08:42:06 -0800
+
+
+Started GET "/assets/jquery-ui/menu.js?body=1" for ::1 at 2015-11-06 08:42:06 -0800
+
+
+Started GET "/assets/jquery-ui/position.js?body=1" for ::1 at 2015-11-06 08:42:06 -0800
+
+
+Started GET "/assets/jquery-ui/autocomplete.js?body=1" for ::1 at 2015-11-06 08:42:06 -0800
+
+
+Started GET "/assets/jquery-ui/button.js?body=1" for ::1 at 2015-11-06 08:42:06 -0800
+
+
+Started GET "/assets/jquery-ui/datepicker.js?body=1" for ::1 at 2015-11-06 08:42:06 -0800
+
+
+Started GET "/assets/jquery-ui/mouse.js?body=1" for ::1 at 2015-11-06 08:42:06 -0800
+
+
+Started GET "/assets/jquery-ui/draggable.js?body=1" for ::1 at 2015-11-06 08:42:06 -0800
+
+
+Started GET "/assets/jquery-ui/resizable.js?body=1" for ::1 at 2015-11-06 08:42:06 -0800
+
+
+Started GET "/assets/jquery-ui/dialog.js?body=1" for ::1 at 2015-11-06 08:42:06 -0800
+
+
+Started GET "/assets/jquery-ui/droppable.js?body=1" for ::1 at 2015-11-06 08:42:06 -0800
+
+
+Started GET "/assets/jquery-ui/effect.js?body=1" for ::1 at 2015-11-06 08:42:06 -0800
+
+
+Started GET "/assets/jquery-ui/effect-blind.js?body=1" for ::1 at 2015-11-06 08:42:06 -0800
+
+
+Started GET "/assets/jquery-ui/effect-bounce.js?body=1" for ::1 at 2015-11-06 08:42:06 -0800
+
+
+Started GET "/assets/jquery-ui/effect-clip.js?body=1" for ::1 at 2015-11-06 08:42:06 -0800
+
+
+Started GET "/assets/jquery-ui/effect-drop.js?body=1" for ::1 at 2015-11-06 08:42:06 -0800
+
+
+Started GET "/assets/jquery-ui/effect-explode.js?body=1" for ::1 at 2015-11-06 08:42:06 -0800
+
+
+Started GET "/assets/jquery-ui/effect-fade.js?body=1" for ::1 at 2015-11-06 08:42:06 -0800
+
+
+Started GET "/assets/jquery-ui/effect-fold.js?body=1" for ::1 at 2015-11-06 08:42:06 -0800
+
+
+Started GET "/assets/jquery-ui/effect-highlight.js?body=1" for ::1 at 2015-11-06 08:42:06 -0800
+
+
+Started GET "/assets/jquery-ui/effect-size.js?body=1" for ::1 at 2015-11-06 08:42:06 -0800
+
+
+Started GET "/assets/jquery-ui/effect-scale.js?body=1" for ::1 at 2015-11-06 08:42:06 -0800
+
+
+Started GET "/assets/jquery-ui/effect-puff.js?body=1" for ::1 at 2015-11-06 08:42:06 -0800
+
+
+Started GET "/assets/jquery-ui/effect-pulsate.js?body=1" for ::1 at 2015-11-06 08:42:06 -0800
+
+
+Started GET "/assets/jquery-ui/effect-shake.js?body=1" for ::1 at 2015-11-06 08:42:06 -0800
+
+
+Started GET "/assets/jquery-ui/effect-slide.js?body=1" for ::1 at 2015-11-06 08:42:06 -0800
+
+
+Started GET "/assets/jquery-ui/effect-transfer.js?body=1" for ::1 at 2015-11-06 08:42:06 -0800
+
+
+Started GET "/assets/jquery-ui/progressbar.js?body=1" for ::1 at 2015-11-06 08:42:06 -0800
+
+
+Started GET "/assets/jquery-ui/selectable.js?body=1" for ::1 at 2015-11-06 08:42:06 -0800
+
+
+Started GET "/assets/jquery-ui/selectmenu.js?body=1" for ::1 at 2015-11-06 08:42:06 -0800
+
+
+Started GET "/assets/jquery-ui/slider.js?body=1" for ::1 at 2015-11-06 08:42:06 -0800
+
+
+Started GET "/assets/jquery-ui/sortable.js?body=1" for ::1 at 2015-11-06 08:42:06 -0800
+
+
+Started GET "/assets/jquery-ui/spinner.js?body=1" for ::1 at 2015-11-06 08:42:06 -0800
+
+
+Started GET "/assets/jquery-ui/tabs.js?body=1" for ::1 at 2015-11-06 08:42:06 -0800
+
+
+Started GET "/assets/jquery-ui/tooltip.js?body=1" for ::1 at 2015-11-06 08:42:06 -0800
+
+
+Started GET "/assets/jquery-ui.js?body=1" for ::1 at 2015-11-06 08:42:06 -0800
+
+
+Started GET "/assets/development/react.js?body=1" for ::1 at 2015-11-06 08:42:06 -0800
+
+
+Started GET "/assets/react_ujs.js?body=1" for ::1 at 2015-11-06 08:42:06 -0800
+
+
+Started GET "/assets/react_components/_new_todo.js?body=1" for ::1 at 2015-11-06 08:42:06 -0800
+
+
+Started GET "/assets/react_components/_todo.js?body=1" for ::1 at 2015-11-06 08:42:06 -0800
+
+
+Started GET "/assets/react_components/_todo_container.js?body=1" for ::1 at 2015-11-06 08:42:06 -0800
+
+
+Started GET "/assets/react_components/_todos.js?body=1" for ::1 at 2015-11-06 08:42:06 -0800
+
+
+Started GET "/assets/application.js?body=1" for ::1 at 2015-11-06 08:42:06 -0800
+
+
+Started GET "/assets/wood-bg.jpg" for ::1 at 2015-11-06 08:42:06 -0800
+
+
+Started GET "/" for ::1 at 2015-11-06 08:48:28 -0800
+Processing by TodosController#index as HTML
+  [1m[36mTodo Load (0.4ms)[0m  [1mSELECT "todos".* FROM "todos"[0m
+  Rendered todos/index.html.erb within layouts/application (235.6ms)
+Completed 200 OK in 259ms (Views: 257.3ms | ActiveRecord: 0.4ms)
+
+
+Started GET "/assets/application.css?body=1" for ::1 at 2015-11-06 08:48:28 -0800
+
+
+Started GET "/assets/todos.css?body=1" for ::1 at 2015-11-06 08:48:28 -0800
+
+
+Started GET "/assets/jquery-ui/core.js?body=1" for ::1 at 2015-11-06 08:48:28 -0800
+
+
+Started GET "/assets/jquery-ui/position.js?body=1" for ::1 at 2015-11-06 08:48:28 -0800
+
+
+Started GET "/assets/jquery-ui/accordion.js?body=1" for ::1 at 2015-11-06 08:48:28 -0800
+
+
+Started GET "/assets/jquery-ui/widget.js?body=1" for ::1 at 2015-11-06 08:48:28 -0800
+
+
+Started GET "/assets/jquery.js?body=1" for ::1 at 2015-11-06 08:48:28 -0800
+
+
+Started GET "/assets/jquery-ui/menu.js?body=1" for ::1 at 2015-11-06 08:48:28 -0800
+
+
+Started GET "/assets/jquery-ui/autocomplete.js?body=1" for ::1 at 2015-11-06 08:48:28 -0800
+
+
+Started GET "/assets/jquery-ui/button.js?body=1" for ::1 at 2015-11-06 08:48:28 -0800
+
+
+Started GET "/assets/jquery-ui/datepicker.js?body=1" for ::1 at 2015-11-06 08:48:28 -0800
+
+
+Started GET "/assets/jquery-ui/mouse.js?body=1" for ::1 at 2015-11-06 08:48:28 -0800
+
+
+Started GET "/assets/jquery-ui/draggable.js?body=1" for ::1 at 2015-11-06 08:48:28 -0800
+
+
+Started GET "/assets/jquery-ui/resizable.js?body=1" for ::1 at 2015-11-06 08:48:28 -0800
+
+
+Started GET "/assets/jquery-ui/dialog.js?body=1" for ::1 at 2015-11-06 08:48:28 -0800
+
+
+Started GET "/assets/jquery-ui/droppable.js?body=1" for ::1 at 2015-11-06 08:48:28 -0800
+
+
+Started GET "/assets/jquery-ui/effect.js?body=1" for ::1 at 2015-11-06 08:48:28 -0800
+
+
+Started GET "/assets/jquery-ui/effect-blind.js?body=1" for ::1 at 2015-11-06 08:48:28 -0800
+
+
+Started GET "/assets/jquery-ui/effect-bounce.js?body=1" for ::1 at 2015-11-06 08:48:28 -0800
+
+
+Started GET "/assets/jquery-ui/effect-clip.js?body=1" for ::1 at 2015-11-06 08:48:28 -0800
+
+
+Started GET "/assets/jquery-ui/effect-drop.js?body=1" for ::1 at 2015-11-06 08:48:28 -0800
+
+
+Started GET "/assets/jquery-ui/effect-explode.js?body=1" for ::1 at 2015-11-06 08:48:28 -0800
+
+
+Started GET "/assets/jquery-ui/effect-fade.js?body=1" for ::1 at 2015-11-06 08:48:28 -0800
+
+
+Started GET "/assets/jquery-ui/effect-fold.js?body=1" for ::1 at 2015-11-06 08:48:28 -0800
+
+
+Started GET "/assets/jquery-ui/effect-highlight.js?body=1" for ::1 at 2015-11-06 08:48:28 -0800
+
+
+Started GET "/assets/jquery-ui/effect-size.js?body=1" for ::1 at 2015-11-06 08:48:28 -0800
+
+
+Started GET "/assets/jquery-ui/effect-scale.js?body=1" for ::1 at 2015-11-06 08:48:28 -0800
+
+
+Started GET "/assets/jquery-ui/effect-puff.js?body=1" for ::1 at 2015-11-06 08:48:28 -0800
+
+
+Started GET "/assets/jquery-ui/effect-pulsate.js?body=1" for ::1 at 2015-11-06 08:48:28 -0800
+
+
+Started GET "/assets/jquery-ui/effect-shake.js?body=1" for ::1 at 2015-11-06 08:48:28 -0800
+
+
+Started GET "/assets/jquery-ui/effect-slide.js?body=1" for ::1 at 2015-11-06 08:48:28 -0800
+
+
+Started GET "/assets/jquery-ui/effect-transfer.js?body=1" for ::1 at 2015-11-06 08:48:28 -0800
+
+
+Started GET "/assets/jquery-ui/progressbar.js?body=1" for ::1 at 2015-11-06 08:48:28 -0800
+
+
+Started GET "/assets/jquery-ui/selectable.js?body=1" for ::1 at 2015-11-06 08:48:28 -0800
+
+
+Started GET "/assets/jquery-ui/selectmenu.js?body=1" for ::1 at 2015-11-06 08:48:29 -0800
+
+
+Started GET "/assets/jquery-ui/slider.js?body=1" for ::1 at 2015-11-06 08:48:29 -0800
+
+
+Started GET "/assets/jquery-ui/sortable.js?body=1" for ::1 at 2015-11-06 08:48:29 -0800
+
+
+Started GET "/assets/jquery-ui/spinner.js?body=1" for ::1 at 2015-11-06 08:48:29 -0800
+
+
+Started GET "/assets/jquery-ui/tabs.js?body=1" for ::1 at 2015-11-06 08:48:29 -0800
+
+
+Started GET "/assets/jquery-ui/tooltip.js?body=1" for ::1 at 2015-11-06 08:48:29 -0800
+
+
+Started GET "/assets/jquery-ui.js?body=1" for ::1 at 2015-11-06 08:48:29 -0800
+
+
+Started GET "/assets/development/react.js?body=1" for ::1 at 2015-11-06 08:48:29 -0800
+
+
+Started GET "/assets/react_ujs.js?body=1" for ::1 at 2015-11-06 08:48:29 -0800
+
+
+Started GET "/assets/react_components/_new_todo.js?body=1" for ::1 at 2015-11-06 08:48:29 -0800
+
+
+Started GET "/assets/react_components/_todo.js?body=1" for ::1 at 2015-11-06 08:48:29 -0800
+
+
+Started GET "/assets/react_components/_todo_container.js?body=1" for ::1 at 2015-11-06 08:48:29 -0800
+
+
+Started GET "/assets/react_components/_todos.js?body=1" for ::1 at 2015-11-06 08:48:29 -0800
+
+
+Started GET "/assets/application.js?body=1" for ::1 at 2015-11-06 08:48:29 -0800
+
+
+Started GET "/" for ::1 at 2015-11-06 08:48:45 -0800
+Processing by TodosController#index as HTML
+  [1m[35mTodo Load (0.4ms)[0m  SELECT "todos".* FROM "todos"
+  Rendered todos/index.html.erb within layouts/application (235.2ms)
+Completed 200 OK in 301ms (Views: 298.8ms | ActiveRecord: 0.4ms)
+
+
+Started GET "/assets/application.css?body=1" for ::1 at 2015-11-06 08:48:46 -0800
+
+
+Started GET "/assets/todos.css?body=1" for ::1 at 2015-11-06 08:48:46 -0800
+
+
+Started GET "/assets/jquery-ui/core.js?body=1" for ::1 at 2015-11-06 08:48:46 -0800
+
+
+Started GET "/assets/jquery-ui/position.js?body=1" for ::1 at 2015-11-06 08:48:46 -0800
+
+
+Started GET "/assets/jquery-ui/accordion.js?body=1" for ::1 at 2015-11-06 08:48:46 -0800
+
+
+Started GET "/assets/jquery-ui/widget.js?body=1" for ::1 at 2015-11-06 08:48:46 -0800
+
+
+Started GET "/assets/jquery.js?body=1" for ::1 at 2015-11-06 08:48:46 -0800
+
+
+Started GET "/assets/jquery-ui/autocomplete.js?body=1" for ::1 at 2015-11-06 08:48:46 -0800
+
+
+Started GET "/assets/jquery-ui/menu.js?body=1" for ::1 at 2015-11-06 08:48:46 -0800
+
+
+Started GET "/assets/jquery-ui/button.js?body=1" for ::1 at 2015-11-06 08:48:46 -0800
+
+
+Started GET "/assets/jquery-ui/datepicker.js?body=1" for ::1 at 2015-11-06 08:48:46 -0800
+
+
+Started GET "/assets/jquery-ui/mouse.js?body=1" for ::1 at 2015-11-06 08:48:46 -0800
+
+
+Started GET "/assets/jquery-ui/draggable.js?body=1" for ::1 at 2015-11-06 08:48:46 -0800
+
+
+Started GET "/assets/jquery-ui/resizable.js?body=1" for ::1 at 2015-11-06 08:48:46 -0800
+
+
+Started GET "/assets/jquery-ui/dialog.js?body=1" for ::1 at 2015-11-06 08:48:46 -0800
+
+
+Started GET "/assets/jquery-ui/droppable.js?body=1" for ::1 at 2015-11-06 08:48:46 -0800
+
+
+Started GET "/assets/jquery-ui/effect.js?body=1" for ::1 at 2015-11-06 08:48:46 -0800
+
+
+Started GET "/assets/jquery-ui/effect-blind.js?body=1" for ::1 at 2015-11-06 08:48:46 -0800
+
+
+Started GET "/assets/jquery-ui/effect-bounce.js?body=1" for ::1 at 2015-11-06 08:48:46 -0800
+
+
+Started GET "/assets/jquery-ui/effect-clip.js?body=1" for ::1 at 2015-11-06 08:48:46 -0800
+
+
+Started GET "/assets/jquery-ui/effect-drop.js?body=1" for ::1 at 2015-11-06 08:48:46 -0800
+
+
+Started GET "/assets/jquery-ui/effect-explode.js?body=1" for ::1 at 2015-11-06 08:48:46 -0800
+
+
+Started GET "/assets/jquery-ui/effect-fade.js?body=1" for ::1 at 2015-11-06 08:48:46 -0800
+
+
+Started GET "/assets/jquery-ui/effect-fold.js?body=1" for ::1 at 2015-11-06 08:48:46 -0800
+
+
+Started GET "/assets/jquery-ui/effect-highlight.js?body=1" for ::1 at 2015-11-06 08:48:46 -0800
+
+
+Started GET "/assets/jquery-ui/effect-size.js?body=1" for ::1 at 2015-11-06 08:48:46 -0800
+
+
+Started GET "/assets/jquery-ui/effect-scale.js?body=1" for ::1 at 2015-11-06 08:48:46 -0800
+
+
+Started GET "/assets/jquery-ui/effect-puff.js?body=1" for ::1 at 2015-11-06 08:48:46 -0800
+
+
+Started GET "/assets/jquery-ui/effect-pulsate.js?body=1" for ::1 at 2015-11-06 08:48:46 -0800
+
+
+Started GET "/assets/jquery-ui/effect-shake.js?body=1" for ::1 at 2015-11-06 08:48:46 -0800
+
+
+Started GET "/assets/jquery-ui/effect-slide.js?body=1" for ::1 at 2015-11-06 08:48:46 -0800
+
+
+Started GET "/assets/jquery-ui/effect-transfer.js?body=1" for ::1 at 2015-11-06 08:48:46 -0800
+
+
+Started GET "/assets/jquery-ui/progressbar.js?body=1" for ::1 at 2015-11-06 08:48:46 -0800
+
+
+Started GET "/assets/jquery-ui/selectable.js?body=1" for ::1 at 2015-11-06 08:48:46 -0800
+
+
+Started GET "/assets/jquery-ui/selectmenu.js?body=1" for ::1 at 2015-11-06 08:48:46 -0800
+
+
+Started GET "/assets/jquery-ui/slider.js?body=1" for ::1 at 2015-11-06 08:48:46 -0800
+
+
+Started GET "/assets/jquery-ui/sortable.js?body=1" for ::1 at 2015-11-06 08:48:46 -0800
+
+
+Started GET "/assets/jquery-ui/spinner.js?body=1" for ::1 at 2015-11-06 08:48:46 -0800
+
+
+Started GET "/assets/jquery-ui/tabs.js?body=1" for ::1 at 2015-11-06 08:48:46 -0800
+
+
+Started GET "/assets/jquery-ui/tooltip.js?body=1" for ::1 at 2015-11-06 08:48:46 -0800
+
+
+Started GET "/assets/jquery-ui.js?body=1" for ::1 at 2015-11-06 08:48:46 -0800
+
+
+Started GET "/assets/development/react.js?body=1" for ::1 at 2015-11-06 08:48:46 -0800
+
+
+Started GET "/assets/react_ujs.js?body=1" for ::1 at 2015-11-06 08:48:46 -0800
+
+
+Started GET "/assets/react_components/_new_todo.js?body=1" for ::1 at 2015-11-06 08:48:46 -0800
+
+
+Started GET "/assets/react_components/_todo.js?body=1" for ::1 at 2015-11-06 08:48:46 -0800
+
+
+Started GET "/assets/react_components/_todo_container.js?body=1" for ::1 at 2015-11-06 08:48:46 -0800
+
+
+Started GET "/assets/react_components/_todos.js?body=1" for ::1 at 2015-11-06 08:48:46 -0800
+
+
+Started GET "/assets/application.js?body=1" for ::1 at 2015-11-06 08:48:46 -0800
+
+
+Started GET "/assets/wood-bg.jpg" for ::1 at 2015-11-06 08:48:46 -0800
+
+
+Started GET "/" for ::1 at 2015-11-06 08:49:27 -0800
+Processing by TodosController#index as HTML
+  [1m[36mTodo Load (0.4ms)[0m  [1mSELECT "todos".* FROM "todos"[0m
+  Rendered todos/index.html.erb within layouts/application (224.1ms)
+Completed 200 OK in 294ms (Views: 292.8ms | ActiveRecord: 0.4ms)
+
+
+Started GET "/assets/application.css?body=1" for ::1 at 2015-11-06 08:49:28 -0800
+
+
+Started GET "/assets/todos.css?body=1" for ::1 at 2015-11-06 08:49:28 -0800
+
+
+Started GET "/assets/jquery-ui/core.js?body=1" for ::1 at 2015-11-06 08:49:28 -0800
+
+
+Started GET "/assets/jquery.js?body=1" for ::1 at 2015-11-06 08:49:28 -0800
+
+
+Started GET "/assets/jquery-ui/accordion.js?body=1" for ::1 at 2015-11-06 08:49:28 -0800
+
+
+Started GET "/assets/jquery-ui/widget.js?body=1" for ::1 at 2015-11-06 08:49:28 -0800
+
+
+Started GET "/assets/jquery-ui/position.js?body=1" for ::1 at 2015-11-06 08:49:28 -0800
+
+
+Started GET "/assets/jquery-ui/menu.js?body=1" for ::1 at 2015-11-06 08:49:28 -0800
+
+
+Started GET "/assets/jquery-ui/autocomplete.js?body=1" for ::1 at 2015-11-06 08:49:28 -0800
+
+
+Started GET "/assets/jquery-ui/button.js?body=1" for ::1 at 2015-11-06 08:49:28 -0800
+
+
+Started GET "/assets/jquery-ui/datepicker.js?body=1" for ::1 at 2015-11-06 08:49:28 -0800
+
+
+Started GET "/assets/jquery-ui/mouse.js?body=1" for ::1 at 2015-11-06 08:49:28 -0800
+
+
+Started GET "/assets/jquery-ui/draggable.js?body=1" for ::1 at 2015-11-06 08:49:28 -0800
+
+
+Started GET "/assets/jquery-ui/resizable.js?body=1" for ::1 at 2015-11-06 08:49:28 -0800
+
+
+Started GET "/assets/jquery-ui/dialog.js?body=1" for ::1 at 2015-11-06 08:49:28 -0800
+
+
+Started GET "/assets/jquery-ui/droppable.js?body=1" for ::1 at 2015-11-06 08:49:28 -0800
+
+
+Started GET "/assets/jquery-ui/effect.js?body=1" for ::1 at 2015-11-06 08:49:28 -0800
+
+
+Started GET "/assets/jquery-ui/effect-blind.js?body=1" for ::1 at 2015-11-06 08:49:28 -0800
+
+
+Started GET "/assets/jquery-ui/effect-bounce.js?body=1" for ::1 at 2015-11-06 08:49:28 -0800
+
+
+Started GET "/assets/jquery-ui/effect-clip.js?body=1" for ::1 at 2015-11-06 08:49:28 -0800
+
+
+Started GET "/assets/jquery-ui/effect-drop.js?body=1" for ::1 at 2015-11-06 08:49:28 -0800
+
+
+Started GET "/assets/jquery-ui/effect-explode.js?body=1" for ::1 at 2015-11-06 08:49:28 -0800
+
+
+Started GET "/assets/jquery-ui/effect-fade.js?body=1" for ::1 at 2015-11-06 08:49:28 -0800
+
+
+Started GET "/assets/jquery-ui/effect-fold.js?body=1" for ::1 at 2015-11-06 08:49:28 -0800
+
+
+Started GET "/assets/jquery-ui/effect-highlight.js?body=1" for ::1 at 2015-11-06 08:49:28 -0800
+
+
+Started GET "/assets/jquery-ui/effect-size.js?body=1" for ::1 at 2015-11-06 08:49:28 -0800
+
+
+Started GET "/assets/jquery-ui/effect-scale.js?body=1" for ::1 at 2015-11-06 08:49:28 -0800
+
+
+Started GET "/assets/jquery-ui/effect-puff.js?body=1" for ::1 at 2015-11-06 08:49:28 -0800
+
+
+Started GET "/assets/jquery-ui/effect-pulsate.js?body=1" for ::1 at 2015-11-06 08:49:28 -0800
+
+
+Started GET "/assets/jquery-ui/effect-shake.js?body=1" for ::1 at 2015-11-06 08:49:28 -0800
+
+
+Started GET "/assets/jquery-ui/effect-slide.js?body=1" for ::1 at 2015-11-06 08:49:28 -0800
+
+
+Started GET "/assets/jquery-ui/effect-transfer.js?body=1" for ::1 at 2015-11-06 08:49:28 -0800
+
+
+Started GET "/assets/jquery-ui/progressbar.js?body=1" for ::1 at 2015-11-06 08:49:28 -0800
+
+
+Started GET "/assets/jquery-ui/selectable.js?body=1" for ::1 at 2015-11-06 08:49:28 -0800
+
+
+Started GET "/assets/jquery-ui/selectmenu.js?body=1" for ::1 at 2015-11-06 08:49:28 -0800
+
+
+Started GET "/assets/jquery-ui/slider.js?body=1" for ::1 at 2015-11-06 08:49:28 -0800
+
+
+Started GET "/assets/jquery-ui/sortable.js?body=1" for ::1 at 2015-11-06 08:49:28 -0800
+
+
+Started GET "/assets/jquery-ui/spinner.js?body=1" for ::1 at 2015-11-06 08:49:28 -0800
+
+
+Started GET "/assets/jquery-ui/tabs.js?body=1" for ::1 at 2015-11-06 08:49:28 -0800
+
+
+Started GET "/assets/jquery-ui/tooltip.js?body=1" for ::1 at 2015-11-06 08:49:28 -0800
+
+
+Started GET "/assets/jquery-ui.js?body=1" for ::1 at 2015-11-06 08:49:28 -0800
+
+
+Started GET "/assets/development/react.js?body=1" for ::1 at 2015-11-06 08:49:28 -0800
+
+
+Started GET "/assets/react_ujs.js?body=1" for ::1 at 2015-11-06 08:49:28 -0800
+
+
+Started GET "/assets/react_components/_todo.js?body=1" for ::1 at 2015-11-06 08:49:28 -0800
+
+
+Started GET "/assets/react_components/_new_todo.js?body=1" for ::1 at 2015-11-06 08:49:28 -0800
+
+
+Started GET "/assets/react_components/_todo_container.js?body=1" for ::1 at 2015-11-06 08:49:28 -0800
+
+
+Started GET "/assets/react_components/_todos.js?body=1" for ::1 at 2015-11-06 08:49:28 -0800
+
+
+Started GET "/assets/application.js?body=1" for ::1 at 2015-11-06 08:49:28 -0800
+
+
+Started GET "/assets/wood-bg.jpg" for ::1 at 2015-11-06 08:49:28 -0800
+
+
+Started GET "/" for ::1 at 2015-11-06 08:50:54 -0800
+Processing by TodosController#index as HTML
+  [1m[35mTodo Load (0.4ms)[0m  SELECT "todos".* FROM "todos"
+  Rendered todos/index.html.erb within layouts/application (222.7ms)
+Completed 200 OK in 288ms (Views: 286.6ms | ActiveRecord: 0.4ms)
+
+
+Started GET "/assets/application.css?body=1" for ::1 at 2015-11-06 08:50:55 -0800
+
+
+Started GET "/assets/jquery.js?body=1" for ::1 at 2015-11-06 08:50:55 -0800
+
+
+Started GET "/assets/jquery-ui/core.js?body=1" for ::1 at 2015-11-06 08:50:55 -0800
+
+
+Started GET "/assets/jquery-ui/widget.js?body=1" for ::1 at 2015-11-06 08:50:55 -0800
+
+
+Started GET "/assets/jquery-ui/position.js?body=1" for ::1 at 2015-11-06 08:50:55 -0800
+
+
+Started GET "/assets/jquery-ui/accordion.js?body=1" for ::1 at 2015-11-06 08:50:55 -0800
+
+
+Started GET "/assets/todos.css?body=1" for ::1 at 2015-11-06 08:50:55 -0800
+
+
+Started GET "/assets/jquery-ui/menu.js?body=1" for ::1 at 2015-11-06 08:50:55 -0800
+
+
+Started GET "/assets/jquery-ui/autocomplete.js?body=1" for ::1 at 2015-11-06 08:50:55 -0800
+
+
+Started GET "/assets/jquery-ui/button.js?body=1" for ::1 at 2015-11-06 08:50:55 -0800
+
+
+Started GET "/assets/jquery-ui/datepicker.js?body=1" for ::1 at 2015-11-06 08:50:55 -0800
+
+
+Started GET "/assets/jquery-ui/mouse.js?body=1" for ::1 at 2015-11-06 08:50:55 -0800
+
+
+Started GET "/assets/jquery-ui/draggable.js?body=1" for ::1 at 2015-11-06 08:50:55 -0800
+
+
+Started GET "/assets/jquery-ui/resizable.js?body=1" for ::1 at 2015-11-06 08:50:55 -0800
+
+
+Started GET "/assets/jquery-ui/dialog.js?body=1" for ::1 at 2015-11-06 08:50:55 -0800
+
+
+Started GET "/assets/jquery-ui/droppable.js?body=1" for ::1 at 2015-11-06 08:50:55 -0800
+
+
+Started GET "/assets/jquery-ui/effect.js?body=1" for ::1 at 2015-11-06 08:50:55 -0800
+
+
+Started GET "/assets/jquery-ui/effect-blind.js?body=1" for ::1 at 2015-11-06 08:50:55 -0800
+
+
+Started GET "/assets/jquery-ui/effect-bounce.js?body=1" for ::1 at 2015-11-06 08:50:55 -0800
+
+
+Started GET "/assets/jquery-ui/effect-clip.js?body=1" for ::1 at 2015-11-06 08:50:55 -0800
+
+
+Started GET "/assets/jquery-ui/effect-drop.js?body=1" for ::1 at 2015-11-06 08:50:55 -0800
+
+
+Started GET "/assets/jquery-ui/effect-explode.js?body=1" for ::1 at 2015-11-06 08:50:55 -0800
+
+
+Started GET "/assets/jquery-ui/effect-fade.js?body=1" for ::1 at 2015-11-06 08:50:55 -0800
+
+
+Started GET "/assets/jquery-ui/effect-fold.js?body=1" for ::1 at 2015-11-06 08:50:55 -0800
+
+
+Started GET "/assets/jquery-ui/effect-highlight.js?body=1" for ::1 at 2015-11-06 08:50:55 -0800
+
+
+Started GET "/assets/jquery-ui/effect-size.js?body=1" for ::1 at 2015-11-06 08:50:55 -0800
+
+
+Started GET "/assets/jquery-ui/effect-scale.js?body=1" for ::1 at 2015-11-06 08:50:55 -0800
+
+
+Started GET "/assets/jquery-ui/effect-puff.js?body=1" for ::1 at 2015-11-06 08:50:55 -0800
+
+
+Started GET "/assets/jquery-ui/effect-pulsate.js?body=1" for ::1 at 2015-11-06 08:50:55 -0800
+
+
+Started GET "/assets/jquery-ui/effect-shake.js?body=1" for ::1 at 2015-11-06 08:50:55 -0800
+
+
+Started GET "/assets/jquery-ui/effect-slide.js?body=1" for ::1 at 2015-11-06 08:50:55 -0800
+
+
+Started GET "/assets/jquery-ui/effect-transfer.js?body=1" for ::1 at 2015-11-06 08:50:55 -0800
+
+
+Started GET "/assets/jquery-ui/progressbar.js?body=1" for ::1 at 2015-11-06 08:50:55 -0800
+
+
+Started GET "/assets/jquery-ui/selectable.js?body=1" for ::1 at 2015-11-06 08:50:55 -0800
+
+
+Started GET "/assets/jquery-ui/selectmenu.js?body=1" for ::1 at 2015-11-06 08:50:55 -0800
+
+
+Started GET "/assets/jquery-ui/slider.js?body=1" for ::1 at 2015-11-06 08:50:55 -0800
+
+
+Started GET "/assets/jquery-ui/sortable.js?body=1" for ::1 at 2015-11-06 08:50:55 -0800
+
+
+Started GET "/assets/jquery-ui/spinner.js?body=1" for ::1 at 2015-11-06 08:50:55 -0800
+
+
+Started GET "/assets/jquery-ui/tabs.js?body=1" for ::1 at 2015-11-06 08:50:55 -0800
+
+
+Started GET "/assets/jquery-ui/tooltip.js?body=1" for ::1 at 2015-11-06 08:50:55 -0800
+
+
+Started GET "/assets/jquery-ui.js?body=1" for ::1 at 2015-11-06 08:50:55 -0800
+
+
+Started GET "/assets/development/react.js?body=1" for ::1 at 2015-11-06 08:50:55 -0800
+
+
+Started GET "/assets/react_ujs.js?body=1" for ::1 at 2015-11-06 08:50:55 -0800
+
+
+Started GET "/assets/react_components/_new_todo.js?body=1" for ::1 at 2015-11-06 08:50:55 -0800
+
+
+Started GET "/assets/react_components/_todo.js?body=1" for ::1 at 2015-11-06 08:50:55 -0800
+
+
+Started GET "/assets/react_components/_todo_container.js?body=1" for ::1 at 2015-11-06 08:50:55 -0800
+
+
+Started GET "/assets/react_components/_todos.js?body=1" for ::1 at 2015-11-06 08:50:55 -0800
+
+
+Started GET "/assets/application.js?body=1" for ::1 at 2015-11-06 08:50:55 -0800
+
+
+Started GET "/assets/wood-bg.jpg" for ::1 at 2015-11-06 08:50:55 -0800
+
+
+Started GET "/" for ::1 at 2015-11-06 08:52:23 -0800
+Processing by TodosController#index as HTML
+  [1m[36mTodo Load (0.4ms)[0m  [1mSELECT "todos".* FROM "todos"[0m
+  Rendered todos/index.html.erb within layouts/application (236.4ms)
+Completed 200 OK in 260ms (Views: 258.7ms | ActiveRecord: 0.4ms)
+
+
+Started GET "/assets/application.css?body=1" for ::1 at 2015-11-06 08:52:24 -0800
+
+
+Started GET "/assets/todos.css?body=1" for ::1 at 2015-11-06 08:52:24 -0800
+
+
+Started GET "/assets/jquery-ui/accordion.js?body=1" for ::1 at 2015-11-06 08:52:24 -0800
+
+
+Started GET "/assets/jquery.js?body=1" for ::1 at 2015-11-06 08:52:24 -0800
+
+
+Started GET "/assets/jquery-ui/core.js?body=1" for ::1 at 2015-11-06 08:52:24 -0800
+
+
+Started GET "/assets/jquery-ui/widget.js?body=1" for ::1 at 2015-11-06 08:52:24 -0800
+
+
+Started GET "/assets/jquery-ui/position.js?body=1" for ::1 at 2015-11-06 08:52:24 -0800
+
+
+Started GET "/assets/jquery-ui/menu.js?body=1" for ::1 at 2015-11-06 08:52:24 -0800
+
+
+Started GET "/assets/jquery-ui/autocomplete.js?body=1" for ::1 at 2015-11-06 08:52:24 -0800
+
+
+Started GET "/assets/jquery-ui/button.js?body=1" for ::1 at 2015-11-06 08:52:24 -0800
+
+
+Started GET "/assets/jquery-ui/datepicker.js?body=1" for ::1 at 2015-11-06 08:52:24 -0800
+
+
+Started GET "/assets/jquery-ui/mouse.js?body=1" for ::1 at 2015-11-06 08:52:24 -0800
+
+
+Started GET "/assets/jquery-ui/draggable.js?body=1" for ::1 at 2015-11-06 08:52:24 -0800
+
+
+Started GET "/assets/jquery-ui/resizable.js?body=1" for ::1 at 2015-11-06 08:52:24 -0800
+
+
+Started GET "/assets/jquery-ui/dialog.js?body=1" for ::1 at 2015-11-06 08:52:24 -0800
+
+
+Started GET "/assets/jquery-ui/droppable.js?body=1" for ::1 at 2015-11-06 08:52:24 -0800
+
+
+Started GET "/assets/jquery-ui/effect.js?body=1" for ::1 at 2015-11-06 08:52:24 -0800
+
+
+Started GET "/assets/jquery-ui/effect-blind.js?body=1" for ::1 at 2015-11-06 08:52:24 -0800
+
+
+Started GET "/assets/jquery-ui/effect-bounce.js?body=1" for ::1 at 2015-11-06 08:52:24 -0800
+
+
+Started GET "/assets/jquery-ui/effect-clip.js?body=1" for ::1 at 2015-11-06 08:52:24 -0800
+
+
+Started GET "/assets/jquery-ui/effect-drop.js?body=1" for ::1 at 2015-11-06 08:52:24 -0800
+
+
+Started GET "/assets/jquery-ui/effect-fade.js?body=1" for ::1 at 2015-11-06 08:52:24 -0800
+
+
+Started GET "/assets/jquery-ui/effect-explode.js?body=1" for ::1 at 2015-11-06 08:52:24 -0800
+
+
+Started GET "/assets/jquery-ui/effect-fold.js?body=1" for ::1 at 2015-11-06 08:52:24 -0800
+
+
+Started GET "/assets/jquery-ui/effect-highlight.js?body=1" for ::1 at 2015-11-06 08:52:24 -0800
+
+
+Started GET "/assets/jquery-ui/effect-size.js?body=1" for ::1 at 2015-11-06 08:52:24 -0800
+
+
+Started GET "/assets/jquery-ui/effect-scale.js?body=1" for ::1 at 2015-11-06 08:52:24 -0800
+
+
+Started GET "/assets/jquery-ui/effect-puff.js?body=1" for ::1 at 2015-11-06 08:52:24 -0800
+
+
+Started GET "/assets/jquery-ui/effect-pulsate.js?body=1" for ::1 at 2015-11-06 08:52:24 -0800
+
+
+Started GET "/assets/jquery-ui/effect-slide.js?body=1" for ::1 at 2015-11-06 08:52:24 -0800
+
+
+Started GET "/assets/jquery-ui/effect-shake.js?body=1" for ::1 at 2015-11-06 08:52:24 -0800
+
+
+Started GET "/assets/jquery-ui/effect-transfer.js?body=1" for ::1 at 2015-11-06 08:52:24 -0800
+
+
+Started GET "/assets/jquery-ui/progressbar.js?body=1" for ::1 at 2015-11-06 08:52:24 -0800
+
+
+Started GET "/assets/jquery-ui/selectable.js?body=1" for ::1 at 2015-11-06 08:52:24 -0800
+
+
+Started GET "/assets/jquery-ui/selectmenu.js?body=1" for ::1 at 2015-11-06 08:52:24 -0800
+
+
+Started GET "/assets/jquery-ui/slider.js?body=1" for ::1 at 2015-11-06 08:52:24 -0800
+
+
+Started GET "/assets/jquery-ui/sortable.js?body=1" for ::1 at 2015-11-06 08:52:24 -0800
+
+
+Started GET "/assets/jquery-ui/spinner.js?body=1" for ::1 at 2015-11-06 08:52:24 -0800
+
+
+Started GET "/assets/jquery-ui/tabs.js?body=1" for ::1 at 2015-11-06 08:52:24 -0800
+
+
+Started GET "/assets/jquery-ui/tooltip.js?body=1" for ::1 at 2015-11-06 08:52:24 -0800
+
+
+Started GET "/assets/jquery-ui.js?body=1" for ::1 at 2015-11-06 08:52:24 -0800
+
+
+Started GET "/assets/development/react.js?body=1" for ::1 at 2015-11-06 08:52:24 -0800
+
+
+Started GET "/assets/react_ujs.js?body=1" for ::1 at 2015-11-06 08:52:24 -0800
+
+
+Started GET "/assets/react_components/_todo.js?body=1" for ::1 at 2015-11-06 08:52:24 -0800
+
+
+Started GET "/assets/react_components/_new_todo.js?body=1" for ::1 at 2015-11-06 08:52:24 -0800
+
+
+Started GET "/assets/react_components/_todo_container.js?body=1" for ::1 at 2015-11-06 08:52:24 -0800
+
+
+Started GET "/assets/react_components/_todos.js?body=1" for ::1 at 2015-11-06 08:52:24 -0800
+
+
+Started GET "/assets/application.js?body=1" for ::1 at 2015-11-06 08:52:24 -0800
+
+
+Started GET "/" for ::1 at 2015-11-06 08:53:52 -0800
+Processing by TodosController#index as HTML
+  [1m[35mTodo Load (0.4ms)[0m  SELECT "todos".* FROM "todos"
+  Rendered todos/index.html.erb within layouts/application (1260.9ms)
+Completed 200 OK in 1431ms (Views: 1427.5ms | ActiveRecord: 1.1ms)
+
+
+Started GET "/assets/application.css?body=1" for ::1 at 2015-11-06 08:53:54 -0800
+
+
+Started GET "/assets/jquery.js?body=1" for ::1 at 2015-11-06 08:53:54 -0800
+
+
+Started GET "/assets/jquery-ui/core.js?body=1" for ::1 at 2015-11-06 08:53:54 -0800
+
+
+Started GET "/assets/todos.css?body=1" for ::1 at 2015-11-06 08:53:54 -0800
+
+
+Started GET "/assets/jquery-ui/widget.js?body=1" for ::1 at 2015-11-06 08:53:54 -0800
+
+
+Started GET "/assets/jquery-ui/position.js?body=1" for ::1 at 2015-11-06 08:53:54 -0800
+
+
+Started GET "/assets/jquery-ui/accordion.js?body=1" for ::1 at 2015-11-06 08:53:54 -0800
+
+
+Started GET "/assets/jquery-ui/autocomplete.js?body=1" for ::1 at 2015-11-06 08:53:54 -0800
+
+
+Started GET "/assets/jquery-ui/button.js?body=1" for ::1 at 2015-11-06 08:53:54 -0800
+
+
+Started GET "/assets/jquery-ui/datepicker.js?body=1" for ::1 at 2015-11-06 08:53:54 -0800
+
+
+Started GET "/assets/jquery-ui/mouse.js?body=1" for ::1 at 2015-11-06 08:53:54 -0800
+
+
+Started GET "/assets/jquery-ui/draggable.js?body=1" for ::1 at 2015-11-06 08:53:54 -0800
+
+
+Started GET "/assets/jquery-ui/menu.js?body=1" for ::1 at 2015-11-06 08:53:54 -0800
+
+
+Started GET "/assets/jquery-ui/resizable.js?body=1" for ::1 at 2015-11-06 08:53:54 -0800
+
+
+Started GET "/assets/jquery-ui/dialog.js?body=1" for ::1 at 2015-11-06 08:53:54 -0800
+
+
+Started GET "/assets/jquery-ui/droppable.js?body=1" for ::1 at 2015-11-06 08:53:54 -0800
+
+
+Started GET "/assets/jquery-ui/effect.js?body=1" for ::1 at 2015-11-06 08:53:54 -0800
+
+
+Started GET "/assets/jquery-ui/effect-blind.js?body=1" for ::1 at 2015-11-06 08:53:54 -0800
+
+
+Started GET "/assets/jquery-ui/effect-bounce.js?body=1" for ::1 at 2015-11-06 08:53:54 -0800
+
+
+Started GET "/assets/jquery-ui/effect-clip.js?body=1" for ::1 at 2015-11-06 08:53:54 -0800
+
+
+Started GET "/assets/jquery-ui/effect-drop.js?body=1" for ::1 at 2015-11-06 08:53:54 -0800
+
+
+Started GET "/assets/jquery-ui/effect-explode.js?body=1" for ::1 at 2015-11-06 08:53:54 -0800
+
+
+Started GET "/assets/jquery-ui/effect-fade.js?body=1" for ::1 at 2015-11-06 08:53:54 -0800
+
+
+Started GET "/assets/jquery-ui/effect-fold.js?body=1" for ::1 at 2015-11-06 08:53:54 -0800
+
+
+Started GET "/assets/jquery-ui/effect-highlight.js?body=1" for ::1 at 2015-11-06 08:53:54 -0800
+
+
+Started GET "/assets/jquery-ui/effect-size.js?body=1" for ::1 at 2015-11-06 08:53:54 -0800
+
+
+Started GET "/assets/jquery-ui/effect-scale.js?body=1" for ::1 at 2015-11-06 08:53:54 -0800
+
+
+Started GET "/assets/jquery-ui/effect-puff.js?body=1" for ::1 at 2015-11-06 08:53:54 -0800
+
+
+Started GET "/assets/jquery-ui/effect-pulsate.js?body=1" for ::1 at 2015-11-06 08:53:54 -0800
+
+
+Started GET "/assets/jquery-ui/effect-shake.js?body=1" for ::1 at 2015-11-06 08:53:54 -0800
+
+
+Started GET "/assets/jquery-ui/effect-slide.js?body=1" for ::1 at 2015-11-06 08:53:54 -0800
+
+
+Started GET "/assets/jquery-ui/effect-transfer.js?body=1" for ::1 at 2015-11-06 08:53:54 -0800
+
+
+Started GET "/assets/jquery-ui/progressbar.js?body=1" for ::1 at 2015-11-06 08:53:54 -0800
+
+
+Started GET "/assets/jquery-ui/selectable.js?body=1" for ::1 at 2015-11-06 08:53:54 -0800
+
+
+Started GET "/assets/jquery-ui/selectmenu.js?body=1" for ::1 at 2015-11-06 08:53:54 -0800
+
+
+Started GET "/assets/jquery-ui/slider.js?body=1" for ::1 at 2015-11-06 08:53:54 -0800
+
+
+Started GET "/assets/jquery-ui/sortable.js?body=1" for ::1 at 2015-11-06 08:53:54 -0800
+
+
+Started GET "/assets/jquery-ui/spinner.js?body=1" for ::1 at 2015-11-06 08:53:54 -0800
+
+
+Started GET "/assets/jquery-ui/tabs.js?body=1" for ::1 at 2015-11-06 08:53:54 -0800
+
+
+Started GET "/assets/jquery-ui/tooltip.js?body=1" for ::1 at 2015-11-06 08:53:54 -0800
+
+
+Started GET "/assets/jquery-ui.js?body=1" for ::1 at 2015-11-06 08:53:54 -0800
+
+
+Started GET "/assets/development/react.js?body=1" for ::1 at 2015-11-06 08:53:54 -0800
+
+
+Started GET "/assets/react_ujs.js?body=1" for ::1 at 2015-11-06 08:53:54 -0800
+
+
+Started GET "/assets/react_components/_new_todo.js?body=1" for ::1 at 2015-11-06 08:53:54 -0800
+
+
+Started GET "/assets/react_components/_todo.js?body=1" for ::1 at 2015-11-06 08:53:54 -0800
+
+
+Started GET "/assets/react_components/_todo_container.js?body=1" for ::1 at 2015-11-06 08:53:54 -0800
+
+
+Started GET "/assets/react_components/_todos.js?body=1" for ::1 at 2015-11-06 08:53:54 -0800
+
+
+Started GET "/assets/application.js?body=1" for ::1 at 2015-11-06 08:53:54 -0800
+
+
+Started GET "/" for ::1 at 2015-11-06 08:54:41 -0800
+Processing by TodosController#index as HTML
+  [1m[36mTodo Load (0.4ms)[0m  [1mSELECT "todos".* FROM "todos"[0m
+  Rendered todos/index.html.erb within layouts/application (236.7ms)
+Completed 200 OK in 308ms (Views: 306.3ms | ActiveRecord: 0.4ms)
+
+
+Started GET "/assets/application.css?body=1" for ::1 at 2015-11-06 08:54:41 -0800
+
+
+Started GET "/assets/jquery-ui/widget.js?body=1" for ::1 at 2015-11-06 08:54:41 -0800
+
+
+Started GET "/assets/jquery-ui/accordion.js?body=1" for ::1 at 2015-11-06 08:54:41 -0800
+
+
+Started GET "/assets/todos.css?body=1" for ::1 at 2015-11-06 08:54:41 -0800
+
+
+Started GET "/assets/jquery.js?body=1" for ::1 at 2015-11-06 08:54:41 -0800
+
+
+Started GET "/assets/jquery-ui/position.js?body=1" for ::1 at 2015-11-06 08:54:41 -0800
+
+
+Started GET "/assets/jquery-ui/core.js?body=1" for ::1 at 2015-11-06 08:54:41 -0800
+
+
+Started GET "/assets/jquery-ui/menu.js?body=1" for ::1 at 2015-11-06 08:54:41 -0800
+
+
+Started GET "/assets/jquery-ui/autocomplete.js?body=1" for ::1 at 2015-11-06 08:54:41 -0800
+
+
+Started GET "/assets/jquery-ui/button.js?body=1" for ::1 at 2015-11-06 08:54:41 -0800
+
+
+Started GET "/assets/jquery-ui/datepicker.js?body=1" for ::1 at 2015-11-06 08:54:41 -0800
+
+
+Started GET "/assets/jquery-ui/mouse.js?body=1" for ::1 at 2015-11-06 08:54:41 -0800
+
+
+Started GET "/assets/jquery-ui/draggable.js?body=1" for ::1 at 2015-11-06 08:54:41 -0800
+
+
+Started GET "/assets/jquery-ui/resizable.js?body=1" for ::1 at 2015-11-06 08:54:41 -0800
+
+
+Started GET "/assets/jquery-ui/dialog.js?body=1" for ::1 at 2015-11-06 08:54:41 -0800
+
+
+Started GET "/assets/jquery-ui/droppable.js?body=1" for ::1 at 2015-11-06 08:54:41 -0800
+
+
+Started GET "/assets/jquery-ui/effect.js?body=1" for ::1 at 2015-11-06 08:54:41 -0800
+
+
+Started GET "/assets/jquery-ui/effect-blind.js?body=1" for ::1 at 2015-11-06 08:54:41 -0800
+
+
+Started GET "/assets/jquery-ui/effect-bounce.js?body=1" for ::1 at 2015-11-06 08:54:41 -0800
+
+
+Started GET "/assets/jquery-ui/effect-clip.js?body=1" for ::1 at 2015-11-06 08:54:41 -0800
+
+
+Started GET "/assets/jquery-ui/effect-drop.js?body=1" for ::1 at 2015-11-06 08:54:41 -0800
+
+
+Started GET "/assets/jquery-ui/effect-explode.js?body=1" for ::1 at 2015-11-06 08:54:41 -0800
+
+
+Started GET "/assets/jquery-ui/effect-fade.js?body=1" for ::1 at 2015-11-06 08:54:41 -0800
+
+
+Started GET "/assets/jquery-ui/effect-fold.js?body=1" for ::1 at 2015-11-06 08:54:41 -0800
+
+
+Started GET "/assets/jquery-ui/effect-highlight.js?body=1" for ::1 at 2015-11-06 08:54:41 -0800
+
+
+Started GET "/assets/jquery-ui/effect-size.js?body=1" for ::1 at 2015-11-06 08:54:41 -0800
+
+
+Started GET "/assets/jquery-ui/effect-scale.js?body=1" for ::1 at 2015-11-06 08:54:41 -0800
+
+
+Started GET "/assets/jquery-ui/effect-puff.js?body=1" for ::1 at 2015-11-06 08:54:41 -0800
+
+
+Started GET "/assets/jquery-ui/effect-pulsate.js?body=1" for ::1 at 2015-11-06 08:54:41 -0800
+
+
+Started GET "/assets/jquery-ui/effect-shake.js?body=1" for ::1 at 2015-11-06 08:54:41 -0800
+
+
+Started GET "/assets/jquery-ui/effect-slide.js?body=1" for ::1 at 2015-11-06 08:54:41 -0800
+
+
+Started GET "/assets/jquery-ui/effect-transfer.js?body=1" for ::1 at 2015-11-06 08:54:41 -0800
+
+
+Started GET "/assets/jquery-ui/progressbar.js?body=1" for ::1 at 2015-11-06 08:54:41 -0800
+
+
+Started GET "/assets/jquery-ui/selectable.js?body=1" for ::1 at 2015-11-06 08:54:41 -0800
+
+
+Started GET "/assets/jquery-ui/selectmenu.js?body=1" for ::1 at 2015-11-06 08:54:41 -0800
+
+
+Started GET "/assets/jquery-ui/slider.js?body=1" for ::1 at 2015-11-06 08:54:41 -0800
+
+
+Started GET "/assets/jquery-ui/sortable.js?body=1" for ::1 at 2015-11-06 08:54:41 -0800
+
+
+Started GET "/assets/jquery-ui/spinner.js?body=1" for ::1 at 2015-11-06 08:54:41 -0800
+
+
+Started GET "/assets/jquery-ui/tabs.js?body=1" for ::1 at 2015-11-06 08:54:41 -0800
+
+
+Started GET "/assets/jquery-ui/tooltip.js?body=1" for ::1 at 2015-11-06 08:54:41 -0800
+
+
+Started GET "/assets/jquery-ui.js?body=1" for ::1 at 2015-11-06 08:54:41 -0800
+
+
+Started GET "/assets/development/react.js?body=1" for ::1 at 2015-11-06 08:54:41 -0800
+
+
+Started GET "/assets/react_ujs.js?body=1" for ::1 at 2015-11-06 08:54:41 -0800
+
+
+Started GET "/assets/react_components/_new_todo.js?body=1" for ::1 at 2015-11-06 08:54:41 -0800
+
+
+Started GET "/assets/react_components/_todo.js?body=1" for ::1 at 2015-11-06 08:54:41 -0800
+
+
+Started GET "/assets/react_components/_todo_container.js?body=1" for ::1 at 2015-11-06 08:54:41 -0800
+
+
+Started GET "/assets/react_components/_todos.js?body=1" for ::1 at 2015-11-06 08:54:41 -0800
+
+
+Started GET "/assets/application.js?body=1" for ::1 at 2015-11-06 08:54:41 -0800
+
+
+Started GET "/assets/wood-bg.jpg" for ::1 at 2015-11-06 08:54:41 -0800
+
+
+Started GET "/" for ::1 at 2015-11-06 08:55:40 -0800
+Processing by TodosController#index as HTML
+  [1m[35mTodo Load (0.4ms)[0m  SELECT "todos".* FROM "todos"
+  Rendered todos/index.html.erb within layouts/application (1199.5ms)
+Completed 200 OK in 1321ms (Views: 1316.7ms | ActiveRecord: 1.1ms)
+
+
+Started GET "/assets/application.css?body=1" for ::1 at 2015-11-06 08:55:41 -0800
+
+
+Started GET "/assets/jquery-ui/core.js?body=1" for ::1 at 2015-11-06 08:55:42 -0800
+
+
+Started GET "/assets/jquery-ui/widget.js?body=1" for ::1 at 2015-11-06 08:55:42 -0800
+
+
+Started GET "/assets/todos.css?body=1" for ::1 at 2015-11-06 08:55:42 -0800
+
+
+Started GET "/assets/jquery.js?body=1" for ::1 at 2015-11-06 08:55:42 -0800
+
+
+Started GET "/assets/jquery-ui/accordion.js?body=1" for ::1 at 2015-11-06 08:55:42 -0800
+
+
+Started GET "/assets/jquery-ui/position.js?body=1" for ::1 at 2015-11-06 08:55:42 -0800
+
+
+Started GET "/assets/jquery-ui/menu.js?body=1" for ::1 at 2015-11-06 08:55:42 -0800
+
+
+Started GET "/assets/jquery-ui/autocomplete.js?body=1" for ::1 at 2015-11-06 08:55:42 -0800
+
+
+Started GET "/assets/jquery-ui/button.js?body=1" for ::1 at 2015-11-06 08:55:42 -0800
+
+
+Started GET "/assets/jquery-ui/datepicker.js?body=1" for ::1 at 2015-11-06 08:55:42 -0800
+
+
+Started GET "/assets/jquery-ui/draggable.js?body=1" for ::1 at 2015-11-06 08:55:42 -0800
+
+
+Started GET "/assets/jquery-ui/mouse.js?body=1" for ::1 at 2015-11-06 08:55:42 -0800
+
+
+Started GET "/assets/jquery-ui/dialog.js?body=1" for ::1 at 2015-11-06 08:55:42 -0800
+
+
+Started GET "/assets/jquery-ui/resizable.js?body=1" for ::1 at 2015-11-06 08:55:42 -0800
+
+
+Started GET "/assets/jquery-ui/droppable.js?body=1" for ::1 at 2015-11-06 08:55:42 -0800
+
+
+Started GET "/assets/jquery-ui/effect.js?body=1" for ::1 at 2015-11-06 08:55:42 -0800
+
+
+Started GET "/assets/jquery-ui/effect-blind.js?body=1" for ::1 at 2015-11-06 08:55:42 -0800
+
+
+Started GET "/assets/jquery-ui/effect-bounce.js?body=1" for ::1 at 2015-11-06 08:55:42 -0800
+
+
+Started GET "/assets/jquery-ui/effect-clip.js?body=1" for ::1 at 2015-11-06 08:55:42 -0800
+
+
+Started GET "/assets/jquery-ui/effect-drop.js?body=1" for ::1 at 2015-11-06 08:55:42 -0800
+
+
+Started GET "/assets/jquery-ui/effect-explode.js?body=1" for ::1 at 2015-11-06 08:55:42 -0800
+
+
+Started GET "/assets/jquery-ui/effect-fade.js?body=1" for ::1 at 2015-11-06 08:55:42 -0800
+
+
+Started GET "/assets/jquery-ui/effect-fold.js?body=1" for ::1 at 2015-11-06 08:55:42 -0800
+
+
+Started GET "/assets/jquery-ui/effect-highlight.js?body=1" for ::1 at 2015-11-06 08:55:42 -0800
+
+
+Started GET "/assets/jquery-ui/effect-size.js?body=1" for ::1 at 2015-11-06 08:55:42 -0800
+
+
+Started GET "/assets/jquery-ui/effect-scale.js?body=1" for ::1 at 2015-11-06 08:55:42 -0800
+
+
+Started GET "/assets/jquery-ui/effect-puff.js?body=1" for ::1 at 2015-11-06 08:55:42 -0800
+
+
+Started GET "/assets/jquery-ui/effect-pulsate.js?body=1" for ::1 at 2015-11-06 08:55:42 -0800
+
+
+Started GET "/assets/jquery-ui/effect-shake.js?body=1" for ::1 at 2015-11-06 08:55:42 -0800
+
+
+Started GET "/assets/jquery-ui/effect-slide.js?body=1" for ::1 at 2015-11-06 08:55:42 -0800
+
+
+Started GET "/assets/jquery-ui/effect-transfer.js?body=1" for ::1 at 2015-11-06 08:55:42 -0800
+
+
+Started GET "/assets/jquery-ui/progressbar.js?body=1" for ::1 at 2015-11-06 08:55:42 -0800
+
+
+Started GET "/assets/jquery-ui/selectable.js?body=1" for ::1 at 2015-11-06 08:55:42 -0800
+
+
+Started GET "/assets/jquery-ui/selectmenu.js?body=1" for ::1 at 2015-11-06 08:55:42 -0800
+
+
+Started GET "/assets/jquery-ui/slider.js?body=1" for ::1 at 2015-11-06 08:55:42 -0800
+
+
+Started GET "/assets/jquery-ui/sortable.js?body=1" for ::1 at 2015-11-06 08:55:42 -0800
+
+
+Started GET "/assets/jquery-ui/spinner.js?body=1" for ::1 at 2015-11-06 08:55:42 -0800
+
+
+Started GET "/assets/jquery-ui/tabs.js?body=1" for ::1 at 2015-11-06 08:55:42 -0800
+
+
+Started GET "/assets/jquery-ui/tooltip.js?body=1" for ::1 at 2015-11-06 08:55:42 -0800
+
+
+Started GET "/assets/jquery-ui.js?body=1" for ::1 at 2015-11-06 08:55:42 -0800
+
+
+Started GET "/assets/development/react.js?body=1" for ::1 at 2015-11-06 08:55:42 -0800
+
+
+Started GET "/assets/react_ujs.js?body=1" for ::1 at 2015-11-06 08:55:42 -0800
+
+
+Started GET "/assets/react_components/_new_todo.js?body=1" for ::1 at 2015-11-06 08:55:42 -0800
+
+
+Started GET "/assets/react_components/_todo.js?body=1" for ::1 at 2015-11-06 08:55:42 -0800
+
+
+Started GET "/assets/react_components/_todo_container.js?body=1" for ::1 at 2015-11-06 08:55:42 -0800
+
+
+Started GET "/assets/react_components/_todos.js?body=1" for ::1 at 2015-11-06 08:55:42 -0800
+
+
+Started GET "/assets/application.js?body=1" for ::1 at 2015-11-06 08:55:42 -0800
+
+
+Started GET "/" for ::1 at 2015-11-06 16:47:16 -0800
+Processing by TodosController#index as HTML
+  [1m[36mTodo Load (0.4ms)[0m  [1mSELECT "todos".* FROM "todos"[0m
+  Rendered todos/index.html.erb within layouts/application (2206.1ms)
+Completed 200 OK in 2421ms (Views: 2413.5ms | ActiveRecord: 1.8ms)
+
+
+Started GET "/assets/todos.css?body=1" for ::1 at 2015-11-06 16:47:18 -0800
+
+
+Started GET "/assets/jquery-ui/widget.js?body=1" for ::1 at 2015-11-06 16:47:18 -0800
+
+
+Started GET "/assets/jquery.js?body=1" for ::1 at 2015-11-06 16:47:18 -0800
+
+
+Started GET "/assets/jquery-ui/accordion.js?body=1" for ::1 at 2015-11-06 16:47:18 -0800
+
+
+Started GET "/assets/jquery-ui/position.js?body=1" for ::1 at 2015-11-06 16:47:18 -0800
+
+
+Started GET "/assets/application.css?body=1" for ::1 at 2015-11-06 16:47:18 -0800
+
+
+Started GET "/assets/jquery-ui/core.js?body=1" for ::1 at 2015-11-06 16:47:18 -0800
+
+
+Started GET "/assets/jquery-ui/menu.js?body=1" for ::1 at 2015-11-06 16:47:18 -0800
+
+
+Started GET "/assets/jquery-ui/autocomplete.js?body=1" for ::1 at 2015-11-06 16:47:18 -0800
+
+
+Started GET "/assets/jquery-ui/button.js?body=1" for ::1 at 2015-11-06 16:47:18 -0800
+
+
+Started GET "/assets/jquery-ui/datepicker.js?body=1" for ::1 at 2015-11-06 16:47:18 -0800
+
+
+Started GET "/assets/jquery-ui/mouse.js?body=1" for ::1 at 2015-11-06 16:47:18 -0800
+
+
+Started GET "/assets/jquery-ui/draggable.js?body=1" for ::1 at 2015-11-06 16:47:18 -0800
+
+
+Started GET "/assets/jquery-ui/resizable.js?body=1" for ::1 at 2015-11-06 16:47:18 -0800
+
+
+Started GET "/assets/jquery-ui/dialog.js?body=1" for ::1 at 2015-11-06 16:47:18 -0800
+
+
+Started GET "/assets/jquery-ui/droppable.js?body=1" for ::1 at 2015-11-06 16:47:18 -0800
+
+
+Started GET "/assets/jquery-ui/effect.js?body=1" for ::1 at 2015-11-06 16:47:18 -0800
+
+
+Started GET "/assets/jquery-ui/effect-blind.js?body=1" for ::1 at 2015-11-06 16:47:18 -0800
+
+
+Started GET "/assets/jquery-ui/effect-bounce.js?body=1" for ::1 at 2015-11-06 16:47:18 -0800
+
+
+Started GET "/assets/jquery-ui/effect-clip.js?body=1" for ::1 at 2015-11-06 16:47:18 -0800
+
+
+Started GET "/assets/jquery-ui/effect-drop.js?body=1" for ::1 at 2015-11-06 16:47:18 -0800
+
+
+Started GET "/assets/jquery-ui/effect-explode.js?body=1" for ::1 at 2015-11-06 16:47:18 -0800
+
+
+Started GET "/assets/jquery-ui/effect-fade.js?body=1" for ::1 at 2015-11-06 16:47:19 -0800
+
+
+Started GET "/assets/jquery-ui/effect-fold.js?body=1" for ::1 at 2015-11-06 16:47:19 -0800
+
+
+Started GET "/assets/jquery-ui/effect-highlight.js?body=1" for ::1 at 2015-11-06 16:47:19 -0800
+
+
+Started GET "/assets/jquery-ui/effect-size.js?body=1" for ::1 at 2015-11-06 16:47:19 -0800
+
+
+Started GET "/assets/jquery-ui/effect-scale.js?body=1" for ::1 at 2015-11-06 16:47:19 -0800
+
+
+Started GET "/assets/jquery-ui/effect-puff.js?body=1" for ::1 at 2015-11-06 16:47:19 -0800
+
+
+Started GET "/assets/jquery-ui/effect-pulsate.js?body=1" for ::1 at 2015-11-06 16:47:19 -0800
+
+
+Started GET "/assets/jquery-ui/effect-shake.js?body=1" for ::1 at 2015-11-06 16:47:19 -0800
+
+
+Started GET "/assets/jquery-ui/effect-slide.js?body=1" for ::1 at 2015-11-06 16:47:19 -0800
+
+
+Started GET "/assets/jquery-ui/effect-transfer.js?body=1" for ::1 at 2015-11-06 16:47:19 -0800
+
+
+Started GET "/assets/jquery-ui/progressbar.js?body=1" for ::1 at 2015-11-06 16:47:19 -0800
+
+
+Started GET "/assets/jquery-ui/selectable.js?body=1" for ::1 at 2015-11-06 16:47:19 -0800
+
+
+Started GET "/assets/jquery-ui/selectmenu.js?body=1" for ::1 at 2015-11-06 16:47:19 -0800
+
+
+Started GET "/assets/jquery-ui/slider.js?body=1" for ::1 at 2015-11-06 16:47:19 -0800
+
+
+Started GET "/assets/jquery-ui/sortable.js?body=1" for ::1 at 2015-11-06 16:47:19 -0800
+
+
+Started GET "/assets/jquery-ui/spinner.js?body=1" for ::1 at 2015-11-06 16:47:19 -0800
+
+
+Started GET "/assets/jquery-ui/tabs.js?body=1" for ::1 at 2015-11-06 16:47:19 -0800
+
+
+Started GET "/assets/jquery-ui/tooltip.js?body=1" for ::1 at 2015-11-06 16:47:19 -0800
+
+
+Started GET "/assets/jquery-ui.js?body=1" for ::1 at 2015-11-06 16:47:19 -0800
+
+
+Started GET "/assets/development/react.js?body=1" for ::1 at 2015-11-06 16:47:19 -0800
+
+
+Started GET "/assets/react_ujs.js?body=1" for ::1 at 2015-11-06 16:47:19 -0800
+
+
+Started GET "/assets/react_components/_new_todo.js?body=1" for ::1 at 2015-11-06 16:47:19 -0800
+
+
+Started GET "/assets/react_components/_todo.js?body=1" for ::1 at 2015-11-06 16:47:19 -0800
+
+
+Started GET "/assets/react_components/_todo_container.js?body=1" for ::1 at 2015-11-06 16:47:19 -0800
+
+
+Started GET "/assets/react_components/_todos.js?body=1" for ::1 at 2015-11-06 16:47:19 -0800
+
+
+Started GET "/assets/application.js?body=1" for ::1 at 2015-11-06 16:47:19 -0800
+
+
+Started GET "/assets/wood-bg.jpg" for ::1 at 2015-11-06 16:47:20 -0800

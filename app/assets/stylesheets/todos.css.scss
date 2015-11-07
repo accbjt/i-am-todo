@@ -30,10 +30,14 @@ li {
   border: 1px solid #E8E8E8;
   border-radius: 5px;
   margin: 8px 0px;
+  &:hover {
+  	box-shadow: 4px 4px 5px rgba(136, 136, 136, 0.56);
+  }
 	input[type="checkbox"] {
     margin: 0px 15px;
     vertical-align: middle;
     height: 35px;
+    cursor: pointer;
 	}
 	input[type="text"] {
 		display: none;

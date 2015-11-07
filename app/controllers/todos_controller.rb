@@ -1,6 +1,7 @@
 class TodosController < ApplicationController
 
   def index
+    # this is for React.js to render server-side
     @presenter = {
       :comments => Todo.all,
       :form => {
@@ -11,47 +12,24 @@ class TodosController < ApplicationController
     }
   end
 
-  def show
-  end
-
-  def new
-    @todo = Todo.new
-  end
-
-  def edit
-  end
-
   def create
     @todo = Todo.new(todo_params)
 
-    respond_to do |format|
-      if @todo.save
-        format.html { redirect_to @todo, notice: 'Todo was successfully created.' }
-        format.json { render action: 'show', status: :created, location: @todo }
-      else
-        format.html { render action: 'new' }
-        format.json { render json: @todo.errors, status: :unprocessable_entity }
-      end
+    if @todo.valid?
+      @todo.save
+      render json: @todo
+    else
+      render json: @todo.errors, status: :unprocessable_entity
     end
   end
 
   def update
-    respond_to do |format|
-      if @todo.update(todo_params)
-        format.html { redirect_to @todo, notice: 'Todo was successfully updated.' }
-        format.json { head :no_content }
-      else
-        format.html { render action: 'edit' }
-        format.json { render json: @todo.errors, status: :unprocessable_entity }
-      end
-    end
-  end
+    @todo = Todo.find(params[:id])
 
-  def destroy
-    @todo.destroy
-    respond_to do |format|
-      format.html { redirect_to todos_url }
-      format.json { head :no_content }
+    if @todo.update_attributes(todo_params)
+      render json: @todo
+    else
+      render json: @todo.errors, status: :unprocessable_entity
     end
   end
 
