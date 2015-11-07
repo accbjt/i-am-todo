@@ -9,6 +9,7 @@ var Todo = React.createClass({
 		}
 	},
 	editTodo: function(e){
+		this.refs.todoInput.value = this.refs.todoText.innerHTML;
 		$(e.currentTarget).siblings('input[type="text"]').show().focus();
 		$(e.currentTarget).hide();
 	},
@@ -17,13 +18,17 @@ var Todo = React.createClass({
 		$(e.currentTarget).siblings('span').show();
 	},
 	updateEntry: function(e){
+		var jsonObject = {todo:{todo:this.refs.todoInput.value}}
+		
 		switch (e.nativeEvent.type) {
 	    case "keyup":
         if(e.keyCode === 13){
+        	this.props.updateData(jsonObject,"todos",this.props.todo.id, this.props.index);
         	this.resetEntry(e);
         }
         break;
 	    case "blur":
+	    	this.refs.todoInput.value = this.refs.todoText.innerHTML
         this.resetEntry(e);
         break;
 		}
@@ -37,7 +42,7 @@ var Todo = React.createClass({
     return (
       <li className="todo">
         <input type="checkbox" onClick={this.checkBoxClick} />
-        <input type="text" defaultValue={this.props.todo.todo} onBlur={this.updateEntry} onKeyUp={this.updateEntry} />
+        <input type="text" ref="todoInput" defaultValue={this.props.todo.todo} onBlur={this.updateEntry} onKeyUp={this.updateEntry} />
         <span ref="todoText" onClick={this.editTodo}>{this.props.todo.todo}</span>
         <div className="delete" onClick={this.destroyEntry}>x</div>
       </li>

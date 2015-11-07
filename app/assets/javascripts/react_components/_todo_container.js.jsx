@@ -14,7 +14,11 @@ var TodoApp = React.createClass({
           success: function (data) {
             var newState = REACT.state.todos;
 
-            newState.splice(REACT.updateDataIndex, 1);
+            if(!data.active){
+              newState.splice(REACT.updateDataIndex, 1);
+            }else{
+              newState.splice(REACT.updateDataIndex, 1, data);
+            }
 
             REACT.setState({todos:newState});
             REACT = null;
