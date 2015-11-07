@@ -15,7 +15,7 @@ var Todos = React.createClass({
     return (
       <ul id="todo-list">
         {todos.map(function(item, i){
-          return <Todo key={i} todo={item} makeSortable={this.makeSortable} createData={this.createData} updateData={this.updateData}/>
+          return <Todo key={i} index={i} todo={item} makeSortable={this.makeSortable} createData={this.props.createData} updateData={this.props.updateData}/>
         }.bind(this))}
       </ul>
     );

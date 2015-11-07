@@ -29,7 +29,8 @@ var Todo = React.createClass({
 		}
 	},
 	destroyEntry: function(e){
-		debugger
+		var jsonObject = {todo: {active:false}}
+		this.props.updateData(jsonObject, "todos", this.props.todo.id, this.props.index);
 	},
   render: function () {
 

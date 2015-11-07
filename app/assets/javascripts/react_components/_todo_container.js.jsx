@@ -3,14 +3,21 @@ var TodoApp = React.createClass({
   getInitialState: function () {
     return JSON.parse(this.props.presenter);
   },
-  updateData: function(data, endpoint, id){
+  updateData: function(data, endpoint, id, index){
+    REACT = this;
+    REACT['updateDataIndex'] = index;
 
     $.ajax({
           url: 'http://localhost:3000/'+endpoint+"/"+id,
           type: 'PUT',
           dataType: 'json',
           success: function (data) {
-            
+            var newState = REACT.state.todos;
+
+            newState.splice(REACT.updateDataIndex, 1);
+
+            REACT.setState({todos:newState});
+            REACT = null;
           },
           data: data
       });

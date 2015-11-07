@@ -4,7 +4,7 @@ class TodosController < ApplicationController
   def index
     # this is for React.js to render server-side
     @presenter = {
-      :todos => Todo.all,
+      :todos => Todo.where("active = true").order("position"),
       :form => {
         :action => todos_path,
         :csrf_param => request_forgery_protection_token,
