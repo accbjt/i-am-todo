@@ -1,9 +1,10 @@
 class TodosController < ApplicationController
+  skip_before_filter :verify_authenticity_token 
 
   def index
     # this is for React.js to render server-side
     @presenter = {
-      :comments => Todo.all,
+      :todos => Todo.all,
       :form => {
         :action => todos_path,
         :csrf_param => request_forgery_protection_token,
@@ -14,6 +15,9 @@ class TodosController < ApplicationController
 
   def create
     @todo = Todo.new(todo_params)
+    @todos = Todo.all
+
+    @todo.position = @todos.count+1
 
     if @todo.valid?
       @todo.save

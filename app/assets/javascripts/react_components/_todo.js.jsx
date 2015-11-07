@@ -32,11 +32,12 @@ var Todo = React.createClass({
 		debugger
 	},
   render: function () {
+
     return (
       <li className="todo">
         <input type="checkbox" onClick={this.checkBoxClick} />
-        <input type="text" defaultValue={this.props.todo} onBlur={this.updateEntry} onKeyUp={this.updateEntry} />
-        <span ref="todoText" onClick={this.editTodo}>{this.props.todo}</span>
+        <input type="text" defaultValue={this.props.todo.todo} onBlur={this.updateEntry} onKeyUp={this.updateEntry} />
+        <span ref="todoText" onClick={this.editTodo}>{this.props.todo.todo}</span>
         <div className="delete" onClick={this.destroyEntry}>x</div>
       </li>
     );

@@ -1,9 +1,10 @@
+var REACT;
 var TodoApp = React.createClass({
   getInitialState: function () {
     return JSON.parse(this.props.presenter);
   },
   updateData: function(data, endpoint, id){
-    debugger
+
     $.ajax({
           url: 'http://localhost:3000/'+endpoint+"/"+id,
           type: 'PUT',
@@ -15,18 +16,24 @@ var TodoApp = React.createClass({
       });
   },
   createData: function(data, endpoint){
-    debugger
-   $.ajax({
+    REACT = this;
+
+    $.ajax({
         url: 'http://localhost:3000/'+endpoint,
         type: 'post',
         dataType: 'json',
         success: function (data) {
-          
+          var newState = REACT.state.todos
+
+          newState.push(data);
+          REACT.setState({todos:newState});
+          REACT = null;
         },
         data: data
-    });
+    })
   },
   render: function () {
+
     return (
       <div>
         <div className="todo-container">

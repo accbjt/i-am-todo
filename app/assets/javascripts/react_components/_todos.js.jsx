@@ -10,10 +10,11 @@ var Todos = React.createClass({
     });
   },
   render: function () {
-    var data = ["This is a Message",2,3,4];
+    var todos = this.props.todos;
+
     return (
       <ul id="todo-list">
-        {data.map(function(item, i){
+        {todos.map(function(item, i){
           return <Todo key={i} todo={item} makeSortable={this.makeSortable} createData={this.createData} updateData={this.updateData}/>
         }.bind(this))}
       </ul>

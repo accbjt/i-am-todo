@@ -3898,3 +3898,375 @@ Processing by TodosController#update as HTML
   [1m[36m (0.2ms)[0m  [1mROLLBACK TO SAVEPOINT active_record_1[0m
 Completed 422 Unprocessable Entity in 5ms (Views: 0.3ms | ActiveRecord: 0.8ms)
   [1m[35m (0.3ms)[0m  ROLLBACK
+  [1m[36mActiveRecord::SchemaMigration Load (0.6ms)[0m  [1mSELECT "schema_migrations".* FROM "schema_migrations"[0m
+  [1m[35m (0.2ms)[0m  BEGIN
+Processing by TodosController#index as HTML
+  Rendered todos/index.html.erb within layouts/application (0.4ms)
+Completed 200 OK in 11ms (Views: 9.6ms | ActiveRecord: 0.0ms)
+  [1m[36m (0.3ms)[0m  [1mROLLBACK[0m
+  [1m[35m (0.2ms)[0m  BEGIN
+  [1m[36m (0.5ms)[0m  [1mSELECT COUNT(*) FROM "todos"[0m
+Processing by TodosController#create as HTML
+  Parameters: {"todo"=>{"done"=>true, "position"=>"1", "todo"=>"this is a new todo", "active"=>true}}
+  [1m[35m (0.3ms)[0m  SAVEPOINT active_record_1
+  [1m[36mSQL (0.6ms)[0m  [1mINSERT INTO "todos" ("done", "position", "todo", "active", "created_at", "updated_at") VALUES ($1, $2, $3, $4, $5, $6) RETURNING "id"[0m  [["done", "t"], ["position", 1], ["todo", "this is a new todo"], ["active", "t"], ["created_at", "2015-11-07 06:25:15.009937"], ["updated_at", "2015-11-07 06:25:15.009937"]]
+  [1m[35m (0.2ms)[0m  RELEASE SAVEPOINT active_record_1
+Completed 200 OK in 16ms (Views: 0.5ms | ActiveRecord: 3.4ms)
+  [1m[36m (0.3ms)[0m  [1mSELECT COUNT(*) FROM "todos"[0m
+  [1m[35m (0.3ms)[0m  ROLLBACK
+  [1m[36m (0.1ms)[0m  [1mBEGIN[0m
+Processing by TodosController#create as HTML
+  Parameters: {"todo"=>{"done"=>true, "position"=>"1", "todo"=>"this is a new todo", "active"=>true}}
+  [1m[35m (0.2ms)[0m  SAVEPOINT active_record_1
+  [1m[36mSQL (0.3ms)[0m  [1mINSERT INTO "todos" ("done", "position", "todo", "active", "created_at", "updated_at") VALUES ($1, $2, $3, $4, $5, $6) RETURNING "id"[0m  [["done", "t"], ["position", 1], ["todo", "this is a new todo"], ["active", "t"], ["created_at", "2015-11-07 06:25:15.021414"], ["updated_at", "2015-11-07 06:25:15.021414"]]
+  [1m[35m (0.2ms)[0m  RELEASE SAVEPOINT active_record_1
+Completed 200 OK in 3ms (Views: 0.3ms | ActiveRecord: 0.7ms)
+  [1m[36m (0.3ms)[0m  [1mROLLBACK[0m
+  [1m[35m (0.1ms)[0m  BEGIN
+  [1m[36m (0.3ms)[0m  [1mSELECT COUNT(*) FROM "todos"[0m
+Processing by TodosController#create as HTML
+  Parameters: {"todo"=>{"done"=>true, "position"=>"1", "todo"=>nil, "active"=>true}}
+Completed 422 Unprocessable Entity in 429ms (Views: 0.2ms | ActiveRecord: 0.0ms)
+  [1m[35m (0.5ms)[0m  SELECT COUNT(*) FROM "todos"
+  [1m[36m (0.3ms)[0m  [1mROLLBACK[0m
+  [1m[35m (0.1ms)[0m  BEGIN
+Processing by TodosController#create as HTML
+  Parameters: {"todo"=>{"done"=>true, "position"=>"1", "todo"=>nil, "active"=>true}}
+Completed 422 Unprocessable Entity in 1ms (Views: 0.2ms | ActiveRecord: 0.0ms)
+  [1m[36m (0.3ms)[0m  [1mROLLBACK[0m
+  [1m[35m (0.1ms)[0m  BEGIN
+  [1m[36m (0.2ms)[0m  [1mSAVEPOINT active_record_1[0m
+  [1m[35mSQL (0.3ms)[0m  INSERT INTO "todos" ("done", "position", "todo", "active", "created_at", "updated_at") VALUES ($1, $2, $3, $4, $5, $6) RETURNING "id"  [["done", "t"], ["position", 1], ["todo", "this is a new todo"], ["active", "t"], ["created_at", "2015-11-07 06:25:15.468612"], ["updated_at", "2015-11-07 06:25:15.468612"]]
+  [1m[36m (0.3ms)[0m  [1mRELEASE SAVEPOINT active_record_1[0m
+Processing by TodosController#update as HTML
+  Parameters: {"todo"=>{"done"=>true, "position"=>"1", "todo"=>"this is a new todo", "active"=>true}, "id"=>"342"}
+  [1m[35mTodo Load (0.3ms)[0m  SELECT  "todos".* FROM "todos" WHERE "todos"."id" = $1 LIMIT 1  [["id", 342]]
+  [1m[36m (0.2ms)[0m  [1mSAVEPOINT active_record_1[0m
+  [1m[35m (0.2ms)[0m  RELEASE SAVEPOINT active_record_1
+Completed 200 OK in 11ms (Views: 0.4ms | ActiveRecord: 0.8ms)
+  [1m[36m (0.2ms)[0m  [1mROLLBACK[0m
+  [1m[35m (0.1ms)[0m  BEGIN
+  [1m[36m (0.2ms)[0m  [1mSAVEPOINT active_record_1[0m
+  [1m[35mSQL (0.4ms)[0m  INSERT INTO "todos" ("done", "position", "todo", "active", "created_at", "updated_at") VALUES ($1, $2, $3, $4, $5, $6) RETURNING "id"  [["done", "t"], ["position", 1], ["todo", "this is a new todo"], ["active", "t"], ["created_at", "2015-11-07 06:25:15.486620"], ["updated_at", "2015-11-07 06:25:15.486620"]]
+  [1m[36m (0.2ms)[0m  [1mRELEASE SAVEPOINT active_record_1[0m
+Processing by TodosController#update as HTML
+  Parameters: {"todo"=>{"done"=>true, "position"=>"3", "todo"=>"This is updated", "active"=>true}, "id"=>"343"}
+  [1m[35mTodo Load (0.4ms)[0m  SELECT  "todos".* FROM "todos" WHERE "todos"."id" = $1 LIMIT 1  [["id", 343]]
+  [1m[36m (0.4ms)[0m  [1mSAVEPOINT active_record_1[0m
+  [1m[35mSQL (0.3ms)[0m  UPDATE "todos" SET "position" = $1, "todo" = $2, "updated_at" = $3 WHERE "todos"."id" = $4  [["position", 3], ["todo", "This is updated"], ["updated_at", "2015-11-07 06:25:15.493294"], ["id", 343]]
+  [1m[36m (0.2ms)[0m  [1mRELEASE SAVEPOINT active_record_1[0m
+Completed 200 OK in 7ms (Views: 0.4ms | ActiveRecord: 1.2ms)
+  [1m[35mTodo Load (0.3ms)[0m  SELECT  "todos".* FROM "todos" WHERE "todos"."id" = $1 LIMIT 1  [["id", 343]]
+  [1m[36m (0.2ms)[0m  [1mROLLBACK[0m
+  [1m[35m (0.1ms)[0m  BEGIN
+  [1m[36m (0.2ms)[0m  [1mSAVEPOINT active_record_1[0m
+  [1m[35mSQL (0.3ms)[0m  INSERT INTO "todos" ("done", "position", "todo", "active", "created_at", "updated_at") VALUES ($1, $2, $3, $4, $5, $6) RETURNING "id"  [["done", "t"], ["position", 1], ["todo", "this is a new todo"], ["active", "t"], ["created_at", "2015-11-07 06:25:15.501253"], ["updated_at", "2015-11-07 06:25:15.501253"]]
+  [1m[36m (0.2ms)[0m  [1mRELEASE SAVEPOINT active_record_1[0m
+Processing by TodosController#update as HTML
+  Parameters: {"todo"=>{"done"=>true, "position"=>"3", "todo"=>"This is updated", "active"=>true}, "id"=>"344"}
+  [1m[35mTodo Load (0.3ms)[0m  SELECT  "todos".* FROM "todos" WHERE "todos"."id" = $1 LIMIT 1  [["id", 344]]
+  [1m[36m (0.2ms)[0m  [1mSAVEPOINT active_record_1[0m
+  [1m[35mSQL (0.4ms)[0m  UPDATE "todos" SET "position" = $1, "todo" = $2, "updated_at" = $3 WHERE "todos"."id" = $4  [["position", 3], ["todo", "This is updated"], ["updated_at", "2015-11-07 06:25:15.506637"], ["id", 344]]
+  [1m[36m (0.2ms)[0m  [1mRELEASE SAVEPOINT active_record_1[0m
+Completed 200 OK in 5ms (Views: 0.4ms | ActiveRecord: 1.1ms)
+  [1m[35m (0.2ms)[0m  ROLLBACK
+  [1m[36m (0.2ms)[0m  [1mBEGIN[0m
+  [1m[35m (0.2ms)[0m  SAVEPOINT active_record_1
+  [1m[36mSQL (0.3ms)[0m  [1mINSERT INTO "todos" ("done", "position", "todo", "active", "created_at", "updated_at") VALUES ($1, $2, $3, $4, $5, $6) RETURNING "id"[0m  [["done", "t"], ["position", 1], ["todo", "this is a new todo"], ["active", "t"], ["created_at", "2015-11-07 06:25:15.512922"], ["updated_at", "2015-11-07 06:25:15.512922"]]
+  [1m[35m (0.1ms)[0m  RELEASE SAVEPOINT active_record_1
+Processing by TodosController#update as HTML
+  Parameters: {"todo"=>{"done"=>true, "position"=>nil, "todo"=>nil, "active"=>true}, "id"=>"345"}
+  [1m[36mTodo Load (0.4ms)[0m  [1mSELECT  "todos".* FROM "todos" WHERE "todos"."id" = $1 LIMIT 1[0m  [["id", 345]]
+  [1m[35m (0.1ms)[0m  SAVEPOINT active_record_1
+  [1m[36m (0.2ms)[0m  [1mROLLBACK TO SAVEPOINT active_record_1[0m
+Completed 422 Unprocessable Entity in 4ms (Views: 0.2ms | ActiveRecord: 0.7ms)
+  [1m[35m (0.2ms)[0m  ROLLBACK
+  [1m[36m (0.1ms)[0m  [1mBEGIN[0m
+  [1m[35m (0.2ms)[0m  SAVEPOINT active_record_1
+  [1m[36mSQL (0.3ms)[0m  [1mINSERT INTO "todos" ("done", "position", "todo", "active", "created_at", "updated_at") VALUES ($1, $2, $3, $4, $5, $6) RETURNING "id"[0m  [["done", "t"], ["position", 1], ["todo", "this is a new todo"], ["active", "t"], ["created_at", "2015-11-07 06:25:15.524239"], ["updated_at", "2015-11-07 06:25:15.524239"]]
+  [1m[35m (0.2ms)[0m  RELEASE SAVEPOINT active_record_1
+Processing by TodosController#update as HTML
+  Parameters: {"todo"=>{"done"=>true, "position"=>nil, "todo"=>nil, "active"=>true}, "id"=>"346"}
+  [1m[36mTodo Load (0.4ms)[0m  [1mSELECT  "todos".* FROM "todos" WHERE "todos"."id" = $1 LIMIT 1[0m  [["id", 346]]
+  [1m[35m (0.2ms)[0m  SAVEPOINT active_record_1
+  [1m[36m (0.3ms)[0m  [1mROLLBACK TO SAVEPOINT active_record_1[0m
+Completed 422 Unprocessable Entity in 6ms (Views: 0.2ms | ActiveRecord: 0.9ms)
+  [1m[35m (0.3ms)[0m  ROLLBACK
+  [1m[36mActiveRecord::SchemaMigration Load (0.8ms)[0m  [1mSELECT "schema_migrations".* FROM "schema_migrations"[0m
+  [1m[35m (0.3ms)[0m  BEGIN
+Processing by TodosController#index as HTML
+  Rendered todos/index.html.erb within layouts/application (0.6ms)
+Completed 200 OK in 61ms (Views: 28.6ms | ActiveRecord: 0.0ms)
+  [1m[36m (0.3ms)[0m  [1mROLLBACK[0m
+  [1m[35m (0.3ms)[0m  BEGIN
+  [1m[36m (0.6ms)[0m  [1mSELECT COUNT(*) FROM "todos"[0m
+Processing by TodosController#create as HTML
+  Parameters: {"todo"=>{"done"=>true, "position"=>"1", "todo"=>"this is a new todo", "active"=>true}}
+  [1m[35m (0.4ms)[0m  SELECT COUNT(*) FROM "todos"
+  [1m[36m (0.3ms)[0m  [1mSAVEPOINT active_record_1[0m
+  [1m[35mSQL (0.8ms)[0m  INSERT INTO "todos" ("done", "position", "todo", "active", "created_at", "updated_at") VALUES ($1, $2, $3, $4, $5, $6) RETURNING "id"  [["done", "t"], ["position", 1], ["todo", "this is a new todo"], ["active", "t"], ["created_at", "2015-11-07 06:31:37.473265"], ["updated_at", "2015-11-07 06:31:37.473265"]]
+  [1m[36m (0.2ms)[0m  [1mRELEASE SAVEPOINT active_record_1[0m
+Completed 200 OK in 30ms (Views: 0.5ms | ActiveRecord: 8.5ms)
+  [1m[35m (0.3ms)[0m  SELECT COUNT(*) FROM "todos"
+  [1m[36m (0.3ms)[0m  [1mROLLBACK[0m
+  [1m[35m (0.2ms)[0m  BEGIN
+Processing by TodosController#create as HTML
+  Parameters: {"todo"=>{"done"=>true, "position"=>"1", "todo"=>"this is a new todo", "active"=>true}}
+  [1m[36m (0.4ms)[0m  [1mSELECT COUNT(*) FROM "todos"[0m
+  [1m[35m (0.2ms)[0m  SAVEPOINT active_record_1
+  [1m[36mSQL (0.3ms)[0m  [1mINSERT INTO "todos" ("done", "position", "todo", "active", "created_at", "updated_at") VALUES ($1, $2, $3, $4, $5, $6) RETURNING "id"[0m  [["done", "t"], ["position", 1], ["todo", "this is a new todo"], ["active", "t"], ["created_at", "2015-11-07 06:31:37.490613"], ["updated_at", "2015-11-07 06:31:37.490613"]]
+  [1m[35m (0.2ms)[0m  RELEASE SAVEPOINT active_record_1
+Completed 200 OK in 5ms (Views: 0.4ms | ActiveRecord: 1.0ms)
+  [1m[36m (0.4ms)[0m  [1mROLLBACK[0m
+  [1m[35m (0.2ms)[0m  BEGIN
+  [1m[36m (0.3ms)[0m  [1mSELECT COUNT(*) FROM "todos"[0m
+Processing by TodosController#create as HTML
+  Parameters: {"todo"=>{"done"=>true, "position"=>"1", "todo"=>nil, "active"=>true}}
+  [1m[35m (0.5ms)[0m  SELECT COUNT(*) FROM "todos"
+Completed 422 Unprocessable Entity in 555ms (Views: 0.2ms | ActiveRecord: 0.5ms)
+  [1m[36m (0.5ms)[0m  [1mSELECT COUNT(*) FROM "todos"[0m
+  [1m[35m (0.5ms)[0m  ROLLBACK
+  [1m[36m (0.2ms)[0m  [1mBEGIN[0m
+Processing by TodosController#create as HTML
+  Parameters: {"todo"=>{"done"=>true, "position"=>"1", "todo"=>nil, "active"=>true}}
+  [1m[35m (0.4ms)[0m  SELECT COUNT(*) FROM "todos"
+Completed 422 Unprocessable Entity in 3ms (Views: 0.2ms | ActiveRecord: 0.4ms)
+  [1m[36m (0.4ms)[0m  [1mROLLBACK[0m
+  [1m[35m (0.2ms)[0m  BEGIN
+  [1m[36m (0.2ms)[0m  [1mSAVEPOINT active_record_1[0m
+  [1m[35mSQL (0.3ms)[0m  INSERT INTO "todos" ("done", "position", "todo", "active", "created_at", "updated_at") VALUES ($1, $2, $3, $4, $5, $6) RETURNING "id"  [["done", "t"], ["position", 1], ["todo", "this is a new todo"], ["active", "t"], ["created_at", "2015-11-07 06:31:38.071623"], ["updated_at", "2015-11-07 06:31:38.071623"]]
+  [1m[36m (0.2ms)[0m  [1mRELEASE SAVEPOINT active_record_1[0m
+Processing by TodosController#update as HTML
+  Parameters: {"todo"=>{"done"=>true, "position"=>"1", "todo"=>"this is a new todo", "active"=>true}, "id"=>"349"}
+  [1m[35mTodo Load (0.6ms)[0m  SELECT  "todos".* FROM "todos" WHERE "todos"."id" = $1 LIMIT 1  [["id", 349]]
+  [1m[36m (0.2ms)[0m  [1mSAVEPOINT active_record_1[0m
+  [1m[35m (0.2ms)[0m  RELEASE SAVEPOINT active_record_1
+Completed 200 OK in 13ms (Views: 0.4ms | ActiveRecord: 1.1ms)
+  [1m[36m (0.2ms)[0m  [1mROLLBACK[0m
+  [1m[35m (0.2ms)[0m  BEGIN
+  [1m[36m (0.3ms)[0m  [1mSAVEPOINT active_record_1[0m
+  [1m[35mSQL (0.5ms)[0m  INSERT INTO "todos" ("done", "position", "todo", "active", "created_at", "updated_at") VALUES ($1, $2, $3, $4, $5, $6) RETURNING "id"  [["done", "t"], ["position", 1], ["todo", "this is a new todo"], ["active", "t"], ["created_at", "2015-11-07 06:31:38.093814"], ["updated_at", "2015-11-07 06:31:38.093814"]]
+  [1m[36m (0.3ms)[0m  [1mRELEASE SAVEPOINT active_record_1[0m
+Processing by TodosController#update as HTML
+  Parameters: {"todo"=>{"done"=>true, "position"=>"3", "todo"=>"This is updated", "active"=>true}, "id"=>"350"}
+  [1m[35mTodo Load (0.4ms)[0m  SELECT  "todos".* FROM "todos" WHERE "todos"."id" = $1 LIMIT 1  [["id", 350]]
+  [1m[36m (0.2ms)[0m  [1mSAVEPOINT active_record_1[0m
+  [1m[35mSQL (0.3ms)[0m  UPDATE "todos" SET "position" = $1, "todo" = $2, "updated_at" = $3 WHERE "todos"."id" = $4  [["position", 3], ["todo", "This is updated"], ["updated_at", "2015-11-07 06:31:38.103178"], ["id", 350]]
+  [1m[36m (0.2ms)[0m  [1mRELEASE SAVEPOINT active_record_1[0m
+Completed 200 OK in 5ms (Views: 0.3ms | ActiveRecord: 1.1ms)
+  [1m[35mTodo Load (0.3ms)[0m  SELECT  "todos".* FROM "todos" WHERE "todos"."id" = $1 LIMIT 1  [["id", 350]]
+  [1m[36m (0.4ms)[0m  [1mROLLBACK[0m
+  [1m[35m (0.3ms)[0m  BEGIN
+  [1m[36m (0.2ms)[0m  [1mSAVEPOINT active_record_1[0m
+  [1m[35mSQL (0.3ms)[0m  INSERT INTO "todos" ("done", "position", "todo", "active", "created_at", "updated_at") VALUES ($1, $2, $3, $4, $5, $6) RETURNING "id"  [["done", "t"], ["position", 1], ["todo", "this is a new todo"], ["active", "t"], ["created_at", "2015-11-07 06:31:38.111789"], ["updated_at", "2015-11-07 06:31:38.111789"]]
+  [1m[36m (0.2ms)[0m  [1mRELEASE SAVEPOINT active_record_1[0m
+Processing by TodosController#update as HTML
+  Parameters: {"todo"=>{"done"=>true, "position"=>"3", "todo"=>"This is updated", "active"=>true}, "id"=>"351"}
+  [1m[35mTodo Load (0.5ms)[0m  SELECT  "todos".* FROM "todos" WHERE "todos"."id" = $1 LIMIT 1  [["id", 351]]
+  [1m[36m (0.2ms)[0m  [1mSAVEPOINT active_record_1[0m
+  [1m[35mSQL (0.4ms)[0m  UPDATE "todos" SET "position" = $1, "todo" = $2, "updated_at" = $3 WHERE "todos"."id" = $4  [["position", 3], ["todo", "This is updated"], ["updated_at", "2015-11-07 06:31:38.117792"], ["id", 351]]
+  [1m[36m (0.2ms)[0m  [1mRELEASE SAVEPOINT active_record_1[0m
+Completed 200 OK in 5ms (Views: 0.4ms | ActiveRecord: 1.3ms)
+  [1m[35m (0.2ms)[0m  ROLLBACK
+  [1m[36m (0.2ms)[0m  [1mBEGIN[0m
+  [1m[35m (0.2ms)[0m  SAVEPOINT active_record_1
+  [1m[36mSQL (0.4ms)[0m  [1mINSERT INTO "todos" ("done", "position", "todo", "active", "created_at", "updated_at") VALUES ($1, $2, $3, $4, $5, $6) RETURNING "id"[0m  [["done", "t"], ["position", 1], ["todo", "this is a new todo"], ["active", "t"], ["created_at", "2015-11-07 06:31:38.124276"], ["updated_at", "2015-11-07 06:31:38.124276"]]
+  [1m[35m (0.3ms)[0m  RELEASE SAVEPOINT active_record_1
+Processing by TodosController#update as HTML
+  Parameters: {"todo"=>{"done"=>true, "position"=>nil, "todo"=>nil, "active"=>true}, "id"=>"352"}
+  [1m[36mTodo Load (0.3ms)[0m  [1mSELECT  "todos".* FROM "todos" WHERE "todos"."id" = $1 LIMIT 1[0m  [["id", 352]]
+  [1m[35m (0.2ms)[0m  SAVEPOINT active_record_1
+  [1m[36m (0.3ms)[0m  [1mROLLBACK TO SAVEPOINT active_record_1[0m
+Completed 422 Unprocessable Entity in 5ms (Views: 0.2ms | ActiveRecord: 0.8ms)
+  [1m[35m (0.2ms)[0m  ROLLBACK
+  [1m[36m (0.2ms)[0m  [1mBEGIN[0m
+  [1m[35m (0.2ms)[0m  SAVEPOINT active_record_1
+  [1m[36mSQL (0.3ms)[0m  [1mINSERT INTO "todos" ("done", "position", "todo", "active", "created_at", "updated_at") VALUES ($1, $2, $3, $4, $5, $6) RETURNING "id"[0m  [["done", "t"], ["position", 1], ["todo", "this is a new todo"], ["active", "t"], ["created_at", "2015-11-07 06:31:38.137104"], ["updated_at", "2015-11-07 06:31:38.137104"]]
+  [1m[35m (0.2ms)[0m  RELEASE SAVEPOINT active_record_1
+Processing by TodosController#update as HTML
+  Parameters: {"todo"=>{"done"=>true, "position"=>nil, "todo"=>nil, "active"=>true}, "id"=>"353"}
+  [1m[36mTodo Load (0.4ms)[0m  [1mSELECT  "todos".* FROM "todos" WHERE "todos"."id" = $1 LIMIT 1[0m  [["id", 353]]
+  [1m[35m (0.3ms)[0m  SAVEPOINT active_record_1
+  [1m[36m (0.2ms)[0m  [1mROLLBACK TO SAVEPOINT active_record_1[0m
+Completed 422 Unprocessable Entity in 5ms (Views: 0.2ms | ActiveRecord: 0.9ms)
+  [1m[35m (0.2ms)[0m  ROLLBACK
+  [1m[36mActiveRecord::SchemaMigration Load (0.5ms)[0m  [1mSELECT "schema_migrations".* FROM "schema_migrations"[0m
+  [1m[35m (0.3ms)[0m  BEGIN
+Processing by TodosController#index as HTML
+  Rendered todos/index.html.erb within layouts/application (0.4ms)
+Completed 200 OK in 13ms (Views: 10.4ms | ActiveRecord: 0.0ms)
+  [1m[36m (0.3ms)[0m  [1mROLLBACK[0m
+  [1m[35m (0.2ms)[0m  BEGIN
+  [1m[36m (0.5ms)[0m  [1mSELECT COUNT(*) FROM "todos"[0m
+Processing by TodosController#create as HTML
+  Parameters: {"todo"=>{"done"=>true, "position"=>"1", "todo"=>"this is a new todo", "active"=>true}}
+  [1m[35m (0.5ms)[0m  SELECT COUNT(*) FROM "todos"
+Completed 500 Internal Server Error in 12ms (ActiveRecord: 3.3ms)
+  [1m[36m (0.2ms)[0m  [1mROLLBACK[0m
+  [1m[35m (0.1ms)[0m  BEGIN
+Processing by TodosController#create as HTML
+  Parameters: {"todo"=>{"done"=>true, "position"=>"1", "todo"=>"this is a new todo", "active"=>true}}
+  [1m[36m (0.4ms)[0m  [1mSELECT COUNT(*) FROM "todos"[0m
+Completed 500 Internal Server Error in 3ms (ActiveRecord: 0.4ms)
+  [1m[35m (0.2ms)[0m  ROLLBACK
+  [1m[36m (0.1ms)[0m  [1mBEGIN[0m
+  [1m[35m (0.4ms)[0m  SELECT COUNT(*) FROM "todos"
+Processing by TodosController#create as HTML
+  Parameters: {"todo"=>{"done"=>true, "position"=>"1", "todo"=>nil, "active"=>true}}
+  [1m[36m (0.4ms)[0m  [1mSELECT COUNT(*) FROM "todos"[0m
+Completed 500 Internal Server Error in 3ms (ActiveRecord: 0.4ms)
+  [1m[35m (0.3ms)[0m  ROLLBACK
+  [1m[36m (0.2ms)[0m  [1mBEGIN[0m
+Processing by TodosController#create as HTML
+  Parameters: {"todo"=>{"done"=>true, "position"=>"1", "todo"=>nil, "active"=>true}}
+  [1m[35m (0.5ms)[0m  SELECT COUNT(*) FROM "todos"
+Completed 500 Internal Server Error in 4ms (ActiveRecord: 0.5ms)
+  [1m[36m (0.2ms)[0m  [1mROLLBACK[0m
+  [1m[35m (0.1ms)[0m  BEGIN
+  [1m[36m (0.2ms)[0m  [1mSAVEPOINT active_record_1[0m
+  [1m[35mSQL (0.7ms)[0m  INSERT INTO "todos" ("done", "position", "todo", "active", "created_at", "updated_at") VALUES ($1, $2, $3, $4, $5, $6) RETURNING "id"  [["done", "t"], ["position", 1], ["todo", "this is a new todo"], ["active", "t"], ["created_at", "2015-11-07 06:32:26.485796"], ["updated_at", "2015-11-07 06:32:26.485796"]]
+  [1m[36m (0.2ms)[0m  [1mRELEASE SAVEPOINT active_record_1[0m
+Processing by TodosController#update as HTML
+  Parameters: {"todo"=>{"done"=>true, "position"=>"1", "todo"=>"this is a new todo", "active"=>true}, "id"=>"354"}
+  [1m[35mTodo Load (0.3ms)[0m  SELECT  "todos".* FROM "todos" WHERE "todos"."id" = $1 LIMIT 1  [["id", 354]]
+  [1m[36m (0.2ms)[0m  [1mSAVEPOINT active_record_1[0m
+  [1m[35m (0.2ms)[0m  RELEASE SAVEPOINT active_record_1
+Completed 200 OK in 11ms (Views: 0.7ms | ActiveRecord: 0.7ms)
+  [1m[36m (0.3ms)[0m  [1mROLLBACK[0m
+  [1m[35m (0.1ms)[0m  BEGIN
+  [1m[36m (0.2ms)[0m  [1mSAVEPOINT active_record_1[0m
+  [1m[35mSQL (0.5ms)[0m  INSERT INTO "todos" ("done", "position", "todo", "active", "created_at", "updated_at") VALUES ($1, $2, $3, $4, $5, $6) RETURNING "id"  [["done", "t"], ["position", 1], ["todo", "this is a new todo"], ["active", "t"], ["created_at", "2015-11-07 06:32:26.509879"], ["updated_at", "2015-11-07 06:32:26.509879"]]
+  [1m[36m (0.2ms)[0m  [1mRELEASE SAVEPOINT active_record_1[0m
+Processing by TodosController#update as HTML
+  Parameters: {"todo"=>{"done"=>true, "position"=>"3", "todo"=>"This is updated", "active"=>true}, "id"=>"355"}
+  [1m[35mTodo Load (0.4ms)[0m  SELECT  "todos".* FROM "todos" WHERE "todos"."id" = $1 LIMIT 1  [["id", 355]]
+  [1m[36m (0.2ms)[0m  [1mSAVEPOINT active_record_1[0m
+  [1m[35mSQL (0.3ms)[0m  UPDATE "todos" SET "position" = $1, "todo" = $2, "updated_at" = $3 WHERE "todos"."id" = $4  [["position", 3], ["todo", "This is updated"], ["updated_at", "2015-11-07 06:32:26.517533"], ["id", 355]]
+  [1m[36m (0.2ms)[0m  [1mRELEASE SAVEPOINT active_record_1[0m
+Completed 200 OK in 6ms (Views: 0.5ms | ActiveRecord: 1.1ms)
+  [1m[35mTodo Load (0.3ms)[0m  SELECT  "todos".* FROM "todos" WHERE "todos"."id" = $1 LIMIT 1  [["id", 355]]
+  [1m[36m (0.2ms)[0m  [1mROLLBACK[0m
+  [1m[35m (0.1ms)[0m  BEGIN
+  [1m[36m (0.2ms)[0m  [1mSAVEPOINT active_record_1[0m
+  [1m[35mSQL (0.3ms)[0m  INSERT INTO "todos" ("done", "position", "todo", "active", "created_at", "updated_at") VALUES ($1, $2, $3, $4, $5, $6) RETURNING "id"  [["done", "t"], ["position", 1], ["todo", "this is a new todo"], ["active", "t"], ["created_at", "2015-11-07 06:32:26.526345"], ["updated_at", "2015-11-07 06:32:26.526345"]]
+  [1m[36m (0.2ms)[0m  [1mRELEASE SAVEPOINT active_record_1[0m
+Processing by TodosController#update as HTML
+  Parameters: {"todo"=>{"done"=>true, "position"=>"3", "todo"=>"This is updated", "active"=>true}, "id"=>"356"}
+  [1m[35mTodo Load (0.4ms)[0m  SELECT  "todos".* FROM "todos" WHERE "todos"."id" = $1 LIMIT 1  [["id", 356]]
+  [1m[36m (0.2ms)[0m  [1mSAVEPOINT active_record_1[0m
+  [1m[35mSQL (0.4ms)[0m  UPDATE "todos" SET "position" = $1, "todo" = $2, "updated_at" = $3 WHERE "todos"."id" = $4  [["position", 3], ["todo", "This is updated"], ["updated_at", "2015-11-07 06:32:26.533678"], ["id", 356]]
+  [1m[36m (0.2ms)[0m  [1mRELEASE SAVEPOINT active_record_1[0m
+Completed 200 OK in 5ms (Views: 0.6ms | ActiveRecord: 1.1ms)
+  [1m[35m (0.2ms)[0m  ROLLBACK
+  [1m[36m (0.2ms)[0m  [1mBEGIN[0m
+  [1m[35m (0.2ms)[0m  SAVEPOINT active_record_1
+  [1m[36mSQL (0.3ms)[0m  [1mINSERT INTO "todos" ("done", "position", "todo", "active", "created_at", "updated_at") VALUES ($1, $2, $3, $4, $5, $6) RETURNING "id"[0m  [["done", "t"], ["position", 1], ["todo", "this is a new todo"], ["active", "t"], ["created_at", "2015-11-07 06:32:26.540953"], ["updated_at", "2015-11-07 06:32:26.540953"]]
+  [1m[35m (0.2ms)[0m  RELEASE SAVEPOINT active_record_1
+Processing by TodosController#update as HTML
+  Parameters: {"todo"=>{"done"=>true, "position"=>nil, "todo"=>nil, "active"=>true}, "id"=>"357"}
+  [1m[36mTodo Load (0.4ms)[0m  [1mSELECT  "todos".* FROM "todos" WHERE "todos"."id" = $1 LIMIT 1[0m  [["id", 357]]
+  [1m[35m (0.2ms)[0m  SAVEPOINT active_record_1
+  [1m[36m (0.3ms)[0m  [1mROLLBACK TO SAVEPOINT active_record_1[0m
+Completed 422 Unprocessable Entity in 646ms (Views: 0.2ms | ActiveRecord: 0.8ms)
+  [1m[35m (0.3ms)[0m  ROLLBACK
+  [1m[36m (0.2ms)[0m  [1mBEGIN[0m
+  [1m[35m (0.2ms)[0m  SAVEPOINT active_record_1
+  [1m[36mSQL (0.4ms)[0m  [1mINSERT INTO "todos" ("done", "position", "todo", "active", "created_at", "updated_at") VALUES ($1, $2, $3, $4, $5, $6) RETURNING "id"[0m  [["done", "t"], ["position", 1], ["todo", "this is a new todo"], ["active", "t"], ["created_at", "2015-11-07 06:32:27.195791"], ["updated_at", "2015-11-07 06:32:27.195791"]]
+  [1m[35m (0.2ms)[0m  RELEASE SAVEPOINT active_record_1
+Processing by TodosController#update as HTML
+  Parameters: {"todo"=>{"done"=>true, "position"=>nil, "todo"=>nil, "active"=>true}, "id"=>"358"}
+  [1m[36mTodo Load (0.4ms)[0m  [1mSELECT  "todos".* FROM "todos" WHERE "todos"."id" = $1 LIMIT 1[0m  [["id", 358]]
+  [1m[35m (0.2ms)[0m  SAVEPOINT active_record_1
+  [1m[36m (0.3ms)[0m  [1mROLLBACK TO SAVEPOINT active_record_1[0m
+Completed 422 Unprocessable Entity in 6ms (Views: 0.2ms | ActiveRecord: 0.9ms)
+  [1m[35m (0.2ms)[0m  ROLLBACK
+  [1m[36mActiveRecord::SchemaMigration Load (0.6ms)[0m  [1mSELECT "schema_migrations".* FROM "schema_migrations"[0m
+  [1m[35m (0.3ms)[0m  BEGIN
+Processing by TodosController#index as HTML
+  Rendered todos/index.html.erb within layouts/application (0.6ms)
+Completed 200 OK in 19ms (Views: 16.9ms | ActiveRecord: 0.0ms)
+  [1m[36m (0.4ms)[0m  [1mROLLBACK[0m
+  [1m[35m (0.2ms)[0m  BEGIN
+  [1m[36m (0.7ms)[0m  [1mSELECT COUNT(*) FROM "todos"[0m
+Processing by TodosController#create as HTML
+  Parameters: {"todo"=>{"done"=>true, "position"=>"1", "todo"=>"this is a new todo", "active"=>true}}
+  [1m[35m (0.4ms)[0m  SELECT COUNT(*) FROM "todos"
+Completed 500 Internal Server Error in 12ms (ActiveRecord: 2.5ms)
+  [1m[36m (0.3ms)[0m  [1mROLLBACK[0m
+  [1m[35m (0.2ms)[0m  BEGIN
+Processing by TodosController#create as HTML
+  Parameters: {"todo"=>{"done"=>true, "position"=>"1", "todo"=>"this is a new todo", "active"=>true}}
+  [1m[36m (0.6ms)[0m  [1mSELECT COUNT(*) FROM "todos"[0m
+Completed 500 Internal Server Error in 3ms (ActiveRecord: 0.6ms)
+  [1m[35m (0.3ms)[0m  ROLLBACK
+  [1m[36m (0.2ms)[0m  [1mBEGIN[0m
+  [1m[35m (0.4ms)[0m  SELECT COUNT(*) FROM "todos"
+Processing by TodosController#create as HTML
+  Parameters: {"todo"=>{"done"=>true, "position"=>"1", "todo"=>nil, "active"=>true}}
+  [1m[36m (0.4ms)[0m  [1mSELECT COUNT(*) FROM "todos"[0m
+Completed 500 Internal Server Error in 3ms (ActiveRecord: 0.4ms)
+  [1m[35m (0.2ms)[0m  ROLLBACK
+  [1m[36m (0.2ms)[0m  [1mBEGIN[0m
+Processing by TodosController#create as HTML
+  Parameters: {"todo"=>{"done"=>true, "position"=>"1", "todo"=>nil, "active"=>true}}
+  [1m[35m (0.4ms)[0m  SELECT COUNT(*) FROM "todos"
+Completed 500 Internal Server Error in 3ms (ActiveRecord: 0.4ms)
+  [1m[36m (0.2ms)[0m  [1mROLLBACK[0m
+  [1m[35m (0.2ms)[0m  BEGIN
+  [1m[36m (0.2ms)[0m  [1mSAVEPOINT active_record_1[0m
+  [1m[35mSQL (0.6ms)[0m  INSERT INTO "todos" ("done", "position", "todo", "active", "created_at", "updated_at") VALUES ($1, $2, $3, $4, $5, $6) RETURNING "id"  [["done", "t"], ["position", 1], ["todo", "this is a new todo"], ["active", "t"], ["created_at", "2015-11-07 06:32:28.826496"], ["updated_at", "2015-11-07 06:32:28.826496"]]
+  [1m[36m (0.2ms)[0m  [1mRELEASE SAVEPOINT active_record_1[0m
+Processing by TodosController#update as HTML
+  Parameters: {"todo"=>{"done"=>true, "position"=>"1", "todo"=>"this is a new todo", "active"=>true}, "id"=>"359"}
+  [1m[35mTodo Load (0.3ms)[0m  SELECT  "todos".* FROM "todos" WHERE "todos"."id" = $1 LIMIT 1  [["id", 359]]
+  [1m[36m (0.2ms)[0m  [1mSAVEPOINT active_record_1[0m
+  [1m[35m (0.2ms)[0m  RELEASE SAVEPOINT active_record_1
+Completed 200 OK in 11ms (Views: 0.6ms | ActiveRecord: 0.8ms)
+  [1m[36m (0.2ms)[0m  [1mROLLBACK[0m
+  [1m[35m (0.1ms)[0m  BEGIN
+  [1m[36m (0.2ms)[0m  [1mSAVEPOINT active_record_1[0m
+  [1m[35mSQL (0.4ms)[0m  INSERT INTO "todos" ("done", "position", "todo", "active", "created_at", "updated_at") VALUES ($1, $2, $3, $4, $5, $6) RETURNING "id"  [["done", "t"], ["position", 1], ["todo", "this is a new todo"], ["active", "t"], ["created_at", "2015-11-07 06:32:28.851853"], ["updated_at", "2015-11-07 06:32:28.851853"]]
+  [1m[36m (0.2ms)[0m  [1mRELEASE SAVEPOINT active_record_1[0m
+Processing by TodosController#update as HTML
+  Parameters: {"todo"=>{"done"=>true, "position"=>"3", "todo"=>"This is updated", "active"=>true}, "id"=>"360"}
+  [1m[35mTodo Load (0.4ms)[0m  SELECT  "todos".* FROM "todos" WHERE "todos"."id" = $1 LIMIT 1  [["id", 360]]
+  [1m[36m (0.2ms)[0m  [1mSAVEPOINT active_record_1[0m
+  [1m[35mSQL (0.3ms)[0m  UPDATE "todos" SET "position" = $1, "todo" = $2, "updated_at" = $3 WHERE "todos"."id" = $4  [["position", 3], ["todo", "This is updated"], ["updated_at", "2015-11-07 06:32:28.857545"], ["id", 360]]
+  [1m[36m (0.2ms)[0m  [1mRELEASE SAVEPOINT active_record_1[0m
+Completed 200 OK in 5ms (Views: 0.4ms | ActiveRecord: 1.1ms)
+  [1m[35mTodo Load (0.3ms)[0m  SELECT  "todos".* FROM "todos" WHERE "todos"."id" = $1 LIMIT 1  [["id", 360]]
+  [1m[36m (0.2ms)[0m  [1mROLLBACK[0m
+  [1m[35m (0.2ms)[0m  BEGIN
+  [1m[36m (0.2ms)[0m  [1mSAVEPOINT active_record_1[0m
+  [1m[35mSQL (0.3ms)[0m  INSERT INTO "todos" ("done", "position", "todo", "active", "created_at", "updated_at") VALUES ($1, $2, $3, $4, $5, $6) RETURNING "id"  [["done", "t"], ["position", 1], ["todo", "this is a new todo"], ["active", "t"], ["created_at", "2015-11-07 06:32:28.865152"], ["updated_at", "2015-11-07 06:32:28.865152"]]
+  [1m[36m (0.2ms)[0m  [1mRELEASE SAVEPOINT active_record_1[0m
+Processing by TodosController#update as HTML
+  Parameters: {"todo"=>{"done"=>true, "position"=>"3", "todo"=>"This is updated", "active"=>true}, "id"=>"361"}
+  [1m[35mTodo Load (0.4ms)[0m  SELECT  "todos".* FROM "todos" WHERE "todos"."id" = $1 LIMIT 1  [["id", 361]]
+  [1m[36m (0.2ms)[0m  [1mSAVEPOINT active_record_1[0m
+  [1m[35mSQL (0.4ms)[0m  UPDATE "todos" SET "position" = $1, "todo" = $2, "updated_at" = $3 WHERE "todos"."id" = $4  [["position", 3], ["todo", "This is updated"], ["updated_at", "2015-11-07 06:32:28.871020"], ["id", 361]]
+  [1m[36m (0.2ms)[0m  [1mRELEASE SAVEPOINT active_record_1[0m
+Completed 200 OK in 4ms (Views: 0.4ms | ActiveRecord: 1.1ms)
+  [1m[35m (0.2ms)[0m  ROLLBACK
+  [1m[36m (0.1ms)[0m  [1mBEGIN[0m
+  [1m[35m (0.2ms)[0m  SAVEPOINT active_record_1
+  [1m[36mSQL (0.3ms)[0m  [1mINSERT INTO "todos" ("done", "position", "todo", "active", "created_at", "updated_at") VALUES ($1, $2, $3, $4, $5, $6) RETURNING "id"[0m  [["done", "t"], ["position", 1], ["todo", "this is a new todo"], ["active", "t"], ["created_at", "2015-11-07 06:32:28.876754"], ["updated_at", "2015-11-07 06:32:28.876754"]]
+  [1m[35m (0.2ms)[0m  RELEASE SAVEPOINT active_record_1
+Processing by TodosController#update as HTML
+  Parameters: {"todo"=>{"done"=>true, "position"=>nil, "todo"=>nil, "active"=>true}, "id"=>"362"}
+  [1m[36mTodo Load (0.3ms)[0m  [1mSELECT  "todos".* FROM "todos" WHERE "todos"."id" = $1 LIMIT 1[0m  [["id", 362]]
+  [1m[35m (0.2ms)[0m  SAVEPOINT active_record_1
+  [1m[36m (0.3ms)[0m  [1mROLLBACK TO SAVEPOINT active_record_1[0m
+Completed 422 Unprocessable Entity in 423ms (Views: 0.3ms | ActiveRecord: 0.7ms)
+  [1m[35m (0.3ms)[0m  ROLLBACK
+  [1m[36m (0.1ms)[0m  [1mBEGIN[0m
+  [1m[35m (0.2ms)[0m  SAVEPOINT active_record_1
+  [1m[36mSQL (0.3ms)[0m  [1mINSERT INTO "todos" ("done", "position", "todo", "active", "created_at", "updated_at") VALUES ($1, $2, $3, $4, $5, $6) RETURNING "id"[0m  [["done", "t"], ["position", 1], ["todo", "this is a new todo"], ["active", "t"], ["created_at", "2015-11-07 06:32:29.305883"], ["updated_at", "2015-11-07 06:32:29.305883"]]
+  [1m[35m (0.2ms)[0m  RELEASE SAVEPOINT active_record_1
+Processing by TodosController#update as HTML
+  Parameters: {"todo"=>{"done"=>true, "position"=>nil, "todo"=>nil, "active"=>true}, "id"=>"363"}
+  [1m[36mTodo Load (0.4ms)[0m  [1mSELECT  "todos".* FROM "todos" WHERE "todos"."id" = $1 LIMIT 1[0m  [["id", 363]]
+  [1m[35m (0.2ms)[0m  SAVEPOINT active_record_1
+  [1m[36m (0.3ms)[0m  [1mROLLBACK TO SAVEPOINT active_record_1[0m
+Completed 422 Unprocessable Entity in 5ms (Views: 0.3ms | ActiveRecord: 0.8ms)
+  [1m[35m (0.2ms)[0m  ROLLBACK
