@@ -49002,3 +49002,5075 @@ Started GET "/assets/react_components/_todos.js?body=1" for ::1 at 2015-11-07 02
 
 
 Started GET "/assets/application.js?body=1" for ::1 at 2015-11-07 02:18:37 -0800
+
+
+Started GET "/" for ::1 at 2015-11-07 02:19:53 -0800
+Processing by TodosController#index as HTML
+  [1m[35mTodo Load (0.5ms)[0m  SELECT "todos".* FROM "todos" WHERE (active = true)  ORDER BY position
+  Rendered todos/index.html.erb within layouts/application (1283.7ms)
+Completed 200 OK in 1407ms (Views: 1401.6ms | ActiveRecord: 2.5ms)
+
+
+Started GET "/assets/application.css?body=1" for ::1 at 2015-11-07 02:19:54 -0800
+
+
+Started GET "/assets/todos.css?body=1" for ::1 at 2015-11-07 02:19:54 -0800
+
+
+Started GET "/assets/jquery-ui/widget.js?body=1" for ::1 at 2015-11-07 02:19:54 -0800
+
+
+Started GET "/assets/jquery.js?body=1" for ::1 at 2015-11-07 02:19:54 -0800
+
+
+Started GET "/assets/jquery-ui/accordion.js?body=1" for ::1 at 2015-11-07 02:19:54 -0800
+
+
+Started GET "/assets/jquery-ui/core.js?body=1" for ::1 at 2015-11-07 02:19:54 -0800
+
+
+Started GET "/assets/jquery-ui/position.js?body=1" for ::1 at 2015-11-07 02:19:54 -0800
+
+
+Started GET "/assets/jquery-ui/menu.js?body=1" for ::1 at 2015-11-07 02:19:54 -0800
+
+
+Started GET "/assets/jquery-ui/autocomplete.js?body=1" for ::1 at 2015-11-07 02:19:54 -0800
+
+
+Started GET "/assets/jquery-ui/button.js?body=1" for ::1 at 2015-11-07 02:19:54 -0800
+
+
+Started GET "/assets/jquery-ui/datepicker.js?body=1" for ::1 at 2015-11-07 02:19:54 -0800
+
+
+Started GET "/assets/jquery-ui/mouse.js?body=1" for ::1 at 2015-11-07 02:19:54 -0800
+
+
+Started GET "/assets/jquery-ui/draggable.js?body=1" for ::1 at 2015-11-07 02:19:54 -0800
+
+
+Started GET "/assets/jquery-ui/resizable.js?body=1" for ::1 at 2015-11-07 02:19:54 -0800
+
+
+Started GET "/assets/jquery-ui/dialog.js?body=1" for ::1 at 2015-11-07 02:19:54 -0800
+
+
+Started GET "/assets/jquery-ui/droppable.js?body=1" for ::1 at 2015-11-07 02:19:55 -0800
+
+
+Started GET "/assets/jquery-ui/effect.js?body=1" for ::1 at 2015-11-07 02:19:55 -0800
+
+
+Started GET "/assets/jquery-ui/effect-blind.js?body=1" for ::1 at 2015-11-07 02:19:55 -0800
+
+
+Started GET "/assets/jquery-ui/effect-bounce.js?body=1" for ::1 at 2015-11-07 02:19:55 -0800
+
+
+Started GET "/assets/jquery-ui/effect-clip.js?body=1" for ::1 at 2015-11-07 02:19:55 -0800
+
+
+Started GET "/assets/jquery-ui/effect-drop.js?body=1" for ::1 at 2015-11-07 02:19:55 -0800
+
+
+Started GET "/assets/jquery-ui/effect-explode.js?body=1" for ::1 at 2015-11-07 02:19:55 -0800
+
+
+Started GET "/assets/jquery-ui/effect-fade.js?body=1" for ::1 at 2015-11-07 02:19:55 -0800
+
+
+Started GET "/assets/jquery-ui/effect-fold.js?body=1" for ::1 at 2015-11-07 02:19:55 -0800
+
+
+Started GET "/assets/jquery-ui/effect-highlight.js?body=1" for ::1 at 2015-11-07 02:19:55 -0800
+
+
+Started GET "/assets/jquery-ui/effect-size.js?body=1" for ::1 at 2015-11-07 02:19:55 -0800
+
+
+Started GET "/assets/jquery-ui/effect-scale.js?body=1" for ::1 at 2015-11-07 02:19:55 -0800
+
+
+Started GET "/assets/jquery-ui/effect-puff.js?body=1" for ::1 at 2015-11-07 02:19:55 -0800
+
+
+Started GET "/assets/jquery-ui/effect-pulsate.js?body=1" for ::1 at 2015-11-07 02:19:55 -0800
+
+
+Started GET "/assets/jquery-ui/effect-shake.js?body=1" for ::1 at 2015-11-07 02:19:55 -0800
+
+
+Started GET "/assets/jquery-ui/effect-slide.js?body=1" for ::1 at 2015-11-07 02:19:55 -0800
+
+
+Started GET "/assets/jquery-ui/effect-transfer.js?body=1" for ::1 at 2015-11-07 02:19:55 -0800
+
+
+Started GET "/assets/jquery-ui/progressbar.js?body=1" for ::1 at 2015-11-07 02:19:55 -0800
+
+
+Started GET "/assets/jquery-ui/selectable.js?body=1" for ::1 at 2015-11-07 02:19:55 -0800
+
+
+Started GET "/assets/jquery-ui/selectmenu.js?body=1" for ::1 at 2015-11-07 02:19:55 -0800
+
+
+Started GET "/assets/jquery-ui/slider.js?body=1" for ::1 at 2015-11-07 02:19:55 -0800
+
+
+Started GET "/assets/jquery-ui/sortable.js?body=1" for ::1 at 2015-11-07 02:19:55 -0800
+
+
+Started GET "/assets/jquery-ui/spinner.js?body=1" for ::1 at 2015-11-07 02:19:55 -0800
+
+
+Started GET "/assets/jquery-ui/tabs.js?body=1" for ::1 at 2015-11-07 02:19:55 -0800
+
+
+Started GET "/assets/jquery-ui/tooltip.js?body=1" for ::1 at 2015-11-07 02:19:55 -0800
+
+
+Started GET "/assets/jquery-ui.js?body=1" for ::1 at 2015-11-07 02:19:55 -0800
+
+
+Started GET "/assets/development/react.js?body=1" for ::1 at 2015-11-07 02:19:55 -0800
+
+
+Started GET "/assets/react_ujs.js?body=1" for ::1 at 2015-11-07 02:19:55 -0800
+
+
+Started GET "/assets/react_components/_new_todo.js?body=1" for ::1 at 2015-11-07 02:19:55 -0800
+
+
+Started GET "/assets/react_components/_todo.js?body=1" for ::1 at 2015-11-07 02:19:55 -0800
+
+
+Started GET "/assets/react_components/_todo_container.js?body=1" for ::1 at 2015-11-07 02:19:55 -0800
+
+
+Started GET "/assets/react_components/_todos.js?body=1" for ::1 at 2015-11-07 02:19:55 -0800
+
+
+Started GET "/assets/application.js?body=1" for ::1 at 2015-11-07 02:19:55 -0800
+
+
+Started POST "/todos" for ::1 at 2015-11-07 02:20:01 -0800
+Processing by TodosController#create as JSON
+  Parameters: {"todo"=>{"todo"=>".samdla"}}
+  [1m[36m (0.4ms)[0m  [1mSELECT COUNT(*) FROM "todos"[0m
+  [1m[35m (0.2ms)[0m  BEGIN
+  [1m[36mSQL (0.4ms)[0m  [1mINSERT INTO "todos" ("todo", "position", "created_at", "updated_at") VALUES ($1, $2, $3, $4) RETURNING "id"[0m  [["todo", ".samdla"], ["position", 20], ["created_at", "2015-11-07 10:20:01.497236"], ["updated_at", "2015-11-07 10:20:01.497236"]]
+  [1m[35m (6.7ms)[0m  COMMIT
+Completed 200 OK in 13ms (Views: 0.5ms | ActiveRecord: 7.7ms)
+
+
+Started GET "/" for ::1 at 2015-11-07 02:22:07 -0800
+Processing by TodosController#index as HTML
+  [1m[36mTodo Load (0.9ms)[0m  [1mSELECT "todos".* FROM "todos" WHERE (active = true)  ORDER BY position[0m
+  Rendered todos/index.html.erb within layouts/application (1368.6ms)
+Completed 200 OK in 1592ms (Views: 1582.6ms | ActiveRecord: 4.6ms)
+
+
+Started GET "/assets/application.css?body=1" for ::1 at 2015-11-07 02:22:09 -0800
+
+
+Started GET "/assets/jquery.js?body=1" for ::1 at 2015-11-07 02:22:09 -0800
+
+
+Started GET "/assets/todos.css?body=1" for ::1 at 2015-11-07 02:22:09 -0800
+
+
+Started GET "/assets/jquery-ui/widget.js?body=1" for ::1 at 2015-11-07 02:22:09 -0800
+
+
+Started GET "/assets/jquery-ui/accordion.js?body=1" for ::1 at 2015-11-07 02:22:09 -0800
+
+
+Started GET "/assets/jquery-ui/core.js?body=1" for ::1 at 2015-11-07 02:22:09 -0800
+
+
+Started GET "/assets/jquery-ui/position.js?body=1" for ::1 at 2015-11-07 02:22:09 -0800
+
+
+Started GET "/assets/jquery-ui/menu.js?body=1" for ::1 at 2015-11-07 02:22:09 -0800
+
+
+Started GET "/assets/jquery-ui/autocomplete.js?body=1" for ::1 at 2015-11-07 02:22:09 -0800
+
+
+Started GET "/assets/jquery-ui/button.js?body=1" for ::1 at 2015-11-07 02:22:09 -0800
+
+
+Started GET "/assets/jquery-ui/datepicker.js?body=1" for ::1 at 2015-11-07 02:22:09 -0800
+
+
+Started GET "/assets/jquery-ui/mouse.js?body=1" for ::1 at 2015-11-07 02:22:09 -0800
+
+
+Started GET "/assets/jquery-ui/draggable.js?body=1" for ::1 at 2015-11-07 02:22:09 -0800
+
+
+Started GET "/assets/jquery-ui/resizable.js?body=1" for ::1 at 2015-11-07 02:22:09 -0800
+
+
+Started GET "/assets/jquery-ui/dialog.js?body=1" for ::1 at 2015-11-07 02:22:09 -0800
+
+
+Started GET "/assets/jquery-ui/droppable.js?body=1" for ::1 at 2015-11-07 02:22:09 -0800
+
+
+Started GET "/assets/jquery-ui/effect.js?body=1" for ::1 at 2015-11-07 02:22:09 -0800
+
+
+Started GET "/assets/jquery-ui/effect-blind.js?body=1" for ::1 at 2015-11-07 02:22:09 -0800
+
+
+Started GET "/assets/jquery-ui/effect-bounce.js?body=1" for ::1 at 2015-11-07 02:22:09 -0800
+
+
+Started GET "/assets/jquery-ui/effect-clip.js?body=1" for ::1 at 2015-11-07 02:22:09 -0800
+
+
+Started GET "/assets/jquery-ui/effect-drop.js?body=1" for ::1 at 2015-11-07 02:22:09 -0800
+
+
+Started GET "/assets/jquery-ui/effect-explode.js?body=1" for ::1 at 2015-11-07 02:22:09 -0800
+
+
+Started GET "/assets/jquery-ui/effect-fade.js?body=1" for ::1 at 2015-11-07 02:22:09 -0800
+
+
+Started GET "/assets/jquery-ui/effect-highlight.js?body=1" for ::1 at 2015-11-07 02:22:09 -0800
+
+
+Started GET "/assets/jquery-ui/effect-fold.js?body=1" for ::1 at 2015-11-07 02:22:09 -0800
+
+
+Started GET "/assets/jquery-ui/effect-size.js?body=1" for ::1 at 2015-11-07 02:22:09 -0800
+
+
+Started GET "/assets/jquery-ui/effect-scale.js?body=1" for ::1 at 2015-11-07 02:22:09 -0800
+
+
+Started GET "/assets/jquery-ui/effect-puff.js?body=1" for ::1 at 2015-11-07 02:22:09 -0800
+
+
+Started GET "/assets/jquery-ui/effect-pulsate.js?body=1" for ::1 at 2015-11-07 02:22:09 -0800
+
+
+Started GET "/assets/jquery-ui/effect-shake.js?body=1" for ::1 at 2015-11-07 02:22:09 -0800
+
+
+Started GET "/assets/jquery-ui/effect-slide.js?body=1" for ::1 at 2015-11-07 02:22:09 -0800
+
+
+Started GET "/assets/jquery-ui/progressbar.js?body=1" for ::1 at 2015-11-07 02:22:09 -0800
+
+
+Started GET "/assets/jquery-ui/effect-transfer.js?body=1" for ::1 at 2015-11-07 02:22:09 -0800
+
+
+Started GET "/assets/jquery-ui/selectable.js?body=1" for ::1 at 2015-11-07 02:22:09 -0800
+
+
+Started GET "/assets/jquery-ui/selectmenu.js?body=1" for ::1 at 2015-11-07 02:22:09 -0800
+
+
+Started GET "/assets/jquery-ui/slider.js?body=1" for ::1 at 2015-11-07 02:22:09 -0800
+
+
+Started GET "/assets/jquery-ui/sortable.js?body=1" for ::1 at 2015-11-07 02:22:09 -0800
+
+
+Started GET "/assets/jquery-ui/spinner.js?body=1" for ::1 at 2015-11-07 02:22:09 -0800
+
+
+Started GET "/assets/jquery-ui/tabs.js?body=1" for ::1 at 2015-11-07 02:22:09 -0800
+
+
+Started GET "/assets/jquery-ui/tooltip.js?body=1" for ::1 at 2015-11-07 02:22:09 -0800
+
+
+Started GET "/assets/jquery-ui.js?body=1" for ::1 at 2015-11-07 02:22:09 -0800
+
+
+Started GET "/assets/development/react.js?body=1" for ::1 at 2015-11-07 02:22:09 -0800
+
+
+Started GET "/assets/react_ujs.js?body=1" for ::1 at 2015-11-07 02:22:09 -0800
+
+
+Started GET "/assets/react_components/_new_todo.js?body=1" for ::1 at 2015-11-07 02:22:09 -0800
+
+
+Started GET "/assets/react_components/_todo.js?body=1" for ::1 at 2015-11-07 02:22:09 -0800
+
+
+Started GET "/assets/react_components/_todo_container.js?body=1" for ::1 at 2015-11-07 02:22:09 -0800
+
+
+Started GET "/assets/react_components/_todos.js?body=1" for ::1 at 2015-11-07 02:22:09 -0800
+
+
+Started GET "/assets/application.js?body=1" for ::1 at 2015-11-07 02:22:09 -0800
+
+
+Started GET "/" for ::1 at 2015-11-07 02:22:14 -0800
+Processing by TodosController#index as HTML
+  [1m[35mTodo Load (0.5ms)[0m  SELECT "todos".* FROM "todos" WHERE (active = true)  ORDER BY position
+  Rendered todos/index.html.erb within layouts/application (225.0ms)
+Completed 200 OK in 248ms (Views: 246.3ms | ActiveRecord: 0.5ms)
+
+
+Started GET "/assets/application.css?body=1" for ::1 at 2015-11-07 02:22:14 -0800
+
+
+Started GET "/assets/jquery-ui/widget.js?body=1" for ::1 at 2015-11-07 02:22:14 -0800
+
+
+Started GET "/assets/jquery.js?body=1" for ::1 at 2015-11-07 02:22:14 -0800
+
+
+Started GET "/assets/todos.css?body=1" for ::1 at 2015-11-07 02:22:14 -0800
+
+
+Started GET "/assets/jquery-ui/core.js?body=1" for ::1 at 2015-11-07 02:22:14 -0800
+
+
+Started GET "/assets/jquery-ui/accordion.js?body=1" for ::1 at 2015-11-07 02:22:14 -0800
+
+
+Started GET "/assets/jquery-ui/position.js?body=1" for ::1 at 2015-11-07 02:22:14 -0800
+
+
+Started GET "/assets/jquery-ui/menu.js?body=1" for ::1 at 2015-11-07 02:22:14 -0800
+
+
+Started GET "/assets/jquery-ui/autocomplete.js?body=1" for ::1 at 2015-11-07 02:22:14 -0800
+
+
+Started GET "/assets/jquery-ui/button.js?body=1" for ::1 at 2015-11-07 02:22:14 -0800
+
+
+Started GET "/assets/jquery-ui/datepicker.js?body=1" for ::1 at 2015-11-07 02:22:14 -0800
+
+
+Started GET "/assets/jquery-ui/mouse.js?body=1" for ::1 at 2015-11-07 02:22:14 -0800
+
+
+Started GET "/assets/jquery-ui/draggable.js?body=1" for ::1 at 2015-11-07 02:22:14 -0800
+
+
+Started GET "/assets/jquery-ui/resizable.js?body=1" for ::1 at 2015-11-07 02:22:14 -0800
+
+
+Started GET "/assets/jquery-ui/dialog.js?body=1" for ::1 at 2015-11-07 02:22:14 -0800
+
+
+Started GET "/assets/jquery-ui/droppable.js?body=1" for ::1 at 2015-11-07 02:22:14 -0800
+
+
+Started GET "/assets/jquery-ui/effect.js?body=1" for ::1 at 2015-11-07 02:22:14 -0800
+
+
+Started GET "/assets/jquery-ui/effect-blind.js?body=1" for ::1 at 2015-11-07 02:22:14 -0800
+
+
+Started GET "/assets/jquery-ui/effect-bounce.js?body=1" for ::1 at 2015-11-07 02:22:14 -0800
+
+
+Started GET "/assets/jquery-ui/effect-clip.js?body=1" for ::1 at 2015-11-07 02:22:14 -0800
+
+
+Started GET "/assets/jquery-ui/effect-drop.js?body=1" for ::1 at 2015-11-07 02:22:14 -0800
+
+
+Started GET "/assets/jquery-ui/effect-explode.js?body=1" for ::1 at 2015-11-07 02:22:14 -0800
+
+
+Started GET "/assets/jquery-ui/effect-fade.js?body=1" for ::1 at 2015-11-07 02:22:14 -0800
+
+
+Started GET "/assets/jquery-ui/effect-fold.js?body=1" for ::1 at 2015-11-07 02:22:14 -0800
+
+
+Started GET "/assets/jquery-ui/effect-highlight.js?body=1" for ::1 at 2015-11-07 02:22:14 -0800
+
+
+Started GET "/assets/jquery-ui/effect-size.js?body=1" for ::1 at 2015-11-07 02:22:14 -0800
+
+
+Started GET "/assets/jquery-ui/effect-scale.js?body=1" for ::1 at 2015-11-07 02:22:14 -0800
+
+
+Started GET "/assets/jquery-ui/effect-pulsate.js?body=1" for ::1 at 2015-11-07 02:22:14 -0800
+
+
+Started GET "/assets/jquery-ui/effect-puff.js?body=1" for ::1 at 2015-11-07 02:22:14 -0800
+
+
+Started GET "/assets/jquery-ui/effect-shake.js?body=1" for ::1 at 2015-11-07 02:22:14 -0800
+
+
+Started GET "/assets/jquery-ui/effect-slide.js?body=1" for ::1 at 2015-11-07 02:22:14 -0800
+
+
+Started GET "/assets/jquery-ui/effect-transfer.js?body=1" for ::1 at 2015-11-07 02:22:15 -0800
+
+
+Started GET "/assets/jquery-ui/progressbar.js?body=1" for ::1 at 2015-11-07 02:22:15 -0800
+
+
+Started GET "/assets/jquery-ui/selectable.js?body=1" for ::1 at 2015-11-07 02:22:15 -0800
+
+
+Started GET "/assets/jquery-ui/selectmenu.js?body=1" for ::1 at 2015-11-07 02:22:15 -0800
+
+
+Started GET "/assets/jquery-ui/slider.js?body=1" for ::1 at 2015-11-07 02:22:15 -0800
+
+
+Started GET "/assets/jquery-ui/sortable.js?body=1" for ::1 at 2015-11-07 02:22:15 -0800
+
+
+Started GET "/assets/jquery-ui/spinner.js?body=1" for ::1 at 2015-11-07 02:22:15 -0800
+
+
+Started GET "/assets/jquery-ui/tooltip.js?body=1" for ::1 at 2015-11-07 02:22:15 -0800
+
+
+Started GET "/assets/jquery-ui/tabs.js?body=1" for ::1 at 2015-11-07 02:22:15 -0800
+
+
+Started GET "/assets/jquery-ui.js?body=1" for ::1 at 2015-11-07 02:22:15 -0800
+
+
+Started GET "/assets/development/react.js?body=1" for ::1 at 2015-11-07 02:22:15 -0800
+
+
+Started GET "/assets/react_ujs.js?body=1" for ::1 at 2015-11-07 02:22:15 -0800
+
+
+Started GET "/assets/react_components/_todo.js?body=1" for ::1 at 2015-11-07 02:22:15 -0800
+
+
+Started GET "/assets/react_components/_new_todo.js?body=1" for ::1 at 2015-11-07 02:22:15 -0800
+
+
+Started GET "/assets/react_components/_todo_container.js?body=1" for ::1 at 2015-11-07 02:22:15 -0800
+
+
+Started GET "/assets/application.js?body=1" for ::1 at 2015-11-07 02:22:15 -0800
+
+
+Started GET "/assets/react_components/_todos.js?body=1" for ::1 at 2015-11-07 02:22:15 -0800
+
+
+Started POST "/todos" for ::1 at 2015-11-07 02:22:18 -0800
+Processing by TodosController#create as JSON
+  Parameters: {"todo"=>{"todo"=>"lsdal;d"}}
+  [1m[36m (0.5ms)[0m  [1mSELECT COUNT(*) FROM "todos"[0m
+  [1m[35m (0.2ms)[0m  BEGIN
+  [1m[36mSQL (0.3ms)[0m  [1mINSERT INTO "todos" ("todo", "position", "created_at", "updated_at") VALUES ($1, $2, $3, $4) RETURNING "id"[0m  [["todo", "lsdal;d"], ["position", 21], ["created_at", "2015-11-07 10:22:18.545054"], ["updated_at", "2015-11-07 10:22:18.545054"]]
+  [1m[35m (0.5ms)[0m  COMMIT
+Completed 200 OK in 5ms (Views: 0.4ms | ActiveRecord: 1.4ms)
+
+
+Started GET "/" for ::1 at 2015-11-07 02:22:22 -0800
+Processing by TodosController#index as HTML
+  [1m[36mTodo Load (0.6ms)[0m  [1mSELECT "todos".* FROM "todos" WHERE (active = true)  ORDER BY position[0m
+  Rendered todos/index.html.erb within layouts/application (230.4ms)
+Completed 200 OK in 254ms (Views: 252.5ms | ActiveRecord: 0.6ms)
+
+
+Started GET "/assets/application.css?body=1" for ::1 at 2015-11-07 02:22:22 -0800
+
+
+Started GET "/assets/todos.css?body=1" for ::1 at 2015-11-07 02:22:22 -0800
+
+
+Started GET "/assets/jquery-ui/widget.js?body=1" for ::1 at 2015-11-07 02:22:22 -0800
+
+
+Started GET "/assets/jquery-ui/core.js?body=1" for ::1 at 2015-11-07 02:22:22 -0800
+
+
+Started GET "/assets/jquery.js?body=1" for ::1 at 2015-11-07 02:22:22 -0800
+
+
+Started GET "/assets/jquery-ui/accordion.js?body=1" for ::1 at 2015-11-07 02:22:22 -0800
+
+
+Started GET "/assets/jquery-ui/position.js?body=1" for ::1 at 2015-11-07 02:22:22 -0800
+
+
+Started GET "/assets/jquery-ui/menu.js?body=1" for ::1 at 2015-11-07 02:22:22 -0800
+
+
+Started GET "/assets/jquery-ui/autocomplete.js?body=1" for ::1 at 2015-11-07 02:22:22 -0800
+
+
+Started GET "/assets/jquery-ui/button.js?body=1" for ::1 at 2015-11-07 02:22:22 -0800
+
+
+Started GET "/assets/jquery-ui/datepicker.js?body=1" for ::1 at 2015-11-07 02:22:22 -0800
+
+
+Started GET "/assets/jquery-ui/mouse.js?body=1" for ::1 at 2015-11-07 02:22:22 -0800
+
+
+Started GET "/assets/jquery-ui/draggable.js?body=1" for ::1 at 2015-11-07 02:22:22 -0800
+
+
+Started GET "/assets/jquery-ui/resizable.js?body=1" for ::1 at 2015-11-07 02:22:22 -0800
+
+
+Started GET "/assets/jquery-ui/dialog.js?body=1" for ::1 at 2015-11-07 02:22:22 -0800
+
+
+Started GET "/assets/jquery-ui/droppable.js?body=1" for ::1 at 2015-11-07 02:22:22 -0800
+
+
+Started GET "/assets/jquery-ui/effect.js?body=1" for ::1 at 2015-11-07 02:22:22 -0800
+
+
+Started GET "/assets/jquery-ui/effect-blind.js?body=1" for ::1 at 2015-11-07 02:22:22 -0800
+
+
+Started GET "/assets/jquery-ui/effect-bounce.js?body=1" for ::1 at 2015-11-07 02:22:22 -0800
+
+
+Started GET "/assets/jquery-ui/effect-clip.js?body=1" for ::1 at 2015-11-07 02:22:22 -0800
+
+
+Started GET "/assets/jquery-ui/effect-drop.js?body=1" for ::1 at 2015-11-07 02:22:22 -0800
+
+
+Started GET "/assets/jquery-ui/effect-explode.js?body=1" for ::1 at 2015-11-07 02:22:22 -0800
+
+
+Started GET "/assets/jquery-ui/effect-fade.js?body=1" for ::1 at 2015-11-07 02:22:22 -0800
+
+
+Started GET "/assets/jquery-ui/effect-fold.js?body=1" for ::1 at 2015-11-07 02:22:22 -0800
+
+
+Started GET "/assets/jquery-ui/effect-highlight.js?body=1" for ::1 at 2015-11-07 02:22:22 -0800
+
+
+Started GET "/assets/jquery-ui/effect-size.js?body=1" for ::1 at 2015-11-07 02:22:22 -0800
+
+
+Started GET "/assets/jquery-ui/effect-scale.js?body=1" for ::1 at 2015-11-07 02:22:22 -0800
+
+
+Started GET "/assets/jquery-ui/effect-pulsate.js?body=1" for ::1 at 2015-11-07 02:22:23 -0800
+
+
+Started GET "/assets/jquery-ui/effect-puff.js?body=1" for ::1 at 2015-11-07 02:22:23 -0800
+
+
+Started GET "/assets/jquery-ui/effect-shake.js?body=1" for ::1 at 2015-11-07 02:22:23 -0800
+
+
+Started GET "/assets/jquery-ui/effect-slide.js?body=1" for ::1 at 2015-11-07 02:22:23 -0800
+
+
+Started GET "/assets/jquery-ui/effect-transfer.js?body=1" for ::1 at 2015-11-07 02:22:23 -0800
+
+
+Started GET "/assets/jquery-ui/progressbar.js?body=1" for ::1 at 2015-11-07 02:22:23 -0800
+
+
+Started GET "/assets/jquery-ui/selectable.js?body=1" for ::1 at 2015-11-07 02:22:23 -0800
+
+
+Started GET "/assets/jquery-ui/selectmenu.js?body=1" for ::1 at 2015-11-07 02:22:23 -0800
+
+
+Started GET "/assets/jquery-ui/slider.js?body=1" for ::1 at 2015-11-07 02:22:23 -0800
+
+
+Started GET "/assets/jquery-ui/spinner.js?body=1" for ::1 at 2015-11-07 02:22:23 -0800
+
+
+Started GET "/assets/jquery-ui/sortable.js?body=1" for ::1 at 2015-11-07 02:22:23 -0800
+
+
+Started GET "/assets/jquery-ui/tabs.js?body=1" for ::1 at 2015-11-07 02:22:23 -0800
+
+
+Started GET "/assets/jquery-ui/tooltip.js?body=1" for ::1 at 2015-11-07 02:22:23 -0800
+
+
+Started GET "/assets/development/react.js?body=1" for ::1 at 2015-11-07 02:22:23 -0800
+
+
+Started GET "/assets/jquery-ui.js?body=1" for ::1 at 2015-11-07 02:22:23 -0800
+
+
+Started GET "/assets/react_ujs.js?body=1" for ::1 at 2015-11-07 02:22:23 -0800
+
+
+Started GET "/assets/react_components/_new_todo.js?body=1" for ::1 at 2015-11-07 02:22:23 -0800
+
+
+Started GET "/assets/react_components/_todo.js?body=1" for ::1 at 2015-11-07 02:22:23 -0800
+
+
+Started GET "/assets/react_components/_todo_container.js?body=1" for ::1 at 2015-11-07 02:22:23 -0800
+
+
+Started GET "/assets/react_components/_todos.js?body=1" for ::1 at 2015-11-07 02:22:23 -0800
+
+
+Started GET "/assets/application.js?body=1" for ::1 at 2015-11-07 02:22:23 -0800
+
+
+Started PUT "/todos/42" for ::1 at 2015-11-07 02:22:43 -0800
+Processing by TodosController#update as JSON
+  Parameters: {"todo"=>{"todo"=>".samdlasakljdla"}, "id"=>"42"}
+  [1m[35mTodo Load (0.4ms)[0m  SELECT  "todos".* FROM "todos" WHERE "todos"."id" = $1 LIMIT 1  [["id", 42]]
+  [1m[36m (0.2ms)[0m  [1mBEGIN[0m
+  [1m[35mSQL (0.3ms)[0m  UPDATE "todos" SET "todo" = $1, "updated_at" = $2 WHERE "todos"."id" = $3  [["todo", ".samdlasakljdla"], ["updated_at", "2015-11-07 10:22:43.922643"], ["id", 42]]
+  [1m[36m (0.4ms)[0m  [1mCOMMIT[0m
+Completed 200 OK in 7ms (Views: 0.5ms | ActiveRecord: 1.2ms)
+
+
+Started GET "/" for ::1 at 2015-11-07 02:22:47 -0800
+Processing by TodosController#index as HTML
+  [1m[35mTodo Load (0.6ms)[0m  SELECT "todos".* FROM "todos" WHERE (active = true)  ORDER BY position
+  Rendered todos/index.html.erb within layouts/application (223.6ms)
+Completed 200 OK in 245ms (Views: 243.5ms | ActiveRecord: 0.6ms)
+
+
+Started GET "/assets/application.css?body=1" for ::1 at 2015-11-07 02:22:47 -0800
+
+
+Started GET "/assets/todos.css?body=1" for ::1 at 2015-11-07 02:22:47 -0800
+
+
+Started GET "/assets/jquery-ui/core.js?body=1" for ::1 at 2015-11-07 02:22:47 -0800
+
+
+Started GET "/assets/jquery-ui/widget.js?body=1" for ::1 at 2015-11-07 02:22:47 -0800
+
+
+Started GET "/assets/jquery.js?body=1" for ::1 at 2015-11-07 02:22:47 -0800
+
+
+Started GET "/assets/jquery-ui/accordion.js?body=1" for ::1 at 2015-11-07 02:22:47 -0800
+
+
+Started GET "/assets/jquery-ui/position.js?body=1" for ::1 at 2015-11-07 02:22:47 -0800
+
+
+Started GET "/assets/jquery-ui/menu.js?body=1" for ::1 at 2015-11-07 02:22:47 -0800
+
+
+Started GET "/assets/jquery-ui/autocomplete.js?body=1" for ::1 at 2015-11-07 02:22:47 -0800
+
+
+Started GET "/assets/jquery-ui/button.js?body=1" for ::1 at 2015-11-07 02:22:47 -0800
+
+
+Started GET "/assets/jquery-ui/datepicker.js?body=1" for ::1 at 2015-11-07 02:22:47 -0800
+
+
+Started GET "/assets/jquery-ui/mouse.js?body=1" for ::1 at 2015-11-07 02:22:47 -0800
+
+
+Started GET "/assets/jquery-ui/draggable.js?body=1" for ::1 at 2015-11-07 02:22:47 -0800
+
+
+Started GET "/assets/jquery-ui/resizable.js?body=1" for ::1 at 2015-11-07 02:22:47 -0800
+
+
+Started GET "/assets/jquery-ui/dialog.js?body=1" for ::1 at 2015-11-07 02:22:47 -0800
+
+
+Started GET "/assets/jquery-ui/droppable.js?body=1" for ::1 at 2015-11-07 02:22:47 -0800
+
+
+Started GET "/assets/jquery-ui/effect.js?body=1" for ::1 at 2015-11-07 02:22:47 -0800
+
+
+Started GET "/assets/jquery-ui/effect-blind.js?body=1" for ::1 at 2015-11-07 02:22:47 -0800
+
+
+Started GET "/assets/jquery-ui/effect-bounce.js?body=1" for ::1 at 2015-11-07 02:22:48 -0800
+
+
+Started GET "/assets/jquery-ui/effect-clip.js?body=1" for ::1 at 2015-11-07 02:22:48 -0800
+
+
+Started GET "/assets/jquery-ui/effect-drop.js?body=1" for ::1 at 2015-11-07 02:22:48 -0800
+
+
+Started GET "/assets/jquery-ui/effect-explode.js?body=1" for ::1 at 2015-11-07 02:22:48 -0800
+
+
+Started GET "/assets/jquery-ui/effect-fade.js?body=1" for ::1 at 2015-11-07 02:22:48 -0800
+
+
+Started GET "/assets/jquery-ui/effect-fold.js?body=1" for ::1 at 2015-11-07 02:22:48 -0800
+
+
+Started GET "/assets/jquery-ui/effect-highlight.js?body=1" for ::1 at 2015-11-07 02:22:48 -0800
+
+
+Started GET "/assets/jquery-ui/effect-size.js?body=1" for ::1 at 2015-11-07 02:22:48 -0800
+
+
+Started GET "/assets/jquery-ui/effect-scale.js?body=1" for ::1 at 2015-11-07 02:22:48 -0800
+
+
+Started GET "/assets/jquery-ui/effect-puff.js?body=1" for ::1 at 2015-11-07 02:22:48 -0800
+
+
+Started GET "/assets/jquery-ui/effect-pulsate.js?body=1" for ::1 at 2015-11-07 02:22:48 -0800
+
+
+Started GET "/assets/jquery-ui/effect-shake.js?body=1" for ::1 at 2015-11-07 02:22:48 -0800
+
+
+Started GET "/assets/jquery-ui/effect-transfer.js?body=1" for ::1 at 2015-11-07 02:22:48 -0800
+
+
+Started GET "/assets/jquery-ui/effect-slide.js?body=1" for ::1 at 2015-11-07 02:22:48 -0800
+
+
+Started GET "/assets/jquery-ui/progressbar.js?body=1" for ::1 at 2015-11-07 02:22:48 -0800
+
+
+Started GET "/assets/jquery-ui/selectable.js?body=1" for ::1 at 2015-11-07 02:22:48 -0800
+
+
+Started GET "/assets/jquery-ui/selectmenu.js?body=1" for ::1 at 2015-11-07 02:22:48 -0800
+
+
+Started GET "/assets/jquery-ui/slider.js?body=1" for ::1 at 2015-11-07 02:22:48 -0800
+
+
+Started GET "/assets/jquery-ui/sortable.js?body=1" for ::1 at 2015-11-07 02:22:48 -0800
+
+
+Started GET "/assets/jquery-ui/spinner.js?body=1" for ::1 at 2015-11-07 02:22:48 -0800
+
+
+Started GET "/assets/jquery-ui/tabs.js?body=1" for ::1 at 2015-11-07 02:22:48 -0800
+
+
+Started GET "/assets/jquery-ui/tooltip.js?body=1" for ::1 at 2015-11-07 02:22:48 -0800
+
+
+Started GET "/assets/jquery-ui.js?body=1" for ::1 at 2015-11-07 02:22:48 -0800
+
+
+Started GET "/assets/development/react.js?body=1" for ::1 at 2015-11-07 02:22:48 -0800
+
+
+Started GET "/assets/react_ujs.js?body=1" for ::1 at 2015-11-07 02:22:48 -0800
+
+
+Started GET "/assets/react_components/_new_todo.js?body=1" for ::1 at 2015-11-07 02:22:48 -0800
+
+
+Started GET "/assets/react_components/_todo.js?body=1" for ::1 at 2015-11-07 02:22:48 -0800
+
+
+Started GET "/assets/react_components/_todo_container.js?body=1" for ::1 at 2015-11-07 02:22:48 -0800
+
+
+Started GET "/assets/react_components/_todos.js?body=1" for ::1 at 2015-11-07 02:22:48 -0800
+
+
+Started GET "/assets/application.js?body=1" for ::1 at 2015-11-07 02:22:48 -0800
+
+
+Started PUT "/todos/42" for ::1 at 2015-11-07 02:22:49 -0800
+Processing by TodosController#update as JSON
+  Parameters: {"todo"=>{"active"=>"false"}, "id"=>"42"}
+  [1m[36mTodo Load (0.4ms)[0m  [1mSELECT  "todos".* FROM "todos" WHERE "todos"."id" = $1 LIMIT 1[0m  [["id", 42]]
+  [1m[35m (0.2ms)[0m  BEGIN
+  [1m[36mSQL (0.3ms)[0m  [1mUPDATE "todos" SET "active" = $1, "updated_at" = $2 WHERE "todos"."id" = $3[0m  [["active", "f"], ["updated_at", "2015-11-07 10:22:49.612509"], ["id", 42]]
+  [1m[35m (7.0ms)[0m  COMMIT
+Completed 200 OK in 12ms (Views: 0.6ms | ActiveRecord: 7.9ms)
+
+
+Started GET "/" for ::1 at 2015-11-07 02:22:52 -0800
+Processing by TodosController#index as HTML
+  [1m[36mTodo Load (0.8ms)[0m  [1mSELECT "todos".* FROM "todos" WHERE (active = true)  ORDER BY position[0m
+  Rendered todos/index.html.erb within layouts/application (226.9ms)
+Completed 200 OK in 250ms (Views: 248.7ms | ActiveRecord: 0.8ms)
+
+
+Started GET "/assets/todos.css?body=1" for ::1 at 2015-11-07 02:22:52 -0800
+
+
+Started GET "/assets/application.css?body=1" for ::1 at 2015-11-07 02:22:52 -0800
+
+
+Started GET "/assets/jquery.js?body=1" for ::1 at 2015-11-07 02:22:52 -0800
+
+
+Started GET "/assets/jquery-ui/core.js?body=1" for ::1 at 2015-11-07 02:22:52 -0800
+
+
+Started GET "/assets/jquery-ui/accordion.js?body=1" for ::1 at 2015-11-07 02:22:52 -0800
+
+
+Started GET "/assets/jquery-ui/widget.js?body=1" for ::1 at 2015-11-07 02:22:52 -0800
+
+
+Started GET "/assets/jquery-ui/position.js?body=1" for ::1 at 2015-11-07 02:22:52 -0800
+
+
+Started GET "/assets/jquery-ui/menu.js?body=1" for ::1 at 2015-11-07 02:22:52 -0800
+
+
+Started GET "/assets/jquery-ui/autocomplete.js?body=1" for ::1 at 2015-11-07 02:22:52 -0800
+
+
+Started GET "/assets/jquery-ui/button.js?body=1" for ::1 at 2015-11-07 02:22:52 -0800
+
+
+Started GET "/assets/jquery-ui/datepicker.js?body=1" for ::1 at 2015-11-07 02:22:52 -0800
+
+
+Started GET "/assets/jquery-ui/mouse.js?body=1" for ::1 at 2015-11-07 02:22:52 -0800
+
+
+Started GET "/assets/jquery-ui/draggable.js?body=1" for ::1 at 2015-11-07 02:22:52 -0800
+
+
+Started GET "/assets/jquery-ui/resizable.js?body=1" for ::1 at 2015-11-07 02:22:52 -0800
+
+
+Started GET "/assets/jquery-ui/dialog.js?body=1" for ::1 at 2015-11-07 02:22:52 -0800
+
+
+Started GET "/assets/jquery-ui/droppable.js?body=1" for ::1 at 2015-11-07 02:22:52 -0800
+
+
+Started GET "/assets/jquery-ui/effect.js?body=1" for ::1 at 2015-11-07 02:22:52 -0800
+
+
+Started GET "/assets/jquery-ui/effect-blind.js?body=1" for ::1 at 2015-11-07 02:22:52 -0800
+
+
+Started GET "/assets/jquery-ui/effect-bounce.js?body=1" for ::1 at 2015-11-07 02:22:52 -0800
+
+
+Started GET "/assets/jquery-ui/effect-clip.js?body=1" for ::1 at 2015-11-07 02:22:52 -0800
+
+
+Started GET "/assets/jquery-ui/effect-drop.js?body=1" for ::1 at 2015-11-07 02:22:52 -0800
+
+
+Started GET "/assets/jquery-ui/effect-explode.js?body=1" for ::1 at 2015-11-07 02:22:52 -0800
+
+
+Started GET "/assets/jquery-ui/effect-fade.js?body=1" for ::1 at 2015-11-07 02:22:52 -0800
+
+
+Started GET "/assets/jquery-ui/effect-fold.js?body=1" for ::1 at 2015-11-07 02:22:52 -0800
+
+
+Started GET "/assets/jquery-ui/effect-highlight.js?body=1" for ::1 at 2015-11-07 02:22:52 -0800
+
+
+Started GET "/assets/jquery-ui/effect-scale.js?body=1" for ::1 at 2015-11-07 02:22:52 -0800
+
+
+Started GET "/assets/jquery-ui/effect-size.js?body=1" for ::1 at 2015-11-07 02:22:52 -0800
+
+
+Started GET "/assets/jquery-ui/effect-puff.js?body=1" for ::1 at 2015-11-07 02:22:52 -0800
+
+
+Started GET "/assets/jquery-ui/effect-pulsate.js?body=1" for ::1 at 2015-11-07 02:22:52 -0800
+
+
+Started GET "/assets/jquery-ui/effect-shake.js?body=1" for ::1 at 2015-11-07 02:22:52 -0800
+
+
+Started GET "/assets/jquery-ui/effect-slide.js?body=1" for ::1 at 2015-11-07 02:22:52 -0800
+
+
+Started GET "/assets/jquery-ui/effect-transfer.js?body=1" for ::1 at 2015-11-07 02:22:53 -0800
+
+
+Started GET "/assets/jquery-ui/progressbar.js?body=1" for ::1 at 2015-11-07 02:22:53 -0800
+
+
+Started GET "/assets/jquery-ui/selectable.js?body=1" for ::1 at 2015-11-07 02:22:53 -0800
+
+
+Started GET "/assets/jquery-ui/selectmenu.js?body=1" for ::1 at 2015-11-07 02:22:53 -0800
+
+
+Started GET "/assets/jquery-ui/slider.js?body=1" for ::1 at 2015-11-07 02:22:53 -0800
+
+
+Started GET "/assets/jquery-ui/sortable.js?body=1" for ::1 at 2015-11-07 02:22:53 -0800
+
+
+Started GET "/assets/jquery-ui/spinner.js?body=1" for ::1 at 2015-11-07 02:22:53 -0800
+
+
+Started GET "/assets/jquery-ui/tabs.js?body=1" for ::1 at 2015-11-07 02:22:53 -0800
+
+
+Started GET "/assets/jquery-ui/tooltip.js?body=1" for ::1 at 2015-11-07 02:22:53 -0800
+
+
+Started GET "/assets/jquery-ui.js?body=1" for ::1 at 2015-11-07 02:22:53 -0800
+
+
+Started GET "/assets/development/react.js?body=1" for ::1 at 2015-11-07 02:22:53 -0800
+
+
+Started GET "/assets/react_ujs.js?body=1" for ::1 at 2015-11-07 02:22:53 -0800
+
+
+Started GET "/assets/react_components/_new_todo.js?body=1" for ::1 at 2015-11-07 02:22:53 -0800
+
+
+Started GET "/assets/react_components/_todo.js?body=1" for ::1 at 2015-11-07 02:22:53 -0800
+
+
+Started GET "/assets/react_components/_todo_container.js?body=1" for ::1 at 2015-11-07 02:22:53 -0800
+
+
+Started GET "/assets/react_components/_todos.js?body=1" for ::1 at 2015-11-07 02:22:53 -0800
+
+
+Started GET "/assets/application.js?body=1" for ::1 at 2015-11-07 02:22:53 -0800
+
+
+Started PATCH "/sort" for ::1 at 2015-11-07 02:22:56 -0800
+Processing by TodosController#sort as JSON
+  Parameters: {"sort_list"=>["37", "41", "40", "39", "43"]}
+  [1m[35mTodo Load (0.3ms)[0m  SELECT  "todos".* FROM "todos" WHERE "todos"."id" = $1 LIMIT 1  [["id", 37]]
+  [1m[36m (0.3ms)[0m  [1mBEGIN[0m
+  [1m[35m (0.2ms)[0m  COMMIT
+  [1m[36mTodo Load (0.3ms)[0m  [1mSELECT  "todos".* FROM "todos" WHERE "todos"."id" = $1 LIMIT 1[0m  [["id", 41]]
+  [1m[35m (0.2ms)[0m  BEGIN
+  [1m[36mSQL (0.3ms)[0m  [1mUPDATE "todos" SET "position" = $1, "updated_at" = $2 WHERE "todos"."id" = $3[0m  [["position", 2], ["updated_at", "2015-11-07 10:22:56.211079"], ["id", 41]]
+  [1m[35m (6.6ms)[0m  COMMIT
+  [1m[36mTodo Load (0.3ms)[0m  [1mSELECT  "todos".* FROM "todos" WHERE "todos"."id" = $1 LIMIT 1[0m  [["id", 40]]
+  [1m[35m (0.2ms)[0m  BEGIN
+  [1m[36mSQL (0.3ms)[0m  [1mUPDATE "todos" SET "position" = $1, "updated_at" = $2 WHERE "todos"."id" = $3[0m  [["position", 3], ["updated_at", "2015-11-07 10:22:56.221136"], ["id", 40]]
+  [1m[35m (0.5ms)[0m  COMMIT
+  [1m[36mTodo Load (0.2ms)[0m  [1mSELECT  "todos".* FROM "todos" WHERE "todos"."id" = $1 LIMIT 1[0m  [["id", 39]]
+  [1m[35m (0.2ms)[0m  BEGIN
+  [1m[36m (0.2ms)[0m  [1mCOMMIT[0m
+  [1m[35mTodo Load (0.3ms)[0m  SELECT  "todos".* FROM "todos" WHERE "todos"."id" = $1 LIMIT 1  [["id", 43]]
+  [1m[36m (0.1ms)[0m  [1mBEGIN[0m
+  [1m[35mSQL (0.3ms)[0m  UPDATE "todos" SET "position" = $1, "updated_at" = $2 WHERE "todos"."id" = $3  [["position", 5], ["updated_at", "2015-11-07 10:22:56.226631"], ["id", 43]]
+  [1m[36m (0.5ms)[0m  [1mCOMMIT[0m
+  [1m[35mTodo Load (0.4ms)[0m  SELECT "todos".* FROM "todos" WHERE (active = true)  ORDER BY position
+Completed 200 OK in 25ms (Views: 2.6ms | ActiveRecord: 11.8ms)
+
+
+Started GET "/" for ::1 at 2015-11-07 02:22:59 -0800
+Processing by TodosController#index as HTML
+  [1m[36mTodo Load (0.5ms)[0m  [1mSELECT "todos".* FROM "todos" WHERE (active = true)  ORDER BY position[0m
+  Rendered todos/index.html.erb within layouts/application (233.4ms)
+Completed 200 OK in 259ms (Views: 257.2ms | ActiveRecord: 0.5ms)
+
+
+Started GET "/assets/application.css?body=1" for ::1 at 2015-11-07 02:22:59 -0800
+
+
+Started GET "/assets/todos.css?body=1" for ::1 at 2015-11-07 02:22:59 -0800
+
+
+Started GET "/assets/jquery.js?body=1" for ::1 at 2015-11-07 02:22:59 -0800
+
+
+Started GET "/assets/jquery-ui/core.js?body=1" for ::1 at 2015-11-07 02:22:59 -0800
+
+
+Started GET "/assets/jquery-ui/accordion.js?body=1" for ::1 at 2015-11-07 02:22:59 -0800
+
+
+Started GET "/assets/jquery-ui/position.js?body=1" for ::1 at 2015-11-07 02:22:59 -0800
+
+
+Started GET "/assets/jquery-ui/menu.js?body=1" for ::1 at 2015-11-07 02:22:59 -0800
+
+
+Started GET "/assets/jquery-ui/widget.js?body=1" for ::1 at 2015-11-07 02:22:59 -0800
+
+
+Started GET "/assets/jquery-ui/autocomplete.js?body=1" for ::1 at 2015-11-07 02:22:59 -0800
+
+
+Started GET "/assets/jquery-ui/button.js?body=1" for ::1 at 2015-11-07 02:22:59 -0800
+
+
+Started GET "/assets/jquery-ui/datepicker.js?body=1" for ::1 at 2015-11-07 02:22:59 -0800
+
+
+Started GET "/assets/jquery-ui/mouse.js?body=1" for ::1 at 2015-11-07 02:22:59 -0800
+
+
+Started GET "/assets/jquery-ui/draggable.js?body=1" for ::1 at 2015-11-07 02:22:59 -0800
+
+
+Started GET "/assets/jquery-ui/resizable.js?body=1" for ::1 at 2015-11-07 02:22:59 -0800
+
+
+Started GET "/assets/jquery-ui/dialog.js?body=1" for ::1 at 2015-11-07 02:22:59 -0800
+
+
+Started GET "/assets/jquery-ui/droppable.js?body=1" for ::1 at 2015-11-07 02:22:59 -0800
+
+
+Started GET "/assets/jquery-ui/effect.js?body=1" for ::1 at 2015-11-07 02:22:59 -0800
+
+
+Started GET "/assets/jquery-ui/effect-blind.js?body=1" for ::1 at 2015-11-07 02:22:59 -0800
+
+
+Started GET "/assets/jquery-ui/effect-bounce.js?body=1" for ::1 at 2015-11-07 02:22:59 -0800
+
+
+Started GET "/assets/jquery-ui/effect-clip.js?body=1" for ::1 at 2015-11-07 02:22:59 -0800
+
+
+Started GET "/assets/jquery-ui/effect-drop.js?body=1" for ::1 at 2015-11-07 02:22:59 -0800
+
+
+Started GET "/assets/jquery-ui/effect-explode.js?body=1" for ::1 at 2015-11-07 02:22:59 -0800
+
+
+Started GET "/assets/jquery-ui/effect-fade.js?body=1" for ::1 at 2015-11-07 02:22:59 -0800
+
+
+Started GET "/assets/jquery-ui/effect-fold.js?body=1" for ::1 at 2015-11-07 02:22:59 -0800
+
+
+Started GET "/assets/jquery-ui/effect-highlight.js?body=1" for ::1 at 2015-11-07 02:22:59 -0800
+
+
+Started GET "/assets/jquery-ui/effect-size.js?body=1" for ::1 at 2015-11-07 02:22:59 -0800
+
+
+Started GET "/assets/jquery-ui/effect-scale.js?body=1" for ::1 at 2015-11-07 02:22:59 -0800
+
+
+Started GET "/assets/jquery-ui/effect-puff.js?body=1" for ::1 at 2015-11-07 02:22:59 -0800
+
+
+Started GET "/assets/jquery-ui/effect-pulsate.js?body=1" for ::1 at 2015-11-07 02:22:59 -0800
+
+
+Started GET "/assets/jquery-ui/effect-shake.js?body=1" for ::1 at 2015-11-07 02:22:59 -0800
+
+
+Started GET "/assets/jquery-ui/effect-slide.js?body=1" for ::1 at 2015-11-07 02:22:59 -0800
+
+
+Started GET "/assets/jquery-ui/effect-transfer.js?body=1" for ::1 at 2015-11-07 02:22:59 -0800
+
+
+Started GET "/assets/jquery-ui/progressbar.js?body=1" for ::1 at 2015-11-07 02:22:59 -0800
+
+
+Started GET "/assets/jquery-ui/selectable.js?body=1" for ::1 at 2015-11-07 02:22:59 -0800
+
+
+Started GET "/assets/jquery-ui/selectmenu.js?body=1" for ::1 at 2015-11-07 02:22:59 -0800
+
+
+Started GET "/assets/jquery-ui/slider.js?body=1" for ::1 at 2015-11-07 02:22:59 -0800
+
+
+Started GET "/assets/jquery-ui/sortable.js?body=1" for ::1 at 2015-11-07 02:22:59 -0800
+
+
+Started GET "/assets/jquery-ui/spinner.js?body=1" for ::1 at 2015-11-07 02:22:59 -0800
+
+
+Started GET "/assets/jquery-ui/tabs.js?body=1" for ::1 at 2015-11-07 02:22:59 -0800
+
+
+Started GET "/assets/jquery-ui/tooltip.js?body=1" for ::1 at 2015-11-07 02:22:59 -0800
+
+
+Started GET "/assets/jquery-ui.js?body=1" for ::1 at 2015-11-07 02:22:59 -0800
+
+
+Started GET "/assets/development/react.js?body=1" for ::1 at 2015-11-07 02:22:59 -0800
+
+
+Started GET "/assets/react_ujs.js?body=1" for ::1 at 2015-11-07 02:22:59 -0800
+
+
+Started GET "/assets/react_components/_new_todo.js?body=1" for ::1 at 2015-11-07 02:22:59 -0800
+
+
+Started GET "/assets/react_components/_todo.js?body=1" for ::1 at 2015-11-07 02:22:59 -0800
+
+
+Started GET "/assets/react_components/_todo_container.js?body=1" for ::1 at 2015-11-07 02:22:59 -0800
+
+
+Started GET "/assets/react_components/_todos.js?body=1" for ::1 at 2015-11-07 02:22:59 -0800
+
+
+Started GET "/assets/application.js?body=1" for ::1 at 2015-11-07 02:22:59 -0800
+
+
+Started PUT "/todos/40" for ::1 at 2015-11-07 02:23:02 -0800
+Processing by TodosController#update as JSON
+  Parameters: {"todo"=>{"done"=>"true"}, "id"=>"40"}
+  [1m[35mTodo Load (0.5ms)[0m  SELECT  "todos".* FROM "todos" WHERE "todos"."id" = $1 LIMIT 1  [["id", 40]]
+  [1m[36m (0.2ms)[0m  [1mBEGIN[0m
+  [1m[35mSQL (0.4ms)[0m  UPDATE "todos" SET "done" = $1, "updated_at" = $2 WHERE "todos"."id" = $3  [["done", "t"], ["updated_at", "2015-11-07 10:23:02.234942"], ["id", 40]]
+  [1m[36m (0.5ms)[0m  [1mCOMMIT[0m
+Completed 200 OK in 5ms (Views: 0.4ms | ActiveRecord: 1.6ms)
+
+
+Started GET "/" for ::1 at 2015-11-07 02:23:03 -0800
+Processing by TodosController#index as HTML
+  [1m[35mTodo Load (0.5ms)[0m  SELECT "todos".* FROM "todos" WHERE (active = true)  ORDER BY position
+  Rendered todos/index.html.erb within layouts/application (224.9ms)
+Completed 200 OK in 248ms (Views: 246.4ms | ActiveRecord: 0.5ms)
+
+
+Started GET "/assets/application.css?body=1" for ::1 at 2015-11-07 02:23:03 -0800
+
+
+Started GET "/assets/todos.css?body=1" for ::1 at 2015-11-07 02:23:03 -0800
+
+
+Started GET "/assets/jquery-ui/accordion.js?body=1" for ::1 at 2015-11-07 02:23:03 -0800
+
+
+Started GET "/assets/jquery-ui/widget.js?body=1" for ::1 at 2015-11-07 02:23:03 -0800
+
+
+Started GET "/assets/jquery.js?body=1" for ::1 at 2015-11-07 02:23:03 -0800
+
+
+Started GET "/assets/jquery-ui/position.js?body=1" for ::1 at 2015-11-07 02:23:03 -0800
+
+
+Started GET "/assets/jquery-ui/core.js?body=1" for ::1 at 2015-11-07 02:23:03 -0800
+
+
+Started GET "/assets/jquery-ui/menu.js?body=1" for ::1 at 2015-11-07 02:23:03 -0800
+
+
+Started GET "/assets/jquery-ui/autocomplete.js?body=1" for ::1 at 2015-11-07 02:23:03 -0800
+
+
+Started GET "/assets/jquery-ui/button.js?body=1" for ::1 at 2015-11-07 02:23:03 -0800
+
+
+Started GET "/assets/jquery-ui/datepicker.js?body=1" for ::1 at 2015-11-07 02:23:03 -0800
+
+
+Started GET "/assets/jquery-ui/mouse.js?body=1" for ::1 at 2015-11-07 02:23:03 -0800
+
+
+Started GET "/assets/jquery-ui/draggable.js?body=1" for ::1 at 2015-11-07 02:23:03 -0800
+
+
+Started GET "/assets/jquery-ui/resizable.js?body=1" for ::1 at 2015-11-07 02:23:03 -0800
+
+
+Started GET "/assets/jquery-ui/dialog.js?body=1" for ::1 at 2015-11-07 02:23:03 -0800
+
+
+Started GET "/assets/jquery-ui/droppable.js?body=1" for ::1 at 2015-11-07 02:23:03 -0800
+
+
+Started GET "/assets/jquery-ui/effect.js?body=1" for ::1 at 2015-11-07 02:23:03 -0800
+
+
+Started GET "/assets/jquery-ui/effect-blind.js?body=1" for ::1 at 2015-11-07 02:23:03 -0800
+
+
+Started GET "/assets/jquery-ui/effect-bounce.js?body=1" for ::1 at 2015-11-07 02:23:03 -0800
+
+
+Started GET "/assets/jquery-ui/effect-clip.js?body=1" for ::1 at 2015-11-07 02:23:03 -0800
+
+
+Started GET "/assets/jquery-ui/effect-drop.js?body=1" for ::1 at 2015-11-07 02:23:03 -0800
+
+
+Started GET "/assets/jquery-ui/effect-explode.js?body=1" for ::1 at 2015-11-07 02:23:03 -0800
+
+
+Started GET "/assets/jquery-ui/effect-fade.js?body=1" for ::1 at 2015-11-07 02:23:03 -0800
+
+
+Started GET "/assets/jquery-ui/effect-fold.js?body=1" for ::1 at 2015-11-07 02:23:03 -0800
+
+
+Started GET "/assets/jquery-ui/effect-highlight.js?body=1" for ::1 at 2015-11-07 02:23:03 -0800
+
+
+Started GET "/assets/jquery-ui/effect-size.js?body=1" for ::1 at 2015-11-07 02:23:03 -0800
+
+
+Started GET "/assets/jquery-ui/effect-scale.js?body=1" for ::1 at 2015-11-07 02:23:03 -0800
+
+
+Started GET "/assets/jquery-ui/effect-puff.js?body=1" for ::1 at 2015-11-07 02:23:03 -0800
+
+
+Started GET "/assets/jquery-ui/effect-pulsate.js?body=1" for ::1 at 2015-11-07 02:23:03 -0800
+
+
+Started GET "/assets/jquery-ui/effect-shake.js?body=1" for ::1 at 2015-11-07 02:23:03 -0800
+
+
+Started GET "/assets/jquery-ui/effect-slide.js?body=1" for ::1 at 2015-11-07 02:23:03 -0800
+
+
+Started GET "/assets/jquery-ui/effect-transfer.js?body=1" for ::1 at 2015-11-07 02:23:03 -0800
+
+
+Started GET "/assets/jquery-ui/progressbar.js?body=1" for ::1 at 2015-11-07 02:23:03 -0800
+
+
+Started GET "/assets/jquery-ui/selectable.js?body=1" for ::1 at 2015-11-07 02:23:03 -0800
+
+
+Started GET "/assets/jquery-ui/selectmenu.js?body=1" for ::1 at 2015-11-07 02:23:03 -0800
+
+
+Started GET "/assets/jquery-ui/slider.js?body=1" for ::1 at 2015-11-07 02:23:03 -0800
+
+
+Started GET "/assets/jquery-ui/sortable.js?body=1" for ::1 at 2015-11-07 02:23:03 -0800
+
+
+Started GET "/assets/jquery-ui/spinner.js?body=1" for ::1 at 2015-11-07 02:23:03 -0800
+
+
+Started GET "/assets/jquery-ui/tabs.js?body=1" for ::1 at 2015-11-07 02:23:03 -0800
+
+
+Started GET "/assets/jquery-ui/tooltip.js?body=1" for ::1 at 2015-11-07 02:23:03 -0800
+
+
+Started GET "/assets/jquery-ui.js?body=1" for ::1 at 2015-11-07 02:23:04 -0800
+
+
+Started GET "/assets/development/react.js?body=1" for ::1 at 2015-11-07 02:23:04 -0800
+
+
+Started GET "/assets/react_ujs.js?body=1" for ::1 at 2015-11-07 02:23:04 -0800
+
+
+Started GET "/assets/react_components/_new_todo.js?body=1" for ::1 at 2015-11-07 02:23:04 -0800
+
+
+Started GET "/assets/react_components/_todo.js?body=1" for ::1 at 2015-11-07 02:23:04 -0800
+
+
+Started GET "/assets/react_components/_todo_container.js?body=1" for ::1 at 2015-11-07 02:23:04 -0800
+
+
+Started GET "/assets/react_components/_todos.js?body=1" for ::1 at 2015-11-07 02:23:04 -0800
+
+
+Started GET "/assets/application.js?body=1" for ::1 at 2015-11-07 02:23:04 -0800
+
+
+Started PUT "/todos/40" for ::1 at 2015-11-07 02:23:05 -0800
+Processing by TodosController#update as JSON
+  Parameters: {"todo"=>{"done"=>"false"}, "id"=>"40"}
+  [1m[36mTodo Load (0.3ms)[0m  [1mSELECT  "todos".* FROM "todos" WHERE "todos"."id" = $1 LIMIT 1[0m  [["id", 40]]
+  [1m[35m (0.2ms)[0m  BEGIN
+  [1m[36mSQL (0.3ms)[0m  [1mUPDATE "todos" SET "done" = $1, "updated_at" = $2 WHERE "todos"."id" = $3[0m  [["done", "f"], ["updated_at", "2015-11-07 10:23:05.555994"], ["id", 40]]
+  [1m[35m (6.5ms)[0m  COMMIT
+Completed 200 OK in 12ms (Views: 0.6ms | ActiveRecord: 7.3ms)
+
+
+Started PUT "/todos/41" for ::1 at 2015-11-07 02:23:06 -0800
+Processing by TodosController#update as JSON
+  Parameters: {"todo"=>{"done"=>"false"}, "id"=>"41"}
+  [1m[36mTodo Load (0.3ms)[0m  [1mSELECT  "todos".* FROM "todos" WHERE "todos"."id" = $1 LIMIT 1[0m  [["id", 41]]
+  [1m[35m (0.1ms)[0m  BEGIN
+  [1m[36mSQL (0.3ms)[0m  [1mUPDATE "todos" SET "done" = $1, "updated_at" = $2 WHERE "todos"."id" = $3[0m  [["done", "f"], ["updated_at", "2015-11-07 10:23:06.484490"], ["id", 41]]
+  [1m[35m (6.5ms)[0m  COMMIT
+Completed 200 OK in 10ms (Views: 0.4ms | ActiveRecord: 7.2ms)
+
+
+Started PUT "/todos/39" for ::1 at 2015-11-07 02:23:07 -0800
+Processing by TodosController#update as JSON
+  Parameters: {"todo"=>{"done"=>"false"}, "id"=>"39"}
+  [1m[36mTodo Load (0.3ms)[0m  [1mSELECT  "todos".* FROM "todos" WHERE "todos"."id" = $1 LIMIT 1[0m  [["id", 39]]
+  [1m[35m (0.2ms)[0m  BEGIN
+  [1m[36mSQL (0.4ms)[0m  [1mUPDATE "todos" SET "done" = $1, "updated_at" = $2 WHERE "todos"."id" = $3[0m  [["done", "f"], ["updated_at", "2015-11-07 10:23:07.391927"], ["id", 39]]
+  [1m[35m (6.6ms)[0m  COMMIT
+Completed 200 OK in 12ms (Views: 0.4ms | ActiveRecord: 7.4ms)
+
+
+Started GET "/" for ::1 at 2015-11-07 02:23:08 -0800
+Processing by TodosController#index as HTML
+  [1m[36mTodo Load (0.5ms)[0m  [1mSELECT "todos".* FROM "todos" WHERE (active = true)  ORDER BY position[0m
+  Rendered todos/index.html.erb within layouts/application (223.9ms)
+Completed 200 OK in 249ms (Views: 246.9ms | ActiveRecord: 0.5ms)
+
+
+Started GET "/assets/application.css?body=1" for ::1 at 2015-11-07 02:23:09 -0800
+
+
+Started GET "/assets/todos.css?body=1" for ::1 at 2015-11-07 02:23:09 -0800
+
+
+Started GET "/assets/jquery-ui/widget.js?body=1" for ::1 at 2015-11-07 02:23:09 -0800
+
+
+Started GET "/assets/jquery-ui/core.js?body=1" for ::1 at 2015-11-07 02:23:09 -0800
+
+
+Started GET "/assets/jquery.js?body=1" for ::1 at 2015-11-07 02:23:09 -0800
+
+
+Started GET "/assets/jquery-ui/accordion.js?body=1" for ::1 at 2015-11-07 02:23:09 -0800
+
+
+Started GET "/assets/jquery-ui/position.js?body=1" for ::1 at 2015-11-07 02:23:09 -0800
+
+
+Started GET "/assets/jquery-ui/menu.js?body=1" for ::1 at 2015-11-07 02:23:09 -0800
+
+
+Started GET "/assets/jquery-ui/autocomplete.js?body=1" for ::1 at 2015-11-07 02:23:09 -0800
+
+
+Started GET "/assets/jquery-ui/button.js?body=1" for ::1 at 2015-11-07 02:23:09 -0800
+
+
+Started GET "/assets/jquery-ui/datepicker.js?body=1" for ::1 at 2015-11-07 02:23:09 -0800
+
+
+Started GET "/assets/jquery-ui/mouse.js?body=1" for ::1 at 2015-11-07 02:23:09 -0800
+
+
+Started GET "/assets/jquery-ui/draggable.js?body=1" for ::1 at 2015-11-07 02:23:09 -0800
+
+
+Started GET "/assets/jquery-ui/resizable.js?body=1" for ::1 at 2015-11-07 02:23:09 -0800
+
+
+Started GET "/assets/jquery-ui/dialog.js?body=1" for ::1 at 2015-11-07 02:23:09 -0800
+
+
+Started GET "/assets/jquery-ui/droppable.js?body=1" for ::1 at 2015-11-07 02:23:09 -0800
+
+
+Started GET "/assets/jquery-ui/effect.js?body=1" for ::1 at 2015-11-07 02:23:09 -0800
+
+
+Started GET "/assets/jquery-ui/effect-blind.js?body=1" for ::1 at 2015-11-07 02:23:09 -0800
+
+
+Started GET "/assets/jquery-ui/effect-bounce.js?body=1" for ::1 at 2015-11-07 02:23:09 -0800
+
+
+Started GET "/assets/jquery-ui/effect-clip.js?body=1" for ::1 at 2015-11-07 02:23:09 -0800
+
+
+Started GET "/assets/jquery-ui/effect-drop.js?body=1" for ::1 at 2015-11-07 02:23:09 -0800
+
+
+Started GET "/assets/jquery-ui/effect-explode.js?body=1" for ::1 at 2015-11-07 02:23:09 -0800
+
+
+Started GET "/assets/jquery-ui/effect-fade.js?body=1" for ::1 at 2015-11-07 02:23:09 -0800
+
+
+Started GET "/assets/jquery-ui/effect-fold.js?body=1" for ::1 at 2015-11-07 02:23:09 -0800
+
+
+Started GET "/assets/jquery-ui/effect-highlight.js?body=1" for ::1 at 2015-11-07 02:23:09 -0800
+
+
+Started GET "/assets/jquery-ui/effect-scale.js?body=1" for ::1 at 2015-11-07 02:23:09 -0800
+
+
+Started GET "/assets/jquery-ui/effect-size.js?body=1" for ::1 at 2015-11-07 02:23:09 -0800
+
+
+Started GET "/assets/jquery-ui/effect-puff.js?body=1" for ::1 at 2015-11-07 02:23:09 -0800
+
+
+Started GET "/assets/jquery-ui/effect-pulsate.js?body=1" for ::1 at 2015-11-07 02:23:09 -0800
+
+
+Started GET "/assets/jquery-ui/effect-shake.js?body=1" for ::1 at 2015-11-07 02:23:09 -0800
+
+
+Started GET "/assets/jquery-ui/effect-slide.js?body=1" for ::1 at 2015-11-07 02:23:09 -0800
+
+
+Started GET "/assets/jquery-ui/effect-transfer.js?body=1" for ::1 at 2015-11-07 02:23:09 -0800
+
+
+Started GET "/assets/jquery-ui/progressbar.js?body=1" for ::1 at 2015-11-07 02:23:09 -0800
+
+
+Started GET "/assets/jquery-ui/selectable.js?body=1" for ::1 at 2015-11-07 02:23:09 -0800
+
+
+Started GET "/assets/jquery-ui/selectmenu.js?body=1" for ::1 at 2015-11-07 02:23:09 -0800
+
+
+Started GET "/assets/jquery-ui/slider.js?body=1" for ::1 at 2015-11-07 02:23:09 -0800
+
+
+Started GET "/assets/jquery-ui/sortable.js?body=1" for ::1 at 2015-11-07 02:23:09 -0800
+
+
+Started GET "/assets/jquery-ui/spinner.js?body=1" for ::1 at 2015-11-07 02:23:09 -0800
+
+
+Started GET "/assets/jquery-ui/tabs.js?body=1" for ::1 at 2015-11-07 02:23:09 -0800
+
+
+Started GET "/assets/jquery-ui/tooltip.js?body=1" for ::1 at 2015-11-07 02:23:09 -0800
+
+
+Started GET "/assets/jquery-ui.js?body=1" for ::1 at 2015-11-07 02:23:09 -0800
+
+
+Started GET "/assets/development/react.js?body=1" for ::1 at 2015-11-07 02:23:09 -0800
+
+
+Started GET "/assets/react_ujs.js?body=1" for ::1 at 2015-11-07 02:23:09 -0800
+
+
+Started GET "/assets/react_components/_new_todo.js?body=1" for ::1 at 2015-11-07 02:23:09 -0800
+
+
+Started GET "/assets/react_components/_todo_container.js?body=1" for ::1 at 2015-11-07 02:23:09 -0800
+
+
+Started GET "/assets/react_components/_todo.js?body=1" for ::1 at 2015-11-07 02:23:09 -0800
+
+
+Started GET "/assets/react_components/_todos.js?body=1" for ::1 at 2015-11-07 02:23:09 -0800
+
+
+Started GET "/assets/application.js?body=1" for ::1 at 2015-11-07 02:23:09 -0800
+
+
+Started PUT "/todos/43" for ::1 at 2015-11-07 08:35:33 -0800
+Processing by TodosController#update as JSON
+  Parameters: {"todo"=>{"active"=>"false"}, "id"=>"43"}
+  [1m[35mTodo Load (4.4ms)[0m  SELECT  "todos".* FROM "todos" WHERE "todos"."id" = $1 LIMIT 1  [["id", 43]]
+  [1m[36m (0.7ms)[0m  [1mBEGIN[0m
+  [1m[35mSQL (2.0ms)[0m  UPDATE "todos" SET "active" = $1, "updated_at" = $2 WHERE "todos"."id" = $3  [["active", "f"], ["updated_at", "2015-11-07 16:35:33.321927"], ["id", 43]]
+  [1m[36m (1.3ms)[0m  [1mCOMMIT[0m
+Completed 200 OK in 33ms (Views: 3.2ms | ActiveRecord: 8.4ms)
+
+
+Started PUT "/todos/39" for ::1 at 2015-11-07 08:35:34 -0800
+Processing by TodosController#update as JSON
+  Parameters: {"todo"=>{"active"=>"false"}, "id"=>"39"}
+  [1m[35mTodo Load (2.2ms)[0m  SELECT  "todos".* FROM "todos" WHERE "todos"."id" = $1 LIMIT 1  [["id", 39]]
+  [1m[36m (0.2ms)[0m  [1mBEGIN[0m
+  [1m[35mSQL (0.4ms)[0m  UPDATE "todos" SET "active" = $1, "updated_at" = $2 WHERE "todos"."id" = $3  [["active", "f"], ["updated_at", "2015-11-07 16:35:34.103547"], ["id", 39]]
+  [1m[36m (0.4ms)[0m  [1mCOMMIT[0m
+Completed 200 OK in 9ms (Views: 0.4ms | ActiveRecord: 3.2ms)
+
+
+Started PUT "/todos/40" for ::1 at 2015-11-07 08:35:34 -0800
+Processing by TodosController#update as JSON
+  Parameters: {"todo"=>{"active"=>"false"}, "id"=>"40"}
+  [1m[35mTodo Load (0.3ms)[0m  SELECT  "todos".* FROM "todos" WHERE "todos"."id" = $1 LIMIT 1  [["id", 40]]
+  [1m[36m (0.2ms)[0m  [1mBEGIN[0m
+  [1m[35mSQL (0.3ms)[0m  UPDATE "todos" SET "active" = $1, "updated_at" = $2 WHERE "todos"."id" = $3  [["active", "f"], ["updated_at", "2015-11-07 16:35:34.931693"], ["id", 40]]
+  [1m[36m (0.5ms)[0m  [1mCOMMIT[0m
+Completed 200 OK in 6ms (Views: 0.3ms | ActiveRecord: 1.3ms)
+
+
+Started GET "/" for ::1 at 2015-11-07 08:35:37 -0800
+Processing by TodosController#index as HTML
+  [1m[35mTodo Load (2.0ms)[0m  SELECT "todos".* FROM "todos" WHERE (active = true)  ORDER BY position
+  Rendered todos/index.html.erb within layouts/application (367.0ms)
+Completed 200 OK in 429ms (Views: 421.3ms | ActiveRecord: 2.0ms)
+
+
+Started GET "/assets/jquery-ui/core.js?body=1" for ::1 at 2015-11-07 08:35:38 -0800
+
+
+Started GET "/assets/jquery-ui/menu.js?body=1" for ::1 at 2015-11-07 08:35:38 -0800
+
+
+Started GET "/assets/todos.css?body=1" for ::1 at 2015-11-07 08:35:38 -0800
+
+
+Started GET "/assets/application.css?body=1" for ::1 at 2015-11-07 08:35:38 -0800
+
+
+Started GET "/assets/jquery-ui/position.js?body=1" for ::1 at 2015-11-07 08:35:38 -0800
+
+
+Started GET "/assets/jquery.js?body=1" for ::1 at 2015-11-07 08:35:38 -0800
+
+
+Started GET "/assets/jquery-ui/widget.js?body=1" for ::1 at 2015-11-07 08:35:39 -0800
+
+
+Started GET "/assets/jquery-ui/datepicker.js?body=1" for ::1 at 2015-11-07 08:35:39 -0800
+
+
+Started GET "/assets/jquery-ui/draggable.js?body=1" for ::1 at 2015-11-07 08:35:39 -0800
+
+
+Started GET "/assets/jquery-ui/dialog.js?body=1" for ::1 at 2015-11-07 08:35:39 -0800
+
+
+Started GET "/assets/jquery-ui/resizable.js?body=1" for ::1 at 2015-11-07 08:35:39 -0800
+
+
+Started GET "/assets/jquery-ui/droppable.js?body=1" for ::1 at 2015-11-07 08:35:39 -0800
+
+
+Started GET "/assets/jquery-ui/effect.js?body=1" for ::1 at 2015-11-07 08:35:39 -0800
+
+
+Started GET "/assets/jquery-ui/mouse.js?body=1" for ::1 at 2015-11-07 08:35:39 -0800
+
+
+Started GET "/assets/jquery-ui/autocomplete.js?body=1" for ::1 at 2015-11-07 08:35:39 -0800
+
+
+Started GET "/assets/jquery-ui/accordion.js?body=1" for ::1 at 2015-11-07 08:35:39 -0800
+
+
+Started GET "/assets/jquery-ui/button.js?body=1" for ::1 at 2015-11-07 08:35:39 -0800
+
+
+Started GET "/assets/jquery-ui/effect-drop.js?body=1" for ::1 at 2015-11-07 08:35:39 -0800
+
+
+Started GET "/assets/jquery-ui/effect-blind.js?body=1" for ::1 at 2015-11-07 08:35:39 -0800
+
+
+Started GET "/assets/jquery-ui/effect-explode.js?body=1" for ::1 at 2015-11-07 08:35:39 -0800
+
+
+Started GET "/assets/jquery-ui/effect-clip.js?body=1" for ::1 at 2015-11-07 08:35:39 -0800
+
+
+Started GET "/assets/jquery-ui/effect-bounce.js?body=1" for ::1 at 2015-11-07 08:35:39 -0800
+
+
+Started GET "/assets/jquery-ui/effect-fade.js?body=1" for ::1 at 2015-11-07 08:35:39 -0800
+
+
+Started GET "/assets/jquery-ui/effect-fold.js?body=1" for ::1 at 2015-11-07 08:35:39 -0800
+
+
+Started GET "/assets/jquery-ui/effect-size.js?body=1" for ::1 at 2015-11-07 08:35:39 -0800
+
+
+Started GET "/assets/jquery-ui/effect-highlight.js?body=1" for ::1 at 2015-11-07 08:35:39 -0800
+
+
+Started GET "/assets/jquery-ui/effect-pulsate.js?body=1" for ::1 at 2015-11-07 08:35:39 -0800
+
+
+Started GET "/assets/jquery-ui/effect-shake.js?body=1" for ::1 at 2015-11-07 08:35:39 -0800
+
+
+Started GET "/assets/jquery-ui/effect-slide.js?body=1" for ::1 at 2015-11-07 08:35:39 -0800
+
+
+Started GET "/assets/jquery-ui/selectable.js?body=1" for ::1 at 2015-11-07 08:35:39 -0800
+
+
+Started GET "/assets/jquery-ui/selectmenu.js?body=1" for ::1 at 2015-11-07 08:35:39 -0800
+
+
+Started GET "/assets/jquery-ui/effect-scale.js?body=1" for ::1 at 2015-11-07 08:35:39 -0800
+
+
+Started GET "/assets/jquery-ui/effect-transfer.js?body=1" for ::1 at 2015-11-07 08:35:39 -0800
+
+
+Started GET "/assets/jquery-ui/sortable.js?body=1" for ::1 at 2015-11-07 08:35:39 -0800
+
+
+Started GET "/assets/jquery-ui/spinner.js?body=1" for ::1 at 2015-11-07 08:35:39 -0800
+
+
+Started GET "/assets/jquery-ui/effect-puff.js?body=1" for ::1 at 2015-11-07 08:35:39 -0800
+
+
+Started GET "/assets/jquery-ui/progressbar.js?body=1" for ::1 at 2015-11-07 08:35:39 -0800
+
+
+Started GET "/assets/jquery-ui.js?body=1" for ::1 at 2015-11-07 08:35:39 -0800
+
+
+Started GET "/assets/jquery-ui/tooltip.js?body=1" for ::1 at 2015-11-07 08:35:39 -0800
+
+
+Started GET "/assets/jquery-ui/tabs.js?body=1" for ::1 at 2015-11-07 08:35:39 -0800
+
+
+Started GET "/assets/jquery-ui/slider.js?body=1" for ::1 at 2015-11-07 08:35:39 -0800
+
+
+Started GET "/assets/development/react.js?body=1" for ::1 at 2015-11-07 08:35:39 -0800
+
+
+Started GET "/assets/react_ujs.js?body=1" for ::1 at 2015-11-07 08:35:39 -0800
+
+
+Started GET "/assets/react_components/_new_todo.js?body=1" for ::1 at 2015-11-07 08:35:39 -0800
+
+
+Started GET "/assets/react_components/_todo.js?body=1" for ::1 at 2015-11-07 08:35:39 -0800
+
+
+Started GET "/assets/react_components/_todo_container.js?body=1" for ::1 at 2015-11-07 08:35:39 -0800
+
+
+Started GET "/assets/application.js?body=1" for ::1 at 2015-11-07 08:35:39 -0800
+
+
+Started GET "/assets/react_components/_todos.js?body=1" for ::1 at 2015-11-07 08:35:39 -0800
+
+
+Started PUT "/todos/37" for ::1 at 2015-11-07 08:35:48 -0800
+Processing by TodosController#update as JSON
+  Parameters: {"todo"=>{"done"=>"true"}, "id"=>"37"}
+  [1m[36mTodo Load (0.4ms)[0m  [1mSELECT  "todos".* FROM "todos" WHERE "todos"."id" = $1 LIMIT 1[0m  [["id", 37]]
+  [1m[35m (0.2ms)[0m  BEGIN
+  [1m[36mSQL (0.4ms)[0m  [1mUPDATE "todos" SET "done" = $1, "updated_at" = $2 WHERE "todos"."id" = $3[0m  [["done", "t"], ["updated_at", "2015-11-07 16:35:48.127562"], ["id", 37]]
+  [1m[35m (0.4ms)[0m  COMMIT
+Completed 200 OK in 6ms (Views: 0.9ms | ActiveRecord: 1.4ms)
+
+
+Started PUT "/todos/37" for ::1 at 2015-11-07 08:35:51 -0800
+Processing by TodosController#update as JSON
+  Parameters: {"todo"=>{"done"=>"false"}, "id"=>"37"}
+  [1m[36mTodo Load (0.4ms)[0m  [1mSELECT  "todos".* FROM "todos" WHERE "todos"."id" = $1 LIMIT 1[0m  [["id", 37]]
+  [1m[35m (0.2ms)[0m  BEGIN
+  [1m[36mSQL (0.3ms)[0m  [1mUPDATE "todos" SET "done" = $1, "updated_at" = $2 WHERE "todos"."id" = $3[0m  [["done", "f"], ["updated_at", "2015-11-07 16:35:51.106830"], ["id", 37]]
+  [1m[35m (6.4ms)[0m  COMMIT
+Completed 200 OK in 11ms (Views: 0.6ms | ActiveRecord: 7.2ms)
+
+
+Started PUT "/todos/41" for ::1 at 2015-11-07 08:35:52 -0800
+Processing by TodosController#update as JSON
+  Parameters: {"todo"=>{"done"=>"true"}, "id"=>"41"}
+  [1m[36mTodo Load (8.0ms)[0m  [1mSELECT  "todos".* FROM "todos" WHERE "todos"."id" = $1 LIMIT 1[0m  [["id", 41]]
+  [1m[35m (0.2ms)[0m  BEGIN
+  [1m[36mSQL (0.3ms)[0m  [1mUPDATE "todos" SET "done" = $1, "updated_at" = $2 WHERE "todos"."id" = $3[0m  [["done", "t"], ["updated_at", "2015-11-07 16:35:52.895997"], ["id", 41]]
+  [1m[35m (0.4ms)[0m  COMMIT
+Completed 200 OK in 12ms (Views: 0.3ms | ActiveRecord: 8.9ms)
+
+
+Started PUT "/todos/41" for ::1 at 2015-11-07 08:35:54 -0800
+Processing by TodosController#update as JSON
+  Parameters: {"todo"=>{"done"=>"false"}, "id"=>"41"}
+  [1m[36mTodo Load (0.4ms)[0m  [1mSELECT  "todos".* FROM "todos" WHERE "todos"."id" = $1 LIMIT 1[0m  [["id", 41]]
+  [1m[35m (0.2ms)[0m  BEGIN
+  [1m[36mSQL (0.3ms)[0m  [1mUPDATE "todos" SET "done" = $1, "updated_at" = $2 WHERE "todos"."id" = $3[0m  [["done", "f"], ["updated_at", "2015-11-07 16:35:54.132705"], ["id", 41]]
+  [1m[35m (6.9ms)[0m  COMMIT
+Completed 200 OK in 11ms (Views: 0.4ms | ActiveRecord: 7.7ms)
+
+
+Started PATCH "/sort" for ::1 at 2015-11-07 08:35:55 -0800
+Processing by TodosController#sort as JSON
+  Parameters: {"sort_list"=>["41", "37"]}
+  [1m[36mTodo Load (0.3ms)[0m  [1mSELECT  "todos".* FROM "todos" WHERE "todos"."id" = $1 LIMIT 1[0m  [["id", 41]]
+  [1m[35m (0.1ms)[0m  BEGIN
+  [1m[36mSQL (0.4ms)[0m  [1mUPDATE "todos" SET "position" = $1, "updated_at" = $2 WHERE "todos"."id" = $3[0m  [["position", 1], ["updated_at", "2015-11-07 16:35:55.178438"], ["id", 41]]
+  [1m[35m (0.4ms)[0m  COMMIT
+  [1m[36mTodo Load (0.4ms)[0m  [1mSELECT  "todos".* FROM "todos" WHERE "todos"."id" = $1 LIMIT 1[0m  [["id", 37]]
+  [1m[35m (0.3ms)[0m  BEGIN
+  [1m[36mSQL (0.5ms)[0m  [1mUPDATE "todos" SET "position" = $1, "updated_at" = $2 WHERE "todos"."id" = $3[0m  [["position", 2], ["updated_at", "2015-11-07 16:35:55.183066"], ["id", 37]]
+  [1m[35m (0.5ms)[0m  COMMIT
+  [1m[36mTodo Load (0.5ms)[0m  [1mSELECT "todos".* FROM "todos" WHERE (active = true)  ORDER BY position[0m
+Completed 200 OK in 12ms (Views: 1.6ms | ActiveRecord: 3.5ms)
+
+
+Started GET "/" for ::1 at 2015-11-07 08:35:58 -0800
+Processing by TodosController#index as HTML
+  [1m[35mTodo Load (0.5ms)[0m  SELECT "todos".* FROM "todos" WHERE (active = true)  ORDER BY position
+  Rendered todos/index.html.erb within layouts/application (222.1ms)
+Completed 200 OK in 244ms (Views: 242.3ms | ActiveRecord: 0.5ms)
+
+
+Started GET "/assets/application.css?body=1" for ::1 at 2015-11-07 08:35:58 -0800
+
+
+Started GET "/assets/jquery.js?body=1" for ::1 at 2015-11-07 08:35:58 -0800
+
+
+Started GET "/assets/jquery-ui/core.js?body=1" for ::1 at 2015-11-07 08:35:58 -0800
+
+
+Started GET "/assets/todos.css?body=1" for ::1 at 2015-11-07 08:35:58 -0800
+
+
+Started GET "/assets/jquery-ui/position.js?body=1" for ::1 at 2015-11-07 08:35:58 -0800
+
+
+Started GET "/assets/jquery-ui/accordion.js?body=1" for ::1 at 2015-11-07 08:35:58 -0800
+
+
+Started GET "/assets/jquery-ui/widget.js?body=1" for ::1 at 2015-11-07 08:35:58 -0800
+
+
+Started GET "/assets/jquery-ui/menu.js?body=1" for ::1 at 2015-11-07 08:35:58 -0800
+
+
+Started GET "/assets/jquery-ui/autocomplete.js?body=1" for ::1 at 2015-11-07 08:35:58 -0800
+
+
+Started GET "/assets/jquery-ui/button.js?body=1" for ::1 at 2015-11-07 08:35:58 -0800
+
+
+Started GET "/assets/jquery-ui/datepicker.js?body=1" for ::1 at 2015-11-07 08:35:58 -0800
+
+
+Started GET "/assets/jquery-ui/mouse.js?body=1" for ::1 at 2015-11-07 08:35:58 -0800
+
+
+Started GET "/assets/jquery-ui/draggable.js?body=1" for ::1 at 2015-11-07 08:35:58 -0800
+
+
+Started GET "/assets/jquery-ui/resizable.js?body=1" for ::1 at 2015-11-07 08:35:58 -0800
+
+
+Started GET "/assets/jquery-ui/dialog.js?body=1" for ::1 at 2015-11-07 08:35:58 -0800
+
+
+Started GET "/assets/jquery-ui/droppable.js?body=1" for ::1 at 2015-11-07 08:35:58 -0800
+
+
+Started GET "/assets/jquery-ui/effect.js?body=1" for ::1 at 2015-11-07 08:35:58 -0800
+
+
+Started GET "/assets/jquery-ui/effect-blind.js?body=1" for ::1 at 2015-11-07 08:35:58 -0800
+
+
+Started GET "/assets/jquery-ui/effect-bounce.js?body=1" for ::1 at 2015-11-07 08:35:58 -0800
+
+
+Started GET "/assets/jquery-ui/effect-clip.js?body=1" for ::1 at 2015-11-07 08:35:58 -0800
+
+
+Started GET "/assets/jquery-ui/effect-drop.js?body=1" for ::1 at 2015-11-07 08:35:58 -0800
+
+
+Started GET "/assets/jquery-ui/effect-explode.js?body=1" for ::1 at 2015-11-07 08:35:58 -0800
+
+
+Started GET "/assets/jquery-ui/effect-fade.js?body=1" for ::1 at 2015-11-07 08:35:58 -0800
+
+
+Started GET "/assets/jquery-ui/effect-fold.js?body=1" for ::1 at 2015-11-07 08:35:58 -0800
+
+
+Started GET "/assets/jquery-ui/effect-highlight.js?body=1" for ::1 at 2015-11-07 08:35:59 -0800
+
+
+Started GET "/assets/jquery-ui/effect-size.js?body=1" for ::1 at 2015-11-07 08:35:59 -0800
+
+
+Started GET "/assets/jquery-ui/effect-scale.js?body=1" for ::1 at 2015-11-07 08:35:59 -0800
+
+
+Started GET "/assets/jquery-ui/effect-puff.js?body=1" for ::1 at 2015-11-07 08:35:59 -0800
+
+
+Started GET "/assets/jquery-ui/effect-pulsate.js?body=1" for ::1 at 2015-11-07 08:35:59 -0800
+
+
+Started GET "/assets/jquery-ui/effect-shake.js?body=1" for ::1 at 2015-11-07 08:35:59 -0800
+
+
+Started GET "/assets/jquery-ui/effect-slide.js?body=1" for ::1 at 2015-11-07 08:35:59 -0800
+
+
+Started GET "/assets/jquery-ui/effect-transfer.js?body=1" for ::1 at 2015-11-07 08:35:59 -0800
+
+
+Started GET "/assets/jquery-ui/progressbar.js?body=1" for ::1 at 2015-11-07 08:35:59 -0800
+
+
+Started GET "/assets/jquery-ui/selectable.js?body=1" for ::1 at 2015-11-07 08:35:59 -0800
+
+
+Started GET "/assets/jquery-ui/selectmenu.js?body=1" for ::1 at 2015-11-07 08:35:59 -0800
+
+
+Started GET "/assets/jquery-ui/slider.js?body=1" for ::1 at 2015-11-07 08:35:59 -0800
+
+
+Started GET "/assets/jquery-ui/sortable.js?body=1" for ::1 at 2015-11-07 08:35:59 -0800
+
+
+Started GET "/assets/jquery-ui/spinner.js?body=1" for ::1 at 2015-11-07 08:35:59 -0800
+
+
+Started GET "/assets/jquery-ui/tabs.js?body=1" for ::1 at 2015-11-07 08:35:59 -0800
+
+
+Started GET "/assets/jquery-ui.js?body=1" for ::1 at 2015-11-07 08:35:59 -0800
+
+
+Started GET "/assets/jquery-ui/tooltip.js?body=1" for ::1 at 2015-11-07 08:35:59 -0800
+
+
+Started GET "/assets/development/react.js?body=1" for ::1 at 2015-11-07 08:35:59 -0800
+
+
+Started GET "/assets/react_ujs.js?body=1" for ::1 at 2015-11-07 08:35:59 -0800
+
+
+Started GET "/assets/react_components/_new_todo.js?body=1" for ::1 at 2015-11-07 08:35:59 -0800
+
+
+Started GET "/assets/react_components/_todo.js?body=1" for ::1 at 2015-11-07 08:35:59 -0800
+
+
+Started GET "/assets/react_components/_todo_container.js?body=1" for ::1 at 2015-11-07 08:35:59 -0800
+
+
+Started GET "/assets/react_components/_todos.js?body=1" for ::1 at 2015-11-07 08:35:59 -0800
+
+
+Started GET "/assets/application.js?body=1" for ::1 at 2015-11-07 08:35:59 -0800
+
+
+Started POST "/todos" for ::1 at 2015-11-07 08:36:06 -0800
+Processing by TodosController#create as JSON
+  Parameters: {"todo"=>{"todo"=>"this is great"}}
+  [1m[36m (0.6ms)[0m  [1mSELECT COUNT(*) FROM "todos"[0m
+  [1m[35m (0.2ms)[0m  BEGIN
+  [1m[36mSQL (8.8ms)[0m  [1mINSERT INTO "todos" ("todo", "position", "created_at", "updated_at") VALUES ($1, $2, $3, $4) RETURNING "id"[0m  [["todo", "this is great"], ["position", 22], ["created_at", "2015-11-07 16:36:06.436797"], ["updated_at", "2015-11-07 16:36:06.436797"]]
+  [1m[35m (0.7ms)[0m  COMMIT
+Completed 200 OK in 16ms (Views: 0.7ms | ActiveRecord: 10.2ms)
+
+
+Started GET "/" for ::1 at 2015-11-07 08:36:38 -0800
+Processing by TodosController#index as HTML
+  [1m[36mTodo Load (0.9ms)[0m  [1mSELECT "todos".* FROM "todos" WHERE (active = true)  ORDER BY position[0m
+  Rendered todos/index.html.erb within layouts/application (479.0ms)
+Completed 200 OK in 509ms (Views: 497.9ms | ActiveRecord: 7.1ms)
+
+
+Started GET "/assets/application.css?body=1" for ::1 at 2015-11-07 08:36:39 -0800
+
+
+Started GET "/assets/jquery-ui/widget.js?body=1" for ::1 at 2015-11-07 08:36:39 -0800
+
+
+Started GET "/assets/todos.css?body=1" for ::1 at 2015-11-07 08:36:39 -0800
+
+
+Started GET "/assets/jquery.js?body=1" for ::1 at 2015-11-07 08:36:39 -0800
+
+
+Started GET "/assets/jquery-ui/core.js?body=1" for ::1 at 2015-11-07 08:36:39 -0800
+
+
+Started GET "/assets/jquery-ui/accordion.js?body=1" for ::1 at 2015-11-07 08:36:39 -0800
+
+
+Started GET "/assets/jquery-ui/position.js?body=1" for ::1 at 2015-11-07 08:36:39 -0800
+
+
+Started GET "/assets/jquery-ui/menu.js?body=1" for ::1 at 2015-11-07 08:36:39 -0800
+
+
+Started GET "/assets/jquery-ui/autocomplete.js?body=1" for ::1 at 2015-11-07 08:36:39 -0800
+
+
+Started GET "/assets/jquery-ui/button.js?body=1" for ::1 at 2015-11-07 08:36:39 -0800
+
+
+Started GET "/assets/jquery-ui/datepicker.js?body=1" for ::1 at 2015-11-07 08:36:39 -0800
+
+
+Started GET "/assets/jquery-ui/mouse.js?body=1" for ::1 at 2015-11-07 08:36:39 -0800
+
+
+Started GET "/assets/jquery-ui/draggable.js?body=1" for ::1 at 2015-11-07 08:36:39 -0800
+
+
+Started GET "/assets/jquery-ui/resizable.js?body=1" for ::1 at 2015-11-07 08:36:39 -0800
+
+
+Started GET "/assets/jquery-ui/dialog.js?body=1" for ::1 at 2015-11-07 08:36:39 -0800
+
+
+Started GET "/assets/jquery-ui/droppable.js?body=1" for ::1 at 2015-11-07 08:36:39 -0800
+
+
+Started GET "/assets/jquery-ui/effect.js?body=1" for ::1 at 2015-11-07 08:36:39 -0800
+
+
+Started GET "/assets/jquery-ui/effect-blind.js?body=1" for ::1 at 2015-11-07 08:36:39 -0800
+
+
+Started GET "/assets/jquery-ui/effect-bounce.js?body=1" for ::1 at 2015-11-07 08:36:39 -0800
+
+
+Started GET "/assets/jquery-ui/effect-clip.js?body=1" for ::1 at 2015-11-07 08:36:39 -0800
+
+
+Started GET "/assets/jquery-ui/effect-drop.js?body=1" for ::1 at 2015-11-07 08:36:39 -0800
+
+
+Started GET "/assets/jquery-ui/effect-explode.js?body=1" for ::1 at 2015-11-07 08:36:39 -0800
+
+
+Started GET "/assets/jquery-ui/effect-fade.js?body=1" for ::1 at 2015-11-07 08:36:39 -0800
+
+
+Started GET "/assets/jquery-ui/effect-fold.js?body=1" for ::1 at 2015-11-07 08:36:39 -0800
+
+
+Started GET "/assets/jquery-ui/effect-highlight.js?body=1" for ::1 at 2015-11-07 08:36:39 -0800
+
+
+Started GET "/assets/jquery-ui/effect-size.js?body=1" for ::1 at 2015-11-07 08:36:39 -0800
+
+
+Started GET "/assets/jquery-ui/effect-scale.js?body=1" for ::1 at 2015-11-07 08:36:39 -0800
+
+
+Started GET "/assets/jquery-ui/effect-puff.js?body=1" for ::1 at 2015-11-07 08:36:39 -0800
+
+
+Started GET "/assets/jquery-ui/effect-pulsate.js?body=1" for ::1 at 2015-11-07 08:36:39 -0800
+
+
+Started GET "/assets/jquery-ui/effect-shake.js?body=1" for ::1 at 2015-11-07 08:36:39 -0800
+
+
+Started GET "/assets/jquery-ui/effect-slide.js?body=1" for ::1 at 2015-11-07 08:36:39 -0800
+
+
+Started GET "/assets/jquery-ui/effect-transfer.js?body=1" for ::1 at 2015-11-07 08:36:39 -0800
+
+
+Started GET "/assets/jquery-ui/progressbar.js?body=1" for ::1 at 2015-11-07 08:36:39 -0800
+
+
+Started GET "/assets/jquery-ui/selectable.js?body=1" for ::1 at 2015-11-07 08:36:39 -0800
+
+
+Started GET "/assets/jquery-ui/selectmenu.js?body=1" for ::1 at 2015-11-07 08:36:39 -0800
+
+
+Started GET "/assets/jquery-ui/slider.js?body=1" for ::1 at 2015-11-07 08:36:39 -0800
+
+
+Started GET "/assets/jquery-ui/sortable.js?body=1" for ::1 at 2015-11-07 08:36:39 -0800
+
+
+Started GET "/assets/jquery-ui/spinner.js?body=1" for ::1 at 2015-11-07 08:36:39 -0800
+
+
+Started GET "/assets/jquery-ui/tabs.js?body=1" for ::1 at 2015-11-07 08:36:39 -0800
+
+
+Started GET "/assets/jquery-ui/tooltip.js?body=1" for ::1 at 2015-11-07 08:36:39 -0800
+
+
+Started GET "/assets/jquery-ui.js?body=1" for ::1 at 2015-11-07 08:36:39 -0800
+
+
+Started GET "/assets/development/react.js?body=1" for ::1 at 2015-11-07 08:36:39 -0800
+
+
+Started GET "/assets/react_ujs.js?body=1" for ::1 at 2015-11-07 08:36:39 -0800
+
+
+Started GET "/assets/react_components/_new_todo.js?body=1" for ::1 at 2015-11-07 08:36:39 -0800
+
+
+Started GET "/assets/react_components/_todo.js?body=1" for ::1 at 2015-11-07 08:36:39 -0800
+
+
+Started GET "/assets/react_components/_todo_container.js?body=1" for ::1 at 2015-11-07 08:36:39 -0800
+
+
+Started GET "/assets/react_components/_todos.js?body=1" for ::1 at 2015-11-07 08:36:39 -0800
+
+
+Started GET "/assets/application.js?body=1" for ::1 at 2015-11-07 08:36:39 -0800
+
+
+Started GET "/assets/wood-bg.jpg" for ::1 at 2015-11-07 08:36:39 -0800
+  [1m[36mTodo Load (0.6ms)[0m  [1mSELECT "todos".* FROM "todos"[0m
+  [1m[35mTodo Load (0.8ms)[0m  SELECT "todos".* FROM "todos"
+  [1m[36m (0.3ms)[0m  [1mBEGIN[0m
+  [1m[35mSQL (0.5ms)[0m  DELETE FROM "todos" WHERE "todos"."id" = $1  [["id", 43]]
+  [1m[36m (0.4ms)[0m  [1mCOMMIT[0m
+  [1m[35m (0.2ms)[0m  BEGIN
+  [1m[36mSQL (0.3ms)[0m  [1mDELETE FROM "todos" WHERE "todos"."id" = $1[0m  [["id", 39]]
+  [1m[35m (0.4ms)[0m  COMMIT
+  [1m[36m (0.1ms)[0m  [1mBEGIN[0m
+  [1m[35mSQL (0.3ms)[0m  DELETE FROM "todos" WHERE "todos"."id" = $1  [["id", 40]]
+  [1m[36m (0.3ms)[0m  [1mCOMMIT[0m
+  [1m[35m (0.1ms)[0m  BEGIN
+  [1m[36mSQL (0.3ms)[0m  [1mDELETE FROM "todos" WHERE "todos"."id" = $1[0m  [["id", 41]]
+  [1m[35m (0.3ms)[0m  COMMIT
+  [1m[36m (0.1ms)[0m  [1mBEGIN[0m
+  [1m[35mSQL (0.3ms)[0m  DELETE FROM "todos" WHERE "todos"."id" = $1  [["id", 37]]
+  [1m[36m (0.3ms)[0m  [1mCOMMIT[0m
+  [1m[35m (0.1ms)[0m  BEGIN
+  [1m[36mSQL (0.2ms)[0m  [1mDELETE FROM "todos" WHERE "todos"."id" = $1[0m  [["id", 44]]
+  [1m[35m (0.3ms)[0m  COMMIT
+  [1m[36m (0.1ms)[0m  [1mBEGIN[0m
+  [1m[35mSQL (0.2ms)[0m  DELETE FROM "todos" WHERE "todos"."id" = $1  [["id", 24]]
+  [1m[36m (0.3ms)[0m  [1mCOMMIT[0m
+  [1m[35m (0.1ms)[0m  BEGIN
+  [1m[36mSQL (0.2ms)[0m  [1mDELETE FROM "todos" WHERE "todos"."id" = $1[0m  [["id", 26]]
+  [1m[35m (2.6ms)[0m  COMMIT
+  [1m[36m (0.2ms)[0m  [1mBEGIN[0m
+  [1m[35mSQL (0.3ms)[0m  DELETE FROM "todos" WHERE "todos"."id" = $1  [["id", 25]]
+  [1m[36m (0.4ms)[0m  [1mCOMMIT[0m
+  [1m[35m (0.1ms)[0m  BEGIN
+  [1m[36mSQL (0.2ms)[0m  [1mDELETE FROM "todos" WHERE "todos"."id" = $1[0m  [["id", 27]]
+  [1m[35m (0.3ms)[0m  COMMIT
+  [1m[36m (0.1ms)[0m  [1mBEGIN[0m
+  [1m[35mSQL (0.2ms)[0m  DELETE FROM "todos" WHERE "todos"."id" = $1  [["id", 28]]
+  [1m[36m (0.3ms)[0m  [1mCOMMIT[0m
+  [1m[35m (0.1ms)[0m  BEGIN
+  [1m[36mSQL (0.2ms)[0m  [1mDELETE FROM "todos" WHERE "todos"."id" = $1[0m  [["id", 29]]
+  [1m[35m (0.3ms)[0m  COMMIT
+  [1m[36m (0.1ms)[0m  [1mBEGIN[0m
+  [1m[35mSQL (0.2ms)[0m  DELETE FROM "todos" WHERE "todos"."id" = $1  [["id", 30]]
+  [1m[36m (0.4ms)[0m  [1mCOMMIT[0m
+  [1m[35m (0.2ms)[0m  BEGIN
+  [1m[36mSQL (0.7ms)[0m  [1mDELETE FROM "todos" WHERE "todos"."id" = $1[0m  [["id", 31]]
+  [1m[35m (0.5ms)[0m  COMMIT
+  [1m[36m (0.2ms)[0m  [1mBEGIN[0m
+  [1m[35mSQL (0.2ms)[0m  DELETE FROM "todos" WHERE "todos"."id" = $1  [["id", 32]]
+  [1m[36m (0.3ms)[0m  [1mCOMMIT[0m
+  [1m[35m (0.2ms)[0m  BEGIN
+  [1m[36mSQL (0.2ms)[0m  [1mDELETE FROM "todos" WHERE "todos"."id" = $1[0m  [["id", 23]]
+  [1m[35m (0.3ms)[0m  COMMIT
+  [1m[36m (0.1ms)[0m  [1mBEGIN[0m
+  [1m[35mSQL (0.2ms)[0m  DELETE FROM "todos" WHERE "todos"."id" = $1  [["id", 34]]
+  [1m[36m (0.3ms)[0m  [1mCOMMIT[0m
+  [1m[35m (0.1ms)[0m  BEGIN
+  [1m[36mSQL (0.2ms)[0m  [1mDELETE FROM "todos" WHERE "todos"."id" = $1[0m  [["id", 35]]
+  [1m[35m (0.3ms)[0m  COMMIT
+  [1m[36m (0.1ms)[0m  [1mBEGIN[0m
+  [1m[35mSQL (0.2ms)[0m  DELETE FROM "todos" WHERE "todos"."id" = $1  [["id", 33]]
+  [1m[36m (0.3ms)[0m  [1mCOMMIT[0m
+  [1m[35m (0.1ms)[0m  BEGIN
+  [1m[36mSQL (0.2ms)[0m  [1mDELETE FROM "todos" WHERE "todos"."id" = $1[0m  [["id", 38]]
+  [1m[35m (0.3ms)[0m  COMMIT
+  [1m[36m (0.1ms)[0m  [1mBEGIN[0m
+  [1m[35mSQL (0.2ms)[0m  DELETE FROM "todos" WHERE "todos"."id" = $1  [["id", 36]]
+  [1m[36m (0.3ms)[0m  [1mCOMMIT[0m
+  [1m[35m (0.1ms)[0m  BEGIN
+  [1m[36mSQL (0.2ms)[0m  [1mDELETE FROM "todos" WHERE "todos"."id" = $1[0m  [["id", 42]]
+  [1m[35m (0.3ms)[0m  COMMIT
+
+
+Started GET "/" for ::1 at 2015-11-07 08:37:15 -0800
+Processing by TodosController#index as HTML
+  [1m[35mTodo Load (0.5ms)[0m  SELECT "todos".* FROM "todos" WHERE (active = true)  ORDER BY position
+  Rendered todos/index.html.erb within layouts/application (209.8ms)
+Completed 200 OK in 231ms (Views: 229.4ms | ActiveRecord: 0.5ms)
+
+
+Started GET "/assets/application.css?body=1" for ::1 at 2015-11-07 08:37:15 -0800
+
+
+Started GET "/assets/jquery-ui/core.js?body=1" for ::1 at 2015-11-07 08:37:15 -0800
+
+
+Started GET "/assets/todos.css?body=1" for ::1 at 2015-11-07 08:37:15 -0800
+
+
+Started GET "/assets/jquery-ui/accordion.js?body=1" for ::1 at 2015-11-07 08:37:15 -0800
+
+
+Started GET "/assets/jquery-ui/widget.js?body=1" for ::1 at 2015-11-07 08:37:15 -0800
+
+
+Started GET "/assets/jquery.js?body=1" for ::1 at 2015-11-07 08:37:15 -0800
+
+
+Started GET "/assets/jquery-ui/position.js?body=1" for ::1 at 2015-11-07 08:37:15 -0800
+
+
+Started GET "/assets/jquery-ui/menu.js?body=1" for ::1 at 2015-11-07 08:37:15 -0800
+
+
+Started GET "/assets/jquery-ui/autocomplete.js?body=1" for ::1 at 2015-11-07 08:37:15 -0800
+
+
+Started GET "/assets/jquery-ui/button.js?body=1" for ::1 at 2015-11-07 08:37:15 -0800
+
+
+Started GET "/assets/jquery-ui/datepicker.js?body=1" for ::1 at 2015-11-07 08:37:15 -0800
+
+
+Started GET "/assets/jquery-ui/mouse.js?body=1" for ::1 at 2015-11-07 08:37:15 -0800
+
+
+Started GET "/assets/jquery-ui/draggable.js?body=1" for ::1 at 2015-11-07 08:37:15 -0800
+
+
+Started GET "/assets/jquery-ui/resizable.js?body=1" for ::1 at 2015-11-07 08:37:15 -0800
+
+
+Started GET "/assets/jquery-ui/dialog.js?body=1" for ::1 at 2015-11-07 08:37:15 -0800
+
+
+Started GET "/assets/jquery-ui/droppable.js?body=1" for ::1 at 2015-11-07 08:37:15 -0800
+
+
+Started GET "/assets/jquery-ui/effect.js?body=1" for ::1 at 2015-11-07 08:37:15 -0800
+
+
+Started GET "/assets/jquery-ui/effect-blind.js?body=1" for ::1 at 2015-11-07 08:37:15 -0800
+
+
+Started GET "/assets/jquery-ui/effect-bounce.js?body=1" for ::1 at 2015-11-07 08:37:15 -0800
+
+
+Started GET "/assets/jquery-ui/effect-clip.js?body=1" for ::1 at 2015-11-07 08:37:15 -0800
+
+
+Started GET "/assets/jquery-ui/effect-drop.js?body=1" for ::1 at 2015-11-07 08:37:15 -0800
+
+
+Started GET "/assets/jquery-ui/effect-explode.js?body=1" for ::1 at 2015-11-07 08:37:15 -0800
+
+
+Started GET "/assets/jquery-ui/effect-fade.js?body=1" for ::1 at 2015-11-07 08:37:15 -0800
+
+
+Started GET "/assets/jquery-ui/effect-fold.js?body=1" for ::1 at 2015-11-07 08:37:15 -0800
+
+
+Started GET "/assets/jquery-ui/effect-highlight.js?body=1" for ::1 at 2015-11-07 08:37:15 -0800
+
+
+Started GET "/assets/jquery-ui/effect-size.js?body=1" for ::1 at 2015-11-07 08:37:15 -0800
+
+
+Started GET "/assets/jquery-ui/effect-scale.js?body=1" for ::1 at 2015-11-07 08:37:15 -0800
+
+
+Started GET "/assets/jquery-ui/effect-puff.js?body=1" for ::1 at 2015-11-07 08:37:15 -0800
+
+
+Started GET "/assets/jquery-ui/effect-pulsate.js?body=1" for ::1 at 2015-11-07 08:37:15 -0800
+
+
+Started GET "/assets/jquery-ui/effect-shake.js?body=1" for ::1 at 2015-11-07 08:37:15 -0800
+
+
+Started GET "/assets/jquery-ui/effect-slide.js?body=1" for ::1 at 2015-11-07 08:37:15 -0800
+
+
+Started GET "/assets/jquery-ui/progressbar.js?body=1" for ::1 at 2015-11-07 08:37:15 -0800
+
+
+Started GET "/assets/jquery-ui/effect-transfer.js?body=1" for ::1 at 2015-11-07 08:37:15 -0800
+
+
+Started GET "/assets/jquery-ui/selectable.js?body=1" for ::1 at 2015-11-07 08:37:15 -0800
+
+
+Started GET "/assets/jquery-ui/selectmenu.js?body=1" for ::1 at 2015-11-07 08:37:15 -0800
+
+
+Started GET "/assets/jquery-ui/slider.js?body=1" for ::1 at 2015-11-07 08:37:15 -0800
+
+
+Started GET "/assets/jquery-ui/sortable.js?body=1" for ::1 at 2015-11-07 08:37:15 -0800
+
+
+Started GET "/assets/jquery-ui/spinner.js?body=1" for ::1 at 2015-11-07 08:37:15 -0800
+
+
+Started GET "/assets/jquery-ui/tabs.js?body=1" for ::1 at 2015-11-07 08:37:15 -0800
+
+
+Started GET "/assets/jquery-ui/tooltip.js?body=1" for ::1 at 2015-11-07 08:37:15 -0800
+
+
+Started GET "/assets/jquery-ui.js?body=1" for ::1 at 2015-11-07 08:37:15 -0800
+
+
+Started GET "/assets/development/react.js?body=1" for ::1 at 2015-11-07 08:37:15 -0800
+
+
+Started GET "/assets/react_ujs.js?body=1" for ::1 at 2015-11-07 08:37:15 -0800
+
+
+Started GET "/assets/react_components/_new_todo.js?body=1" for ::1 at 2015-11-07 08:37:15 -0800
+
+
+Started GET "/assets/react_components/_todo.js?body=1" for ::1 at 2015-11-07 08:37:15 -0800
+
+
+Started GET "/assets/react_components/_todo_container.js?body=1" for ::1 at 2015-11-07 08:37:15 -0800
+
+
+Started GET "/assets/react_components/_todos.js?body=1" for ::1 at 2015-11-07 08:37:15 -0800
+
+
+Started GET "/assets/application.js?body=1" for ::1 at 2015-11-07 08:37:15 -0800
+
+
+Started POST "/todos" for ::1 at 2015-11-07 08:38:05 -0800
+Processing by TodosController#create as JSON
+  Parameters: {"todo"=>{"todo"=>"This is my first task"}}
+  [1m[36m (0.5ms)[0m  [1mSELECT COUNT(*) FROM "todos"[0m
+  [1m[35m (0.3ms)[0m  BEGIN
+  [1m[36mSQL (0.8ms)[0m  [1mINSERT INTO "todos" ("todo", "position", "created_at", "updated_at") VALUES ($1, $2, $3, $4) RETURNING "id"[0m  [["todo", "This is my first task"], ["position", 1], ["created_at", "2015-11-07 16:38:05.542460"], ["updated_at", "2015-11-07 16:38:05.542460"]]
+  [1m[35m (6.6ms)[0m  COMMIT
+Completed 200 OK in 14ms (Views: 0.5ms | ActiveRecord: 8.2ms)
+
+
+Started POST "/todos" for ::1 at 2015-11-07 08:38:16 -0800
+Processing by TodosController#create as JSON
+  Parameters: {"todo"=>{"todo"=>"Wash the dishes"}}
+  [1m[36m (0.7ms)[0m  [1mSELECT COUNT(*) FROM "todos"[0m
+  [1m[35m (0.3ms)[0m  BEGIN
+  [1m[36mSQL (0.6ms)[0m  [1mINSERT INTO "todos" ("todo", "position", "created_at", "updated_at") VALUES ($1, $2, $3, $4) RETURNING "id"[0m  [["todo", "Wash the dishes"], ["position", 2], ["created_at", "2015-11-07 16:38:16.027942"], ["updated_at", "2015-11-07 16:38:16.027942"]]
+  [1m[35m (0.5ms)[0m  COMMIT
+Completed 200 OK in 9ms (Views: 0.6ms | ActiveRecord: 2.1ms)
+
+
+Started POST "/todos" for ::1 at 2015-11-07 08:38:24 -0800
+Processing by TodosController#create as JSON
+  Parameters: {"todo"=>{"todo"=>"Clean the Car"}}
+  [1m[36m (0.4ms)[0m  [1mSELECT COUNT(*) FROM "todos"[0m
+  [1m[35m (0.3ms)[0m  BEGIN
+  [1m[36mSQL (0.8ms)[0m  [1mINSERT INTO "todos" ("todo", "position", "created_at", "updated_at") VALUES ($1, $2, $3, $4) RETURNING "id"[0m  [["todo", "Clean the Car"], ["position", 3], ["created_at", "2015-11-07 16:38:24.690021"], ["updated_at", "2015-11-07 16:38:24.690021"]]
+  [1m[35m (0.7ms)[0m  COMMIT
+Completed 200 OK in 7ms (Views: 0.6ms | ActiveRecord: 2.2ms)
+
+
+Started POST "/todos" for ::1 at 2015-11-07 08:38:35 -0800
+Processing by TodosController#create as JSON
+  Parameters: {"todo"=>{"todo"=>"Wash the clothes"}}
+  [1m[36m (1.0ms)[0m  [1mSELECT COUNT(*) FROM "todos"[0m
+  [1m[35m (0.6ms)[0m  BEGIN
+  [1m[36mSQL (0.4ms)[0m  [1mINSERT INTO "todos" ("todo", "position", "created_at", "updated_at") VALUES ($1, $2, $3, $4) RETURNING "id"[0m  [["todo", "Wash the clothes"], ["position", 4], ["created_at", "2015-11-07 16:38:35.744788"], ["updated_at", "2015-11-07 16:38:35.744788"]]
+  [1m[35m (0.5ms)[0m  COMMIT
+Completed 200 OK in 9ms (Views: 0.3ms | ActiveRecord: 2.6ms)
+
+
+Started PATCH "/sort" for ::1 at 2015-11-07 08:38:40 -0800
+Processing by TodosController#sort as JSON
+  Parameters: {"sort_list"=>["45", "47", "46", "48"]}
+  [1m[36mTodo Load (1.0ms)[0m  [1mSELECT  "todos".* FROM "todos" WHERE "todos"."id" = $1 LIMIT 1[0m  [["id", 45]]
+  [1m[35m (0.3ms)[0m  BEGIN
+  [1m[36m (0.2ms)[0m  [1mCOMMIT[0m
+  [1m[35mTodo Load (0.3ms)[0m  SELECT  "todos".* FROM "todos" WHERE "todos"."id" = $1 LIMIT 1  [["id", 47]]
+  [1m[36m (0.2ms)[0m  [1mBEGIN[0m
+  [1m[35mSQL (0.5ms)[0m  UPDATE "todos" SET "position" = $1, "updated_at" = $2 WHERE "todos"."id" = $3  [["position", 2], ["updated_at", "2015-11-07 16:38:40.188293"], ["id", 47]]
+  [1m[36m (6.8ms)[0m  [1mCOMMIT[0m
+  [1m[35mTodo Load (0.4ms)[0m  SELECT  "todos".* FROM "todos" WHERE "todos"."id" = $1 LIMIT 1  [["id", 46]]
+  [1m[36m (0.2ms)[0m  [1mBEGIN[0m
+  [1m[35mSQL (0.5ms)[0m  UPDATE "todos" SET "position" = $1, "updated_at" = $2 WHERE "todos"."id" = $3  [["position", 3], ["updated_at", "2015-11-07 16:38:40.199477"], ["id", 46]]
+  [1m[36m (0.5ms)[0m  [1mCOMMIT[0m
+  [1m[35mTodo Load (0.2ms)[0m  SELECT  "todos".* FROM "todos" WHERE "todos"."id" = $1 LIMIT 1  [["id", 48]]
+  [1m[36m (0.4ms)[0m  [1mBEGIN[0m
+  [1m[35m (0.2ms)[0m  COMMIT
+  [1m[36mTodo Load (0.5ms)[0m  [1mSELECT "todos".* FROM "todos" WHERE (active = true)  ORDER BY position[0m
+Completed 200 OK in 26ms (Views: 2.0ms | ActiveRecord: 12.2ms)
+
+
+Started PATCH "/sort" for ::1 at 2015-11-07 08:38:42 -0800
+Processing by TodosController#sort as JSON
+  Parameters: {"sort_list"=>["47", "46", "45", "48"]}
+  [1m[35mTodo Load (0.4ms)[0m  SELECT  "todos".* FROM "todos" WHERE "todos"."id" = $1 LIMIT 1  [["id", 47]]
+  [1m[36m (0.2ms)[0m  [1mBEGIN[0m
+  [1m[35mSQL (0.4ms)[0m  UPDATE "todos" SET "position" = $1, "updated_at" = $2 WHERE "todos"."id" = $3  [["position", 1], ["updated_at", "2015-11-07 16:38:42.621492"], ["id", 47]]
+  [1m[36m (0.5ms)[0m  [1mCOMMIT[0m
+  [1m[35mTodo Load (0.4ms)[0m  SELECT  "todos".* FROM "todos" WHERE "todos"."id" = $1 LIMIT 1  [["id", 46]]
+  [1m[36m (0.2ms)[0m  [1mBEGIN[0m
+  [1m[35mSQL (0.5ms)[0m  UPDATE "todos" SET "position" = $1, "updated_at" = $2 WHERE "todos"."id" = $3  [["position", 2], ["updated_at", "2015-11-07 16:38:42.625756"], ["id", 46]]
+  [1m[36m (0.6ms)[0m  [1mCOMMIT[0m
+  [1m[35mTodo Load (0.6ms)[0m  SELECT  "todos".* FROM "todos" WHERE "todos"."id" = $1 LIMIT 1  [["id", 45]]
+  [1m[36m (0.5ms)[0m  [1mBEGIN[0m
+  [1m[35mSQL (0.3ms)[0m  UPDATE "todos" SET "position" = $1, "updated_at" = $2 WHERE "todos"."id" = $3  [["position", 3], ["updated_at", "2015-11-07 16:38:42.632090"], ["id", 45]]
+  [1m[36m (0.6ms)[0m  [1mCOMMIT[0m
+  [1m[35mTodo Load (0.4ms)[0m  SELECT  "todos".* FROM "todos" WHERE "todos"."id" = $1 LIMIT 1  [["id", 48]]
+  [1m[36m (0.2ms)[0m  [1mBEGIN[0m
+  [1m[35m (0.4ms)[0m  COMMIT
+  [1m[36mTodo Load (0.4ms)[0m  [1mSELECT "todos".* FROM "todos" WHERE (active = true)  ORDER BY position[0m
+Completed 200 OK in 21ms (Views: 2.0ms | ActiveRecord: 6.6ms)
+
+
+Started GET "/" for ::1 at 2015-11-07 08:38:44 -0800
+Processing by TodosController#index as HTML
+  [1m[35mTodo Load (1.1ms)[0m  SELECT "todos".* FROM "todos" WHERE (active = true)  ORDER BY position
+  Rendered todos/index.html.erb within layouts/application (287.2ms)
+Completed 200 OK in 317ms (Views: 315.4ms | ActiveRecord: 1.1ms)
+
+
+Started GET "/assets/application.css?body=1" for ::1 at 2015-11-07 08:38:44 -0800
+
+
+Started GET "/assets/jquery-ui/accordion.js?body=1" for ::1 at 2015-11-07 08:38:44 -0800
+
+
+Started GET "/assets/jquery-ui/core.js?body=1" for ::1 at 2015-11-07 08:38:44 -0800
+
+
+Started GET "/assets/todos.css?body=1" for ::1 at 2015-11-07 08:38:44 -0800
+
+
+Started GET "/assets/jquery-ui/widget.js?body=1" for ::1 at 2015-11-07 08:38:44 -0800
+
+
+Started GET "/assets/jquery.js?body=1" for ::1 at 2015-11-07 08:38:44 -0800
+
+
+Started GET "/assets/jquery-ui/position.js?body=1" for ::1 at 2015-11-07 08:38:44 -0800
+
+
+Started GET "/assets/jquery-ui/menu.js?body=1" for ::1 at 2015-11-07 08:38:44 -0800
+
+
+Started GET "/assets/jquery-ui/autocomplete.js?body=1" for ::1 at 2015-11-07 08:38:44 -0800
+
+
+Started GET "/assets/jquery-ui/button.js?body=1" for ::1 at 2015-11-07 08:38:44 -0800
+
+
+Started GET "/assets/jquery-ui/datepicker.js?body=1" for ::1 at 2015-11-07 08:38:44 -0800
+
+
+Started GET "/assets/jquery-ui/mouse.js?body=1" for ::1 at 2015-11-07 08:38:44 -0800
+
+
+Started GET "/assets/jquery-ui/draggable.js?body=1" for ::1 at 2015-11-07 08:38:44 -0800
+
+
+Started GET "/assets/jquery-ui/resizable.js?body=1" for ::1 at 2015-11-07 08:38:44 -0800
+
+
+Started GET "/assets/jquery-ui/dialog.js?body=1" for ::1 at 2015-11-07 08:38:44 -0800
+
+
+Started GET "/assets/jquery-ui/droppable.js?body=1" for ::1 at 2015-11-07 08:38:44 -0800
+
+
+Started GET "/assets/jquery-ui/effect.js?body=1" for ::1 at 2015-11-07 08:38:44 -0800
+
+
+Started GET "/assets/jquery-ui/effect-blind.js?body=1" for ::1 at 2015-11-07 08:38:44 -0800
+
+
+Started GET "/assets/jquery-ui/effect-bounce.js?body=1" for ::1 at 2015-11-07 08:38:44 -0800
+
+
+Started GET "/assets/jquery-ui/effect-clip.js?body=1" for ::1 at 2015-11-07 08:38:44 -0800
+
+
+Started GET "/assets/jquery-ui/effect-drop.js?body=1" for ::1 at 2015-11-07 08:38:44 -0800
+
+
+Started GET "/assets/jquery-ui/effect-explode.js?body=1" for ::1 at 2015-11-07 08:38:44 -0800
+
+
+Started GET "/assets/jquery-ui/effect-fade.js?body=1" for ::1 at 2015-11-07 08:38:44 -0800
+
+
+Started GET "/assets/jquery-ui/effect-fold.js?body=1" for ::1 at 2015-11-07 08:38:44 -0800
+
+
+Started GET "/assets/jquery-ui/effect-highlight.js?body=1" for ::1 at 2015-11-07 08:38:44 -0800
+
+
+Started GET "/assets/jquery-ui/effect-size.js?body=1" for ::1 at 2015-11-07 08:38:44 -0800
+
+
+Started GET "/assets/jquery-ui/effect-scale.js?body=1" for ::1 at 2015-11-07 08:38:44 -0800
+
+
+Started GET "/assets/jquery-ui/effect-puff.js?body=1" for ::1 at 2015-11-07 08:38:44 -0800
+
+
+Started GET "/assets/jquery-ui/effect-pulsate.js?body=1" for ::1 at 2015-11-07 08:38:44 -0800
+
+
+Started GET "/assets/jquery-ui/effect-shake.js?body=1" for ::1 at 2015-11-07 08:38:44 -0800
+
+
+Started GET "/assets/jquery-ui/effect-slide.js?body=1" for ::1 at 2015-11-07 08:38:44 -0800
+
+
+Started GET "/assets/jquery-ui/effect-transfer.js?body=1" for ::1 at 2015-11-07 08:38:44 -0800
+
+
+Started GET "/assets/jquery-ui/progressbar.js?body=1" for ::1 at 2015-11-07 08:38:44 -0800
+
+
+Started GET "/assets/jquery-ui/selectable.js?body=1" for ::1 at 2015-11-07 08:38:44 -0800
+
+
+Started GET "/assets/jquery-ui/selectmenu.js?body=1" for ::1 at 2015-11-07 08:38:44 -0800
+
+
+Started GET "/assets/jquery-ui/slider.js?body=1" for ::1 at 2015-11-07 08:38:44 -0800
+
+
+Started GET "/assets/jquery-ui/sortable.js?body=1" for ::1 at 2015-11-07 08:38:44 -0800
+
+
+Started GET "/assets/jquery-ui/tabs.js?body=1" for ::1 at 2015-11-07 08:38:44 -0800
+
+
+Started GET "/assets/jquery-ui/spinner.js?body=1" for ::1 at 2015-11-07 08:38:44 -0800
+
+
+Started GET "/assets/jquery-ui/tooltip.js?body=1" for ::1 at 2015-11-07 08:38:44 -0800
+
+
+Started GET "/assets/jquery-ui.js?body=1" for ::1 at 2015-11-07 08:38:44 -0800
+
+
+Started GET "/assets/development/react.js?body=1" for ::1 at 2015-11-07 08:38:44 -0800
+
+
+Started GET "/assets/react_ujs.js?body=1" for ::1 at 2015-11-07 08:38:44 -0800
+
+
+Started GET "/assets/react_components/_new_todo.js?body=1" for ::1 at 2015-11-07 08:38:44 -0800
+
+
+Started GET "/assets/react_components/_todo.js?body=1" for ::1 at 2015-11-07 08:38:44 -0800
+
+
+Started GET "/assets/react_components/_todo_container.js?body=1" for ::1 at 2015-11-07 08:38:44 -0800
+
+
+Started GET "/assets/react_components/_todos.js?body=1" for ::1 at 2015-11-07 08:38:44 -0800
+
+
+Started GET "/assets/application.js?body=1" for ::1 at 2015-11-07 08:38:44 -0800
+
+
+Started PUT "/todos/47" for ::1 at 2015-11-07 08:38:47 -0800
+Processing by TodosController#update as JSON
+  Parameters: {"todo"=>{"done"=>"true"}, "id"=>"47"}
+  [1m[36mTodo Load (0.4ms)[0m  [1mSELECT  "todos".* FROM "todos" WHERE "todos"."id" = $1 LIMIT 1[0m  [["id", 47]]
+  [1m[35m (0.2ms)[0m  BEGIN
+  [1m[36mSQL (0.9ms)[0m  [1mUPDATE "todos" SET "done" = $1, "updated_at" = $2 WHERE "todos"."id" = $3[0m  [["done", "t"], ["updated_at", "2015-11-07 16:38:47.957433"], ["id", 47]]
+  [1m[35m (6.7ms)[0m  COMMIT
+Completed 200 OK in 13ms (Views: 0.4ms | ActiveRecord: 8.3ms)
+
+
+Started PUT "/todos/45" for ::1 at 2015-11-07 08:38:49 -0800
+Processing by TodosController#update as JSON
+  Parameters: {"todo"=>{"done"=>"true"}, "id"=>"45"}
+  [1m[36mTodo Load (0.4ms)[0m  [1mSELECT  "todos".* FROM "todos" WHERE "todos"."id" = $1 LIMIT 1[0m  [["id", 45]]
+  [1m[35m (0.5ms)[0m  BEGIN
+  [1m[36mSQL (0.4ms)[0m  [1mUPDATE "todos" SET "done" = $1, "updated_at" = $2 WHERE "todos"."id" = $3[0m  [["done", "t"], ["updated_at", "2015-11-07 16:38:49.686381"], ["id", 45]]
+  [1m[35m (0.5ms)[0m  COMMIT
+Completed 200 OK in 6ms (Views: 0.4ms | ActiveRecord: 1.8ms)
+
+
+Started PATCH "/sort" for ::1 at 2015-11-07 08:38:52 -0800
+Processing by TodosController#sort as JSON
+  Parameters: {"sort_list"=>["47", "45", "46", "48"]}
+  [1m[36mTodo Load (0.5ms)[0m  [1mSELECT  "todos".* FROM "todos" WHERE "todos"."id" = $1 LIMIT 1[0m  [["id", 47]]
+  [1m[35m (0.3ms)[0m  BEGIN
+  [1m[36m (0.2ms)[0m  [1mCOMMIT[0m
+  [1m[35mTodo Load (0.4ms)[0m  SELECT  "todos".* FROM "todos" WHERE "todos"."id" = $1 LIMIT 1  [["id", 45]]
+  [1m[36m (0.2ms)[0m  [1mBEGIN[0m
+  [1m[35mSQL (0.4ms)[0m  UPDATE "todos" SET "position" = $1, "updated_at" = $2 WHERE "todos"."id" = $3  [["position", 2], ["updated_at", "2015-11-07 16:38:52.153689"], ["id", 45]]
+  [1m[36m (6.8ms)[0m  [1mCOMMIT[0m
+  [1m[35mTodo Load (0.7ms)[0m  SELECT  "todos".* FROM "todos" WHERE "todos"."id" = $1 LIMIT 1  [["id", 46]]
+  [1m[36m (0.7ms)[0m  [1mBEGIN[0m
+  [1m[35mSQL (0.5ms)[0m  UPDATE "todos" SET "position" = $1, "updated_at" = $2 WHERE "todos"."id" = $3  [["position", 3], ["updated_at", "2015-11-07 16:38:52.166407"], ["id", 46]]
+  [1m[36m (0.5ms)[0m  [1mCOMMIT[0m
+  [1m[35mTodo Load (0.4ms)[0m  SELECT  "todos".* FROM "todos" WHERE "todos"."id" = $1 LIMIT 1  [["id", 48]]
+  [1m[36m (0.2ms)[0m  [1mBEGIN[0m
+  [1m[35m (0.3ms)[0m  COMMIT
+  [1m[36mTodo Load (0.4ms)[0m  [1mSELECT "todos".* FROM "todos" WHERE (active = true)  ORDER BY position[0m
+Completed 200 OK in 27ms (Views: 2.5ms | ActiveRecord: 12.4ms)
+
+
+Started GET "/" for ::1 at 2015-11-07 08:38:53 -0800
+Processing by TodosController#index as HTML
+  [1m[35mTodo Load (1.0ms)[0m  SELECT "todos".* FROM "todos" WHERE (active = true)  ORDER BY position
+  Rendered todos/index.html.erb within layouts/application (265.5ms)
+Completed 200 OK in 291ms (Views: 289.4ms | ActiveRecord: 1.0ms)
+
+
+Started GET "/assets/application.css?body=1" for ::1 at 2015-11-07 08:38:54 -0800
+
+
+Started GET "/assets/todos.css?body=1" for ::1 at 2015-11-07 08:38:54 -0800
+
+
+Started GET "/assets/jquery-ui/widget.js?body=1" for ::1 at 2015-11-07 08:38:54 -0800
+
+
+Started GET "/assets/jquery-ui/core.js?body=1" for ::1 at 2015-11-07 08:38:54 -0800
+
+
+Started GET "/assets/jquery-ui/accordion.js?body=1" for ::1 at 2015-11-07 08:38:54 -0800
+
+
+Started GET "/assets/jquery.js?body=1" for ::1 at 2015-11-07 08:38:54 -0800
+
+
+Started GET "/assets/jquery-ui/position.js?body=1" for ::1 at 2015-11-07 08:38:54 -0800
+
+
+Started GET "/assets/jquery-ui/menu.js?body=1" for ::1 at 2015-11-07 08:38:54 -0800
+
+
+Started GET "/assets/jquery-ui/autocomplete.js?body=1" for ::1 at 2015-11-07 08:38:54 -0800
+
+
+Started GET "/assets/jquery-ui/button.js?body=1" for ::1 at 2015-11-07 08:38:54 -0800
+
+
+Started GET "/assets/jquery-ui/datepicker.js?body=1" for ::1 at 2015-11-07 08:38:54 -0800
+
+
+Started GET "/assets/jquery-ui/mouse.js?body=1" for ::1 at 2015-11-07 08:38:54 -0800
+
+
+Started GET "/assets/jquery-ui/draggable.js?body=1" for ::1 at 2015-11-07 08:38:54 -0800
+
+
+Started GET "/assets/jquery-ui/resizable.js?body=1" for ::1 at 2015-11-07 08:38:54 -0800
+
+
+Started GET "/assets/jquery-ui/dialog.js?body=1" for ::1 at 2015-11-07 08:38:54 -0800
+
+
+Started GET "/assets/jquery-ui/droppable.js?body=1" for ::1 at 2015-11-07 08:38:54 -0800
+
+
+Started GET "/assets/jquery-ui/effect.js?body=1" for ::1 at 2015-11-07 08:38:54 -0800
+
+
+Started GET "/assets/jquery-ui/effect-blind.js?body=1" for ::1 at 2015-11-07 08:38:54 -0800
+
+
+Started GET "/assets/jquery-ui/effect-bounce.js?body=1" for ::1 at 2015-11-07 08:38:54 -0800
+
+
+Started GET "/assets/jquery-ui/effect-clip.js?body=1" for ::1 at 2015-11-07 08:38:54 -0800
+
+
+Started GET "/assets/jquery-ui/effect-drop.js?body=1" for ::1 at 2015-11-07 08:38:54 -0800
+
+
+Started GET "/assets/jquery-ui/effect-explode.js?body=1" for ::1 at 2015-11-07 08:38:54 -0800
+
+
+Started GET "/assets/jquery-ui/effect-fade.js?body=1" for ::1 at 2015-11-07 08:38:54 -0800
+
+
+Started GET "/assets/jquery-ui/effect-fold.js?body=1" for ::1 at 2015-11-07 08:38:54 -0800
+
+
+Started GET "/assets/jquery-ui/effect-highlight.js?body=1" for ::1 at 2015-11-07 08:38:54 -0800
+
+
+Started GET "/assets/jquery-ui/effect-size.js?body=1" for ::1 at 2015-11-07 08:38:54 -0800
+
+
+Started GET "/assets/jquery-ui/effect-scale.js?body=1" for ::1 at 2015-11-07 08:38:54 -0800
+
+
+Started GET "/assets/jquery-ui/effect-puff.js?body=1" for ::1 at 2015-11-07 08:38:54 -0800
+
+
+Started GET "/assets/jquery-ui/effect-pulsate.js?body=1" for ::1 at 2015-11-07 08:38:54 -0800
+
+
+Started GET "/assets/jquery-ui/effect-shake.js?body=1" for ::1 at 2015-11-07 08:38:54 -0800
+
+
+Started GET "/assets/jquery-ui/effect-slide.js?body=1" for ::1 at 2015-11-07 08:38:54 -0800
+
+
+Started GET "/assets/jquery-ui/effect-transfer.js?body=1" for ::1 at 2015-11-07 08:38:54 -0800
+
+
+Started GET "/assets/jquery-ui/progressbar.js?body=1" for ::1 at 2015-11-07 08:38:54 -0800
+
+
+Started GET "/assets/jquery-ui/selectable.js?body=1" for ::1 at 2015-11-07 08:38:54 -0800
+
+
+Started GET "/assets/jquery-ui/slider.js?body=1" for ::1 at 2015-11-07 08:38:54 -0800
+
+
+Started GET "/assets/jquery-ui/selectmenu.js?body=1" for ::1 at 2015-11-07 08:38:54 -0800
+
+
+Started GET "/assets/jquery-ui/sortable.js?body=1" for ::1 at 2015-11-07 08:38:54 -0800
+
+
+Started GET "/assets/jquery-ui/spinner.js?body=1" for ::1 at 2015-11-07 08:38:54 -0800
+
+
+Started GET "/assets/jquery-ui/tabs.js?body=1" for ::1 at 2015-11-07 08:38:54 -0800
+
+
+Started GET "/assets/jquery-ui/tooltip.js?body=1" for ::1 at 2015-11-07 08:38:54 -0800
+
+
+Started GET "/assets/jquery-ui.js?body=1" for ::1 at 2015-11-07 08:38:54 -0800
+
+
+Started GET "/assets/development/react.js?body=1" for ::1 at 2015-11-07 08:38:54 -0800
+
+
+Started GET "/assets/react_ujs.js?body=1" for ::1 at 2015-11-07 08:38:54 -0800
+
+
+Started GET "/assets/react_components/_new_todo.js?body=1" for ::1 at 2015-11-07 08:38:54 -0800
+
+
+Started GET "/assets/react_components/_todo.js?body=1" for ::1 at 2015-11-07 08:38:54 -0800
+
+
+Started GET "/assets/react_components/_todo_container.js?body=1" for ::1 at 2015-11-07 08:38:54 -0800
+
+
+Started GET "/assets/react_components/_todos.js?body=1" for ::1 at 2015-11-07 08:38:54 -0800
+
+
+Started GET "/assets/application.js?body=1" for ::1 at 2015-11-07 08:38:54 -0800
+
+
+Started PUT "/todos/45" for ::1 at 2015-11-07 08:38:56 -0800
+Processing by TodosController#update as JSON
+  Parameters: {"todo"=>{"active"=>"false"}, "id"=>"45"}
+  [1m[36mTodo Load (0.4ms)[0m  [1mSELECT  "todos".* FROM "todos" WHERE "todos"."id" = $1 LIMIT 1[0m  [["id", 45]]
+  [1m[35m (0.2ms)[0m  BEGIN
+  [1m[36mSQL (0.8ms)[0m  [1mUPDATE "todos" SET "active" = $1, "updated_at" = $2 WHERE "todos"."id" = $3[0m  [["active", "f"], ["updated_at", "2015-11-07 16:38:56.973837"], ["id", 45]]
+  [1m[35m (6.8ms)[0m  COMMIT
+Completed 200 OK in 13ms (Views: 0.5ms | ActiveRecord: 8.1ms)
+
+
+Started PUT "/todos/46" for ::1 at 2015-11-07 08:39:02 -0800
+Processing by TodosController#update as JSON
+  Parameters: {"todo"=>{"done"=>"false"}, "id"=>"46"}
+  [1m[36mTodo Load (0.4ms)[0m  [1mSELECT  "todos".* FROM "todos" WHERE "todos"."id" = $1 LIMIT 1[0m  [["id", 46]]
+  [1m[35m (0.2ms)[0m  BEGIN
+  [1m[36m (0.2ms)[0m  [1mCOMMIT[0m
+Completed 200 OK in 3ms (Views: 0.3ms | ActiveRecord: 0.8ms)
+
+
+Started PUT "/todos/46" for ::1 at 2015-11-07 08:39:03 -0800
+Processing by TodosController#update as JSON
+  Parameters: {"todo"=>{"done"=>"true"}, "id"=>"46"}
+  [1m[35mTodo Load (0.6ms)[0m  SELECT  "todos".* FROM "todos" WHERE "todos"."id" = $1 LIMIT 1  [["id", 46]]
+  [1m[36m (0.4ms)[0m  [1mBEGIN[0m
+  [1m[35mSQL (0.3ms)[0m  UPDATE "todos" SET "done" = $1, "updated_at" = $2 WHERE "todos"."id" = $3  [["done", "t"], ["updated_at", "2015-11-07 16:39:03.134779"], ["id", 46]]
+  [1m[36m (6.6ms)[0m  [1mCOMMIT[0m
+Completed 200 OK in 14ms (Views: 0.6ms | ActiveRecord: 8.0ms)
+
+
+Started GET "/" for ::1 at 2015-11-07 08:39:04 -0800
+Processing by TodosController#index as HTML
+  [1m[35mTodo Load (1.1ms)[0m  SELECT "todos".* FROM "todos" WHERE (active = true)  ORDER BY position
+  Rendered todos/index.html.erb within layouts/application (264.1ms)
+Completed 200 OK in 292ms (Views: 289.5ms | ActiveRecord: 1.1ms)
+
+
+Started GET "/assets/jquery.js?body=1" for ::1 at 2015-11-07 08:39:04 -0800
+
+
+Started GET "/assets/todos.css?body=1" for ::1 at 2015-11-07 08:39:04 -0800
+
+
+Started GET "/assets/jquery-ui/position.js?body=1" for ::1 at 2015-11-07 08:39:04 -0800
+
+
+Started GET "/assets/jquery-ui/widget.js?body=1" for ::1 at 2015-11-07 08:39:04 -0800
+
+
+Started GET "/assets/application.css?body=1" for ::1 at 2015-11-07 08:39:04 -0800
+
+
+Started GET "/assets/jquery-ui/core.js?body=1" for ::1 at 2015-11-07 08:39:05 -0800
+
+
+Started GET "/assets/jquery-ui/accordion.js?body=1" for ::1 at 2015-11-07 08:39:05 -0800
+
+
+Started GET "/assets/jquery-ui/autocomplete.js?body=1" for ::1 at 2015-11-07 08:39:05 -0800
+
+
+Started GET "/assets/jquery-ui/menu.js?body=1" for ::1 at 2015-11-07 08:39:05 -0800
+
+
+Started GET "/assets/jquery-ui/draggable.js?body=1" for ::1 at 2015-11-07 08:39:05 -0800
+
+
+Started GET "/assets/jquery-ui/mouse.js?body=1" for ::1 at 2015-11-07 08:39:05 -0800
+
+
+Started GET "/assets/jquery-ui/datepicker.js?body=1" for ::1 at 2015-11-07 08:39:05 -0800
+
+
+Started GET "/assets/jquery-ui/resizable.js?body=1" for ::1 at 2015-11-07 08:39:05 -0800
+
+
+Started GET "/assets/jquery-ui/dialog.js?body=1" for ::1 at 2015-11-07 08:39:05 -0800
+
+
+Started GET "/assets/jquery-ui/button.js?body=1" for ::1 at 2015-11-07 08:39:05 -0800
+
+
+Started GET "/assets/jquery-ui/effect.js?body=1" for ::1 at 2015-11-07 08:39:05 -0800
+
+
+Started GET "/assets/jquery-ui/droppable.js?body=1" for ::1 at 2015-11-07 08:39:05 -0800
+
+
+Started GET "/assets/jquery-ui/effect-bounce.js?body=1" for ::1 at 2015-11-07 08:39:05 -0800
+
+
+Started GET "/assets/jquery-ui/effect-clip.js?body=1" for ::1 at 2015-11-07 08:39:05 -0800
+
+
+Started GET "/assets/jquery-ui/effect-drop.js?body=1" for ::1 at 2015-11-07 08:39:05 -0800
+
+
+Started GET "/assets/jquery-ui/effect-blind.js?body=1" for ::1 at 2015-11-07 08:39:05 -0800
+
+
+Started GET "/assets/jquery-ui/effect-explode.js?body=1" for ::1 at 2015-11-07 08:39:05 -0800
+
+
+Started GET "/assets/jquery-ui/effect-fade.js?body=1" for ::1 at 2015-11-07 08:39:05 -0800
+
+
+Started GET "/assets/jquery-ui/effect-fold.js?body=1" for ::1 at 2015-11-07 08:39:05 -0800
+
+
+Started GET "/assets/jquery-ui/effect-size.js?body=1" for ::1 at 2015-11-07 08:39:05 -0800
+
+
+Started GET "/assets/jquery-ui/effect-highlight.js?body=1" for ::1 at 2015-11-07 08:39:05 -0800
+
+
+Started GET "/assets/jquery-ui/effect-scale.js?body=1" for ::1 at 2015-11-07 08:39:05 -0800
+
+
+Started GET "/assets/jquery-ui/effect-puff.js?body=1" for ::1 at 2015-11-07 08:39:05 -0800
+
+
+Started GET "/assets/jquery-ui/effect-pulsate.js?body=1" for ::1 at 2015-11-07 08:39:05 -0800
+
+
+Started GET "/assets/jquery-ui/effect-shake.js?body=1" for ::1 at 2015-11-07 08:39:05 -0800
+
+
+Started GET "/assets/jquery-ui/effect-slide.js?body=1" for ::1 at 2015-11-07 08:39:05 -0800
+
+
+Started GET "/assets/jquery-ui/effect-transfer.js?body=1" for ::1 at 2015-11-07 08:39:05 -0800
+
+
+Started GET "/assets/jquery-ui/progressbar.js?body=1" for ::1 at 2015-11-07 08:39:05 -0800
+
+
+Started GET "/assets/jquery-ui/selectable.js?body=1" for ::1 at 2015-11-07 08:39:05 -0800
+
+
+Started GET "/assets/jquery-ui/selectmenu.js?body=1" for ::1 at 2015-11-07 08:39:05 -0800
+
+
+Started GET "/assets/jquery-ui/slider.js?body=1" for ::1 at 2015-11-07 08:39:05 -0800
+
+
+Started GET "/assets/jquery-ui/sortable.js?body=1" for ::1 at 2015-11-07 08:39:05 -0800
+
+
+Started GET "/assets/jquery-ui/spinner.js?body=1" for ::1 at 2015-11-07 08:39:05 -0800
+
+
+Started GET "/assets/jquery-ui/tabs.js?body=1" for ::1 at 2015-11-07 08:39:05 -0800
+
+
+Started GET "/assets/jquery-ui/tooltip.js?body=1" for ::1 at 2015-11-07 08:39:05 -0800
+
+
+Started GET "/assets/jquery-ui.js?body=1" for ::1 at 2015-11-07 08:39:05 -0800
+
+
+Started GET "/assets/development/react.js?body=1" for ::1 at 2015-11-07 08:39:05 -0800
+
+
+Started GET "/assets/react_ujs.js?body=1" for ::1 at 2015-11-07 08:39:05 -0800
+
+
+Started GET "/assets/react_components/_new_todo.js?body=1" for ::1 at 2015-11-07 08:39:05 -0800
+
+
+Started GET "/assets/react_components/_todo.js?body=1" for ::1 at 2015-11-07 08:39:05 -0800
+
+
+Started GET "/assets/react_components/_todo_container.js?body=1" for ::1 at 2015-11-07 08:39:05 -0800
+
+
+Started GET "/assets/react_components/_todos.js?body=1" for ::1 at 2015-11-07 08:39:05 -0800
+
+
+Started GET "/assets/application.js?body=1" for ::1 at 2015-11-07 08:39:05 -0800
+
+
+Started GET "/" for ::1 at 2015-11-07 08:42:15 -0800
+Processing by TodosController#index as HTML
+  [1m[36mTodo Load (0.5ms)[0m  [1mSELECT "todos".* FROM "todos" WHERE (active = true)  ORDER BY position[0m
+  Rendered todos/index.html.erb within layouts/application (220.0ms)
+Completed 200 OK in 242ms (Views: 241.3ms | ActiveRecord: 0.5ms)
+
+
+Started GET "/assets/application.css?body=1" for ::1 at 2015-11-07 08:42:15 -0800
+
+
+Started GET "/assets/jquery-ui/accordion.js?body=1" for ::1 at 2015-11-07 08:42:15 -0800
+
+
+Started GET "/assets/jquery.js?body=1" for ::1 at 2015-11-07 08:42:15 -0800
+
+
+Started GET "/assets/jquery-ui/widget.js?body=1" for ::1 at 2015-11-07 08:42:15 -0800
+
+
+Started GET "/assets/todos.css?body=1" for ::1 at 2015-11-07 08:42:15 -0800
+
+
+Started GET "/assets/jquery-ui/core.js?body=1" for ::1 at 2015-11-07 08:42:15 -0800
+
+
+Started GET "/assets/jquery-ui/position.js?body=1" for ::1 at 2015-11-07 08:42:15 -0800
+
+
+Started GET "/assets/jquery-ui/menu.js?body=1" for ::1 at 2015-11-07 08:42:15 -0800
+
+
+Started GET "/assets/jquery-ui/autocomplete.js?body=1" for ::1 at 2015-11-07 08:42:15 -0800
+
+
+Started GET "/assets/jquery-ui/button.js?body=1" for ::1 at 2015-11-07 08:42:15 -0800
+
+
+Started GET "/assets/jquery-ui/datepicker.js?body=1" for ::1 at 2015-11-07 08:42:15 -0800
+
+
+Started GET "/assets/jquery-ui/mouse.js?body=1" for ::1 at 2015-11-07 08:42:15 -0800
+
+
+Started GET "/assets/jquery-ui/draggable.js?body=1" for ::1 at 2015-11-07 08:42:15 -0800
+
+
+Started GET "/assets/jquery-ui/resizable.js?body=1" for ::1 at 2015-11-07 08:42:15 -0800
+
+
+Started GET "/assets/jquery-ui/dialog.js?body=1" for ::1 at 2015-11-07 08:42:15 -0800
+
+
+Started GET "/assets/jquery-ui/droppable.js?body=1" for ::1 at 2015-11-07 08:42:15 -0800
+
+
+Started GET "/assets/jquery-ui/effect.js?body=1" for ::1 at 2015-11-07 08:42:15 -0800
+
+
+Started GET "/assets/jquery-ui/effect-blind.js?body=1" for ::1 at 2015-11-07 08:42:15 -0800
+
+
+Started GET "/assets/jquery-ui/effect-bounce.js?body=1" for ::1 at 2015-11-07 08:42:15 -0800
+
+
+Started GET "/assets/jquery-ui/effect-clip.js?body=1" for ::1 at 2015-11-07 08:42:15 -0800
+
+
+Started GET "/assets/jquery-ui/effect-drop.js?body=1" for ::1 at 2015-11-07 08:42:15 -0800
+
+
+Started GET "/assets/jquery-ui/effect-explode.js?body=1" for ::1 at 2015-11-07 08:42:15 -0800
+
+
+Started GET "/assets/jquery-ui/effect-fade.js?body=1" for ::1 at 2015-11-07 08:42:15 -0800
+
+
+Started GET "/assets/jquery-ui/effect-fold.js?body=1" for ::1 at 2015-11-07 08:42:15 -0800
+
+
+Started GET "/assets/jquery-ui/effect-highlight.js?body=1" for ::1 at 2015-11-07 08:42:15 -0800
+
+
+Started GET "/assets/jquery-ui/effect-size.js?body=1" for ::1 at 2015-11-07 08:42:15 -0800
+
+
+Started GET "/assets/jquery-ui/effect-scale.js?body=1" for ::1 at 2015-11-07 08:42:15 -0800
+
+
+Started GET "/assets/jquery-ui/effect-puff.js?body=1" for ::1 at 2015-11-07 08:42:15 -0800
+
+
+Started GET "/assets/jquery-ui/effect-pulsate.js?body=1" for ::1 at 2015-11-07 08:42:15 -0800
+
+
+Started GET "/assets/jquery-ui/effect-shake.js?body=1" for ::1 at 2015-11-07 08:42:15 -0800
+
+
+Started GET "/assets/jquery-ui/effect-slide.js?body=1" for ::1 at 2015-11-07 08:42:15 -0800
+
+
+Started GET "/assets/jquery-ui/effect-transfer.js?body=1" for ::1 at 2015-11-07 08:42:15 -0800
+
+
+Started GET "/assets/jquery-ui/progressbar.js?body=1" for ::1 at 2015-11-07 08:42:15 -0800
+
+
+Started GET "/assets/jquery-ui/selectable.js?body=1" for ::1 at 2015-11-07 08:42:15 -0800
+
+
+Started GET "/assets/jquery-ui/selectmenu.js?body=1" for ::1 at 2015-11-07 08:42:15 -0800
+
+
+Started GET "/assets/jquery-ui/slider.js?body=1" for ::1 at 2015-11-07 08:42:15 -0800
+
+
+Started GET "/assets/jquery-ui/sortable.js?body=1" for ::1 at 2015-11-07 08:42:15 -0800
+
+
+Started GET "/assets/jquery-ui/spinner.js?body=1" for ::1 at 2015-11-07 08:42:15 -0800
+
+
+Started GET "/assets/jquery-ui/tabs.js?body=1" for ::1 at 2015-11-07 08:42:16 -0800
+
+
+Started GET "/assets/jquery-ui/tooltip.js?body=1" for ::1 at 2015-11-07 08:42:16 -0800
+
+
+Started GET "/assets/jquery-ui.js?body=1" for ::1 at 2015-11-07 08:42:16 -0800
+
+
+Started GET "/assets/development/react.js?body=1" for ::1 at 2015-11-07 08:42:16 -0800
+
+
+Started GET "/assets/react_ujs.js?body=1" for ::1 at 2015-11-07 08:42:16 -0800
+
+
+Started GET "/assets/react_components/_new_todo.js?body=1" for ::1 at 2015-11-07 08:42:16 -0800
+
+
+Started GET "/assets/react_components/_todo.js?body=1" for ::1 at 2015-11-07 08:42:16 -0800
+
+
+Started GET "/assets/react_components/_todo_container.js?body=1" for ::1 at 2015-11-07 08:42:16 -0800
+
+
+Started GET "/assets/react_components/_todos.js?body=1" for ::1 at 2015-11-07 08:42:16 -0800
+
+
+Started GET "/assets/application.js?body=1" for ::1 at 2015-11-07 08:42:16 -0800
+
+
+Started GET "/assets/wood-bg.jpg" for ::1 at 2015-11-07 08:42:16 -0800
+
+
+Started GET "/" for ::1 at 2015-11-07 08:42:18 -0800
+Processing by TodosController#index as HTML
+  [1m[35mTodo Load (0.5ms)[0m  SELECT "todos".* FROM "todos" WHERE (active = true)  ORDER BY position
+  Rendered todos/index.html.erb within layouts/application (220.9ms)
+Completed 200 OK in 245ms (Views: 243.4ms | ActiveRecord: 0.5ms)
+
+
+Started GET "/assets/application.css?body=1" for ::1 at 2015-11-07 08:42:18 -0800
+
+
+Started GET "/assets/todos.css?body=1" for ::1 at 2015-11-07 08:42:18 -0800
+
+
+Started GET "/assets/jquery.js?body=1" for ::1 at 2015-11-07 08:42:18 -0800
+
+
+Started GET "/assets/jquery-ui/core.js?body=1" for ::1 at 2015-11-07 08:42:18 -0800
+
+
+Started GET "/assets/jquery-ui/accordion.js?body=1" for ::1 at 2015-11-07 08:42:18 -0800
+
+
+Started GET "/assets/jquery-ui/widget.js?body=1" for ::1 at 2015-11-07 08:42:18 -0800
+
+
+Started GET "/assets/jquery-ui/position.js?body=1" for ::1 at 2015-11-07 08:42:18 -0800
+
+
+Started GET "/assets/jquery-ui/menu.js?body=1" for ::1 at 2015-11-07 08:42:18 -0800
+
+
+Started GET "/assets/jquery-ui/autocomplete.js?body=1" for ::1 at 2015-11-07 08:42:18 -0800
+
+
+Started GET "/assets/jquery-ui/button.js?body=1" for ::1 at 2015-11-07 08:42:18 -0800
+
+
+Started GET "/assets/jquery-ui/datepicker.js?body=1" for ::1 at 2015-11-07 08:42:18 -0800
+
+
+Started GET "/assets/jquery-ui/mouse.js?body=1" for ::1 at 2015-11-07 08:42:18 -0800
+
+
+Started GET "/assets/jquery-ui/draggable.js?body=1" for ::1 at 2015-11-07 08:42:18 -0800
+
+
+Started GET "/assets/jquery-ui/resizable.js?body=1" for ::1 at 2015-11-07 08:42:18 -0800
+
+
+Started GET "/assets/jquery-ui/dialog.js?body=1" for ::1 at 2015-11-07 08:42:18 -0800
+
+
+Started GET "/assets/jquery-ui/droppable.js?body=1" for ::1 at 2015-11-07 08:42:18 -0800
+
+
+Started GET "/assets/jquery-ui/effect.js?body=1" for ::1 at 2015-11-07 08:42:18 -0800
+
+
+Started GET "/assets/jquery-ui/effect-blind.js?body=1" for ::1 at 2015-11-07 08:42:18 -0800
+
+
+Started GET "/assets/jquery-ui/effect-bounce.js?body=1" for ::1 at 2015-11-07 08:42:18 -0800
+
+
+Started GET "/assets/jquery-ui/effect-clip.js?body=1" for ::1 at 2015-11-07 08:42:18 -0800
+
+
+Started GET "/assets/jquery-ui/effect-drop.js?body=1" for ::1 at 2015-11-07 08:42:18 -0800
+
+
+Started GET "/assets/jquery-ui/effect-explode.js?body=1" for ::1 at 2015-11-07 08:42:18 -0800
+
+
+Started GET "/assets/jquery-ui/effect-fade.js?body=1" for ::1 at 2015-11-07 08:42:18 -0800
+
+
+Started GET "/assets/jquery-ui/effect-fold.js?body=1" for ::1 at 2015-11-07 08:42:18 -0800
+
+
+Started GET "/assets/jquery-ui/effect-highlight.js?body=1" for ::1 at 2015-11-07 08:42:18 -0800
+
+
+Started GET "/assets/jquery-ui/effect-size.js?body=1" for ::1 at 2015-11-07 08:42:18 -0800
+
+
+Started GET "/assets/jquery-ui/effect-scale.js?body=1" for ::1 at 2015-11-07 08:42:18 -0800
+
+
+Started GET "/assets/jquery-ui/effect-puff.js?body=1" for ::1 at 2015-11-07 08:42:18 -0800
+
+
+Started GET "/assets/jquery-ui/effect-pulsate.js?body=1" for ::1 at 2015-11-07 08:42:18 -0800
+
+
+Started GET "/assets/jquery-ui/effect-shake.js?body=1" for ::1 at 2015-11-07 08:42:18 -0800
+
+
+Started GET "/assets/jquery-ui/effect-slide.js?body=1" for ::1 at 2015-11-07 08:42:18 -0800
+
+
+Started GET "/assets/jquery-ui/effect-transfer.js?body=1" for ::1 at 2015-11-07 08:42:18 -0800
+
+
+Started GET "/assets/jquery-ui/progressbar.js?body=1" for ::1 at 2015-11-07 08:42:18 -0800
+
+
+Started GET "/assets/jquery-ui/selectable.js?body=1" for ::1 at 2015-11-07 08:42:18 -0800
+
+
+Started GET "/assets/jquery-ui/selectmenu.js?body=1" for ::1 at 2015-11-07 08:42:18 -0800
+
+
+Started GET "/assets/jquery-ui/slider.js?body=1" for ::1 at 2015-11-07 08:42:18 -0800
+
+
+Started GET "/assets/jquery-ui/sortable.js?body=1" for ::1 at 2015-11-07 08:42:18 -0800
+
+
+Started GET "/assets/jquery-ui/spinner.js?body=1" for ::1 at 2015-11-07 08:42:18 -0800
+
+
+Started GET "/assets/jquery-ui/tabs.js?body=1" for ::1 at 2015-11-07 08:42:18 -0800
+
+
+Started GET "/assets/jquery-ui/tooltip.js?body=1" for ::1 at 2015-11-07 08:42:18 -0800
+
+
+Started GET "/assets/jquery-ui.js?body=1" for ::1 at 2015-11-07 08:42:18 -0800
+
+
+Started GET "/assets/development/react.js?body=1" for ::1 at 2015-11-07 08:42:18 -0800
+
+
+Started GET "/assets/react_ujs.js?body=1" for ::1 at 2015-11-07 08:42:18 -0800
+
+
+Started GET "/assets/react_components/_new_todo.js?body=1" for ::1 at 2015-11-07 08:42:18 -0800
+
+
+Started GET "/assets/react_components/_todo.js?body=1" for ::1 at 2015-11-07 08:42:18 -0800
+
+
+Started GET "/assets/react_components/_todo_container.js?body=1" for ::1 at 2015-11-07 08:42:18 -0800
+
+
+Started GET "/assets/react_components/_todos.js?body=1" for ::1 at 2015-11-07 08:42:18 -0800
+
+
+Started GET "/assets/application.js?body=1" for ::1 at 2015-11-07 08:42:18 -0800
+  [1m[36mTodo Load (0.5ms)[0m  [1mSELECT "todos".* FROM "todos"[0m
+  [1m[35m (0.4ms)[0m  BEGIN
+  [1m[36mSQL (0.4ms)[0m  [1mDELETE FROM "todos" WHERE "todos"."id" = $1[0m  [["id", 48]]
+  [1m[35m (0.5ms)[0m  COMMIT
+  [1m[36m (0.1ms)[0m  [1mBEGIN[0m
+  [1m[35mSQL (0.2ms)[0m  DELETE FROM "todos" WHERE "todos"."id" = $1  [["id", 47]]
+  [1m[36m (0.4ms)[0m  [1mCOMMIT[0m
+  [1m[35m (0.1ms)[0m  BEGIN
+  [1m[36mSQL (0.2ms)[0m  [1mDELETE FROM "todos" WHERE "todos"."id" = $1[0m  [["id", 45]]
+  [1m[35m (0.3ms)[0m  COMMIT
+  [1m[36m (0.1ms)[0m  [1mBEGIN[0m
+  [1m[35mSQL (0.2ms)[0m  DELETE FROM "todos" WHERE "todos"."id" = $1  [["id", 46]]
+  [1m[36m (0.4ms)[0m  [1mCOMMIT[0m
+
+
+Started GET "/" for ::1 at 2015-11-07 08:42:48 -0800
+Processing by TodosController#index as HTML
+  [1m[36mTodo Load (0.5ms)[0m  [1mSELECT "todos".* FROM "todos" WHERE (active = true)  ORDER BY position[0m
+  Rendered todos/index.html.erb within layouts/application (215.6ms)
+Completed 200 OK in 237ms (Views: 235.9ms | ActiveRecord: 0.5ms)
+
+
+Started GET "/assets/jquery.js?body=1" for ::1 at 2015-11-07 08:42:48 -0800
+
+
+Started GET "/assets/application.css?body=1" for ::1 at 2015-11-07 08:42:48 -0800
+
+
+Started GET "/assets/jquery-ui/accordion.js?body=1" for ::1 at 2015-11-07 08:42:48 -0800
+
+
+Started GET "/assets/todos.css?body=1" for ::1 at 2015-11-07 08:42:48 -0800
+
+
+Started GET "/assets/jquery-ui/core.js?body=1" for ::1 at 2015-11-07 08:42:48 -0800
+
+
+Started GET "/assets/jquery-ui/widget.js?body=1" for ::1 at 2015-11-07 08:42:48 -0800
+
+
+Started GET "/assets/jquery-ui/position.js?body=1" for ::1 at 2015-11-07 08:42:48 -0800
+
+
+Started GET "/assets/jquery-ui/menu.js?body=1" for ::1 at 2015-11-07 08:42:48 -0800
+
+
+Started GET "/assets/jquery-ui/autocomplete.js?body=1" for ::1 at 2015-11-07 08:42:48 -0800
+
+
+Started GET "/assets/jquery-ui/button.js?body=1" for ::1 at 2015-11-07 08:42:48 -0800
+
+
+Started GET "/assets/jquery-ui/datepicker.js?body=1" for ::1 at 2015-11-07 08:42:48 -0800
+
+
+Started GET "/assets/jquery-ui/mouse.js?body=1" for ::1 at 2015-11-07 08:42:48 -0800
+
+
+Started GET "/assets/jquery-ui/draggable.js?body=1" for ::1 at 2015-11-07 08:42:48 -0800
+
+
+Started GET "/assets/jquery-ui/resizable.js?body=1" for ::1 at 2015-11-07 08:42:48 -0800
+
+
+Started GET "/assets/jquery-ui/dialog.js?body=1" for ::1 at 2015-11-07 08:42:48 -0800
+
+
+Started GET "/assets/jquery-ui/droppable.js?body=1" for ::1 at 2015-11-07 08:42:48 -0800
+
+
+Started GET "/assets/jquery-ui/effect.js?body=1" for ::1 at 2015-11-07 08:42:48 -0800
+
+
+Started GET "/assets/jquery-ui/effect-bounce.js?body=1" for ::1 at 2015-11-07 08:42:48 -0800
+
+
+Started GET "/assets/jquery-ui/effect-blind.js?body=1" for ::1 at 2015-11-07 08:42:48 -0800
+
+
+Started GET "/assets/jquery-ui/effect-clip.js?body=1" for ::1 at 2015-11-07 08:42:48 -0800
+
+
+Started GET "/assets/jquery-ui/effect-drop.js?body=1" for ::1 at 2015-11-07 08:42:48 -0800
+
+
+Started GET "/assets/jquery-ui/effect-explode.js?body=1" for ::1 at 2015-11-07 08:42:48 -0800
+
+
+Started GET "/assets/jquery-ui/effect-fade.js?body=1" for ::1 at 2015-11-07 08:42:48 -0800
+
+
+Started GET "/assets/jquery-ui/effect-fold.js?body=1" for ::1 at 2015-11-07 08:42:48 -0800
+
+
+Started GET "/assets/jquery-ui/effect-highlight.js?body=1" for ::1 at 2015-11-07 08:42:48 -0800
+
+
+Started GET "/assets/jquery-ui/effect-size.js?body=1" for ::1 at 2015-11-07 08:42:48 -0800
+
+
+Started GET "/assets/jquery-ui/effect-scale.js?body=1" for ::1 at 2015-11-07 08:42:48 -0800
+
+
+Started GET "/assets/jquery-ui/effect-puff.js?body=1" for ::1 at 2015-11-07 08:42:48 -0800
+
+
+Started GET "/assets/jquery-ui/effect-pulsate.js?body=1" for ::1 at 2015-11-07 08:42:48 -0800
+
+
+Started GET "/assets/jquery-ui/effect-shake.js?body=1" for ::1 at 2015-11-07 08:42:48 -0800
+
+
+Started GET "/assets/jquery-ui/effect-slide.js?body=1" for ::1 at 2015-11-07 08:42:48 -0800
+
+
+Started GET "/assets/jquery-ui/effect-transfer.js?body=1" for ::1 at 2015-11-07 08:42:48 -0800
+
+
+Started GET "/assets/jquery-ui/progressbar.js?body=1" for ::1 at 2015-11-07 08:42:48 -0800
+
+
+Started GET "/assets/jquery-ui/selectable.js?body=1" for ::1 at 2015-11-07 08:42:48 -0800
+
+
+Started GET "/assets/jquery-ui/selectmenu.js?body=1" for ::1 at 2015-11-07 08:42:48 -0800
+
+
+Started GET "/assets/jquery-ui/slider.js?body=1" for ::1 at 2015-11-07 08:42:48 -0800
+
+
+Started GET "/assets/jquery-ui/sortable.js?body=1" for ::1 at 2015-11-07 08:42:48 -0800
+
+
+Started GET "/assets/jquery-ui/spinner.js?body=1" for ::1 at 2015-11-07 08:42:48 -0800
+
+
+Started GET "/assets/jquery-ui/tabs.js?body=1" for ::1 at 2015-11-07 08:42:48 -0800
+
+
+Started GET "/assets/jquery-ui/tooltip.js?body=1" for ::1 at 2015-11-07 08:42:48 -0800
+
+
+Started GET "/assets/jquery-ui.js?body=1" for ::1 at 2015-11-07 08:42:48 -0800
+
+
+Started GET "/assets/development/react.js?body=1" for ::1 at 2015-11-07 08:42:48 -0800
+
+
+Started GET "/assets/react_ujs.js?body=1" for ::1 at 2015-11-07 08:42:48 -0800
+
+
+Started GET "/assets/react_components/_new_todo.js?body=1" for ::1 at 2015-11-07 08:42:48 -0800
+
+
+Started GET "/assets/react_components/_todo.js?body=1" for ::1 at 2015-11-07 08:42:48 -0800
+
+
+Started GET "/assets/react_components/_todo_container.js?body=1" for ::1 at 2015-11-07 08:42:48 -0800
+
+
+Started GET "/assets/react_components/_todos.js?body=1" for ::1 at 2015-11-07 08:42:48 -0800
+
+
+Started GET "/assets/application.js?body=1" for ::1 at 2015-11-07 08:42:48 -0800
+
+
+Started POST "/todos" for ::1 at 2015-11-07 08:42:58 -0800
+Processing by TodosController#create as JSON
+  Parameters: {"todo"=>{"todo"=>"This is the first task"}}
+  [1m[35m (0.4ms)[0m  SELECT COUNT(*) FROM "todos"
+  [1m[36m (0.2ms)[0m  [1mBEGIN[0m
+  [1m[35mSQL (0.3ms)[0m  INSERT INTO "todos" ("todo", "position", "created_at", "updated_at") VALUES ($1, $2, $3, $4) RETURNING "id"  [["todo", "This is the first task"], ["position", 1], ["created_at", "2015-11-07 16:42:58.166728"], ["updated_at", "2015-11-07 16:42:58.166728"]]
+  [1m[36m (13.0ms)[0m  [1mCOMMIT[0m
+Completed 200 OK in 19ms (Views: 0.5ms | ActiveRecord: 13.9ms)
+
+
+Started POST "/todos" for ::1 at 2015-11-07 08:43:01 -0800
+Processing by TodosController#create as JSON
+  Parameters: {"todo"=>{"todo"=>"second"}}
+  [1m[35m (0.4ms)[0m  SELECT COUNT(*) FROM "todos"
+  [1m[36m (0.2ms)[0m  [1mBEGIN[0m
+  [1m[35mSQL (0.3ms)[0m  INSERT INTO "todos" ("todo", "position", "created_at", "updated_at") VALUES ($1, $2, $3, $4) RETURNING "id"  [["todo", "second"], ["position", 2], ["created_at", "2015-11-07 16:43:01.977883"], ["updated_at", "2015-11-07 16:43:01.977883"]]
+  [1m[36m (0.4ms)[0m  [1mCOMMIT[0m
+Completed 200 OK in 5ms (Views: 0.4ms | ActiveRecord: 1.3ms)
+
+
+Started POST "/todos" for ::1 at 2015-11-07 08:43:05 -0800
+Processing by TodosController#create as JSON
+  Parameters: {"todo"=>{"todo"=>"third"}}
+  [1m[35m (0.4ms)[0m  SELECT COUNT(*) FROM "todos"
+  [1m[36m (0.2ms)[0m  [1mBEGIN[0m
+  [1m[35mSQL (0.3ms)[0m  INSERT INTO "todos" ("todo", "position", "created_at", "updated_at") VALUES ($1, $2, $3, $4) RETURNING "id"  [["todo", "third"], ["position", 3], ["created_at", "2015-11-07 16:43:05.939151"], ["updated_at", "2015-11-07 16:43:05.939151"]]
+  [1m[36m (6.6ms)[0m  [1mCOMMIT[0m
+Completed 200 OK in 12ms (Views: 0.4ms | ActiveRecord: 7.6ms)
+
+
+Started POST "/todos" for ::1 at 2015-11-07 08:43:12 -0800
+Processing by TodosController#create as JSON
+  Parameters: {"todo"=>{"todo"=>"forth"}}
+  [1m[35m (0.5ms)[0m  SELECT COUNT(*) FROM "todos"
+  [1m[36m (0.2ms)[0m  [1mBEGIN[0m
+  [1m[35mSQL (0.3ms)[0m  INSERT INTO "todos" ("todo", "position", "created_at", "updated_at") VALUES ($1, $2, $3, $4) RETURNING "id"  [["todo", "forth"], ["position", 4], ["created_at", "2015-11-07 16:43:12.200275"], ["updated_at", "2015-11-07 16:43:12.200275"]]
+  [1m[36m (6.4ms)[0m  [1mCOMMIT[0m
+Completed 200 OK in 11ms (Views: 0.4ms | ActiveRecord: 7.5ms)
+
+
+Started POST "/todos" for ::1 at 2015-11-07 08:43:16 -0800
+Processing by TodosController#create as JSON
+  Parameters: {"todo"=>{"todo"=>"fifth"}}
+  [1m[35m (0.4ms)[0m  SELECT COUNT(*) FROM "todos"
+  [1m[36m (0.2ms)[0m  [1mBEGIN[0m
+  [1m[35mSQL (0.5ms)[0m  INSERT INTO "todos" ("todo", "position", "created_at", "updated_at") VALUES ($1, $2, $3, $4) RETURNING "id"  [["todo", "fifth"], ["position", 5], ["created_at", "2015-11-07 16:43:16.076016"], ["updated_at", "2015-11-07 16:43:16.076016"]]
+  [1m[36m (0.4ms)[0m  [1mCOMMIT[0m
+Completed 200 OK in 5ms (Views: 0.4ms | ActiveRecord: 1.5ms)
+
+
+Started PUT "/todos/51" for ::1 at 2015-11-07 08:43:18 -0800
+Processing by TodosController#update as JSON
+  Parameters: {"todo"=>{"done"=>"true"}, "id"=>"51"}
+  [1m[35mTodo Load (0.4ms)[0m  SELECT  "todos".* FROM "todos" WHERE "todos"."id" = $1 LIMIT 1  [["id", 51]]
+  [1m[36m (0.2ms)[0m  [1mBEGIN[0m
+  [1m[35mSQL (0.3ms)[0m  UPDATE "todos" SET "done" = $1, "updated_at" = $2 WHERE "todos"."id" = $3  [["done", "t"], ["updated_at", "2015-11-07 16:43:18.443299"], ["id", 51]]
+  [1m[36m (6.6ms)[0m  [1mCOMMIT[0m
+Completed 200 OK in 12ms (Views: 0.6ms | ActiveRecord: 7.5ms)
+
+
+Started PUT "/todos/52" for ::1 at 2015-11-07 08:43:20 -0800
+Processing by TodosController#update as JSON
+  Parameters: {"todo"=>{"done"=>"true"}, "id"=>"52"}
+  [1m[35mTodo Load (0.3ms)[0m  SELECT  "todos".* FROM "todos" WHERE "todos"."id" = $1 LIMIT 1  [["id", 52]]
+  [1m[36m (0.2ms)[0m  [1mBEGIN[0m
+  [1m[35mSQL (0.3ms)[0m  UPDATE "todos" SET "done" = $1, "updated_at" = $2 WHERE "todos"."id" = $3  [["done", "t"], ["updated_at", "2015-11-07 16:43:20.352699"], ["id", 52]]
+  [1m[36m (0.4ms)[0m  [1mCOMMIT[0m
+Completed 200 OK in 4ms (Views: 0.4ms | ActiveRecord: 1.2ms)
+
+
+Started PATCH "/sort" for ::1 at 2015-11-07 08:43:22 -0800
+Processing by TodosController#sort as JSON
+  Parameters: {"sort_list"=>["49", "51", "50", "52", "53"]}
+  [1m[35mTodo Load (0.3ms)[0m  SELECT  "todos".* FROM "todos" WHERE "todos"."id" = $1 LIMIT 1  [["id", 49]]
+  [1m[36m (0.2ms)[0m  [1mBEGIN[0m
+  [1m[35m (0.2ms)[0m  COMMIT
+  [1m[36mTodo Load (0.3ms)[0m  [1mSELECT  "todos".* FROM "todos" WHERE "todos"."id" = $1 LIMIT 1[0m  [["id", 51]]
+  [1m[35m (0.2ms)[0m  BEGIN
+  [1m[36mSQL (0.4ms)[0m  [1mUPDATE "todos" SET "position" = $1, "updated_at" = $2 WHERE "todos"."id" = $3[0m  [["position", 2], ["updated_at", "2015-11-07 16:43:22.154810"], ["id", 51]]
+  [1m[35m (6.9ms)[0m  COMMIT
+  [1m[36mTodo Load (0.4ms)[0m  [1mSELECT  "todos".* FROM "todos" WHERE "todos"."id" = $1 LIMIT 1[0m  [["id", 50]]
+  [1m[35m (0.3ms)[0m  BEGIN
+  [1m[36mSQL (0.4ms)[0m  [1mUPDATE "todos" SET "position" = $1, "updated_at" = $2 WHERE "todos"."id" = $3[0m  [["position", 3], ["updated_at", "2015-11-07 16:43:22.165796"], ["id", 50]]
+  [1m[35m (0.5ms)[0m  COMMIT
+  [1m[36mTodo Load (0.2ms)[0m  [1mSELECT  "todos".* FROM "todos" WHERE "todos"."id" = $1 LIMIT 1[0m  [["id", 52]]
+  [1m[35m (0.2ms)[0m  BEGIN
+  [1m[36m (0.2ms)[0m  [1mCOMMIT[0m
+  [1m[35mTodo Load (0.2ms)[0m  SELECT  "todos".* FROM "todos" WHERE "todos"."id" = $1 LIMIT 1  [["id", 53]]
+  [1m[36m (0.2ms)[0m  [1mBEGIN[0m
+  [1m[35m (0.1ms)[0m  COMMIT
+  [1m[36mTodo Load (0.5ms)[0m  [1mSELECT "todos".* FROM "todos" WHERE (active = true)  ORDER BY position[0m
+Completed 200 OK in 30ms (Views: 2.3ms | ActiveRecord: 11.7ms)
+
+
+Started PATCH "/sort" for ::1 at 2015-11-07 08:43:23 -0800
+Processing by TodosController#sort as JSON
+  Parameters: {"sort_list"=>["49", "51", "52", "50", "53"]}
+  [1m[35mTodo Load (0.3ms)[0m  SELECT  "todos".* FROM "todos" WHERE "todos"."id" = $1 LIMIT 1  [["id", 49]]
+  [1m[36m (0.2ms)[0m  [1mBEGIN[0m
+  [1m[35m (0.2ms)[0m  COMMIT
+  [1m[36mTodo Load (0.2ms)[0m  [1mSELECT  "todos".* FROM "todos" WHERE "todos"."id" = $1 LIMIT 1[0m  [["id", 51]]
+  [1m[35m (0.1ms)[0m  BEGIN
+  [1m[36m (0.2ms)[0m  [1mCOMMIT[0m
+  [1m[35mTodo Load (0.4ms)[0m  SELECT  "todos".* FROM "todos" WHERE "todos"."id" = $1 LIMIT 1  [["id", 52]]
+  [1m[36m (0.2ms)[0m  [1mBEGIN[0m
+  [1m[35mSQL (0.6ms)[0m  UPDATE "todos" SET "position" = $1, "updated_at" = $2 WHERE "todos"."id" = $3  [["position", 3], ["updated_at", "2015-11-07 16:43:23.905952"], ["id", 52]]
+  [1m[36m (6.6ms)[0m  [1mCOMMIT[0m
+  [1m[35mTodo Load (0.3ms)[0m  SELECT  "todos".* FROM "todos" WHERE "todos"."id" = $1 LIMIT 1  [["id", 50]]
+  [1m[36m (0.2ms)[0m  [1mBEGIN[0m
+  [1m[35mSQL (0.2ms)[0m  UPDATE "todos" SET "position" = $1, "updated_at" = $2 WHERE "todos"."id" = $3  [["position", 4], ["updated_at", "2015-11-07 16:43:23.916465"], ["id", 50]]
+  [1m[36m (0.4ms)[0m  [1mCOMMIT[0m
+  [1m[35mTodo Load (0.2ms)[0m  SELECT  "todos".* FROM "todos" WHERE "todos"."id" = $1 LIMIT 1  [["id", 53]]
+  [1m[36m (0.1ms)[0m  [1mBEGIN[0m
+  [1m[35m (0.1ms)[0m  COMMIT
+  [1m[36mTodo Load (0.4ms)[0m  [1mSELECT "todos".* FROM "todos" WHERE (active = true)  ORDER BY position[0m
+Completed 200 OK in 22ms (Views: 2.2ms | ActiveRecord: 10.8ms)
+
+
+Started PUT "/todos/53" for ::1 at 2015-11-07 08:43:25 -0800
+Processing by TodosController#update as JSON
+  Parameters: {"todo"=>{"done"=>"true"}, "id"=>"53"}
+  [1m[35mTodo Load (0.3ms)[0m  SELECT  "todos".* FROM "todos" WHERE "todos"."id" = $1 LIMIT 1  [["id", 53]]
+  [1m[36m (0.2ms)[0m  [1mBEGIN[0m
+  [1m[35mSQL (0.3ms)[0m  UPDATE "todos" SET "done" = $1, "updated_at" = $2 WHERE "todos"."id" = $3  [["done", "t"], ["updated_at", "2015-11-07 16:43:25.503879"], ["id", 53]]
+  [1m[36m (6.6ms)[0m  [1mCOMMIT[0m
+Completed 200 OK in 11ms (Views: 0.4ms | ActiveRecord: 7.4ms)
+
+
+Started PATCH "/sort" for ::1 at 2015-11-07 08:43:27 -0800
+Processing by TodosController#sort as JSON
+  Parameters: {"sort_list"=>["49", "53", "51", "52", "50"]}
+  [1m[35mTodo Load (0.3ms)[0m  SELECT  "todos".* FROM "todos" WHERE "todos"."id" = $1 LIMIT 1  [["id", 49]]
+  [1m[36m (0.1ms)[0m  [1mBEGIN[0m
+  [1m[35m (0.1ms)[0m  COMMIT
+  [1m[36mTodo Load (0.2ms)[0m  [1mSELECT  "todos".* FROM "todos" WHERE "todos"."id" = $1 LIMIT 1[0m  [["id", 53]]
+  [1m[35m (0.2ms)[0m  BEGIN
+  [1m[36mSQL (0.2ms)[0m  [1mUPDATE "todos" SET "position" = $1, "updated_at" = $2 WHERE "todos"."id" = $3[0m  [["position", 2], ["updated_at", "2015-11-07 16:43:27.514379"], ["id", 53]]
+  [1m[35m (0.4ms)[0m  COMMIT
+  [1m[36mTodo Load (0.2ms)[0m  [1mSELECT  "todos".* FROM "todos" WHERE "todos"."id" = $1 LIMIT 1[0m  [["id", 51]]
+  [1m[35m (0.1ms)[0m  BEGIN
+  [1m[36mSQL (0.2ms)[0m  [1mUPDATE "todos" SET "position" = $1, "updated_at" = $2 WHERE "todos"."id" = $3[0m  [["position", 3], ["updated_at", "2015-11-07 16:43:27.517122"], ["id", 51]]
+  [1m[35m (0.4ms)[0m  COMMIT
+  [1m[36mTodo Load (0.3ms)[0m  [1mSELECT  "todos".* FROM "todos" WHERE "todos"."id" = $1 LIMIT 1[0m  [["id", 52]]
+  [1m[35m (0.2ms)[0m  BEGIN
+  [1m[36mSQL (0.3ms)[0m  [1mUPDATE "todos" SET "position" = $1, "updated_at" = $2 WHERE "todos"."id" = $3[0m  [["position", 4], ["updated_at", "2015-11-07 16:43:27.520128"], ["id", 52]]
+  [1m[35m (0.5ms)[0m  COMMIT
+  [1m[36mTodo Load (0.3ms)[0m  [1mSELECT  "todos".* FROM "todos" WHERE "todos"."id" = $1 LIMIT 1[0m  [["id", 50]]
+  [1m[35m (0.2ms)[0m  BEGIN
+  [1m[36mSQL (0.3ms)[0m  [1mUPDATE "todos" SET "position" = $1, "updated_at" = $2 WHERE "todos"."id" = $3[0m  [["position", 5], ["updated_at", "2015-11-07 16:43:27.523855"], ["id", 50]]
+  [1m[35m (0.4ms)[0m  COMMIT
+  [1m[36mTodo Load (0.3ms)[0m  [1mSELECT "todos".* FROM "todos" WHERE (active = true)  ORDER BY position[0m
+Completed 200 OK in 18ms (Views: 2.2ms | ActiveRecord: 5.4ms)
+
+
+Started GET "/" for ::1 at 2015-11-07 08:43:29 -0800
+Processing by TodosController#index as HTML
+  [1m[35mTodo Load (0.5ms)[0m  SELECT "todos".* FROM "todos" WHERE (active = true)  ORDER BY position
+  Rendered todos/index.html.erb within layouts/application (221.9ms)
+Completed 200 OK in 246ms (Views: 244.4ms | ActiveRecord: 0.5ms)
+
+
+Started GET "/assets/application.css?body=1" for ::1 at 2015-11-07 08:43:29 -0800
+
+
+Started GET "/assets/jquery-ui/core.js?body=1" for ::1 at 2015-11-07 08:43:29 -0800
+
+
+Started GET "/assets/todos.css?body=1" for ::1 at 2015-11-07 08:43:29 -0800
+
+
+Started GET "/assets/jquery-ui/widget.js?body=1" for ::1 at 2015-11-07 08:43:29 -0800
+
+
+Started GET "/assets/jquery-ui/accordion.js?body=1" for ::1 at 2015-11-07 08:43:29 -0800
+
+
+Started GET "/assets/jquery.js?body=1" for ::1 at 2015-11-07 08:43:29 -0800
+
+
+Started GET "/assets/jquery-ui/position.js?body=1" for ::1 at 2015-11-07 08:43:29 -0800
+
+
+Started GET "/assets/jquery-ui/menu.js?body=1" for ::1 at 2015-11-07 08:43:29 -0800
+
+
+Started GET "/assets/jquery-ui/autocomplete.js?body=1" for ::1 at 2015-11-07 08:43:29 -0800
+
+
+Started GET "/assets/jquery-ui/button.js?body=1" for ::1 at 2015-11-07 08:43:29 -0800
+
+
+Started GET "/assets/jquery-ui/datepicker.js?body=1" for ::1 at 2015-11-07 08:43:29 -0800
+
+
+Started GET "/assets/jquery-ui/mouse.js?body=1" for ::1 at 2015-11-07 08:43:29 -0800
+
+
+Started GET "/assets/jquery-ui/draggable.js?body=1" for ::1 at 2015-11-07 08:43:29 -0800
+
+
+Started GET "/assets/jquery-ui/resizable.js?body=1" for ::1 at 2015-11-07 08:43:29 -0800
+
+
+Started GET "/assets/jquery-ui/dialog.js?body=1" for ::1 at 2015-11-07 08:43:29 -0800
+
+
+Started GET "/assets/jquery-ui/droppable.js?body=1" for ::1 at 2015-11-07 08:43:29 -0800
+
+
+Started GET "/assets/jquery-ui/effect.js?body=1" for ::1 at 2015-11-07 08:43:29 -0800
+
+
+Started GET "/assets/jquery-ui/effect-blind.js?body=1" for ::1 at 2015-11-07 08:43:29 -0800
+
+
+Started GET "/assets/jquery-ui/effect-bounce.js?body=1" for ::1 at 2015-11-07 08:43:29 -0800
+
+
+Started GET "/assets/jquery-ui/effect-drop.js?body=1" for ::1 at 2015-11-07 08:43:29 -0800
+
+
+Started GET "/assets/jquery-ui/effect-clip.js?body=1" for ::1 at 2015-11-07 08:43:29 -0800
+
+
+Started GET "/assets/jquery-ui/effect-explode.js?body=1" for ::1 at 2015-11-07 08:43:29 -0800
+
+
+Started GET "/assets/jquery-ui/effect-fade.js?body=1" for ::1 at 2015-11-07 08:43:29 -0800
+
+
+Started GET "/assets/jquery-ui/effect-fold.js?body=1" for ::1 at 2015-11-07 08:43:29 -0800
+
+
+Started GET "/assets/jquery-ui/effect-highlight.js?body=1" for ::1 at 2015-11-07 08:43:29 -0800
+
+
+Started GET "/assets/jquery-ui/effect-size.js?body=1" for ::1 at 2015-11-07 08:43:29 -0800
+
+
+Started GET "/assets/jquery-ui/effect-scale.js?body=1" for ::1 at 2015-11-07 08:43:29 -0800
+
+
+Started GET "/assets/jquery-ui/effect-puff.js?body=1" for ::1 at 2015-11-07 08:43:29 -0800
+
+
+Started GET "/assets/jquery-ui/effect-pulsate.js?body=1" for ::1 at 2015-11-07 08:43:29 -0800
+
+
+Started GET "/assets/jquery-ui/effect-shake.js?body=1" for ::1 at 2015-11-07 08:43:29 -0800
+
+
+Started GET "/assets/jquery-ui/effect-slide.js?body=1" for ::1 at 2015-11-07 08:43:29 -0800
+
+
+Started GET "/assets/jquery-ui/effect-transfer.js?body=1" for ::1 at 2015-11-07 08:43:29 -0800
+
+
+Started GET "/assets/jquery-ui/progressbar.js?body=1" for ::1 at 2015-11-07 08:43:29 -0800
+
+
+Started GET "/assets/jquery-ui/selectable.js?body=1" for ::1 at 2015-11-07 08:43:29 -0800
+
+
+Started GET "/assets/jquery-ui/selectmenu.js?body=1" for ::1 at 2015-11-07 08:43:29 -0800
+
+
+Started GET "/assets/jquery-ui/slider.js?body=1" for ::1 at 2015-11-07 08:43:29 -0800
+
+
+Started GET "/assets/jquery-ui/sortable.js?body=1" for ::1 at 2015-11-07 08:43:29 -0800
+
+
+Started GET "/assets/jquery-ui/spinner.js?body=1" for ::1 at 2015-11-07 08:43:29 -0800
+
+
+Started GET "/assets/jquery-ui/tabs.js?body=1" for ::1 at 2015-11-07 08:43:29 -0800
+
+
+Started GET "/assets/jquery-ui/tooltip.js?body=1" for ::1 at 2015-11-07 08:43:29 -0800
+
+
+Started GET "/assets/jquery-ui.js?body=1" for ::1 at 2015-11-07 08:43:29 -0800
+
+
+Started GET "/assets/development/react.js?body=1" for ::1 at 2015-11-07 08:43:29 -0800
+
+
+Started GET "/assets/react_ujs.js?body=1" for ::1 at 2015-11-07 08:43:29 -0800
+
+
+Started GET "/assets/react_components/_new_todo.js?body=1" for ::1 at 2015-11-07 08:43:29 -0800
+
+
+Started GET "/assets/react_components/_todo.js?body=1" for ::1 at 2015-11-07 08:43:29 -0800
+
+
+Started GET "/assets/react_components/_todo_container.js?body=1" for ::1 at 2015-11-07 08:43:29 -0800
+
+
+Started GET "/assets/react_components/_todos.js?body=1" for ::1 at 2015-11-07 08:43:29 -0800
+
+
+Started GET "/assets/application.js?body=1" for ::1 at 2015-11-07 08:43:29 -0800
+
+
+Started PUT "/todos/49" for ::1 at 2015-11-07 08:43:32 -0800
+Processing by TodosController#update as JSON
+  Parameters: {"todo"=>{"active"=>"false"}, "id"=>"49"}
+  [1m[36mTodo Load (0.3ms)[0m  [1mSELECT  "todos".* FROM "todos" WHERE "todos"."id" = $1 LIMIT 1[0m  [["id", 49]]
+  [1m[35m (0.2ms)[0m  BEGIN
+  [1m[36mSQL (0.3ms)[0m  [1mUPDATE "todos" SET "active" = $1, "updated_at" = $2 WHERE "todos"."id" = $3[0m  [["active", "f"], ["updated_at", "2015-11-07 16:43:32.374928"], ["id", 49]]
+  [1m[35m (6.6ms)[0m  COMMIT
+Completed 200 OK in 11ms (Views: 0.4ms | ActiveRecord: 7.4ms)
+
+
+Started PUT "/todos/50" for ::1 at 2015-11-07 08:43:41 -0800
+Processing by TodosController#update as JSON
+  Parameters: {"todo"=>{"todo"=>"second third"}, "id"=>"50"}
+  [1m[36mTodo Load (0.4ms)[0m  [1mSELECT  "todos".* FROM "todos" WHERE "todos"."id" = $1 LIMIT 1[0m  [["id", 50]]
+  [1m[35m (0.2ms)[0m  BEGIN
+  [1m[36mSQL (0.6ms)[0m  [1mUPDATE "todos" SET "todo" = $1, "updated_at" = $2 WHERE "todos"."id" = $3[0m  [["todo", "second third"], ["updated_at", "2015-11-07 16:43:41.019783"], ["id", 50]]
+  [1m[35m (6.5ms)[0m  COMMIT
+Completed 200 OK in 12ms (Views: 0.5ms | ActiveRecord: 7.8ms)
+
+
+Started GET "/" for ::1 at 2015-11-07 08:43:44 -0800
+Processing by TodosController#index as HTML
+  [1m[36mTodo Load (0.6ms)[0m  [1mSELECT "todos".* FROM "todos" WHERE (active = true)  ORDER BY position[0m
+  Rendered todos/index.html.erb within layouts/application (229.9ms)
+Completed 200 OK in 254ms (Views: 253.0ms | ActiveRecord: 0.6ms)
+
+
+Started GET "/assets/application.css?body=1" for ::1 at 2015-11-07 08:43:44 -0800
+
+
+Started GET "/assets/jquery.js?body=1" for ::1 at 2015-11-07 08:43:44 -0800
+
+
+Started GET "/assets/jquery-ui/accordion.js?body=1" for ::1 at 2015-11-07 08:43:44 -0800
+
+
+Started GET "/assets/todos.css?body=1" for ::1 at 2015-11-07 08:43:44 -0800
+
+
+Started GET "/assets/jquery-ui/core.js?body=1" for ::1 at 2015-11-07 08:43:44 -0800
+
+
+Started GET "/assets/jquery-ui/widget.js?body=1" for ::1 at 2015-11-07 08:43:44 -0800
+
+
+Started GET "/assets/jquery-ui/position.js?body=1" for ::1 at 2015-11-07 08:43:44 -0800
+
+
+Started GET "/assets/jquery-ui/menu.js?body=1" for ::1 at 2015-11-07 08:43:44 -0800
+
+
+Started GET "/assets/jquery-ui/autocomplete.js?body=1" for ::1 at 2015-11-07 08:43:44 -0800
+
+
+Started GET "/assets/jquery-ui/button.js?body=1" for ::1 at 2015-11-07 08:43:44 -0800
+
+
+Started GET "/assets/jquery-ui/datepicker.js?body=1" for ::1 at 2015-11-07 08:43:44 -0800
+
+
+Started GET "/assets/jquery-ui/mouse.js?body=1" for ::1 at 2015-11-07 08:43:44 -0800
+
+
+Started GET "/assets/jquery-ui/draggable.js?body=1" for ::1 at 2015-11-07 08:43:44 -0800
+
+
+Started GET "/assets/jquery-ui/resizable.js?body=1" for ::1 at 2015-11-07 08:43:44 -0800
+
+
+Started GET "/assets/jquery-ui/dialog.js?body=1" for ::1 at 2015-11-07 08:43:44 -0800
+
+
+Started GET "/assets/jquery-ui/droppable.js?body=1" for ::1 at 2015-11-07 08:43:44 -0800
+
+
+Started GET "/assets/jquery-ui/effect.js?body=1" for ::1 at 2015-11-07 08:43:44 -0800
+
+
+Started GET "/assets/jquery-ui/effect-blind.js?body=1" for ::1 at 2015-11-07 08:43:44 -0800
+
+
+Started GET "/assets/jquery-ui/effect-bounce.js?body=1" for ::1 at 2015-11-07 08:43:44 -0800
+
+
+Started GET "/assets/jquery-ui/effect-clip.js?body=1" for ::1 at 2015-11-07 08:43:44 -0800
+
+
+Started GET "/assets/jquery-ui/effect-drop.js?body=1" for ::1 at 2015-11-07 08:43:44 -0800
+
+
+Started GET "/assets/jquery-ui/effect-explode.js?body=1" for ::1 at 2015-11-07 08:43:44 -0800
+
+
+Started GET "/assets/jquery-ui/effect-fade.js?body=1" for ::1 at 2015-11-07 08:43:44 -0800
+
+
+Started GET "/assets/jquery-ui/effect-fold.js?body=1" for ::1 at 2015-11-07 08:43:44 -0800
+
+
+Started GET "/assets/jquery-ui/effect-highlight.js?body=1" for ::1 at 2015-11-07 08:43:44 -0800
+
+
+Started GET "/assets/jquery-ui/effect-size.js?body=1" for ::1 at 2015-11-07 08:43:44 -0800
+
+
+Started GET "/assets/jquery-ui/effect-scale.js?body=1" for ::1 at 2015-11-07 08:43:44 -0800
+
+
+Started GET "/assets/jquery-ui/effect-puff.js?body=1" for ::1 at 2015-11-07 08:43:44 -0800
+
+
+Started GET "/assets/jquery-ui/effect-pulsate.js?body=1" for ::1 at 2015-11-07 08:43:44 -0800
+
+
+Started GET "/assets/jquery-ui/effect-shake.js?body=1" for ::1 at 2015-11-07 08:43:44 -0800
+
+
+Started GET "/assets/jquery-ui/effect-slide.js?body=1" for ::1 at 2015-11-07 08:43:44 -0800
+
+
+Started GET "/assets/jquery-ui/effect-transfer.js?body=1" for ::1 at 2015-11-07 08:43:44 -0800
+
+
+Started GET "/assets/jquery-ui/progressbar.js?body=1" for ::1 at 2015-11-07 08:43:44 -0800
+
+
+Started GET "/assets/jquery-ui/selectable.js?body=1" for ::1 at 2015-11-07 08:43:44 -0800
+
+
+Started GET "/assets/jquery-ui/selectmenu.js?body=1" for ::1 at 2015-11-07 08:43:44 -0800
+
+
+Started GET "/assets/jquery-ui/slider.js?body=1" for ::1 at 2015-11-07 08:43:44 -0800
+
+
+Started GET "/assets/jquery-ui/sortable.js?body=1" for ::1 at 2015-11-07 08:43:44 -0800
+
+
+Started GET "/assets/jquery-ui/spinner.js?body=1" for ::1 at 2015-11-07 08:43:44 -0800
+
+
+Started GET "/assets/jquery-ui/tabs.js?body=1" for ::1 at 2015-11-07 08:43:44 -0800
+
+
+Started GET "/assets/jquery-ui/tooltip.js?body=1" for ::1 at 2015-11-07 08:43:44 -0800
+
+
+Started GET "/assets/jquery-ui.js?body=1" for ::1 at 2015-11-07 08:43:44 -0800
+
+
+Started GET "/assets/development/react.js?body=1" for ::1 at 2015-11-07 08:43:44 -0800
+
+
+Started GET "/assets/react_ujs.js?body=1" for ::1 at 2015-11-07 08:43:44 -0800
+
+
+Started GET "/assets/react_components/_new_todo.js?body=1" for ::1 at 2015-11-07 08:43:44 -0800
+
+
+Started GET "/assets/react_components/_todo.js?body=1" for ::1 at 2015-11-07 08:43:44 -0800
+
+
+Started GET "/assets/react_components/_todo_container.js?body=1" for ::1 at 2015-11-07 08:43:44 -0800
+
+
+Started GET "/assets/react_components/_todos.js?body=1" for ::1 at 2015-11-07 08:43:45 -0800
+
+
+Started GET "/assets/application.js?body=1" for ::1 at 2015-11-07 08:43:45 -0800
+
+
+Started PATCH "/sort" for ::1 at 2015-11-07 08:43:46 -0800
+Processing by TodosController#sort as JSON
+  Parameters: {"sort_list"=>["53", "50", "51", "52"]}
+  [1m[35mTodo Load (0.3ms)[0m  SELECT  "todos".* FROM "todos" WHERE "todos"."id" = $1 LIMIT 1  [["id", 53]]
+  [1m[36m (0.1ms)[0m  [1mBEGIN[0m
+  [1m[35mSQL (0.3ms)[0m  UPDATE "todos" SET "position" = $1, "updated_at" = $2 WHERE "todos"."id" = $3  [["position", 1], ["updated_at", "2015-11-07 16:43:46.745812"], ["id", 53]]
+  [1m[36m (6.6ms)[0m  [1mCOMMIT[0m
+  [1m[35mTodo Load (0.3ms)[0m  SELECT  "todos".* FROM "todos" WHERE "todos"."id" = $1 LIMIT 1  [["id", 50]]
+  [1m[36m (0.1ms)[0m  [1mBEGIN[0m
+  [1m[35mSQL (0.3ms)[0m  UPDATE "todos" SET "position" = $1, "updated_at" = $2 WHERE "todos"."id" = $3  [["position", 2], ["updated_at", "2015-11-07 16:43:46.755328"], ["id", 50]]
+  [1m[36m (0.4ms)[0m  [1mCOMMIT[0m
+  [1m[35mTodo Load (0.2ms)[0m  SELECT  "todos".* FROM "todos" WHERE "todos"."id" = $1 LIMIT 1  [["id", 51]]
+  [1m[36m (0.1ms)[0m  [1mBEGIN[0m
+  [1m[35m (0.1ms)[0m  COMMIT
+  [1m[36mTodo Load (0.2ms)[0m  [1mSELECT  "todos".* FROM "todos" WHERE "todos"."id" = $1 LIMIT 1[0m  [["id", 52]]
+  [1m[35m (0.1ms)[0m  BEGIN
+  [1m[36m (0.2ms)[0m  [1mCOMMIT[0m
+  [1m[35mTodo Load (0.4ms)[0m  SELECT "todos".* FROM "todos" WHERE (active = true)  ORDER BY position
+Completed 200 OK in 19ms (Views: 2.0ms | ActiveRecord: 9.8ms)
+
+
+Started GET "/" for ::1 at 2015-11-07 08:43:48 -0800
+Processing by TodosController#index as HTML
+  [1m[36mTodo Load (0.5ms)[0m  [1mSELECT "todos".* FROM "todos" WHERE (active = true)  ORDER BY position[0m
+  Rendered todos/index.html.erb within layouts/application (217.8ms)
+Completed 200 OK in 240ms (Views: 238.6ms | ActiveRecord: 0.5ms)
+
+
+Started GET "/assets/application.css?body=1" for ::1 at 2015-11-07 08:43:48 -0800
+
+
+Started GET "/assets/todos.css?body=1" for ::1 at 2015-11-07 08:43:48 -0800
+
+
+Started GET "/assets/jquery.js?body=1" for ::1 at 2015-11-07 08:43:48 -0800
+
+
+Started GET "/assets/jquery-ui/core.js?body=1" for ::1 at 2015-11-07 08:43:48 -0800
+
+
+Started GET "/assets/jquery-ui/widget.js?body=1" for ::1 at 2015-11-07 08:43:48 -0800
+
+
+Started GET "/assets/jquery-ui/position.js?body=1" for ::1 at 2015-11-07 08:43:48 -0800
+
+
+Started GET "/assets/jquery-ui/accordion.js?body=1" for ::1 at 2015-11-07 08:43:48 -0800
+
+
+Started GET "/assets/jquery-ui/menu.js?body=1" for ::1 at 2015-11-07 08:43:48 -0800
+
+
+Started GET "/assets/jquery-ui/autocomplete.js?body=1" for ::1 at 2015-11-07 08:43:48 -0800
+
+
+Started GET "/assets/jquery-ui/button.js?body=1" for ::1 at 2015-11-07 08:43:48 -0800
+
+
+Started GET "/assets/jquery-ui/datepicker.js?body=1" for ::1 at 2015-11-07 08:43:48 -0800
+
+
+Started GET "/assets/jquery-ui/mouse.js?body=1" for ::1 at 2015-11-07 08:43:48 -0800
+
+
+Started GET "/assets/jquery-ui/draggable.js?body=1" for ::1 at 2015-11-07 08:43:48 -0800
+
+
+Started GET "/assets/jquery-ui/resizable.js?body=1" for ::1 at 2015-11-07 08:43:48 -0800
+
+
+Started GET "/assets/jquery-ui/dialog.js?body=1" for ::1 at 2015-11-07 08:43:48 -0800
+
+
+Started GET "/assets/jquery-ui/droppable.js?body=1" for ::1 at 2015-11-07 08:43:48 -0800
+
+
+Started GET "/assets/jquery-ui/effect.js?body=1" for ::1 at 2015-11-07 08:43:48 -0800
+
+
+Started GET "/assets/jquery-ui/effect-blind.js?body=1" for ::1 at 2015-11-07 08:43:48 -0800
+
+
+Started GET "/assets/jquery-ui/effect-bounce.js?body=1" for ::1 at 2015-11-07 08:43:48 -0800
+
+
+Started GET "/assets/jquery-ui/effect-clip.js?body=1" for ::1 at 2015-11-07 08:43:48 -0800
+
+
+Started GET "/assets/jquery-ui/effect-drop.js?body=1" for ::1 at 2015-11-07 08:43:48 -0800
+
+
+Started GET "/assets/jquery-ui/effect-explode.js?body=1" for ::1 at 2015-11-07 08:43:48 -0800
+
+
+Started GET "/assets/jquery-ui/effect-fade.js?body=1" for ::1 at 2015-11-07 08:43:48 -0800
+
+
+Started GET "/assets/jquery-ui/effect-fold.js?body=1" for ::1 at 2015-11-07 08:43:48 -0800
+
+
+Started GET "/assets/jquery-ui/effect-highlight.js?body=1" for ::1 at 2015-11-07 08:43:48 -0800
+
+
+Started GET "/assets/jquery-ui/effect-size.js?body=1" for ::1 at 2015-11-07 08:43:48 -0800
+
+
+Started GET "/assets/jquery-ui/effect-scale.js?body=1" for ::1 at 2015-11-07 08:43:48 -0800
+
+
+Started GET "/assets/jquery-ui/effect-puff.js?body=1" for ::1 at 2015-11-07 08:43:48 -0800
+
+
+Started GET "/assets/jquery-ui/effect-pulsate.js?body=1" for ::1 at 2015-11-07 08:43:48 -0800
+
+
+Started GET "/assets/jquery-ui/effect-shake.js?body=1" for ::1 at 2015-11-07 08:43:48 -0800
+
+
+Started GET "/assets/jquery-ui/effect-slide.js?body=1" for ::1 at 2015-11-07 08:43:48 -0800
+
+
+Started GET "/assets/jquery-ui/effect-transfer.js?body=1" for ::1 at 2015-11-07 08:43:48 -0800
+
+
+Started GET "/assets/jquery-ui/progressbar.js?body=1" for ::1 at 2015-11-07 08:43:48 -0800
+
+
+Started GET "/assets/jquery-ui/selectable.js?body=1" for ::1 at 2015-11-07 08:43:48 -0800
+
+
+Started GET "/assets/jquery-ui/selectmenu.js?body=1" for ::1 at 2015-11-07 08:43:48 -0800
+
+
+Started GET "/assets/jquery-ui/slider.js?body=1" for ::1 at 2015-11-07 08:43:48 -0800
+
+
+Started GET "/assets/jquery-ui/sortable.js?body=1" for ::1 at 2015-11-07 08:43:48 -0800
+
+
+Started GET "/assets/jquery-ui/spinner.js?body=1" for ::1 at 2015-11-07 08:43:48 -0800
+
+
+Started GET "/assets/jquery-ui/tabs.js?body=1" for ::1 at 2015-11-07 08:43:48 -0800
+
+
+Started GET "/assets/jquery-ui/tooltip.js?body=1" for ::1 at 2015-11-07 08:43:48 -0800
+
+
+Started GET "/assets/jquery-ui.js?body=1" for ::1 at 2015-11-07 08:43:48 -0800
+
+
+Started GET "/assets/development/react.js?body=1" for ::1 at 2015-11-07 08:43:48 -0800
+
+
+Started GET "/assets/react_ujs.js?body=1" for ::1 at 2015-11-07 08:43:48 -0800
+
+
+Started GET "/assets/react_components/_new_todo.js?body=1" for ::1 at 2015-11-07 08:43:48 -0800
+
+
+Started GET "/assets/react_components/_todo.js?body=1" for ::1 at 2015-11-07 08:43:48 -0800
+
+
+Started GET "/assets/react_components/_todo_container.js?body=1" for ::1 at 2015-11-07 08:43:48 -0800
+
+
+Started GET "/assets/react_components/_todos.js?body=1" for ::1 at 2015-11-07 08:43:48 -0800
+
+
+Started GET "/assets/application.js?body=1" for ::1 at 2015-11-07 08:43:48 -0800
+
+
+Started PATCH "/sort" for ::1 at 2015-11-07 08:43:51 -0800
+Processing by TodosController#sort as JSON
+  Parameters: {"sort_list"=>["53", "51", "52", "50"]}
+  [1m[35mTodo Load (0.4ms)[0m  SELECT  "todos".* FROM "todos" WHERE "todos"."id" = $1 LIMIT 1  [["id", 53]]
+  [1m[36m (0.3ms)[0m  [1mBEGIN[0m
+  [1m[35m (0.2ms)[0m  COMMIT
+  [1m[36mTodo Load (0.3ms)[0m  [1mSELECT  "todos".* FROM "todos" WHERE "todos"."id" = $1 LIMIT 1[0m  [["id", 51]]
+  [1m[35m (0.1ms)[0m  BEGIN
+  [1m[36mSQL (0.2ms)[0m  [1mUPDATE "todos" SET "position" = $1, "updated_at" = $2 WHERE "todos"."id" = $3[0m  [["position", 2], ["updated_at", "2015-11-07 16:43:51.686275"], ["id", 51]]
+  [1m[35m (6.6ms)[0m  COMMIT
+  [1m[36mTodo Load (0.3ms)[0m  [1mSELECT  "todos".* FROM "todos" WHERE "todos"."id" = $1 LIMIT 1[0m  [["id", 52]]
+  [1m[35m (0.2ms)[0m  BEGIN
+  [1m[36mSQL (0.3ms)[0m  [1mUPDATE "todos" SET "position" = $1, "updated_at" = $2 WHERE "todos"."id" = $3[0m  [["position", 3], ["updated_at", "2015-11-07 16:43:51.695780"], ["id", 52]]
+  [1m[35m (0.4ms)[0m  COMMIT
+  [1m[36mTodo Load (0.2ms)[0m  [1mSELECT  "todos".* FROM "todos" WHERE "todos"."id" = $1 LIMIT 1[0m  [["id", 50]]
+  [1m[35m (0.1ms)[0m  BEGIN
+  [1m[36mSQL (0.3ms)[0m  [1mUPDATE "todos" SET "position" = $1, "updated_at" = $2 WHERE "todos"."id" = $3[0m  [["position", 4], ["updated_at", "2015-11-07 16:43:51.698762"], ["id", 50]]
+  [1m[35m (0.4ms)[0m  COMMIT
+  [1m[36mTodo Load (0.3ms)[0m  [1mSELECT "todos".* FROM "todos" WHERE (active = true)  ORDER BY position[0m
+Completed 200 OK in 21ms (Views: 2.0ms | ActiveRecord: 10.7ms)
+
+
+Started PUT "/todos/51" for ::1 at 2015-11-07 08:43:53 -0800
+Processing by TodosController#update as JSON
+  Parameters: {"todo"=>{"done"=>"false"}, "id"=>"51"}
+  [1m[35mTodo Load (0.4ms)[0m  SELECT  "todos".* FROM "todos" WHERE "todos"."id" = $1 LIMIT 1  [["id", 51]]
+  [1m[36m (0.2ms)[0m  [1mBEGIN[0m
+  [1m[35mSQL (0.3ms)[0m  UPDATE "todos" SET "done" = $1, "updated_at" = $2 WHERE "todos"."id" = $3  [["done", "f"], ["updated_at", "2015-11-07 16:43:53.264394"], ["id", 51]]
+  [1m[36m (6.5ms)[0m  [1mCOMMIT[0m
+Completed 200 OK in 11ms (Views: 0.5ms | ActiveRecord: 7.3ms)
+
+
+Started PATCH "/sort" for ::1 at 2015-11-07 08:43:54 -0800
+Processing by TodosController#sort as JSON
+  Parameters: {"sort_list"=>["53", "52", "51", "50"]}
+  [1m[35mTodo Load (0.4ms)[0m  SELECT  "todos".* FROM "todos" WHERE "todos"."id" = $1 LIMIT 1  [["id", 53]]
+  [1m[36m (0.2ms)[0m  [1mBEGIN[0m
+  [1m[35m (0.1ms)[0m  COMMIT
+  [1m[36mTodo Load (0.2ms)[0m  [1mSELECT  "todos".* FROM "todos" WHERE "todos"."id" = $1 LIMIT 1[0m  [["id", 52]]
+  [1m[35m (0.2ms)[0m  BEGIN
+  [1m[36mSQL (0.4ms)[0m  [1mUPDATE "todos" SET "position" = $1, "updated_at" = $2 WHERE "todos"."id" = $3[0m  [["position", 2], ["updated_at", "2015-11-07 16:43:54.670569"], ["id", 52]]
+  [1m[35m (6.7ms)[0m  COMMIT
+  [1m[36mTodo Load (0.3ms)[0m  [1mSELECT  "todos".* FROM "todos" WHERE "todos"."id" = $1 LIMIT 1[0m  [["id", 51]]
+  [1m[35m (0.1ms)[0m  BEGIN
+  [1m[36mSQL (0.3ms)[0m  [1mUPDATE "todos" SET "position" = $1, "updated_at" = $2 WHERE "todos"."id" = $3[0m  [["position", 3], ["updated_at", "2015-11-07 16:43:54.680538"], ["id", 51]]
+  [1m[35m (0.4ms)[0m  COMMIT
+  [1m[36mTodo Load (0.2ms)[0m  [1mSELECT  "todos".* FROM "todos" WHERE "todos"."id" = $1 LIMIT 1[0m  [["id", 50]]
+  [1m[35m (0.2ms)[0m  BEGIN
+  [1m[36m (0.1ms)[0m  [1mCOMMIT[0m
+  [1m[35mTodo Load (0.3ms)[0m  SELECT "todos".* FROM "todos" WHERE (active = true)  ORDER BY position
+Completed 200 OK in 19ms (Views: 1.9ms | ActiveRecord: 10.1ms)
+
+
+Started GET "/" for ::1 at 2015-11-07 08:43:55 -0800
+Processing by TodosController#index as HTML
+  [1m[36mTodo Load (0.5ms)[0m  [1mSELECT "todos".* FROM "todos" WHERE (active = true)  ORDER BY position[0m
+  Rendered todos/index.html.erb within layouts/application (217.0ms)
+Completed 200 OK in 239ms (Views: 237.6ms | ActiveRecord: 0.5ms)
+
+
+Started GET "/assets/application.css?body=1" for ::1 at 2015-11-07 08:43:56 -0800
+
+
+Started GET "/assets/todos.css?body=1" for ::1 at 2015-11-07 08:43:56 -0800
+
+
+Started GET "/assets/jquery.js?body=1" for ::1 at 2015-11-07 08:43:56 -0800
+
+
+Started GET "/assets/jquery-ui/core.js?body=1" for ::1 at 2015-11-07 08:43:56 -0800
+
+
+Started GET "/assets/jquery-ui/widget.js?body=1" for ::1 at 2015-11-07 08:43:56 -0800
+
+
+Started GET "/assets/jquery-ui/accordion.js?body=1" for ::1 at 2015-11-07 08:43:56 -0800
+
+
+Started GET "/assets/jquery-ui/position.js?body=1" for ::1 at 2015-11-07 08:43:56 -0800
+
+
+Started GET "/assets/jquery-ui/menu.js?body=1" for ::1 at 2015-11-07 08:43:56 -0800
+
+
+Started GET "/assets/jquery-ui/autocomplete.js?body=1" for ::1 at 2015-11-07 08:43:56 -0800
+
+
+Started GET "/assets/jquery-ui/button.js?body=1" for ::1 at 2015-11-07 08:43:56 -0800
+
+
+Started GET "/assets/jquery-ui/datepicker.js?body=1" for ::1 at 2015-11-07 08:43:56 -0800
+
+
+Started GET "/assets/jquery-ui/mouse.js?body=1" for ::1 at 2015-11-07 08:43:56 -0800
+
+
+Started GET "/assets/jquery-ui/draggable.js?body=1" for ::1 at 2015-11-07 08:43:56 -0800
+
+
+Started GET "/assets/jquery-ui/resizable.js?body=1" for ::1 at 2015-11-07 08:43:56 -0800
+
+
+Started GET "/assets/jquery-ui/dialog.js?body=1" for ::1 at 2015-11-07 08:43:56 -0800
+
+
+Started GET "/assets/jquery-ui/droppable.js?body=1" for ::1 at 2015-11-07 08:43:56 -0800
+
+
+Started GET "/assets/jquery-ui/effect.js?body=1" for ::1 at 2015-11-07 08:43:56 -0800
+
+
+Started GET "/assets/jquery-ui/effect-blind.js?body=1" for ::1 at 2015-11-07 08:43:56 -0800
+
+
+Started GET "/assets/jquery-ui/effect-bounce.js?body=1" for ::1 at 2015-11-07 08:43:56 -0800
+
+
+Started GET "/assets/jquery-ui/effect-clip.js?body=1" for ::1 at 2015-11-07 08:43:56 -0800
+
+
+Started GET "/assets/jquery-ui/effect-drop.js?body=1" for ::1 at 2015-11-07 08:43:56 -0800
+
+
+Started GET "/assets/jquery-ui/effect-explode.js?body=1" for ::1 at 2015-11-07 08:43:56 -0800
+
+
+Started GET "/assets/jquery-ui/effect-fade.js?body=1" for ::1 at 2015-11-07 08:43:56 -0800
+
+
+Started GET "/assets/jquery-ui/effect-fold.js?body=1" for ::1 at 2015-11-07 08:43:56 -0800
+
+
+Started GET "/assets/jquery-ui/effect-highlight.js?body=1" for ::1 at 2015-11-07 08:43:56 -0800
+
+
+Started GET "/assets/jquery-ui/effect-size.js?body=1" for ::1 at 2015-11-07 08:43:56 -0800
+
+
+Started GET "/assets/jquery-ui/effect-scale.js?body=1" for ::1 at 2015-11-07 08:43:56 -0800
+
+
+Started GET "/assets/jquery-ui/effect-puff.js?body=1" for ::1 at 2015-11-07 08:43:56 -0800
+
+
+Started GET "/assets/jquery-ui/effect-pulsate.js?body=1" for ::1 at 2015-11-07 08:43:56 -0800
+
+
+Started GET "/assets/jquery-ui/effect-shake.js?body=1" for ::1 at 2015-11-07 08:43:56 -0800
+
+
+Started GET "/assets/jquery-ui/effect-slide.js?body=1" for ::1 at 2015-11-07 08:43:56 -0800
+
+
+Started GET "/assets/jquery-ui/effect-transfer.js?body=1" for ::1 at 2015-11-07 08:43:56 -0800
+
+
+Started GET "/assets/jquery-ui/progressbar.js?body=1" for ::1 at 2015-11-07 08:43:56 -0800
+
+
+Started GET "/assets/jquery-ui/selectable.js?body=1" for ::1 at 2015-11-07 08:43:56 -0800
+
+
+Started GET "/assets/jquery-ui/selectmenu.js?body=1" for ::1 at 2015-11-07 08:43:56 -0800
+
+
+Started GET "/assets/jquery-ui/slider.js?body=1" for ::1 at 2015-11-07 08:43:56 -0800
+
+
+Started GET "/assets/jquery-ui/sortable.js?body=1" for ::1 at 2015-11-07 08:43:56 -0800
+
+
+Started GET "/assets/jquery-ui/spinner.js?body=1" for ::1 at 2015-11-07 08:43:56 -0800
+
+
+Started GET "/assets/jquery-ui/tabs.js?body=1" for ::1 at 2015-11-07 08:43:56 -0800
+
+
+Started GET "/assets/jquery-ui/tooltip.js?body=1" for ::1 at 2015-11-07 08:43:56 -0800
+
+
+Started GET "/assets/jquery-ui.js?body=1" for ::1 at 2015-11-07 08:43:56 -0800
+
+
+Started GET "/assets/development/react.js?body=1" for ::1 at 2015-11-07 08:43:56 -0800
+
+
+Started GET "/assets/react_ujs.js?body=1" for ::1 at 2015-11-07 08:43:56 -0800
+
+
+Started GET "/assets/react_components/_new_todo.js?body=1" for ::1 at 2015-11-07 08:43:56 -0800
+
+
+Started GET "/assets/react_components/_todo.js?body=1" for ::1 at 2015-11-07 08:43:56 -0800
+
+
+Started GET "/assets/react_components/_todo_container.js?body=1" for ::1 at 2015-11-07 08:43:56 -0800
+
+
+Started GET "/assets/react_components/_todos.js?body=1" for ::1 at 2015-11-07 08:43:56 -0800
+
+
+Started GET "/assets/application.js?body=1" for ::1 at 2015-11-07 08:43:56 -0800
+
+
+Started PUT "/todos/50" for ::1 at 2015-11-07 08:44:06 -0800
+Processing by TodosController#update as JSON
+  Parameters: {"todo"=>{"active"=>"false"}, "id"=>"50"}
+  [1m[35mTodo Load (0.3ms)[0m  SELECT  "todos".* FROM "todos" WHERE "todos"."id" = $1 LIMIT 1  [["id", 50]]
+  [1m[36m (0.2ms)[0m  [1mBEGIN[0m
+  [1m[35mSQL (0.3ms)[0m  UPDATE "todos" SET "active" = $1, "updated_at" = $2 WHERE "todos"."id" = $3  [["active", "f"], ["updated_at", "2015-11-07 16:44:06.553528"], ["id", 50]]
+  [1m[36m (0.4ms)[0m  [1mCOMMIT[0m
+Completed 200 OK in 5ms (Views: 0.4ms | ActiveRecord: 1.2ms)
+
+
+Started PUT "/todos/51" for ::1 at 2015-11-07 08:44:07 -0800
+Processing by TodosController#update as JSON
+  Parameters: {"todo"=>{"active"=>"false"}, "id"=>"51"}
+  [1m[35mTodo Load (0.3ms)[0m  SELECT  "todos".* FROM "todos" WHERE "todos"."id" = $1 LIMIT 1  [["id", 51]]
+  [1m[36m (0.2ms)[0m  [1mBEGIN[0m
+  [1m[35mSQL (0.3ms)[0m  UPDATE "todos" SET "active" = $1, "updated_at" = $2 WHERE "todos"."id" = $3  [["active", "f"], ["updated_at", "2015-11-07 16:44:07.213591"], ["id", 51]]
+  [1m[36m (0.4ms)[0m  [1mCOMMIT[0m
+Completed 200 OK in 5ms (Views: 0.3ms | ActiveRecord: 1.3ms)
+
+
+Started PUT "/todos/52" for ::1 at 2015-11-07 08:44:08 -0800
+Processing by TodosController#update as JSON
+  Parameters: {"todo"=>{"active"=>"false"}, "id"=>"52"}
+  [1m[35mTodo Load (0.3ms)[0m  SELECT  "todos".* FROM "todos" WHERE "todos"."id" = $1 LIMIT 1  [["id", 52]]
+  [1m[36m (0.2ms)[0m  [1mBEGIN[0m
+  [1m[35mSQL (0.3ms)[0m  UPDATE "todos" SET "active" = $1, "updated_at" = $2 WHERE "todos"."id" = $3  [["active", "f"], ["updated_at", "2015-11-07 16:44:08.102392"], ["id", 52]]
+  [1m[36m (6.8ms)[0m  [1mCOMMIT[0m
+Completed 200 OK in 11ms (Views: 0.4ms | ActiveRecord: 7.5ms)
+
+
+Started PUT "/todos/53" for ::1 at 2015-11-07 08:44:09 -0800
+Processing by TodosController#update as JSON
+  Parameters: {"todo"=>{"active"=>"false"}, "id"=>"53"}
+  [1m[35mTodo Load (0.3ms)[0m  SELECT  "todos".* FROM "todos" WHERE "todos"."id" = $1 LIMIT 1  [["id", 53]]
+  [1m[36m (0.2ms)[0m  [1mBEGIN[0m
+  [1m[35mSQL (0.3ms)[0m  UPDATE "todos" SET "active" = $1, "updated_at" = $2 WHERE "todos"."id" = $3  [["active", "f"], ["updated_at", "2015-11-07 16:44:09.769360"], ["id", 53]]
+  [1m[36m (6.6ms)[0m  [1mCOMMIT[0m
+Completed 200 OK in 11ms (Views: 0.4ms | ActiveRecord: 7.4ms)
+
+
+Started GET "/" for ::1 at 2015-11-07 08:49:53 -0800
+Processing by TodosController#index as HTML
+  [1m[35mTodo Load (0.6ms)[0m  SELECT "todos".* FROM "todos" WHERE (active = true)  ORDER BY position
+  Rendered todos/index.html.erb within layouts/application (1196.6ms)
+Completed 200 OK in 1391ms (Views: 1386.8ms | ActiveRecord: 1.5ms)
+
+
+Started GET "/assets/application.css?body=1" for ::1 at 2015-11-07 08:49:55 -0800
+
+
+Started GET "/assets/todos.css?body=1" for ::1 at 2015-11-07 08:49:55 -0800
+
+
+Started GET "/assets/jquery-ui/accordion.js?body=1" for ::1 at 2015-11-07 08:49:55 -0800
+
+
+Started GET "/assets/jquery-ui/core.js?body=1" for ::1 at 2015-11-07 08:49:55 -0800
+
+
+Started GET "/assets/jquery-ui/widget.js?body=1" for ::1 at 2015-11-07 08:49:55 -0800
+
+
+Started GET "/assets/jquery.js?body=1" for ::1 at 2015-11-07 08:49:55 -0800
+
+
+Started GET "/assets/jquery-ui/position.js?body=1" for ::1 at 2015-11-07 08:49:55 -0800
+
+
+Started GET "/assets/jquery-ui/menu.js?body=1" for ::1 at 2015-11-07 08:49:55 -0800
+
+
+Started GET "/assets/jquery-ui/autocomplete.js?body=1" for ::1 at 2015-11-07 08:49:55 -0800
+
+
+Started GET "/assets/jquery-ui/button.js?body=1" for ::1 at 2015-11-07 08:49:55 -0800
+
+
+Started GET "/assets/jquery-ui/datepicker.js?body=1" for ::1 at 2015-11-07 08:49:55 -0800
+
+
+Started GET "/assets/jquery-ui/mouse.js?body=1" for ::1 at 2015-11-07 08:49:55 -0800
+
+
+Started GET "/assets/jquery-ui/draggable.js?body=1" for ::1 at 2015-11-07 08:49:55 -0800
+
+
+Started GET "/assets/jquery-ui/resizable.js?body=1" for ::1 at 2015-11-07 08:49:55 -0800
+
+
+Started GET "/assets/jquery-ui/dialog.js?body=1" for ::1 at 2015-11-07 08:49:55 -0800
+
+
+Started GET "/assets/jquery-ui/droppable.js?body=1" for ::1 at 2015-11-07 08:49:55 -0800
+
+
+Started GET "/assets/jquery-ui/effect.js?body=1" for ::1 at 2015-11-07 08:49:55 -0800
+
+
+Started GET "/assets/jquery-ui/effect-blind.js?body=1" for ::1 at 2015-11-07 08:49:55 -0800
+
+
+Started GET "/assets/jquery-ui/effect-bounce.js?body=1" for ::1 at 2015-11-07 08:49:55 -0800
+
+
+Started GET "/assets/jquery-ui/effect-clip.js?body=1" for ::1 at 2015-11-07 08:49:55 -0800
+
+
+Started GET "/assets/jquery-ui/effect-drop.js?body=1" for ::1 at 2015-11-07 08:49:55 -0800
+
+
+Started GET "/assets/jquery-ui/effect-explode.js?body=1" for ::1 at 2015-11-07 08:49:55 -0800
+
+
+Started GET "/assets/jquery-ui/effect-fade.js?body=1" for ::1 at 2015-11-07 08:49:55 -0800
+
+
+Started GET "/assets/jquery-ui/effect-fold.js?body=1" for ::1 at 2015-11-07 08:49:55 -0800
+
+
+Started GET "/assets/jquery-ui/effect-highlight.js?body=1" for ::1 at 2015-11-07 08:49:55 -0800
+
+
+Started GET "/assets/jquery-ui/effect-size.js?body=1" for ::1 at 2015-11-07 08:49:55 -0800
+
+
+Started GET "/assets/jquery-ui/effect-scale.js?body=1" for ::1 at 2015-11-07 08:49:55 -0800
+
+
+Started GET "/assets/jquery-ui/effect-puff.js?body=1" for ::1 at 2015-11-07 08:49:55 -0800
+
+
+Started GET "/assets/jquery-ui/effect-pulsate.js?body=1" for ::1 at 2015-11-07 08:49:55 -0800
+
+
+Started GET "/assets/jquery-ui/effect-shake.js?body=1" for ::1 at 2015-11-07 08:49:55 -0800
+
+
+Started GET "/assets/jquery-ui/effect-slide.js?body=1" for ::1 at 2015-11-07 08:49:55 -0800
+
+
+Started GET "/assets/jquery-ui/effect-transfer.js?body=1" for ::1 at 2015-11-07 08:49:55 -0800
+
+
+Started GET "/assets/jquery-ui/progressbar.js?body=1" for ::1 at 2015-11-07 08:49:55 -0800
+
+
+Started GET "/assets/jquery-ui/selectable.js?body=1" for ::1 at 2015-11-07 08:49:55 -0800
+
+
+Started GET "/assets/jquery-ui/selectmenu.js?body=1" for ::1 at 2015-11-07 08:49:55 -0800
+
+
+Started GET "/assets/jquery-ui/slider.js?body=1" for ::1 at 2015-11-07 08:49:55 -0800
+
+
+Started GET "/assets/jquery-ui/sortable.js?body=1" for ::1 at 2015-11-07 08:49:55 -0800
+
+
+Started GET "/assets/jquery-ui/spinner.js?body=1" for ::1 at 2015-11-07 08:49:55 -0800
+
+
+Started GET "/assets/jquery-ui/tabs.js?body=1" for ::1 at 2015-11-07 08:49:55 -0800
+
+
+Started GET "/assets/jquery-ui/tooltip.js?body=1" for ::1 at 2015-11-07 08:49:55 -0800
+
+
+Started GET "/assets/jquery-ui.js?body=1" for ::1 at 2015-11-07 08:49:55 -0800
+
+
+Started GET "/assets/development/react.js?body=1" for ::1 at 2015-11-07 08:49:55 -0800
+
+
+Started GET "/assets/react_ujs.js?body=1" for ::1 at 2015-11-07 08:49:55 -0800
+
+
+Started GET "/assets/react_components/_new_todo.js?body=1" for ::1 at 2015-11-07 08:49:55 -0800
+
+
+Started GET "/assets/react_components/_todo.js?body=1" for ::1 at 2015-11-07 08:49:55 -0800
+
+
+Started GET "/assets/react_components/_todo_container.js?body=1" for ::1 at 2015-11-07 08:49:55 -0800
+
+
+Started GET "/assets/react_components/_todos.js?body=1" for ::1 at 2015-11-07 08:49:55 -0800
+
+
+Started GET "/assets/application.js?body=1" for ::1 at 2015-11-07 08:49:55 -0800
+
+
+Started GET "/assets/application.css?body=1" for ::1 at 2015-11-07 08:50:08 -0800
+
+
+Started GET "/assets/todos.css?body=1" for ::1 at 2015-11-07 08:50:08 -0800
+
+
+Started GET "/" for ::1 at 2015-11-07 08:50:49 -0800
+Processing by TodosController#index as HTML
+  [1m[36mTodo Load (0.6ms)[0m  [1mSELECT "todos".* FROM "todos" WHERE (active = true)  ORDER BY position[0m
+  Rendered todos/index.html.erb within layouts/application (1181.2ms)
+Completed 200 OK in 1305ms (Views: 1301.9ms | ActiveRecord: 1.2ms)
+
+
+Started GET "/assets/application.css?body=1" for ::1 at 2015-11-07 08:50:51 -0800
+
+
+Started GET "/assets/jquery.js?body=1" for ::1 at 2015-11-07 08:50:51 -0800
+
+
+Started GET "/assets/todos.css?body=1" for ::1 at 2015-11-07 08:50:51 -0800
+
+
+Started GET "/assets/jquery-ui/position.js?body=1" for ::1 at 2015-11-07 08:50:51 -0800
+
+
+Started GET "/assets/jquery-ui/core.js?body=1" for ::1 at 2015-11-07 08:50:51 -0800
+
+
+Started GET "/assets/jquery-ui/widget.js?body=1" for ::1 at 2015-11-07 08:50:51 -0800
+
+
+Started GET "/assets/jquery-ui/menu.js?body=1" for ::1 at 2015-11-07 08:50:51 -0800
+
+
+Started GET "/assets/jquery-ui/accordion.js?body=1" for ::1 at 2015-11-07 08:50:51 -0800
+
+
+Started GET "/assets/jquery-ui/autocomplete.js?body=1" for ::1 at 2015-11-07 08:50:51 -0800
+
+
+Started GET "/assets/jquery-ui/button.js?body=1" for ::1 at 2015-11-07 08:50:51 -0800
+
+
+Started GET "/assets/jquery-ui/datepicker.js?body=1" for ::1 at 2015-11-07 08:50:51 -0800
+
+
+Started GET "/assets/jquery-ui/mouse.js?body=1" for ::1 at 2015-11-07 08:50:51 -0800
+
+
+Started GET "/assets/jquery-ui/draggable.js?body=1" for ::1 at 2015-11-07 08:50:51 -0800
+
+
+Started GET "/assets/jquery-ui/resizable.js?body=1" for ::1 at 2015-11-07 08:50:51 -0800
+
+
+Started GET "/assets/jquery-ui/dialog.js?body=1" for ::1 at 2015-11-07 08:50:51 -0800
+
+
+Started GET "/assets/jquery-ui/effect.js?body=1" for ::1 at 2015-11-07 08:50:51 -0800
+
+
+Started GET "/assets/jquery-ui/effect-bounce.js?body=1" for ::1 at 2015-11-07 08:50:51 -0800
+
+
+Started GET "/assets/jquery-ui/effect-clip.js?body=1" for ::1 at 2015-11-07 08:50:51 -0800
+
+
+Started GET "/assets/jquery-ui/droppable.js?body=1" for ::1 at 2015-11-07 08:50:51 -0800
+
+
+Started GET "/assets/jquery-ui/effect-drop.js?body=1" for ::1 at 2015-11-07 08:50:51 -0800
+
+
+Started GET "/assets/jquery-ui/effect-blind.js?body=1" for ::1 at 2015-11-07 08:50:51 -0800
+
+
+Started GET "/assets/jquery-ui/effect-explode.js?body=1" for ::1 at 2015-11-07 08:50:51 -0800
+
+
+Started GET "/assets/jquery-ui/effect-fade.js?body=1" for ::1 at 2015-11-07 08:50:51 -0800
+
+
+Started GET "/assets/jquery-ui/effect-fold.js?body=1" for ::1 at 2015-11-07 08:50:51 -0800
+
+
+Started GET "/assets/jquery-ui/effect-highlight.js?body=1" for ::1 at 2015-11-07 08:50:51 -0800
+
+
+Started GET "/assets/jquery-ui/effect-size.js?body=1" for ::1 at 2015-11-07 08:50:51 -0800
+
+
+Started GET "/assets/jquery-ui/effect-scale.js?body=1" for ::1 at 2015-11-07 08:50:51 -0800
+
+
+Started GET "/assets/jquery-ui/effect-puff.js?body=1" for ::1 at 2015-11-07 08:50:51 -0800
+
+
+Started GET "/assets/jquery-ui/effect-pulsate.js?body=1" for ::1 at 2015-11-07 08:50:51 -0800
+
+
+Started GET "/assets/jquery-ui/effect-shake.js?body=1" for ::1 at 2015-11-07 08:50:51 -0800
+
+
+Started GET "/assets/jquery-ui/effect-slide.js?body=1" for ::1 at 2015-11-07 08:50:51 -0800
+
+
+Started GET "/assets/jquery-ui/effect-transfer.js?body=1" for ::1 at 2015-11-07 08:50:51 -0800
+
+
+Started GET "/assets/jquery-ui/progressbar.js?body=1" for ::1 at 2015-11-07 08:50:51 -0800
+
+
+Started GET "/assets/jquery-ui/selectable.js?body=1" for ::1 at 2015-11-07 08:50:51 -0800
+
+
+Started GET "/assets/jquery-ui/selectmenu.js?body=1" for ::1 at 2015-11-07 08:50:51 -0800
+
+
+Started GET "/assets/jquery-ui/slider.js?body=1" for ::1 at 2015-11-07 08:50:51 -0800
+
+
+Started GET "/assets/jquery-ui/sortable.js?body=1" for ::1 at 2015-11-07 08:50:51 -0800
+
+
+Started GET "/assets/jquery-ui/spinner.js?body=1" for ::1 at 2015-11-07 08:50:51 -0800
+
+
+Started GET "/assets/jquery-ui/tabs.js?body=1" for ::1 at 2015-11-07 08:50:51 -0800
+
+
+Started GET "/assets/jquery-ui/tooltip.js?body=1" for ::1 at 2015-11-07 08:50:51 -0800
+
+
+Started GET "/assets/jquery-ui.js?body=1" for ::1 at 2015-11-07 08:50:51 -0800
+
+
+Started GET "/assets/development/react.js?body=1" for ::1 at 2015-11-07 08:50:51 -0800
+
+
+Started GET "/assets/react_ujs.js?body=1" for ::1 at 2015-11-07 08:50:51 -0800
+
+
+Started GET "/assets/react_components/_new_todo.js?body=1" for ::1 at 2015-11-07 08:50:51 -0800
+
+
+Started GET "/assets/react_components/_todo.js?body=1" for ::1 at 2015-11-07 08:50:51 -0800
+
+
+Started GET "/assets/react_components/_todo_container.js?body=1" for ::1 at 2015-11-07 08:50:51 -0800
+
+
+Started GET "/assets/application.js?body=1" for ::1 at 2015-11-07 08:50:51 -0800
+
+
+Started GET "/assets/react_components/_todos.js?body=1" for ::1 at 2015-11-07 08:50:51 -0800
+
+
+Started POST "/todos" for ::1 at 2015-11-07 08:50:54 -0800
+Processing by TodosController#create as JSON
+  Parameters: {"todo"=>{"todo"=>"salkl;adka"}}
+  [1m[35m (0.5ms)[0m  SELECT COUNT(*) FROM "todos"
+  [1m[36m (0.2ms)[0m  [1mBEGIN[0m
+  [1m[35mSQL (0.4ms)[0m  INSERT INTO "todos" ("todo", "position", "created_at", "updated_at") VALUES ($1, $2, $3, $4) RETURNING "id"  [["todo", "salkl;adka"], ["position", 6], ["created_at", "2015-11-07 16:50:54.110054"], ["updated_at", "2015-11-07 16:50:54.110054"]]
+  [1m[36m (6.8ms)[0m  [1mCOMMIT[0m
+Completed 200 OK in 19ms (Views: 0.5ms | ActiveRecord: 9.3ms)
+
+
+Started POST "/todos" for ::1 at 2015-11-07 08:50:56 -0800
+Processing by TodosController#create as JSON
+  Parameters: {"todo"=>{"todo"=>"sklfjsalk"}}
+  [1m[35m (0.4ms)[0m  SELECT COUNT(*) FROM "todos"
+  [1m[36m (0.2ms)[0m  [1mBEGIN[0m
+  [1m[35mSQL (0.3ms)[0m  INSERT INTO "todos" ("todo", "position", "created_at", "updated_at") VALUES ($1, $2, $3, $4) RETURNING "id"  [["todo", "sklfjsalk"], ["position", 7], ["created_at", "2015-11-07 16:50:56.587411"], ["updated_at", "2015-11-07 16:50:56.587411"]]
+  [1m[36m (6.6ms)[0m  [1mCOMMIT[0m
+Completed 200 OK in 11ms (Views: 0.4ms | ActiveRecord: 7.5ms)
+
+
+Started PUT "/todos/55" for ::1 at 2015-11-07 08:50:59 -0800
+Processing by TodosController#update as JSON
+  Parameters: {"todo"=>{"active"=>"false"}, "id"=>"55"}
+  [1m[35mTodo Load (0.4ms)[0m  SELECT  "todos".* FROM "todos" WHERE "todos"."id" = $1 LIMIT 1  [["id", 55]]
+  [1m[36m (0.2ms)[0m  [1mBEGIN[0m
+  [1m[35mSQL (0.5ms)[0m  UPDATE "todos" SET "active" = $1, "updated_at" = $2 WHERE "todos"."id" = $3  [["active", "f"], ["updated_at", "2015-11-07 16:50:59.183662"], ["id", 55]]
+  [1m[36m (7.6ms)[0m  [1mCOMMIT[0m
+Completed 200 OK in 13ms (Views: 0.5ms | ActiveRecord: 8.7ms)
+
+
+Started PUT "/todos/54" for ::1 at 2015-11-07 08:51:01 -0800
+Processing by TodosController#update as JSON
+  Parameters: {"todo"=>{"active"=>"false"}, "id"=>"54"}
+  [1m[35mTodo Load (0.3ms)[0m  SELECT  "todos".* FROM "todos" WHERE "todos"."id" = $1 LIMIT 1  [["id", 54]]
+  [1m[36m (0.2ms)[0m  [1mBEGIN[0m
+  [1m[35mSQL (0.3ms)[0m  UPDATE "todos" SET "active" = $1, "updated_at" = $2 WHERE "todos"."id" = $3  [["active", "f"], ["updated_at", "2015-11-07 16:51:01.323225"], ["id", 54]]
+  [1m[36m (6.7ms)[0m  [1mCOMMIT[0m
+Completed 200 OK in 11ms (Views: 0.4ms | ActiveRecord: 7.5ms)
+
+
+Started POST "/todos" for ::1 at 2015-11-07 08:53:33 -0800
+Processing by TodosController#create as JSON
+  Parameters: {"todo"=>{"todo"=>"This is my first task"}}
+  [1m[35m (0.6ms)[0m  SELECT COUNT(*) FROM "todos"
+  [1m[36m (0.1ms)[0m  [1mBEGIN[0m
+  [1m[35mSQL (0.4ms)[0m  INSERT INTO "todos" ("todo", "position", "created_at", "updated_at") VALUES ($1, $2, $3, $4) RETURNING "id"  [["todo", "This is my first task"], ["position", 8], ["created_at", "2015-11-07 16:53:33.448913"], ["updated_at", "2015-11-07 16:53:33.448913"]]
+  [1m[36m (6.6ms)[0m  [1mCOMMIT[0m
+Completed 200 OK in 12ms (Views: 0.6ms | ActiveRecord: 7.8ms)
+
+
+Started POST "/todos" for ::1 at 2015-11-07 08:53:39 -0800
+Processing by TodosController#create as JSON
+  Parameters: {"todo"=>{"todo"=>"Clean the dishes"}}
+  [1m[35m (1.1ms)[0m  SELECT COUNT(*) FROM "todos"
+  [1m[36m (0.8ms)[0m  [1mBEGIN[0m
+  [1m[35mSQL (0.6ms)[0m  INSERT INTO "todos" ("todo", "position", "created_at", "updated_at") VALUES ($1, $2, $3, $4) RETURNING "id"  [["todo", "Clean the dishes"], ["position", 9], ["created_at", "2015-11-07 16:53:39.545775"], ["updated_at", "2015-11-07 16:53:39.545775"]]
+  [1m[36m (7.0ms)[0m  [1mCOMMIT[0m
+Completed 200 OK in 17ms (Views: 0.9ms | ActiveRecord: 9.5ms)
+
+
+Started POST "/todos" for ::1 at 2015-11-07 08:53:48 -0800
+Processing by TodosController#create as JSON
+  Parameters: {"todo"=>{"todo"=>"Clean the garage"}}
+  [1m[35m (0.4ms)[0m  SELECT COUNT(*) FROM "todos"
+  [1m[36m (0.2ms)[0m  [1mBEGIN[0m
+  [1m[35mSQL (0.3ms)[0m  INSERT INTO "todos" ("todo", "position", "created_at", "updated_at") VALUES ($1, $2, $3, $4) RETURNING "id"  [["todo", "Clean the garage"], ["position", 10], ["created_at", "2015-11-07 16:53:48.480611"], ["updated_at", "2015-11-07 16:53:48.480611"]]
+  [1m[36m (6.6ms)[0m  [1mCOMMIT[0m
+Completed 200 OK in 12ms (Views: 0.7ms | ActiveRecord: 7.6ms)
+
+
+Started POST "/todos" for ::1 at 2015-11-07 08:54:01 -0800
+Processing by TodosController#create as JSON
+  Parameters: {"todo"=>{"todo"=>"Clean the clothes"}}
+  [1m[35m (0.7ms)[0m  SELECT COUNT(*) FROM "todos"
+  [1m[36m (0.4ms)[0m  [1mBEGIN[0m
+  [1m[35mSQL (0.5ms)[0m  INSERT INTO "todos" ("todo", "position", "created_at", "updated_at") VALUES ($1, $2, $3, $4) RETURNING "id"  [["todo", "Clean the clothes"], ["position", 11], ["created_at", "2015-11-07 16:54:01.825214"], ["updated_at", "2015-11-07 16:54:01.825214"]]
+  [1m[36m (6.6ms)[0m  [1mCOMMIT[0m
+Completed 200 OK in 15ms (Views: 0.4ms | ActiveRecord: 8.2ms)
+
+
+Started PATCH "/sort" for ::1 at 2015-11-07 08:54:04 -0800
+Processing by TodosController#sort as JSON
+  Parameters: {"sort_list"=>["56", "58", "57", "59"]}
+  [1m[35mTodo Load (0.5ms)[0m  SELECT  "todos".* FROM "todos" WHERE "todos"."id" = $1 LIMIT 1  [["id", 56]]
+  [1m[36m (0.3ms)[0m  [1mBEGIN[0m
+  [1m[35mSQL (0.4ms)[0m  UPDATE "todos" SET "position" = $1, "updated_at" = $2 WHERE "todos"."id" = $3  [["position", 1], ["updated_at", "2015-11-07 16:54:04.533300"], ["id", 56]]
+  [1m[36m (6.8ms)[0m  [1mCOMMIT[0m
+  [1m[35mTodo Load (1.2ms)[0m  SELECT  "todos".* FROM "todos" WHERE "todos"."id" = $1 LIMIT 1  [["id", 58]]
+  [1m[36m (0.5ms)[0m  [1mBEGIN[0m
+  [1m[35mSQL (0.7ms)[0m  UPDATE "todos" SET "position" = $1, "updated_at" = $2 WHERE "todos"."id" = $3  [["position", 2], ["updated_at", "2015-11-07 16:54:04.546598"], ["id", 58]]
+  [1m[36m (0.5ms)[0m  [1mCOMMIT[0m
+  [1m[35mTodo Load (0.4ms)[0m  SELECT  "todos".* FROM "todos" WHERE "todos"."id" = $1 LIMIT 1  [["id", 57]]
+  [1m[36m (0.2ms)[0m  [1mBEGIN[0m
+  [1m[35mSQL (0.4ms)[0m  UPDATE "todos" SET "position" = $1, "updated_at" = $2 WHERE "todos"."id" = $3  [["position", 3], ["updated_at", "2015-11-07 16:54:04.552039"], ["id", 57]]
+  [1m[36m (0.5ms)[0m  [1mCOMMIT[0m
+  [1m[35mTodo Load (0.3ms)[0m  SELECT  "todos".* FROM "todos" WHERE "todos"."id" = $1 LIMIT 1  [["id", 59]]
+  [1m[36m (0.4ms)[0m  [1mBEGIN[0m
+  [1m[35mSQL (0.5ms)[0m  UPDATE "todos" SET "position" = $1, "updated_at" = $2 WHERE "todos"."id" = $3  [["position", 4], ["updated_at", "2015-11-07 16:54:04.556548"], ["id", 59]]
+  [1m[36m (0.6ms)[0m  [1mCOMMIT[0m
+  [1m[35mTodo Load (0.7ms)[0m  SELECT "todos".* FROM "todos" WHERE (active = true)  ORDER BY position
+Completed 200 OK in 32ms (Views: 2.4ms | ActiveRecord: 14.7ms)
+
+
+Started PATCH "/sort" for ::1 at 2015-11-07 08:54:08 -0800
+Processing by TodosController#sort as JSON
+  Parameters: {"sort_list"=>["58", "57", "56", "59"]}
+  [1m[36mTodo Load (0.6ms)[0m  [1mSELECT  "todos".* FROM "todos" WHERE "todos"."id" = $1 LIMIT 1[0m  [["id", 58]]
+  [1m[35m (0.2ms)[0m  BEGIN
+  [1m[36mSQL (0.5ms)[0m  [1mUPDATE "todos" SET "position" = $1, "updated_at" = $2 WHERE "todos"."id" = $3[0m  [["position", 1], ["updated_at", "2015-11-07 16:54:08.797495"], ["id", 58]]
+  [1m[35m (6.7ms)[0m  COMMIT
+  [1m[36mTodo Load (0.7ms)[0m  [1mSELECT  "todos".* FROM "todos" WHERE "todos"."id" = $1 LIMIT 1[0m  [["id", 57]]
+  [1m[35m (0.5ms)[0m  BEGIN
+  [1m[36mSQL (0.8ms)[0m  [1mUPDATE "todos" SET "position" = $1, "updated_at" = $2 WHERE "todos"."id" = $3[0m  [["position", 2], ["updated_at", "2015-11-07 16:54:08.810418"], ["id", 57]]
+  [1m[35m (0.6ms)[0m  COMMIT
+  [1m[36mTodo Load (0.3ms)[0m  [1mSELECT  "todos".* FROM "todos" WHERE "todos"."id" = $1 LIMIT 1[0m  [["id", 56]]
+  [1m[35m (0.2ms)[0m  BEGIN
+  [1m[36mSQL (0.3ms)[0m  [1mUPDATE "todos" SET "position" = $1, "updated_at" = $2 WHERE "todos"."id" = $3[0m  [["position", 3], ["updated_at", "2015-11-07 16:54:08.816435"], ["id", 56]]
+  [1m[35m (0.6ms)[0m  COMMIT
+  [1m[36mTodo Load (0.2ms)[0m  [1mSELECT  "todos".* FROM "todos" WHERE "todos"."id" = $1 LIMIT 1[0m  [["id", 59]]
+  [1m[35m (0.2ms)[0m  BEGIN
+  [1m[36m (0.3ms)[0m  [1mCOMMIT[0m
+  [1m[35mTodo Load (0.6ms)[0m  SELECT "todos".* FROM "todos" WHERE (active = true)  ORDER BY position
+Completed 200 OK in 29ms (Views: 2.1ms | ActiveRecord: 13.3ms)
+
+
+Started PUT "/todos/56" for ::1 at 2015-11-07 08:54:10 -0800
+Processing by TodosController#update as JSON
+  Parameters: {"todo"=>{"done"=>"true"}, "id"=>"56"}
+  [1m[36mTodo Load (0.6ms)[0m  [1mSELECT  "todos".* FROM "todos" WHERE "todos"."id" = $1 LIMIT 1[0m  [["id", 56]]
+  [1m[35m (0.5ms)[0m  BEGIN
+  [1m[36mSQL (0.5ms)[0m  [1mUPDATE "todos" SET "done" = $1, "updated_at" = $2 WHERE "todos"."id" = $3[0m  [["done", "t"], ["updated_at", "2015-11-07 16:54:10.598609"], ["id", 56]]
+  [1m[35m (0.5ms)[0m  COMMIT
+Completed 200 OK in 7ms (Views: 0.5ms | ActiveRecord: 2.1ms)
+
+
+Started PUT "/todos/57" for ::1 at 2015-11-07 08:54:20 -0800
+Processing by TodosController#update as JSON
+  Parameters: {"todo"=>{"todo"=>"Clean the dishes and the car"}, "id"=>"57"}
+  [1m[36mTodo Load (0.7ms)[0m  [1mSELECT  "todos".* FROM "todos" WHERE "todos"."id" = $1 LIMIT 1[0m  [["id", 57]]
+  [1m[35m (0.5ms)[0m  BEGIN
+  [1m[36mSQL (0.7ms)[0m  [1mUPDATE "todos" SET "todo" = $1, "updated_at" = $2 WHERE "todos"."id" = $3[0m  [["todo", "Clean the dishes and the car"], ["updated_at", "2015-11-07 16:54:20.275190"], ["id", 57]]
+  [1m[35m (0.7ms)[0m  COMMIT
+Completed 200 OK in 8ms (Views: 0.5ms | ActiveRecord: 2.5ms)
+
+
+Started PUT "/todos/57" for ::1 at 2015-11-07 08:54:29 -0800
+Processing by TodosController#update as JSON
+  Parameters: {"todo"=>{"active"=>"false"}, "id"=>"57"}
+  [1m[36mTodo Load (0.3ms)[0m  [1mSELECT  "todos".* FROM "todos" WHERE "todos"."id" = $1 LIMIT 1[0m  [["id", 57]]
+  [1m[35m (0.2ms)[0m  BEGIN
+  [1m[36mSQL (0.3ms)[0m  [1mUPDATE "todos" SET "active" = $1, "updated_at" = $2 WHERE "todos"."id" = $3[0m  [["active", "f"], ["updated_at", "2015-11-07 16:54:29.063791"], ["id", 57]]
+  [1m[35m (0.5ms)[0m  COMMIT
+Completed 200 OK in 4ms (Views: 0.4ms | ActiveRecord: 1.2ms)
+
+
+Started POST "/todos" for ::1 at 2015-11-07 08:54:42 -0800
+Processing by TodosController#create as JSON
+  Parameters: {"todo"=>{"todo"=>"Shoot I have to pick up the kids"}}
+  [1m[36m (0.5ms)[0m  [1mSELECT COUNT(*) FROM "todos"[0m
+  [1m[35m (0.6ms)[0m  BEGIN
+  [1m[36mSQL (0.7ms)[0m  [1mINSERT INTO "todos" ("todo", "position", "created_at", "updated_at") VALUES ($1, $2, $3, $4) RETURNING "id"[0m  [["todo", "Shoot I have to pick up the kids"], ["position", 12], ["created_at", "2015-11-07 16:54:42.233356"], ["updated_at", "2015-11-07 16:54:42.233356"]]
+  [1m[35m (0.4ms)[0m  COMMIT
+Completed 200 OK in 7ms (Views: 0.4ms | ActiveRecord: 2.2ms)
+
+
+Started PATCH "/sort" for ::1 at 2015-11-07 08:54:45 -0800
+Processing by TodosController#sort as JSON
+  Parameters: {"sort_list"=>["60", "59", "58", "56"]}
+  [1m[36mTodo Load (0.4ms)[0m  [1mSELECT  "todos".* FROM "todos" WHERE "todos"."id" = $1 LIMIT 1[0m  [["id", 60]]
+  [1m[35m (0.2ms)[0m  BEGIN
+  [1m[36mSQL (0.4ms)[0m  [1mUPDATE "todos" SET "position" = $1, "updated_at" = $2 WHERE "todos"."id" = $3[0m  [["position", 1], ["updated_at", "2015-11-07 16:54:45.515338"], ["id", 60]]
+  [1m[35m (7.0ms)[0m  COMMIT
+  [1m[36mTodo Load (1.0ms)[0m  [1mSELECT  "todos".* FROM "todos" WHERE "todos"."id" = $1 LIMIT 1[0m  [["id", 59]]
+  [1m[35m (0.5ms)[0m  BEGIN
+  [1m[36mSQL (0.7ms)[0m  [1mUPDATE "todos" SET "position" = $1, "updated_at" = $2 WHERE "todos"."id" = $3[0m  [["position", 2], ["updated_at", "2015-11-07 16:54:45.528721"], ["id", 59]]
+  [1m[35m (0.7ms)[0m  COMMIT
+  [1m[36mTodo Load (0.3ms)[0m  [1mSELECT  "todos".* FROM "todos" WHERE "todos"."id" = $1 LIMIT 1[0m  [["id", 58]]
+  [1m[35m (0.2ms)[0m  BEGIN
+  [1m[36mSQL (0.3ms)[0m  [1mUPDATE "todos" SET "position" = $1, "updated_at" = $2 WHERE "todos"."id" = $3[0m  [["position", 3], ["updated_at", "2015-11-07 16:54:45.534540"], ["id", 58]]
+  [1m[35m (0.6ms)[0m  COMMIT
+  [1m[36mTodo Load (0.3ms)[0m  [1mSELECT  "todos".* FROM "todos" WHERE "todos"."id" = $1 LIMIT 1[0m  [["id", 56]]
+  [1m[35m (0.3ms)[0m  BEGIN
+  [1m[36mSQL (0.7ms)[0m  [1mUPDATE "todos" SET "position" = $1, "updated_at" = $2 WHERE "todos"."id" = $3[0m  [["position", 4], ["updated_at", "2015-11-07 16:54:45.538685"], ["id", 56]]
+  [1m[35m (0.5ms)[0m  COMMIT
+  [1m[36mTodo Load (0.9ms)[0m  [1mSELECT "todos".* FROM "todos" WHERE (active = true)  ORDER BY position[0m
+Completed 200 OK in 33ms (Views: 3.2ms | ActiveRecord: 15.1ms)
+
+
+Started GET "/" for ::1 at 2015-11-07 08:54:46 -0800
+Processing by TodosController#index as HTML
+  [1m[35mTodo Load (0.5ms)[0m  SELECT "todos".* FROM "todos" WHERE (active = true)  ORDER BY position
+  Rendered todos/index.html.erb within layouts/application (260.3ms)
+Completed 200 OK in 286ms (Views: 284.9ms | ActiveRecord: 0.5ms)
+
+
+Started GET "/assets/application.css?body=1" for ::1 at 2015-11-07 08:54:47 -0800
+
+
+Started GET "/assets/todos.css?body=1" for ::1 at 2015-11-07 08:54:47 -0800
+
+
+Started GET "/assets/jquery-ui/accordion.js?body=1" for ::1 at 2015-11-07 08:54:47 -0800
+
+
+Started GET "/assets/jquery.js?body=1" for ::1 at 2015-11-07 08:54:47 -0800
+
+
+Started GET "/assets/jquery-ui/core.js?body=1" for ::1 at 2015-11-07 08:54:47 -0800
+
+
+Started GET "/assets/jquery-ui/widget.js?body=1" for ::1 at 2015-11-07 08:54:47 -0800
+
+
+Started GET "/assets/jquery-ui/position.js?body=1" for ::1 at 2015-11-07 08:54:47 -0800
+
+
+Started GET "/assets/jquery-ui/menu.js?body=1" for ::1 at 2015-11-07 08:54:47 -0800
+
+
+Started GET "/assets/jquery-ui/autocomplete.js?body=1" for ::1 at 2015-11-07 08:54:47 -0800
+
+
+Started GET "/assets/jquery-ui/button.js?body=1" for ::1 at 2015-11-07 08:54:47 -0800
+
+
+Started GET "/assets/jquery-ui/datepicker.js?body=1" for ::1 at 2015-11-07 08:54:47 -0800
+
+
+Started GET "/assets/jquery-ui/mouse.js?body=1" for ::1 at 2015-11-07 08:54:47 -0800
+
+
+Started GET "/assets/jquery-ui/draggable.js?body=1" for ::1 at 2015-11-07 08:54:47 -0800
+
+
+Started GET "/assets/jquery-ui/resizable.js?body=1" for ::1 at 2015-11-07 08:54:47 -0800
+
+
+Started GET "/assets/jquery-ui/dialog.js?body=1" for ::1 at 2015-11-07 08:54:47 -0800
+
+
+Started GET "/assets/jquery-ui/droppable.js?body=1" for ::1 at 2015-11-07 08:54:47 -0800
+
+
+Started GET "/assets/jquery-ui/effect.js?body=1" for ::1 at 2015-11-07 08:54:47 -0800
+
+
+Started GET "/assets/jquery-ui/effect-blind.js?body=1" for ::1 at 2015-11-07 08:54:47 -0800
+
+
+Started GET "/assets/jquery-ui/effect-clip.js?body=1" for ::1 at 2015-11-07 08:54:47 -0800
+
+
+Started GET "/assets/jquery-ui/effect-bounce.js?body=1" for ::1 at 2015-11-07 08:54:47 -0800
+
+
+Started GET "/assets/jquery-ui/effect-drop.js?body=1" for ::1 at 2015-11-07 08:54:47 -0800
+
+
+Started GET "/assets/jquery-ui/effect-explode.js?body=1" for ::1 at 2015-11-07 08:54:47 -0800
+
+
+Started GET "/assets/jquery-ui/effect-fade.js?body=1" for ::1 at 2015-11-07 08:54:47 -0800
+
+
+Started GET "/assets/jquery-ui/effect-fold.js?body=1" for ::1 at 2015-11-07 08:54:47 -0800
+
+
+Started GET "/assets/jquery-ui/effect-highlight.js?body=1" for ::1 at 2015-11-07 08:54:47 -0800
+
+
+Started GET "/assets/jquery-ui/effect-size.js?body=1" for ::1 at 2015-11-07 08:54:47 -0800
+
+
+Started GET "/assets/jquery-ui/effect-scale.js?body=1" for ::1 at 2015-11-07 08:54:47 -0800
+
+
+Started GET "/assets/jquery-ui/effect-pulsate.js?body=1" for ::1 at 2015-11-07 08:54:47 -0800
+
+
+Started GET "/assets/jquery-ui/effect-puff.js?body=1" for ::1 at 2015-11-07 08:54:47 -0800
+
+
+Started GET "/assets/jquery-ui/effect-shake.js?body=1" for ::1 at 2015-11-07 08:54:47 -0800
+
+
+Started GET "/assets/jquery-ui/effect-slide.js?body=1" for ::1 at 2015-11-07 08:54:47 -0800
+
+
+Started GET "/assets/jquery-ui/effect-transfer.js?body=1" for ::1 at 2015-11-07 08:54:47 -0800
+
+
+Started GET "/assets/jquery-ui/progressbar.js?body=1" for ::1 at 2015-11-07 08:54:47 -0800
+
+
+Started GET "/assets/jquery-ui/selectable.js?body=1" for ::1 at 2015-11-07 08:54:47 -0800
+
+
+Started GET "/assets/jquery-ui/selectmenu.js?body=1" for ::1 at 2015-11-07 08:54:47 -0800
+
+
+Started GET "/assets/jquery-ui/slider.js?body=1" for ::1 at 2015-11-07 08:54:47 -0800
+
+
+Started GET "/assets/jquery-ui/sortable.js?body=1" for ::1 at 2015-11-07 08:54:47 -0800
+
+
+Started GET "/assets/jquery-ui/spinner.js?body=1" for ::1 at 2015-11-07 08:54:47 -0800
+
+
+Started GET "/assets/jquery-ui/tabs.js?body=1" for ::1 at 2015-11-07 08:54:47 -0800
+
+
+Started GET "/assets/jquery-ui/tooltip.js?body=1" for ::1 at 2015-11-07 08:54:47 -0800
+
+
+Started GET "/assets/jquery-ui.js?body=1" for ::1 at 2015-11-07 08:54:47 -0800
+
+
+Started GET "/assets/development/react.js?body=1" for ::1 at 2015-11-07 08:54:47 -0800
+
+
+Started GET "/assets/react_ujs.js?body=1" for ::1 at 2015-11-07 08:54:47 -0800
+
+
+Started GET "/assets/react_components/_new_todo.js?body=1" for ::1 at 2015-11-07 08:54:47 -0800
+
+
+Started GET "/assets/react_components/_todo.js?body=1" for ::1 at 2015-11-07 08:54:47 -0800
+
+
+Started GET "/assets/react_components/_todo_container.js?body=1" for ::1 at 2015-11-07 08:54:47 -0800
+
+
+Started GET "/assets/react_components/_todos.js?body=1" for ::1 at 2015-11-07 08:54:47 -0800
+
+
+Started GET "/assets/application.js?body=1" for ::1 at 2015-11-07 08:54:47 -0800
+
+
+Started PATCH "/sort" for ::1 at 2015-11-07 09:05:30 -0800
+Processing by TodosController#sort as JSON
+  Parameters: {"sort_list"=>["60", "58", "59", "56"]}
+  [1m[36mTodo Load (0.3ms)[0m  [1mSELECT  "todos".* FROM "todos" WHERE "todos"."id" = $1 LIMIT 1[0m  [["id", 60]]
+  [1m[35m (0.1ms)[0m  BEGIN
+  [1m[36m (0.1ms)[0m  [1mCOMMIT[0m
+  [1m[35mTodo Load (0.3ms)[0m  SELECT  "todos".* FROM "todos" WHERE "todos"."id" = $1 LIMIT 1  [["id", 58]]
+  [1m[36m (0.2ms)[0m  [1mBEGIN[0m
+  [1m[35mSQL (0.3ms)[0m  UPDATE "todos" SET "position" = $1, "updated_at" = $2 WHERE "todos"."id" = $3  [["position", 2], ["updated_at", "2015-11-07 17:05:30.559414"], ["id", 58]]
+  [1m[36m (6.5ms)[0m  [1mCOMMIT[0m
+  [1m[35mTodo Load (0.6ms)[0m  SELECT  "todos".* FROM "todos" WHERE "todos"."id" = $1 LIMIT 1  [["id", 59]]
+  [1m[36m (0.3ms)[0m  [1mBEGIN[0m
+  [1m[35mSQL (0.4ms)[0m  UPDATE "todos" SET "position" = $1, "updated_at" = $2 WHERE "todos"."id" = $3  [["position", 3], ["updated_at", "2015-11-07 17:05:30.570018"], ["id", 59]]
+  [1m[36m (0.6ms)[0m  [1mCOMMIT[0m
+  [1m[35mTodo Load (0.4ms)[0m  SELECT  "todos".* FROM "todos" WHERE "todos"."id" = $1 LIMIT 1  [["id", 56]]
+  [1m[36m (0.2ms)[0m  [1mBEGIN[0m
+  [1m[35m (0.2ms)[0m  COMMIT
+  [1m[36mTodo Load (0.4ms)[0m  [1mSELECT "todos".* FROM "todos" WHERE (active = true)  ORDER BY position[0m
+Completed 200 OK in 22ms (Views: 1.9ms | ActiveRecord: 10.8ms)
+
+
+Started PATCH "/sort" for ::1 at 2015-11-07 09:05:35 -0800
+Processing by TodosController#sort as JSON
+  Parameters: {"sort_list"=>["60", "56", "58", "59"]}
+  [1m[35mTodo Load (0.3ms)[0m  SELECT  "todos".* FROM "todos" WHERE "todos"."id" = $1 LIMIT 1  [["id", 60]]
+  [1m[36m (0.2ms)[0m  [1mBEGIN[0m
+  [1m[35m (0.2ms)[0m  COMMIT
+  [1m[36mTodo Load (0.2ms)[0m  [1mSELECT  "todos".* FROM "todos" WHERE "todos"."id" = $1 LIMIT 1[0m  [["id", 56]]
+  [1m[35m (0.1ms)[0m  BEGIN
+  [1m[36mSQL (0.3ms)[0m  [1mUPDATE "todos" SET "position" = $1, "updated_at" = $2 WHERE "todos"."id" = $3[0m  [["position", 2], ["updated_at", "2015-11-07 17:05:35.253336"], ["id", 56]]
+  [1m[35m (6.6ms)[0m  COMMIT
+  [1m[36mTodo Load (0.3ms)[0m  [1mSELECT  "todos".* FROM "todos" WHERE "todos"."id" = $1 LIMIT 1[0m  [["id", 58]]
+  [1m[35m (0.2ms)[0m  BEGIN
+  [1m[36mSQL (0.3ms)[0m  [1mUPDATE "todos" SET "position" = $1, "updated_at" = $2 WHERE "todos"."id" = $3[0m  [["position", 3], ["updated_at", "2015-11-07 17:05:35.262733"], ["id", 58]]
+  [1m[35m (0.4ms)[0m  COMMIT
+  [1m[36mTodo Load (0.2ms)[0m  [1mSELECT  "todos".* FROM "todos" WHERE "todos"."id" = $1 LIMIT 1[0m  [["id", 59]]
+  [1m[35m (0.1ms)[0m  BEGIN
+  [1m[36mSQL (0.3ms)[0m  [1mUPDATE "todos" SET "position" = $1, "updated_at" = $2 WHERE "todos"."id" = $3[0m  [["position", 4], ["updated_at", "2015-11-07 17:05:35.265754"], ["id", 59]]
+  [1m[35m (0.9ms)[0m  COMMIT
+  [1m[36mTodo Load (0.4ms)[0m  [1mSELECT "todos".* FROM "todos" WHERE (active = true)  ORDER BY position[0m
+Completed 200 OK in 21ms (Views: 1.8ms | ActiveRecord: 10.9ms)
+
+
+Started PUT "/todos/58" for ::1 at 2015-11-07 09:05:36 -0800
+Processing by TodosController#update as JSON
+  Parameters: {"todo"=>{"done"=>"true"}, "id"=>"58"}
+  [1m[35mTodo Load (0.4ms)[0m  SELECT  "todos".* FROM "todos" WHERE "todos"."id" = $1 LIMIT 1  [["id", 58]]
+  [1m[36m (0.2ms)[0m  [1mBEGIN[0m
+  [1m[35mSQL (0.3ms)[0m  UPDATE "todos" SET "done" = $1, "updated_at" = $2 WHERE "todos"."id" = $3  [["done", "t"], ["updated_at", "2015-11-07 17:05:36.679831"], ["id", 58]]
+  [1m[36m (0.4ms)[0m  [1mCOMMIT[0m
+Completed 200 OK in 4ms (Views: 0.4ms | ActiveRecord: 1.2ms)
+
+
+Started PUT "/todos/59" for ::1 at 2015-11-07 09:05:40 -0800
+Processing by TodosController#update as JSON
+  Parameters: {"todo"=>{"todo"=>"Clean the clothes thlsklksfd"}, "id"=>"59"}
+  [1m[35mTodo Load (0.3ms)[0m  SELECT  "todos".* FROM "todos" WHERE "todos"."id" = $1 LIMIT 1  [["id", 59]]
+  [1m[36m (0.2ms)[0m  [1mBEGIN[0m
+  [1m[35mSQL (0.3ms)[0m  UPDATE "todos" SET "todo" = $1, "updated_at" = $2 WHERE "todos"."id" = $3  [["todo", "Clean the clothes thlsklksfd"], ["updated_at", "2015-11-07 17:05:40.928633"], ["id", 59]]
+  [1m[36m (6.4ms)[0m  [1mCOMMIT[0m
+Completed 200 OK in 11ms (Views: 0.4ms | ActiveRecord: 7.3ms)
+
+
+Started GET "/" for ::1 at 2015-11-07 09:05:43 -0800
+Processing by TodosController#index as HTML
+  [1m[35mTodo Load (0.5ms)[0m  SELECT "todos".* FROM "todos" WHERE (active = true)  ORDER BY position
+  Rendered todos/index.html.erb within layouts/application (220.2ms)
+Completed 200 OK in 244ms (Views: 242.9ms | ActiveRecord: 0.5ms)
+
+
+Started GET "/assets/application.css?body=1" for ::1 at 2015-11-07 09:05:44 -0800
+
+
+Started GET "/assets/todos.css?body=1" for ::1 at 2015-11-07 09:05:44 -0800
+
+
+Started GET "/assets/jquery.js?body=1" for ::1 at 2015-11-07 09:05:44 -0800
+
+
+Started GET "/assets/jquery-ui/accordion.js?body=1" for ::1 at 2015-11-07 09:05:44 -0800
+
+
+Started GET "/assets/jquery-ui/widget.js?body=1" for ::1 at 2015-11-07 09:05:44 -0800
+
+
+Started GET "/assets/jquery-ui/core.js?body=1" for ::1 at 2015-11-07 09:05:44 -0800
+
+
+Started GET "/assets/jquery-ui/position.js?body=1" for ::1 at 2015-11-07 09:05:44 -0800
+
+
+Started GET "/assets/jquery-ui/menu.js?body=1" for ::1 at 2015-11-07 09:05:44 -0800
+
+
+Started GET "/assets/jquery-ui/autocomplete.js?body=1" for ::1 at 2015-11-07 09:05:44 -0800
+
+
+Started GET "/assets/jquery-ui/button.js?body=1" for ::1 at 2015-11-07 09:05:44 -0800
+
+
+Started GET "/assets/jquery-ui/datepicker.js?body=1" for ::1 at 2015-11-07 09:05:44 -0800
+
+
+Started GET "/assets/jquery-ui/mouse.js?body=1" for ::1 at 2015-11-07 09:05:44 -0800
+
+
+Started GET "/assets/jquery-ui/draggable.js?body=1" for ::1 at 2015-11-07 09:05:44 -0800
+
+
+Started GET "/assets/jquery-ui/resizable.js?body=1" for ::1 at 2015-11-07 09:05:44 -0800
+
+
+Started GET "/assets/jquery-ui/dialog.js?body=1" for ::1 at 2015-11-07 09:05:44 -0800
+
+
+Started GET "/assets/jquery-ui/droppable.js?body=1" for ::1 at 2015-11-07 09:05:44 -0800
+
+
+Started GET "/assets/jquery-ui/effect.js?body=1" for ::1 at 2015-11-07 09:05:44 -0800
+
+
+Started GET "/assets/jquery-ui/effect-blind.js?body=1" for ::1 at 2015-11-07 09:05:44 -0800
+
+
+Started GET "/assets/jquery-ui/effect-bounce.js?body=1" for ::1 at 2015-11-07 09:05:44 -0800
+
+
+Started GET "/assets/jquery-ui/effect-clip.js?body=1" for ::1 at 2015-11-07 09:05:44 -0800
+
+
+Started GET "/assets/jquery-ui/effect-drop.js?body=1" for ::1 at 2015-11-07 09:05:44 -0800
+
+
+Started GET "/assets/jquery-ui/effect-explode.js?body=1" for ::1 at 2015-11-07 09:05:44 -0800
+
+
+Started GET "/assets/jquery-ui/effect-fade.js?body=1" for ::1 at 2015-11-07 09:05:44 -0800
+
+
+Started GET "/assets/jquery-ui/effect-fold.js?body=1" for ::1 at 2015-11-07 09:05:44 -0800
+
+
+Started GET "/assets/jquery-ui/effect-highlight.js?body=1" for ::1 at 2015-11-07 09:05:44 -0800
+
+
+Started GET "/assets/jquery-ui/effect-size.js?body=1" for ::1 at 2015-11-07 09:05:44 -0800
+
+
+Started GET "/assets/jquery-ui/effect-scale.js?body=1" for ::1 at 2015-11-07 09:05:44 -0800
+
+
+Started GET "/assets/jquery-ui/effect-puff.js?body=1" for ::1 at 2015-11-07 09:05:44 -0800
+
+
+Started GET "/assets/jquery-ui/effect-pulsate.js?body=1" for ::1 at 2015-11-07 09:05:44 -0800
+
+
+Started GET "/assets/jquery-ui/effect-shake.js?body=1" for ::1 at 2015-11-07 09:05:44 -0800
+
+
+Started GET "/assets/jquery-ui/effect-slide.js?body=1" for ::1 at 2015-11-07 09:05:44 -0800
+
+
+Started GET "/assets/jquery-ui/effect-transfer.js?body=1" for ::1 at 2015-11-07 09:05:44 -0800
+
+
+Started GET "/assets/jquery-ui/progressbar.js?body=1" for ::1 at 2015-11-07 09:05:44 -0800
+
+
+Started GET "/assets/jquery-ui/selectable.js?body=1" for ::1 at 2015-11-07 09:05:44 -0800
+
+
+Started GET "/assets/jquery-ui/selectmenu.js?body=1" for ::1 at 2015-11-07 09:05:44 -0800
+
+
+Started GET "/assets/jquery-ui/slider.js?body=1" for ::1 at 2015-11-07 09:05:44 -0800
+
+
+Started GET "/assets/jquery-ui/sortable.js?body=1" for ::1 at 2015-11-07 09:05:44 -0800
+
+
+Started GET "/assets/jquery-ui/spinner.js?body=1" for ::1 at 2015-11-07 09:05:44 -0800
+
+
+Started GET "/assets/jquery-ui/tabs.js?body=1" for ::1 at 2015-11-07 09:05:44 -0800
+
+
+Started GET "/assets/jquery-ui/tooltip.js?body=1" for ::1 at 2015-11-07 09:05:44 -0800
+
+
+Started GET "/assets/jquery-ui.js?body=1" for ::1 at 2015-11-07 09:05:44 -0800
+
+
+Started GET "/assets/development/react.js?body=1" for ::1 at 2015-11-07 09:05:44 -0800
+
+
+Started GET "/assets/react_ujs.js?body=1" for ::1 at 2015-11-07 09:05:44 -0800
+
+
+Started GET "/assets/react_components/_new_todo.js?body=1" for ::1 at 2015-11-07 09:05:44 -0800
+
+
+Started GET "/assets/react_components/_todo.js?body=1" for ::1 at 2015-11-07 09:05:44 -0800
+
+
+Started GET "/assets/react_components/_todo_container.js?body=1" for ::1 at 2015-11-07 09:05:44 -0800
+
+
+Started GET "/assets/react_components/_todos.js?body=1" for ::1 at 2015-11-07 09:05:44 -0800
+
+
+Started GET "/assets/application.js?body=1" for ::1 at 2015-11-07 09:05:44 -0800
+
+
+Started PUT "/todos/58" for ::1 at 2015-11-07 09:05:47 -0800
+Processing by TodosController#update as JSON
+  Parameters: {"todo"=>{"active"=>"false"}, "id"=>"58"}
+  [1m[36mTodo Load (0.3ms)[0m  [1mSELECT  "todos".* FROM "todos" WHERE "todos"."id" = $1 LIMIT 1[0m  [["id", 58]]
+  [1m[35m (0.2ms)[0m  BEGIN
+  [1m[36mSQL (0.3ms)[0m  [1mUPDATE "todos" SET "active" = $1, "updated_at" = $2 WHERE "todos"."id" = $3[0m  [["active", "f"], ["updated_at", "2015-11-07 17:05:47.376988"], ["id", 58]]
+  [1m[35m (6.7ms)[0m  COMMIT
+Completed 200 OK in 12ms (Views: 0.5ms | ActiveRecord: 7.4ms)

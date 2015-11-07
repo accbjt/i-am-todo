@@ -4,54 +4,49 @@ var TodoApp = React.createClass({
     return JSON.parse(this.props.presenter);
   },
   updateData: function(data, endpoint, id, index){
-    REACT = this;
-    REACT['updateDataIndex'] = index;
+    this['updateDataIndex'] = index;
 
     $.ajax({
           url: 'http://localhost:3000/'+endpoint+"/"+id,
           type: 'PUT',
           dataType: 'json',
           success: function (data) {
-            var newState = REACT.state.todos;
+            var newState = this.state.todos;
 
             if(!data.active){
-              newState.splice(REACT.updateDataIndex, 1);
+              newState.splice(this.updateDataIndex, 1);
             }else{
-              newState.splice(REACT.updateDataIndex, 1, data);
+              newState.splice(this.updateDataIndex, 1, data);
             }
 
-            REACT.setState({todos:newState});
-            REACT = null;
-          },
+            this.setState({todos:newState});
+          }.bind(this),
           data: data
       });
   },
   createData: function(data, endpoint){
-    REACT = this;
 
     $.ajax({
         url: 'http://localhost:3000/'+endpoint,
         type: 'post',
         dataType: 'json',
         success: function (data) {
-          var newState = REACT.state.todos
+          var newState = this.state.todos
 
           newState.push(data);
-          REACT.setState({todos:newState});
-          REACT = null;
-        },
+          this.setState({todos:newState});
+        }.bind(this),
         data: data
     })
   },
   sortData: function(data, endpoint){
-    REACT = this;
 
     $.ajax({
         url: 'http://localhost:3000/'+endpoint,
         type: 'patch',
         dataType: 'json',
         success: function (data) {
-        },
+        }.bind(this),
         data: data
     })
   },

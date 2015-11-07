@@ -9,11 +9,16 @@ var NewTodo = React.createClass({
       alert("Can't be Blank");
     }
   },
+  handleEnterKey: function(e){
+    if(e.keyCode === 13){
+      this.newTodo();
+    }
+  },
   render: function () {
     return (
       <div className="new-todo-section" >
-        <input type="text" ref="textBox" />
-        <div className="new-todo-button" onClick={this.newTodo}>Add Todo</div>
+        <input type="text" ref="textBox" onKeyUp={this.handleEnterKey} />
+        <div className="new-todo-button" onClick={this.newTodo} >Add Todo</div>
       </div>
     );
   }
