@@ -43,13 +43,25 @@ var TodoApp = React.createClass({
         data: data
     })
   },
+  sortData: function(data, endpoint){
+    REACT = this;
+
+    $.ajax({
+        url: 'http://localhost:3000/'+endpoint,
+        type: 'patch',
+        dataType: 'json',
+        success: function (data) {
+        },
+        data: data
+    })
+  },
   render: function () {
 
     return (
       <div>
         <div className="todo-container">
           <h2>List of Todos</h2>
-        	<Todos todos={this.state.todos} createData={this.createData} updateData={this.updateData}/>
+        	<Todos todos={this.state.todos} createData={this.createData} updateData={this.updateData} sortData={this.sortData} />
         </div>
         <div className="new-todo-container">
           <NewTodo createData={this.createData} updateData={this.updateData} />

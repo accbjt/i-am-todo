@@ -37,6 +37,13 @@ class TodosController < ApplicationController
     end
   end
 
+  def sort
+    params[:sort_list].each_with_index do |id, index|
+      Todo.find(id).update_attribute('position', index+1)
+    end
+    render json: Todo.where("active = true").order("position")
+  end
+
   private
 
     def todo_params

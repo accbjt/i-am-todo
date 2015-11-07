@@ -5,15 +5,21 @@ var Todos = React.createClass({
   makeSortable: function(){
     $('#todo-list').sortable({
       update: function(e){
-        debugger
-      }
+        var sortedList = [];
+
+        $(this.refs.list).children().each(function(item){
+          sortedList.push(this.dataset.id);
+        });
+
+        this.props.sortData({sort_list:sortedList},"sort");
+      }.bind(this)
     });
   },
   render: function () {
     var todos = this.props.todos;
 
     return (
-      <ul id="todo-list">
+      <ul ref="list" id="todo-list">
         {todos.map(function(item, i){
           return <Todo key={i} index={i} todo={item} makeSortable={this.makeSortable} createData={this.props.createData} updateData={this.props.updateData}/>
         }.bind(this))}

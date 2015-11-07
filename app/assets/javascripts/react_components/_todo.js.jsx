@@ -49,7 +49,7 @@ var Todo = React.createClass({
   render: function () {
 
     return (
-      <li className="todo">
+      <li className="todo" data-id={this.props.todo.id} >
         <input type="checkbox" onClick={this.checkBoxClick} defaultChecked={this.props.todo.done}/>
         <input type="text" ref="todoInput" defaultValue={this.props.todo.todo} onBlur={this.updateEntry} onKeyUp={this.updateEntry} />
         <span ref="todoText" onClick={this.editTodo} style={this.isDone()}>{this.props.todo.todo}</span>
